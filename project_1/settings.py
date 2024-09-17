@@ -1,15 +1,19 @@
 import cloudinary
+from cloudinary.uploader import upload
+from pathlib import Path
+import dj_database_url
 import os
 if os.path.isfile("env.py"):
     import env
 
-from pathlib import Path
-from cloudinary.uploader import upload
 
-BASE_DIR = Path(__file__).resolve().parent.parent
+
+BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY','')
 DEBUG = True
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost']
+
+AUTH_USER_MODEL = 'accounts.Profile'
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -42,7 +46,7 @@ ROOT_URLCONF = 'project_1.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['templates'],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -50,7 +54,8 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
-                'accounts.context_processors.profile_context',
+                'django.template.context_processors.media',
+                'profiles.context_processors.profile_picture',
             ],
         },
     },
@@ -59,12 +64,17 @@ TEMPLATES = [
 WSGI_APPLICATION = 'project_1.wsgi.application'
 
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+if 'DATABASE_URL' in os.environ:
+    DATABASES = {
+        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
     }
-}
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        }
+    }
 
 AUTH_PASSWORD_VALIDATORS = [
     {
@@ -88,11 +98,18 @@ USE_I18N = True
 USE_TZ = True
 
 STATIC_URL = '/static/'
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
-
-STATIC_ROOT = BASE_DIR / 'staticfiles'
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATICFILES_DIRS = ()
 
 MEDIA_URL = '/media/'
-MEDIA_ROOT = BASE_DIR /'media'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+CLOUDINARY_URL = os.environ.get('CLOUDINARY_URL','')
+
+# Elephant SQL ?
+# DB_USER = 'pgdemrvo'
+# DB_NAME = 'p4-blog'
+# DB_PASSWORD = os.environ.get('DB_PASSWORD','')
+# DATABASE_URL = os.environ.get('DB_URL','')
