@@ -11,7 +11,11 @@ if os.path.isfile("env.py"):
 BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY','')
 DEBUG = True
-ALLOWED_HOSTS = ['localhost']
+
+ALLOWED_HOSTS = [
+    '127.0.0.1',
+    'localhost',
+]
 
 AUTH_USER_MODEL = 'accounts.Profile'
 
@@ -28,8 +32,6 @@ INSTALLED_APPS = [
     'cloudinary',
     'gunicorn'
 ]
-
-AUTH_USER_MODEL = 'accounts.Profile'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -55,7 +57,7 @@ TEMPLATES = [
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
                 'django.template.context_processors.media',
-                'profiles.context_processors.profile_picture',
+                'accounts.context_processors.profile_context',
             ],
         },
     },
@@ -99,7 +101,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-STATICFILES_DIRS = ()
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
