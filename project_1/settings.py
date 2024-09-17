@@ -24,8 +24,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'blog',
     'accounts',
+    'cloudinary_storage',
     'cloudinary',
-    'django-cloudinary-storage',
     'gunicorn'
 ]
 
