@@ -15,6 +15,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     '127.0.0.1',
     'localhost',
+    'postwall-500ee4318184.herokuapp.com',
 ]
 
 AUTH_USER_MODEL = 'accounts.Profile'
