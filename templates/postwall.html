@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="brickwall">
+    {% if posts_with_comments %}
+        {% for item in posts_with_comments %}
+            
+            <!-- Post Content -->
+            <div class="concrete">
+                <div class="polaroid">
+                    <div class="postwall-link-container">
+                        <a href="{% url 'post_detail' post_id=item.post.id %}" class="postwall-link">
+                            <i class="fa-solid fa-up-right-and-down-left-from-center fa-2xl"></i>
+                        </a>
+                    </div>
+                    <div class="postwall-title">{{ item.post.title }}</div>
+                    <div class="postwall-image-container">
+                    {% if item.post.img %}
+                        <img class="postwall-image" src="{{ item.post.img.url }}" alt="{{ item.post.title }}">
+                    {% endif %}
+                    </div>
+                    <p class="postwall-meta">{{ item.post.user.username }} - {{ item.post.created_at }}</p>
+                    <p class="postwall-content">{{ item.post.short_content }}</p>
+                </div>
+                
+                <!-- Comment Section -->
+                <div class="postwall-comments-container">
+                    <div class="postwall-comments-header">Comments</div>
+                    <ul class="postwall-comments-ul">
+                        {% for comment in item.comments %}
+                            <li class="postwall-comments-li"><strong>{{ comment.user.username }}:</strong> {{ comment.text }}</li>
+                        {% endfor %}
+                    </ul>
+                    <form method="post" action="{% url 'add_comment' item.post.id %}">
+                        {% csrf_token %}
+                        <div class="postwall-form-container">
+                            <textarea id="id_textarea" name="comment_text"  rows="1" placeholder="Comment here!"></textarea>
+                            <div class="postwall-form-button-container">
+                                <button type="submit" class="green-button">Post</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        {% endfor %}
+    {% endif %}
+    </div>
+</div>
+{% endblock %}

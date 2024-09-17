@@ -1,0 +1,43 @@
+<aside class="col-md-5">
+	<div class="sidebar-container">
+		<ul class="sidebar-ul">
+			<!-- Dashboard - dashboard.html -->
+			<li class="sidebar-li">
+				<a
+					class="sidebar-item {% if request.path == '/accounts/' %}active{% endif %}"
+					id="sidebar-item-dashboard"
+					href="{% url 'dashboard' %}"
+					>Dashboard
+				</a>
+			</li>
+
+			<!-- Edit Profile - edit_profile.html -->
+			<li class="sidebar-li">
+				<a
+					class="sidebar-item {% if request.path == '/accounts/edit_profile/' %}active{% endif %}"
+					id="sidebar-item-edit_profile"
+					href="{% url 'edit_profile' %}"
+					>Edit Profile
+				</a>
+
+				<!-- Change Password - change_password.html -->
+			</li>
+
+			<li class="sidebar-li">
+				<a
+					class="sidebar-item {% if request.path == '/accounts/change_password/' %}active{% endif %}"
+					id="sidebar-item-change_password"
+					href="{% url 'change_password' %}"
+					>Change Password
+				</a>
+			</li>
+			<br />
+			<!-- Log out Button -->
+			<div class="sidebar-logout-button-container">
+				<a class="sidebar-logout-button" href="{% url 'logout' %}">
+					<i class="fa fa-power-off"></i>Log out
+				</a>
+			</div>
+		</ul>
+	</div>
+</aside>

@@ -1,0 +1,4 @@
+{% autoescape off %} Dear {{user.first_name}}, Welcome to Memories! A Place
+where we share our precious moments. To activate your account, just click on the
+link below: http://{{domain}}{% url 'activate' uidb64=uid token=token %} Kind
+Regards We @ Memories {% endautoescape %}

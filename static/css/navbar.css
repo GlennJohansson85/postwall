@@ -1,0 +1,458 @@
+
+
+
+
+/**************** NAVBAR BASE SETTINGS */
+.navbar {
+    box-sizing: border-box;
+    max-width: 1200px;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    align-items: center;
+    display: flex;
+    justify-content: space-between; /* Added for responsive alignment */
+}
+
+.navbar-nav {
+    flex-direction: row;
+    display: flex;
+    align-items: center;   
+}
+
+/********************* NAVBAR TOGGLER BUTTON */
+.navbar-toggler {
+    width: 80px;
+    position: relative; /* Needed to center image */
+    display: flex;
+    z-index: 1050;
+    border: none;
+    border-radius: 5px;
+    color: #FFF;
+    background-color: #3A3939;
+    text-shadow: -3px -1px 0px #E44C9F;
+    box-shadow: 1px 2px 0px 0px#E44C9F;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.navbar-toggler:hover,
+.navbar-toggler:focus {
+    color: #FFF;
+    background-color: #3A3939;
+    text-shadow: 0px 0px 10px #01F16D;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    transform: translateY(2px);
+}
+
+/* CSS for profile image in toggler button */
+.profile-image-toggler {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline;
+}
+
+/* Hide profile image in dropdown on small screens */
+.profile-image-dropdown {
+    display: none;
+}
+
+
+
+/**************** NAVBAR BRAND */
+.navbar-brand {
+    padding: 0 5px;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    outline: none;
+    position: relative;
+    z-index: 1000;
+    font-family: "Cocogoose-Narrow-Letterpress-trial", "Sans-Serif";
+    color: #FFF;
+    background-color: #3A3939;
+    text-shadow: -3px -1px 0px #E44C9F;
+    box-shadow: 2px 2px 0px 0px #E44C9F;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.navbar-brand:hover,
+.navbar-brand:focus,  
+.navbar-brand.active {
+    color: #FFF;
+    background-color: #3A3939;
+    text-shadow: 0px 0px 10px #01f16d;
+    box-shadow: 0px 0px 1px #0c0c0c;
+    transform: translateY(2px);
+}
+
+/**************** NAVBAR SEARH */
+.search-input {
+    display:                   flex;
+    position:                  relative;
+    z-index:                   1;
+    border-top-left-radius:    5px;
+    border-bottom-left-radius: 5px;
+    background-color:        #3A3939;
+    box-shadow:                2px 2px 0px 0px#E44C9F;
+    transition:                box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.search-input:hover,
+.search-input:focus {
+    background-color:#FFF;
+    box-shadow:        0px 0px 3px #01F16D;
+    transform:         translateY(2px);
+}
+
+.search-btn {
+    padding:           0 10px;
+    align-items:       center;
+    line-height:       60px;
+    height:            60px;
+    display:           flex;
+    position:          relative;
+    z-index:           1;
+    color:           #FFF;
+    background-color:#3A3939;
+    box-shadow:        2px 2px 0px 0px #E44C9F;
+    transition:        box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.search-btn:hover,
+.search-btn:focus {
+    color:           #01f16d;
+    background-color:#3A3939;
+    text-shadow:       0px 0px 10px #FFF;
+    box-shadow:        inset 10px 0px 5px -5px rgba(0, 0, 0, 0.5);
+    transform:         translateY(2px);
+}
+
+/******************* NAVBAR LINKS */
+.nav-link {
+    font-family: "Cocogoose-Condensed-letterpress-trial", "Sans-Serif";
+    border-radius: 0;
+    outline: none;
+    position: relative;
+    z-index: 1000;
+    color: #FFF;
+    background-color: #3A3939;
+    box-shadow: 2px 2px 0px 0px #E44C9F;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+    padding: 0 15px; /* Adjust padding for spacing */
+    white-space: nowrap; /* Prevent text wrapping */
+    display: inline-flex; /* Allows content to size itself */
+    align-items: center; /* Center text vertically */
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.nav-link.active {
+    color:#FFF;
+    background-color: #3A3939;
+    text-shadow: 0px 0px 10px #01f16d;
+    box-shadow: inset -10px 0px 5px -5px rgba(0, 0, 0, 0.5), 
+                inset 10px 0px 5px -5px rgba(0, 0, 0, 0.5);
+    transform: translateY(2px);
+}
+
+
+
+/******************* NAVBAR INPUT GROUP */
+.input-group {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+/******************* NAVBAR INPUT ITEMS */
+.nav-item:first-child .nav-link {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.nav-item:last-child .nav-link {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.nav-item:first-child .nav-link:hover,
+.nav-item:first-child .nav-link.active,
+.nav-item:last-child .nav-link:hover,
+.nav-item:last-child .nav-link:focus,
+.nav-item:last-child .nav-link.active {
+    color:#FFF;
+    background-color: #3A3939;
+    text-shadow: 0px 0px 10px #01F16D;
+    box-shadow: inset -10px 0px 5px -5px rgba(0, 0, 0, 0.5);
+    transform: translateY(2px);
+}
+.nav-item:last-child .nav-link:hover,
+.nav-item:last-child .nav-link:focus,
+.nav-item:last-child .nav-link.active {
+    color:#5be298;
+    box-shadow: inset 10px 0px 5px -5px rgba(0, 0, 0, 0.5);
+}
+
+    
+/* CSS for profile image in dropdown */
+.profile-image {
+    width: 30px; /* Set appropriate width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Optional: make it round */
+    margin-right: 10px; /* Space between image and text */
+}
+
+
+/*   <---------------------------------------------------------------------------- RESPONSIVE - SMALL SCREEN ------------------------------------   */
+@media (max-width: 768px) {
+    .navbar {
+        height: auto;
+    }
+
+    .navbar-collapse {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar-toggler[aria-expanded="true"] + .navbar-nav {
+        display: flex;
+        overflow-y: auto;
+    }
+
+    .navbar-toggler {
+        display: block;
+        position: relative;
+        font-size: 14px;
+        height: 40px;
+        line-height: 40px;  
+    }
+
+    .profile-image-toggler {
+        display: inline;
+        width: auto;
+        height: 40px;
+        line-height: 40px;  
+    }
+
+    .navbar-nav {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .navbar-brand {
+        font-size: 30px;
+        height: 40px;
+        line-height: 40px;  
+    }
+
+    .search-input,
+    .search-btn {
+        height: 34px;
+        line-height: 34px;  
+        max-width: auto;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 16px;
+    }
+
+    .nav-link {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 5px;
+        box-sizing: border-box;
+        font-size: 20px;
+        height: 40px;
+        line-height: 40px;  
+    }
+    
+    .nav-item {
+        flex: 1;
+        display: flex;
+        height: 40px;
+        line-height: 40px; 
+    }
+    
+    .nav-item:last-child .nav-link {
+        display: flex;
+        align-items: center; /* Center items vertically */
+        justify-content: center; /* Center items horizontally */
+    }
+    
+    .dropdown-menu {
+        position: absolute!important;
+        min-width: auto!important;
+    }
+
+    .dropdown-item {
+        font-family: "Asap-Regular";
+        font-size: 14px;
+        line-height: 14px; 
+    }
+
+    .d-none {
+        display: none;
+    }
+}
+    
+
+/* Hide text "Profile" on large screens */
+@media (min-width: 769px) {
+    .profile-text {
+        display: none;
+    }
+}
+
+/*   <---------------------------------------------------------------------------- RESPONSIVE - MEDIUM SCREEN ------------------------------------   */
+@media (min-width: 769px) and (max-width: 1200px) {
+    .navbar {
+        height: auto;
+    }
+
+    .navbar-collapse {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar-toggler[aria-expanded="true"] + .navbar-nav {
+        display: flex;
+        overflow-y: auto;
+    }
+
+    .navbar-toggler {
+        display: block;
+        position: relative;
+        font-size: 14px;
+        height: 50px;
+        line-height: 50px;  
+    }
+
+    .profile-image-toggler {
+        display: inline;
+        width: auto;
+        height: 50px;
+        line-height: 50px;  
+    }
+
+    .navbar-nav {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .navbar-brand {
+        font-size: 40px;
+        height: 50px;
+        line-height: 50px;  
+    }
+
+    .search-input,
+    .search-btn {
+        height: 40px;
+        line-height: 40px;  
+        max-width: auto;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 16px;
+    }
+
+    .nav-link {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 5px;
+        box-sizing: border-box;
+        font-size: 26px;
+        height: 40px;
+        line-height: 40px;  
+    }
+    
+    .nav-item {
+        flex: 1;
+        display: flex;
+        height: 50px;
+        line-height: 50px; 
+    }
+    
+    .nav-item:last-child .nav-link {
+        display: flex;
+        align-items: center; /* Center items vertically */
+        justify-content: center; /* Center items horizontally */
+    }
+    
+    .dropdown-menu {
+        position: absolute!important;
+        min-width: auto!important;
+    }
+
+    .dropdown-item {
+        font-family: "Asap-Regular";
+        font-size: 16px;
+        line-height: 16px; 
+    }
+
+    .d-none {
+        display: none;
+    }
+}
+
+/*   <---------------------------------------------------------------------------- RESPONSIVE - LARGE SCREEN ------------------------------------   */
+@media (min-width: 1201px) {
+    .navbar {
+        height: auto;
+    }
+    
+    .navbar-brand {
+        font-size: 50px;
+        height: 60px;
+        line-height: 60px;  
+    }
+
+    .search-input,
+    .search-btn {
+        height: 60px;
+        line-height: 60px;  
+        max-width: 65%;
+        font-size: 16px;
+    }
+    
+    .nav-link,
+    .nav-item,
+    .navbar-toggler {
+       height: 60px;
+       line-height: 60px;  
+    }
+
+    .nav-link {
+        height: 60px;
+        line-height: 60px;  
+        font-size: 26px;
+    }
+
+    .profile-image {
+        width: auto;
+        height: 60px;
+        object-fit: cover;
+    }
+    
+    .dropdown-menu {
+        position: absolute!important;
+        min-width: auto!important;
+    }
+
+    /* Profile link - Dropdown style */
+    .dropdown-item {
+        font-family: "Asap-bold";
+        font-size: 18px;
+        line-height: 18px; 
+    }
+
+}
+

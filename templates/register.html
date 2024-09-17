@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="brickwall">
+    <div class="item-container">
+        <div class="margin-1">
+            <div class="leather">
+                <div class="form-title">Register</div>
+                {% include 'alerts.html' %}
+                    <form class="register-form" action="{% url 'register' %}" method="POST">
+                        {% csrf_token %}
+                        <div class="form-group">
+                            <label class="form-label" for="id_first_name">First Name:</label>
+                            {{ form.first_name }}
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="id_last_name">Last Name:</label>
+                            {{ form.last_name }}
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="id_email">Email:</label>
+                            {{ form.email }}
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="id_username">Username:</label>
+                            {{ form.username }}
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="id_password">Password:</label>
+                            {{ form.password }}
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="id_confirm_password">Confirm Password:</label>
+                            {{ form.confirm_password }}
+                        </div>
+                        <div class="form-button-container">
+                            <button type="submit" class="button-1">Submit</button>
+                        </div>  
+                        {{ form.email.errors }}
+                        {{ form.non_field_errors }} 
+                    </form>
+                </div>
+                <div class="account-container">Have an Account?
+                    <a class="account" href="{% url 'login' %}"> Login Here</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
+
+{% endblock %}
