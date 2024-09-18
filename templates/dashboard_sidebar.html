@@ -1,34 +1,32 @@
+{% load static %} 
+
+{% block content %}
 <aside class="col-md-5">
 	<div class="sidebar-container">
 		<ul class="sidebar-ul">
-			<!-- Dashboard - dashboard.html -->
+			<!-- Dashboard -->
 			<li class="sidebar-li">
-				<a
-					class="sidebar-item {% if request.path == '/accounts/' %}active{% endif %}"
-					id="sidebar-item-dashboard"
-					href="{% url 'dashboard' %}"
-					>Dashboard
-				</a>
-			</li>
-
-			<!-- Edit Profile - edit_profile.html -->
+                <a  class="sidebar-item {% if request.path == '/' %}active{% endif %}"
+                    id="sidebar-item-dashboard"
+                    href="{% url 'dashboard' %}">
+					Dashboard
+                </a>
+            </li>
+			<!-- Edit Profile -->
 			<li class="sidebar-li">
-				<a
-					class="sidebar-item {% if request.path == '/accounts/edit_profile/' %}active{% endif %}"
+				<a	class="sidebar-item {% if request.path == '/edit_profile/' %}active{% endif %}"
 					id="sidebar-item-edit_profile"
-					href="{% url 'edit_profile' %}"
-					>Edit Profile
+					href="{% url 'edit_profile' %}">
+					Edit Profile
 				</a>
-
-				<!-- Change Password - change_password.html -->
+				
 			</li>
-
+			<!-- Change Password -->
 			<li class="sidebar-li">
-				<a
-					class="sidebar-item {% if request.path == '/accounts/change_password/' %}active{% endif %}"
+				<a	class="sidebar-item {% if request.path == '/change_password/' %}active{% endif %}"
 					id="sidebar-item-change_password"
-					href="{% url 'change_password' %}"
-					>Change Password
+					href="{% url 'change_password' %}">
+					Change Password
 				</a>
 			</li>
 			<br />
@@ -41,3 +39,4 @@
 		</ul>
 	</div>
 </aside>
+{% endblock %}
