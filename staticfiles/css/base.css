@@ -1,0 +1,1263 @@
+@font-face {
+	font-family: "Cocogoose-Narrow-Letterpress-trial";
+	src: url("/static/fonts/Cocogoose-Narrow-Letterpress-trial.ttf")
+		format("TrueType");
+}
+
+@font-face {
+	font-family: "Cocogoose-Condensed-Letterpress-trial";
+	src: url("/static/fonts/Cocogoose-Condensed-Letterpress-trial.ttf")
+		format("TrueType");
+}
+
+@font-face {
+	font-family: "CrispyCream3D-9YgR0";
+	src: url("/static/fonts/CrispyCream3D-9YgR0.otf") format("OpenType");
+}
+
+@font-face {
+	font-family: "SweetLove-DOK99";
+	src: url("/static/fonts/SweetLove-DOK99.otf") format("OpenType");
+}
+
+@font-face {
+	font-family: "SFDigitalReadout-Heavy";
+	src: url("/static/fonts/SFDigitalReadout-Heavy.ttf") format("TrueType");
+}
+
+@font-face {
+	font-family: "Asap-Bold";
+	src: url("/static/fonts/Asap-Bold.otf") format("OpenType");
+}
+
+@font-face {
+	font-family: "Asap-Regular";
+	src: url("/static/fonts/Asap-Regular.ttf") format("OpenType");
+}
+
+@font-face {
+	font-family: "digital-7";
+	src: url("/static/fonts/digital-7.ttf") format("TrueType");
+}
+
+/* <---------------------------------------------------------------------------- GLOBAL STYLES */
+body {
+	margin: 0 auto;
+	padding: 0;
+	max-width: 1200px; /* Maximum width for larger screens */
+	width: 100%;
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+	background: url("/static/wallpapers/g-blackwhite.avif") no-repeat center center fixed;
+	background-size: cover;
+}
+
+/* CONTAINER - BRICK WEBP */
+.brickwall {
+	margin: 0 auto;
+	max-width: 100%; /* Ensure container doesn't exceed viewport width */
+	min-height: 100vh;
+	box-sizing: border-box;
+	outline-width: 5px;
+	position: relative;
+	background-blend-mode: hard-light;
+	background-color: #000;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+	background-image: url("/static/wallpapers/brickwall.webp");
+	box-shadow: inset 3vw 0px 1vw -1vw rgba(0, 0, 0, 0.11),
+		        inset -3vw 0px 1vw -1vw rgba(0, 0, 0, 0.11);
+}
+
+/* CONTAINER - CONCRETE PNG */
+.concrete {
+	max-width: 800px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 1vw; /* Make padding responsive */
+	box-sizing: border-box;
+	position: relative;
+	word-wrap: break-word;
+	overflow: hidden;
+	border-radius: 5px;
+	border-style: inset;
+	border-color: #1b645e;
+	background-color: #000000ea;
+	background-image: url("/static/wallpapers/concrete-wall-2.png");
+	background-size: 300px;
+	box-shadow: inset -1vw 0.5vw 0.5vw -0.5vw rgba(0, 0, 0, 0.5), /* Left shadow */
+                inset 1vw -0.5vw 0.5vw -0.5vw rgba(0, 0, 0, 0.5), /* Right shadow */
+                inset 0.5vw 1vw 0.5vw -0.5vw rgba(0, 0, 0, 0.5), /* Bottom shadow */
+                inset -0.5vw -1vw 0.5vw -0.5vw rgba(0, 0, 0, 0.5); /* Top shadow */
+}
+
+/* CONTAINER - POLAROID BACKGROUND */
+.polaroid {
+	max-width: 100%;
+	box-sizing: border-box;
+	word-wrap: break-word;
+	overflow: hidden;
+	border-style: outset;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-color: #1b645e;
+	background-color: #fff9ef;
+	box-shadow: -0.5vw 0.25vw 0.25vw -0.25vw rgba(0, 0, 0, 0.5),
+                0.5vw -0.25vw 0.25vw -0.25vw rgba(0, 0, 0, 0.5),
+		        0.25vw 0.5vw 0.25vw -0.25vw rgba(0, 0, 0, 0.5),
+		        -0.25vw -0.5vw 0.25vw -0.25vw rgba(0, 0, 0, 0.5);
+}
+
+/* CONTAINER - TRANSPARENT BACKGROUND */
+.transparent {
+	margin-top: 1vh;
+	max-width: 100%; /* Ensure container doesn't exceed viewport width */
+	box-sizing: border-box;
+	border-radius: 5px;
+	background-blend-mode: overlay;
+	background-image: linear-gradient(#24232391, #949092a1);
+	border-style: outset;
+	border-color: #00000070;
+}
+
+/* CONTAINER - LEATHER PNG */
+.leather {
+	margin: 0 auto;
+	padding: 5vw; /* Responsive padding */
+	max-width: 100%; /* Ensure container doesn't exceed viewport width */
+	box-sizing: border-box;
+	border-radius: 5px;
+	background-color: #fff;
+	border: outset #bf9b30;
+	background-image: url("/static/wallpapers/leather_1.png");
+}
+
+/* <---------------- GREEN BUTTON */
+.green-button {
+	border-radius: 5px;
+	font-family: "Cocogoose-Narrow-Letterpress-trial", "Sans-Serif";
+	color: #fff;
+	background-color: #3a3939;
+	box-shadow: 1px 2px 0px 0px #e44c9f;
+	transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.green-button:hover {
+	color: #fff;
+	background-color: #3a3939;
+	text-shadow: 0px 0px 10px #01f16d;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+	transform: translateY(2px);
+}
+
+/* <---------------- BUTTON 1 */
+.button-1 {
+	border-radius: 5px;
+	text-decoration: none;
+	font-family: "Cocogoose-Condensed-letterpress-trial", "Sans-Serif";
+	color: #fff;
+	background-color: #3a3939;
+	box-shadow: 1px 2px 0px 0px#E44C9F;
+	transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.button-1:hover {
+	color: #fff;
+	background-color: #3a3939;
+	text-shadow: 0px 0px 10px #01f16d;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+	transform: translateY(2px);
+}
+
+/* <---------------- RED BUTTON */
+.red-button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+	text-decoration: none;
+	color: #fff;
+	background-color: #3a3939;
+	box-shadow: 1px 2px 0px 0px #e44c9f;
+	transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.red-button:hover {
+	color: #fff;
+	background-color: #3a3939;
+	text-shadow: 0px 0px 10px #ff0000;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+	transform: translateY(2px);
+}
+
+/* <---------------- FORM STYLES */
+/* <---------------- CONTAINER FOR FORM ITEMS */
+.item-container {
+	margin: 50px 30px;
+	padding: 10px;
+	border-radius: 5px;
+	border-style: inset;
+	border-color: #000;
+	background: #0000004d;
+}
+
+.form-title {
+	text-align: center;
+	font-family: "Cocogoose-Condensed-letterpress-trial", "Sans-Serif";
+	color: #000;
+}
+
+.form-label {
+	margin-top: 5px;
+	margin-bottom: 0px;
+	font-family: "Asap-Bold", "Sans-Serif";
+}
+
+.form-group {
+	margin-top: 5px;
+}
+
+/* <---------------- FOR REMOVING DEFAULT STYLE */
+#id_first_name,
+#id_last_name,
+#id_email,
+#id_username,
+#id_password,
+#id_current_password,
+#id_new_password,
+#id_confirm_password {
+	width: 100%;
+	border: none;
+}
+
+#id_first_name:focus,
+#id_last_name:focus,
+#id_email:focus,
+#id_username:focus,
+#id_password:focus,
+#id_current_password:focus,
+#id_new_password:focus,
+#id_confirm_password:focus,
+#id_title:focus,
+#id_content:focus,
+#id_img:focus {
+	outline: none;
+	box-shadow: 0px 0px 3px #01f16d;
+}
+
+.form-control {
+	border-radius: 0px;
+	border: none;
+	outline: none;
+	background-color: #fff;
+}
+
+/* <---------------- CONTAINER FOR FORM BUTTON */
+.form-button-container {
+	text-align: center;
+}
+
+/* <---------------- PROFILE PICTURE */
+.profile-picture-container {
+	text-align: center;
+}
+
+.profile-picture {
+	width: 200px;
+	border-radius: 5px;
+	border: outset #3a3939;
+}
+
+/* <---------------------------------------------------------------------------- POSTWALL.HTML */
+/* <---------------- STYLE FOR POST TITLE */
+.postwall-title {
+	text-align: center;
+	font-family: "CrispyCream3D-9YgR0", "Sans-Serif";
+}
+
+/* <---------------- LINK TO DETAILS OF POST */
+.postwall-link-container {
+	position: relative;
+}
+
+.postwall-link {
+	margin: 0 auto;
+	padding: 8px 4px;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	z-index: 1;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	color: #fff;
+	background-color: #3a3939;
+	text-shadow: 0px 0px 10px #e44c9f;
+	transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.postwall-link:hover {
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	box-shadow: none;
+	color: #fff;
+	background-color: #3a3939;
+	text-shadow: 0px 0px 10px #01f16d;
+	transform: scaleX(-1);
+}
+
+/* <---------------- CONTAINER FOR POST IMAGE */
+.postwall-image-container {
+	margin: 0 auto;
+	padding: 0 20px;
+	max-width: 100%;
+	max-height: 500px;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* <---------------- POST IMAGE */
+.postwall-image {
+	max-width: 100%;
+	height: auto;
+}
+
+/* <---------------- POST CONTENT */
+.postwall-content {
+	text-align: center;
+	padding: 5px;
+	font-family: "SweetLove-DOK99", "Sans-Serif";
+}
+
+/* <---------------- POST META */
+.postwall-meta {
+	margin-top: 1vh;
+	text-align: center;
+	font-family: "SFDigitalReadout-Heavy", "Sans-Serif";
+}
+
+/* <---------------- CONTAINER FOR COMMENT SECTION FOR EACH POST */
+.postwall-comments-container {
+	margin-top: 1vh;
+	border-radius: 5px;
+	background: #192221;
+	box-sizing: border-box;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Adjust the values as needed */
+}
+
+/* <---------------- HEADER FOR COMMENT LIST */
+.postwall-comments-header {
+	text-align: center;
+	padding: 10px;
+	font-family: "Cocogoose-Condensed-letterpress-trial", "Sans-Serif";
+	color: #fff;
+}
+
+/* <---------------- STYLE FOR COMMENT LIST */
+.postwall-comments-ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	font-family: "Asap-Regular", "Sans-Serif";
+}
+
+.postwall-comments-li {
+	padding-left: 5px;
+	list-style: none;
+	background-color: #fff9ef;
+	border-color: #192221;
+	border-left: 3.8px solid #192221;
+	border-right: 3.8px solid #192221;
+	border-bottom: 3.8px solid #192221;
+}
+
+.postwall-form-container {
+	padding-bottom: 15px;
+}
+
+/* <---------------- STYLE FOR COMMENT TEXTAREA */
+.postwall-form-container textarea {
+	margin: 0px;
+	width: 100%;
+	padding-left: 5px;
+	outline: none;
+	border: none;
+	resize: none;
+	box-sizing: border-box;
+	border-radius: 0px;
+	font-family: "Asap-Regular", "Sans-Serif";
+	background-color: #fff9ef;
+	border-right: 3.8px solid #192221;
+	border-left: 3.8px solid #192221;
+}
+
+.postwall-form-container textarea::placeholder {
+	color: #192221;
+}
+
+/* <---------------- CONTAINER FOR POST BUTTON */
+.postwall-form-button-container {
+	text-align: center;
+}
+
+/* <---------------------------------------------------------------------------- RESET_PASSWORD.HTML */
+.reset_password_guide {
+	font-family: "Asap-Bold", "Sans-Serif";
+	color: #000;
+}
+
+/* <---------------------------------------------------------------------------- LOGIN.HTML */
+/* <---------------- STYLE FOR "Forgot your Password?" */
+.smal-text {
+	text-decoration: none;
+	font-family: "Asap-Regular", "Sans-Serif";
+	color: #000;
+}
+
+.smal-text:hover {
+	text-decoration: underline;
+	font-family: "Asap-Bold", "Sans-Serif";
+	color: #000;
+}
+
+/* <---------------- CONTAINER FOR "Dont have an Account..." */
+.account-container {
+	margin-top: 10px;
+	text-align: center;
+	color: #fff;
+	font-family: "Asap-Bold", "Sans-Serif";
+}
+
+.account {
+	border-radius: 5px;
+	text-decoration: none;
+	font-family: "Cocogoose-Condensed-letterpress-trial", "Sans-Serif";
+	color: #fff;
+	text-shadow: 0px 0px 10px #01f16d;
+	transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.account:hover {
+	color: #01f16d;
+	text-shadow: 0px 0px 10px #fff;
+	transform: translateY(2px);
+}
+
+/* <---------------------------------------------------------------------------- POST */
+/* <---------------- HEADER FOR PAGE */
+.post-header {
+	padding-top: 1vh;
+	text-align: center;
+	font-family: "Cocogoose-Condensed-letterpress-trial", "Sans-Serif";
+	color: #fff;
+	text-shadow: 1px 1px 2px #000;
+}
+
+/* <---------------- CREATE POST CONTAINER */
+.post-form-container {
+	border-radius: 5px;
+	background-image: url("/static/wallpapers/leather_1.png");
+	border-style: outset;
+	border-color: #1b645e;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.post-form-label {
+	font-family: "Asap-Bold", "Sans-Serif";
+	color: #fff;
+}
+
+/* <---------------- POST BUTTON CONTAINER */
+.post-form-button-container {
+	text-align: center;
+}
+
+/* <---------------------------------------------------------------------------- POST DETAIL */
+/* <---------------- POSTED CONTENT */
+.post_detail-container {
+	border-radius: 5px;
+}
+
+.post_detail-title {
+	text-align: center;
+	font-family: "CrispyCream3D-9YgR0", "Sans-Serif";
+}
+
+.post_detail-image-container {
+	text-align: center;
+}
+
+.post_detail-content {
+	text-align: center;
+	white-space: normal;
+	word-wrap: break-word;
+	font-family: "Asap-Regular", "Sans-Serif";
+	color: #000;
+}
+
+.post_detail-meta {
+	text-align: center;
+	font-family: "Asap-Regular", "Sans-Serif";
+	color: #000;
+}
+
+/* <---------------- COMMENTS */
+.post_detail-comments-container {
+	border-color: #3a39399d;
+}
+
+.post_detail-comments-header {
+	border-radius: 5px 5px 0px 0px;
+	font-family: "Asap-Bold", "Sans-Serif";
+	background-color: #3a39399d;
+}
+
+.post_detail-comments {
+	list-style-type: none;
+}
+
+.post_detail-comments-ul {
+	margin: 0px;
+	padding-left: 0px;
+	border-radius: 0px 0px 5px 5px;
+	font-family: "Asap-Regular", "Sans-Serif";
+	border: 6px solid #3a39399d;
+}
+
+.post_detail-comments-li {
+	list-style: none;
+	background-color: #fffffffd;
+	border-top: 6px solid #3a39399d;
+}
+
+.post_detail-comments-li:first-child {
+	border-top: none;
+}
+
+/* <---------------- DELETE POST */
+.post_detail-delete-post-container {
+	position: relative;
+}
+
+.post_detail-delete-post-button {
+	margin: 0 auto;
+	position: absolute;
+	right: 10px;
+	z-index: 1;
+	border: none;
+	color: #000;
+	background: none;
+	transition: all 0.3s cubic-bezier(1, 0, 0, 1);
+}
+
+.post_detail-delete-post-button:hover {
+	color: red;
+	transform: scaleX(-1);
+}
+
+/* <---------------- DELETE POST CONFIRMATION */
+#delete-confirmation-container {
+	display: none;
+	border-radius: 5px;
+	position: absolute;
+	left: 75%;
+	z-index: 1000;
+	text-align: center;
+	font-family: "Asap-Regular", "Sans-Serif";
+	color: #fff;
+	background-color: #3a3939;
+	box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.808);
+	transform: translateX(2px);
+}
+
+.delete-confirmation-button-container {
+	display: flex;
+	gap: 10px;
+	justify-content: center;
+	font-family: "Cocogoose-Condensed-Letterpress-trial", "Sans-Serif";
+}
+
+/* <---------------- DELETE COMMENT */
+.post_detail-delete-comment-container {
+	float: right;
+	position: relative;
+	right: 5px;
+}
+
+.post_detail-delete-comment {
+	margin: 0 auto;
+	z-index: 1;
+	border: none;
+	color: #000;
+	background: none;
+	transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.post_detail-delete-comment:hover {
+	color: red;
+	animation: shake 0.5s ease;
+}
+
+@keyframes shake {
+	0%,
+	100% {
+		transform: translateX(0);
+	}
+	25% {
+		transform: translateX(-5px);
+	}
+	50% {
+		transform: translateX(5px);
+	}
+	75% {
+		transform: translateX(-5px);
+	}
+}
+
+/* <---------------------------------------------------------------------------- DASHBOARD SIDEBAR */
+.sidebar-ul {
+	margin: 10px;
+	padding: 0px;
+	list-style: none;
+	font-size: 20px;
+	font-family: "Cocogoose-Narrow-letterpress-trial", "Sans-Serif";
+}
+
+/* <---------------- DASHBOARD, EDIT PROFILE, CHANGE PASSWORD */
+.sidebar-item {
+	display: flex;
+	margin: 0;
+	padding: 10px;
+	text-decoration: none;
+	border: none; /* Remove default border */
+	color: #fff;
+	background-color: #3a3939;
+	box-shadow: 1px 2px 0px 0px #e44c9f;
+	transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.sidebar-item:hover,
+.sidebar-item:focus,
+.sidebar-item.active {
+	color: #fff;
+	background-color: #3a3939;
+	text-shadow: 0px 0px 10px #01f16d;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+	transform: translateY(2px);
+}
+
+/* <---------------- 1. ITEM - DASHBOARD */
+#sidebar-item-dashboard {
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+#sidebar-item-dashboard:hover,
+#sidebar-item-dashboard:focus,
+#sidebar-item-dashboard:first-child.active {
+	box-shadow: inset 0px -5px 5px 0px rgba(0, 0, 0, 0.5); /* Bottom Shadow */
+}
+
+/* <---------------- 2. ITEM - EDIT PROFILE */
+#sidebar-item-edit_profile:hover,
+#sidebar-item-edit_profile:focus,
+#sidebar-item-edit_profile.active {
+	box-shadow: inset 0px -5px 5px 0px rgba(0, 0, 0, 0.5),
+		/* Bottom Shadow */ inset 0px 5px 5px 0px rgba(0, 0, 0, 0.5); /* Top Shadow */
+}
+
+/* <---------------- 3. ITEM - CHANGE PASSWORD */
+#sidebar-item-change_password {
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+#sidebar-item-change_password:hover,
+#sidebar-item-change_password:focus,
+#sidebar-item-change_password.active {
+	box-shadow: inset 0px 5px 5px 0px rgba(0, 0, 0, 0.5); /* Top Shadow */
+}
+
+/* <---------------- LOGOUT BUTTON */
+.sidebar-logout-button-container {
+	margin-top: 25px;
+	text-align: center;
+}
+
+.sidebar-logout-button {
+	display: block;
+	padding: 10px;
+	border-radius: 5px;
+	text-decoration: none;
+	color: #fff;
+	background-color: #3a3939;
+	box-shadow: 1px 2px 0px 0px #e44c9f;
+	transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.sidebar-logout-button:hover {
+	color: #fff;
+	background-color: #3a3939;
+	text-shadow: 0px 0px 10px #ff0000;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+	transform: translateY(2px);
+}
+
+/* <---------------------------------------------------------------------------- DASHBOARD, EDIT_PROFILE, CHANGE_PASSWORD */
+/* <---------------- MARGINS */
+.form-margin-200 {
+	margin: 0 200px 0 200px;
+}
+
+.form-margin-150 {
+	margin: 0 150px 0 150px;
+}
+
+.form-margin-50 {
+	margin: 0 50px 0 50px;
+}
+
+.dashboard-name {
+	margin-top: 5px;
+	text-align: center;
+	font-family: "Asap-Bold", "Sans-Serif";
+}
+
+.dashboard-email {
+	margin-top: 10px;
+	text-align: center;
+	font-family: "Asap-Bold", "Sans-Serif";
+}
+
+.form-button-container {
+	margin-top: 15px;
+}
+
+.sidebar-ul {
+	font-size: 20px;
+}
+
+.form-label {
+	font-size: 18px;
+}
+
+/* <---------------------------------------------------------------------------- FOOTER */
+/* <---------------- SIGNATURE */
+.developer {
+	display: flex;
+	position: bottom;
+	justify-content: center;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+	outline-width: 5px;
+	box-sizing: border-box;
+	font-family: "Cocogoose-Condensed-letterpress-trial", "Sans-Serif";
+	color: #000000b0;
+	background-blend-mode: hard-light;
+	background-color: #000000;
+	background-image: url("/static/wallpapers/brickwall.webp");
+	text-shadow: 1px 1px 1px #ffffffde;
+	box-shadow: inset 20px 0px 5px -5px rgba(0, 0, 0, 0.11),
+		        inset -20px 0px 5px -5px rgba(0, 0, 0, 0.11);
+}
+
+/*   <---------------------------------------------------------------------------- ALERT */
+/* Message for various actions */
+.alert {
+	padding: 10px;
+	position: fixed;
+	top: 100px;
+	left: 50%;
+	z-index: 1050;
+	text-align: center;
+	font-family: "digital-7", "Sans-Serif";
+	opacity: 1;
+	transition: opacity 0.5s linear;
+	transform: translateX(-50%);
+}
+
+.alert.fade-out {
+	opacity: 0;
+}
+
+/*   <---------------------------------------------------------------------------- SMALL SCREEN */
+@media (max-width: 768px) {
+	/* <---------------- GlOBAL */
+	.brickwall {
+		padding-top: 2vh;
+	}
+
+	.concrete {
+		margin-top: 2vh;
+	}
+
+	.concrete:first-child {
+		margin-top: 6vh;
+	}
+
+	.transparent {
+		padding: 0.5vw;
+	}
+
+	/* <---------------- POSTWALL */
+	.postwall-title {
+		font-size: 30px;
+	}
+
+	.postwall-link {
+		font-size: 10px;
+	}
+
+	.postwall-meta,
+	.postwall-content {
+		font-size: 16px;
+	}
+
+	.postwall-comments-header {
+		font-size: 20px;
+	}
+
+	.green-button {
+		font-size: 22px;
+	}
+
+	.postwall-comments-ul,
+	.postwall-form-container textarea {
+		font-size: 14px;
+	}
+
+	.postwall-form-button-container {
+		margin-top: 10px;
+	}
+
+	/* <---------------- POST */
+	.post-header {
+		font-size: 30px;
+	}
+
+	.post-form-container {
+		margin: 20px;
+		padding: 10px 40px 20px 40px;
+	}
+
+	.post-form-label {
+		margin-top: 18px;
+		font-size: 18px;
+		color: #000;
+	}
+
+	.post-form-button-container {
+		margin-top: 20px;
+	}
+
+	/* <---------------- POST DETAIL */
+	.post_detail-container {
+		margin-top: 50px;
+	}
+
+	.post_detail-title {
+		font-size: 26px;
+	}
+
+	.post_detail-image-container {
+		text-align: center;
+	}
+
+	.post-img {
+		border-radius: 5px;
+		border-style: inset;
+		border-color: #000;
+	}
+
+	.post_detail-content {
+		font-size: 16px;
+		font-family: "Asap-Bold";
+	}
+
+	.post_detail-meta {
+		font-size: 12px;
+		margin-top: 5px;
+	}
+
+	.post_detail-comments-container {
+		margin-top: 20px;
+	}
+
+	.post_detail-comments-header {
+		font-size: 18px;
+		padding: 5px 0 0 5px;
+	}
+
+	.post_detail-comments-li {
+		padding-left: 5px;
+		font-size: 14px;
+	}
+
+	.post_detail-delete-post-container {
+		bottom: 32px;
+	}
+
+	.post_detail-delete-post-button {
+		font-size: 20px;
+	}
+
+	#delete-confirmation-container {
+		margin-bottom: 5px;
+		padding: 5px;
+		gap: 5px;
+		font-size: 14px;
+		font-family: "Asap-Regular", "Sans-Serif";
+	}
+
+	/* <---------------- DASHBOARD SIDEBAR, DASHBOARD, EDIT PROFILE, RESET PASSWORD */
+	.item-container {
+		margin: 50px 30px;
+		padding: 10px;
+		border-radius: 5px;
+		border-style: inset;
+		border-color: #000;
+		background: #0000004d;
+	}
+
+	/* <---------------- LOGIN, REGISTER */
+	.form-title {
+		font-size: 24px;
+	}
+
+	.form-label {
+		font-size: 16px;
+	}
+
+	.account-container {
+		font-size: 18px;
+	}
+
+	.button-1 {
+		font-size: 20px;
+	}
+
+	/* <---------------- REGISTER */
+	.smal-text {
+		font-size: 16px;
+	}
+
+	/* <---------------- FOOTER */
+	.developer {
+		font-size: 24px;
+	}
+}
+
+/* <---------------------------------------------------------------------------- RESPONSIVE - MEDIUM SCREEN */
+@media (min-width: 769px) and (max-width: 1200px) {
+	/* <---------------- GlOBAL */
+	.brickwall {
+		padding-top: 4vh;
+	}
+
+	.concrete {
+		margin-top: 2vh 1vh;
+	}
+
+	.concrete:first-child {
+		margin-top: 4vh;
+	}
+
+	/* <---------------- POSTWALL */
+	.postwall-title {
+		font-size: 40px;
+	}
+
+	.postwall-link {
+		font-size: 14px;
+	}
+
+	.postwall-meta {
+		font-size: 17px;
+	}
+
+	.postwall-content {
+		font-size: 20px;
+	}
+
+	.postwall-comments-header,
+	.green-button {
+		font-size: 22px;
+	}
+
+	.postwall-comments-ul,
+	.postwall-form-container textarea {
+		font-size: 16px;
+	}
+
+	/* <---------------- POST */
+	.post-header {
+		font-size: 34px;
+	}
+
+	.post-form-container {
+		margin: 20px;
+		padding: 0 80px 20px 80px;
+	}
+
+	.post-form-label {
+		margin-top: 16px;
+		font-size: 20px;
+		color: #000;
+	}
+
+	.post-form-button-container {
+		margin-top: 20px;
+	}
+
+	/* <---------------- POST DETAIL */
+	.post_detail-container {
+		margin-top: 50px;
+	}
+
+	.post_detail-title {
+		font-size: 30px;
+	}
+
+	.post_detail-image-container {
+		text-align: center;
+	}
+
+	.post-img {
+		border-radius: 5px;
+		border-style: inset;
+		border-color: #000;
+	}
+
+	.post_detail-content {
+		font-size: 20px;
+		font-family: "Asap-Bold";
+	}
+
+	.post_detail-meta {
+		font-size: 14px;
+		margin-top: 5px;
+	}
+
+	.post_detail-comments-container {
+		margin-top: 20px;
+	}
+
+	.post_detail-comments-header {
+		font-size: 20px;
+		padding: 5px 0 0 5px;
+	}
+
+	.post_detail-comments-li {
+		padding-left: 5px;
+		font-size: 16px;
+	}
+
+	.post_detail-delete-post-container {
+		bottom: 40px;
+	}
+
+	.post_detail-delete-post-button {
+		font-size: 24px;
+	}
+
+	#delete-confirmation-container {
+		margin-bottom: 5px;
+		padding: 5px;
+		gap: 5px;
+		font-size: 16px;
+		font-family: "Asap-Regular", "Sans-Serif";
+	}
+
+	/* <---------------- LOGIN, REGISTER */
+	.form-title {
+		font-size: 30px;
+	}
+
+	.form-label {
+		font-size: 18px;
+	}
+
+	.account-container {
+		font-size: 20px;
+	}
+
+	.button-1 {
+		font-size: 24px;
+	}
+
+	.margin-1 {
+		margin: 0 100px 0 100px;
+	}
+
+	/* <---------------- LOGIN */
+	.smal-text {
+		font-size: 18px;
+	}
+
+	/* <---------------- FOOTER */
+	.developer {
+		font-size: 28px;
+	}
+}
+
+/* <---------------------------------------------------------------------------- RESPONSIVE - LARGE SCREEN */
+@media (min-width: 1201px) {
+	/* <---------------- GlOBAL */
+	.brickwall {
+		padding-top: 8vh;
+	}
+
+	.concrete {
+		margin-top: 2vh;
+	}
+
+	.concrete:first-child {
+		margin-top: 3vh;
+	}
+
+	/* <---------------- POSTWALL */
+	.postwall-title {
+		font-size: 46px;
+	}
+
+	.postwall-link {
+		font-size: 16px;
+	}
+
+	.postwall-meta {
+		font-size: 20px;
+	}
+
+	.postwall-content {
+		font-size: 22px;
+	}
+
+	.postwall-comments-header,
+	.green-button {
+		font-size: 24px;
+	}
+
+	.postwall-comments-ul,
+	.postwall-form-container textarea {
+		font-size: 16px;
+	}
+
+	/* <---------------- POST */
+	.post-header {
+		font-size: 36px;
+	}
+
+	.post-form-container {
+		margin: 20px;
+		padding: 0 100px 20px 100px;
+	}
+
+	.post-form-label {
+		margin-top: 20px;
+		font-size: 22px;
+		color: #000;
+	}
+
+	.post-form-button-container {
+		margin-top: 20px;
+	}
+
+	/* <---------------- POST DETAIL */
+	.post_detail-container {
+		margin: 40px 10px 0 10px;
+	}
+
+	.post_detail-title {
+		font-size: 40px;
+	}
+
+	.post_detail-image-container {
+		text-align: center;
+	}
+
+	.post-img {
+		border-radius: 5px;
+		border-style: inset;
+		border-color: #000;
+	}
+
+	.post_detail-content {
+		font-size: 24px;
+		font-family: "Asap-Bold";
+	}
+
+	.post_detail-meta {
+		font-size: 16px;
+		margin-top: 5px;
+	}
+
+	.post_detail-comments-container {
+		margin: 20px 60px 0 60px;
+	}
+
+	.post_detail-comments-header {
+		font-size: 24px;
+		padding: 5px 0 0 5px;
+	}
+
+	.post_detail-comments-li {
+		padding-left: 5px;
+		font-size: 18px;
+	}
+
+	.post_detail-delete-post-container {
+		right: 60px;
+		bottom: 40px;
+	}
+
+	.post_detail-delete-post-button {
+		font-size: 24px;
+	}
+
+	#delete-confirmation-container {
+		margin-bottom: 5px;
+		padding: 5px;
+		gap: 5px;
+		font-size: 18px;
+		font-family: "Asap-Regular", "Sans-Serif";
+	}
+
+	/* <---------------- LOGIN, REGISTER */
+	.form-title {
+		font-size: 36px;
+	}
+
+	.form-label {
+		font-size: 20px;
+	}
+
+	.account-container {
+		font-size: 20px;
+	}
+
+	.button-1 {
+		font-size: 26px;
+	}
+
+	.margin-1 {
+		margin: 0 300px 0 300px;
+	}
+
+	/* <---------------- LOGIN */
+	.smal-text {
+		font-size: 18px;
+	}
+
+	/* <---------------- FOOTER */
+	.developer {
+		font-size: 28px;
+	}
+}

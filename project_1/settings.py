@@ -1,9 +1,7 @@
-import cloudinary
-from cloudinary.uploader import upload
+import os
 from pathlib import Path
 import dj_database_url
-import os
-if os.path.isfile("env.py"):
+if os.path.isfile('env.py'):
     import env
 
 
@@ -18,6 +16,10 @@ ALLOWED_HOSTS = [
     'postwall-500ee4318184.herokuapp.com',
 ]
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://postwall-500ee4318184.herokuapp.com'
+]
+
 AUTH_USER_MODEL = 'accounts.Profile'
 
 INSTALLED_APPS = [
@@ -29,9 +31,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'blog',
     'accounts',
-    'cloudinary_storage',
-    'cloudinary',
-    'gunicorn'
+    'storages',
+    'gunicorn',
 ]
 
 MIDDLEWARE = [
@@ -67,6 +68,12 @@ TEMPLATES = [
 WSGI_APPLICATION = 'project_1.wsgi.application'
 
 
+# ALERT MESSAGES
+from django.contrib.messages import constants as messages
+MESSAGE_TAGS = {
+    messages.ERROR: 'danger',
+}
+
 if 'DATABASE_URL' in os.environ:
     DATABASES = {
         'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
@@ -98,21 +105,36 @@ AUTH_PASSWORD_VALIDATORS = [
 LANGUAGE_CODE = 'en-us'
 TIME_ZONE = 'UTC'
 USE_I18N = True
+USE_L10N = True
 USE_TZ = True
 
 STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
-DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
-CLOUDINARY_URL = os.environ.get('CLOUDINARY_URL','')
-
-# Elephant SQL ?
-# DB_USER = 'pgdemrvo'
-# DB_NAME = 'p4-blog'
-# DB_PASSWORD = os.environ.get('DB_PASSWORD','')
-# DATABASE_URL = os.environ.get('DB_URL','')
+if 'USE_AWS' in os.environ:
+    # Cache control
+    AWS_S3_OBJECT_PARAMETERS = {
+        'Expires': 'Thu, 31 Dec 2099 20:00:00 GMT',
+        'CacheControl': 'max-age=94608000',
+    }
+    
+    AWS_STORAGE_BUCKET_NAME = 'postwall-bucket'
+    AWS_S3_REGION_NAME = 'eu-north-1'
+    AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
+    AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
+    AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.eu-north-1.amazonaws.com'
+    
+    # Static and media files
+    STATICFILES_STORAGE = 'custom_storages.StaticStorage'
+    STATICFILES_LOCATION = 'static'
+    DEFAULT_FILE_STORAGE = 'custom_storages.MediaStorage'
+    MEDIAFILES_LOCATION = 'media'
+    
+    # Override static and media URLs in production
+    STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{STATICFILES_LOCATION}/'
+    MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{MEDIAFILES_LOCATION}/'
+    
