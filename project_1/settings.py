@@ -2,26 +2,36 @@
 import os
 from pathlib import Path
 import dj_database_url
+
+# Load environment variables from env.py if it exists
 if os.path.isfile('env.py'):
     import env
 
-
+# Base directory of the project
 BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
-SECRET_KEY = os.environ.get('SECRET_KEY','')
+
+# Secret key configuration
+SECRET_KEY = os.environ.get('SECRET_KEY', '')
+
+# Debug mode (should be False in production)
 DEBUG = True
 
+# Allowed hosts for the application
 ALLOWED_HOSTS = [
     '127.0.0.1',
     'localhost',
     'postwall-500ee4318184.herokuapp.com',
 ]
 
+# CSRF trusted origins
 CSRF_TRUSTED_ORIGINS = [
     'https://postwall-500ee4318184.herokuapp.com'
 ]
 
+# Custom user model
 AUTH_USER_MODEL = 'accounts.Profile'
 
+# Installed applications
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -35,6 +45,7 @@ INSTALLED_APPS = [
     'gunicorn',
 ]
 
+# Middleware configuration
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -45,8 +56,10 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+# Root URL configuration
 ROOT_URLCONF = 'project_1.urls'
 
+# Templates configuration
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -65,22 +78,17 @@ TEMPLATES = [
     },
 ]
 
+# WSGI application
 WSGI_APPLICATION = 'project_1.wsgi.application'
 
 
-# ALERT MESSAGES
+# Alert messages configuration
 from django.contrib.messages import constants as messages
 MESSAGE_TAGS = {
     messages.ERROR: 'danger',
 }
 
-#DATABASES = {
-#    'default': {
-#        'ENGINE': 'django.db.backends.sqlite3',
-#        'NAME': BASE_DIR / "db.sqlite3",
-#    }
-#}
-#
+# Database configuration (SQLite by default, switches to Postgres in production)
 if 'DATABASE_URL' in os.environ:
     DATABASES = {
         'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
@@ -92,7 +100,8 @@ else:
            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
         }
     }
-
+   
+# Password validation
 AUTH_PASSWORD_VALIDATORS = [
     {
         'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
@@ -108,20 +117,26 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
+# Internationalization
 LANGUAGE_CODE = 'en-us'
 TIME_ZONE = 'UTC'
 USE_I18N = True
 USE_L10N = True
 USE_TZ = True
 
+
+# Static and media file handling for local development
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
+
+# AWS S3 settings for production
 if 'USE_AWS' in os.environ:
+    # AWS S3 bucket settings
     AWS_S3_OBJECT_PARAMETERS = {
         'Expires': 'Thu, 31 Dec 2099 20:00:00 GMT',
         'CacheControl': 'max-age=94608000',
