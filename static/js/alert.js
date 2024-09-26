@@ -7,6 +7,6 @@ document.addEventListener("DOMContentLoaded", function() {
             alertMessage.addEventListener('transitionend', function() {
                 alertMessage.remove();
             });
-        }, 5000); // Adjust the timeout as needed (in milliseconds)
+        }, 3000);
     });
 });

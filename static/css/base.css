@@ -26,6 +26,11 @@
 }
 
 @font-face {
+	font-family: "digital-7";
+	src:url("/static/fonts/digital-7.ttf") format("TrueType");
+}
+
+@font-face {
 	font-family: "Asap-Bold";
 	src: url("/static/fonts/Asap-Bold.otf") format("OpenType");
 }
@@ -33,11 +38,6 @@
 @font-face {
 	font-family: "Asap-Regular";
 	src: url("/static/fonts/Asap-Regular.ttf") format("OpenType");
-}
-
-@font-face {
-	font-family: "digital-7";
-	src: url("/static/fonts/digital-7.ttf") format("TrueType");
 }
 
 /* <---------------------------------------------------------------------------- GLOBAL STYLES */
@@ -146,6 +146,24 @@ html {
 }
 
 .green-button:hover {
+	color: #fff;
+	background-color: #3a3939;
+	text-shadow: 0px 0px 10px #01f16d;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+	transform: translateY(2px);
+}
+
+/* <---------------- GREEN SMALL BUTTON */
+.green-small-button {
+	border-radius: 5px;
+	font-family: "Cocogoose-Narrow-Letterpress-trial", "Sans-Serif";
+	color: #fff;
+	background-color: #3a3939;
+	box-shadow: 1px 2px 0px 0px #e44c9f;
+	transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.green-small-button:hover {
 	color: #fff;
 	background-color: #3a3939;
 	text-shadow: 0px 0px 10px #01f16d;
@@ -341,14 +359,14 @@ html {
 .postwall-meta {
 	margin-top: 1vh;
 	text-align: center;
-	font-family: "SFDigitalReadout-Heavy", "Sans-Serif";
+	font-family: "digital-7", "Sans-Serif";
 }
 
 /* <---------------- CONTAINER FOR COMMENT SECTION FOR EACH POST */
 .postwall-comments-container {
 	margin-top: 1vh;
 	border-radius: 5px;
-	background: #192221;
+	background-color: #2f3d3ca9;
 	box-sizing: border-box;
 	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Adjust the values as needed */
 }
@@ -540,6 +558,11 @@ html {
 
 .post_detail-comments-li:first-child {
 	border-top: none;
+}
+
+.post_detail-no-comments {
+	background-color: #FFF;
+	list-style-type: none;
 }
 
 /* <---------------- DELETE POST */
@@ -752,13 +775,10 @@ html {
 /* <---------------------------------------------------------------------------- FOOTER */
 /* <---------------- SIGNATURE */
 .developer {
-	display: flex;
-	position: bottom;
-	justify-content: center;
+	text-align: center;
 	border-left: 1px solid #000;
 	border-right: 1px solid #000;
 	outline-width: 5px;
-	box-sizing: border-box;
 	font-family: "Cocogoose-Condensed-letterpress-trial", "Sans-Serif";
 	color: #000000b0;
 	background-blend-mode: hard-light;
@@ -771,21 +791,22 @@ html {
 
 /*   <---------------------------------------------------------------------------- ALERT */
 /* Message for various actions */
-.alert {
-	padding: 10px;
-	position: fixed;
-	top: 100px;
-	left: 50%;
-	z-index: 1050;
-	text-align: center;
-	font-family: "digital-7", "Sans-Serif";
-	opacity: 1;
-	transition: opacity 0.5s linear;
-	transform: translateX(-50%);
+.alert-c {
+    padding: 10px;
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    z-index: 1050;
+    text-align: center;
+    font-size: 20px;
+    font-family: "SweetLove-DOK99", "Sans-Serif";
+    opacity: 1;
+    transition: opacity 2s linear;
+    transform: translateX(-50%);
 }
 
 .alert.fade-out {
-	opacity: 0;
+    opacity: 0;
 }
 
 /*   <---------------------------------------------------------------------------- SMALL SCREEN */
@@ -796,11 +817,11 @@ html {
 	}
 
 	.concrete {
-		margin-top: 2vh;
+		margin-top: 1vh;
 	}
 
 	.concrete:first-child {
-		margin-top: 6vh;
+		margin-top: 3vh;
 	}
 
 	.transparent {
@@ -816,9 +837,12 @@ html {
 		font-size: 10px;
 	}
 
-	.postwall-meta,
 	.postwall-content {
 		font-size: 16px;
+	}
+
+	.postwall-meta {
+		font-size: 14px;
 	}
 
 	.postwall-comments-header {
@@ -1112,7 +1136,7 @@ html {
 @media (min-width: 1201px) {
 	/* <---------------- GlOBAL */
 	.brickwall {
-		padding-top: 8vh;
+		padding-top: 4vh;
 	}
 
 	.concrete {
@@ -1133,7 +1157,7 @@ html {
 	}
 
 	.postwall-meta {
-		font-size: 20px;
+		font-size: 18px;
 	}
 
 	.postwall-content {
@@ -1147,7 +1171,7 @@ html {
 
 	.postwall-comments-ul,
 	.postwall-form-container textarea {
-		font-size: 16px;
+		font-size: 18px;
 	}
 
 	/* <---------------- POST */

@@ -1,4 +1,3 @@
-# Settings.py 
 import os
 from pathlib import Path
 import dj_database_url
@@ -8,7 +7,7 @@ if os.path.isfile('env.py'):
     import env
 
 # Base directory of the project
-BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
+BASE_DIR = Path(__file__).resolve().parent.parent
 
 # Secret key configuration
 SECRET_KEY = os.environ.get('SECRET_KEY', '')
@@ -94,10 +93,10 @@ if 'DATABASE_URL' in os.environ:
         'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
     }
 else:
-   DATABASES = {
+    DATABASES = {
         'default': {
-           'ENGINE': 'django.db.backends.sqlite3',
-           'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': BASE_DIR / 'db.sqlite3',
         }
     }
    
@@ -124,14 +123,21 @@ USE_I18N = True
 USE_L10N = True
 USE_TZ = True
 
+# Email Verification
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_USE_TLS = True
+EMAIL_PORT = 587
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
+EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
 
 # Static and media file handling for local development
 STATIC_URL = '/static/'
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATICFILES_DIRS = [BASE_DIR / 'static']
+STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_ROOT = BASE_DIR / 'media'
 
 
 # AWS S3 settings for production

@@ -30,10 +30,8 @@
 							enctype="multipart/form-data">
 							{% csrf_token %}
 							<div class="form-group">
-								<label class="form-label" for="id_profile_picture"
-									>Profile Picture:</label
-								>
-								{{ user_form.profile_picture }}
+								<label class="form-label" for="id_profile_picture">Profile Picture:</label>
+									{{ user_form.profile_picture }}
 							</div>
 							<hr />
 							<div class="form-margin-50">

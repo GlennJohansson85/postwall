@@ -18,39 +18,45 @@ def register(request):
     if request.method == 'POST':
         form = RegistrationForm(request.POST)
         if form.is_valid():
-            email = form.cleaned_data['email'] # First retrieve email
-            username = email.split("@")[0] # Then use email to get username
+            email = form.cleaned_data['email']  # First retrieve email
+            username = email.split("@")[0]  # Then use email to get username
             password = form.cleaned_data['password']
             first_name = form.cleaned_data['first_name']
             last_name = form.cleaned_data['last_name']
-            phone_number = form.cleaned_data['phone_number']
             
             # Create user
             user = Profile.objects.create_user(
-                email = email,
-                username = username,
-                password = password,
-                first_name = first_name,
-                last_name = last_name,
+                email=email,
+                username=username,
+                password=password,
+                first_name=first_name,
+                last_name=last_name,
             )
-            user.phone_number = phone_number
             user.save()
             
             # Send activation mail
             current_site = get_current_site(request)
-            mail_subject = 'Please activate your account'
-            message = render_to_string('profiles/verification_email.html', {
+            mail_subject = 'Postwall - Account Activation'
+            message = render_to_string('verification_email.html', {
                 'user': user,
                 'domain': current_site,
                 'uid': urlsafe_base64_encode(force_bytes(user.pk)),
                 'token': default_token_generator.make_token(user),
             })
             to_email = email
-            send_email = EmailMessage(mail_subject, message, to=[to_email])
-            send_email.send()
-            messages.success(request, 'Activation link sent to your email!')
             
-            return redirect('/profiles/login/?command=verification&email='+email)
+            # Create EmailMessage and set sender details
+            send_email = EmailMessage(
+                mail_subject, 
+                message, 
+                from_email='Postwall <glenncoding@gmail.com>',
+                to=[to_email]
+            )
+            send_email.content_subtype = "html"
+            send_email.send()
+            messages.success(request, 'Activation link sent to your email')
+
+            return redirect('/accounts/login/')
     else:
         form = RegistrationForm()
     
@@ -81,7 +87,7 @@ def login(request):
                     return redirect(nextPage)
                 
             except:
-                return redirect('dashboard')
+                return redirect('postwall')
         else:
             messages.error(request, 'Invalid Login Credentials.')
             return redirect('login')

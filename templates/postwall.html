@@ -35,7 +35,7 @@
                     <form method="post" action="{% url 'add_comment' item.post.id %}">
                         {% csrf_token %}
                         <div class="postwall-form-container">
-                            <textarea id="id_textarea" name="comment_text"  rows="1" placeholder="Comment here!"></textarea>
+                            <textarea id="id_textarea" name="comment_text" rows="1" placeholder="Add comment here"></textarea>
                             <div class="postwall-form-button-container">
                                 <button type="submit" class="green-button">Post</button>
                             </div>
