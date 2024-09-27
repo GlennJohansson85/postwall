@@ -1,5 +1,4 @@
-
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib import messages, auth
 from django.core.mail import EmailMessage
 from django.template.loader import render_to_string
@@ -8,10 +7,11 @@ from django.utils.encoding import force_bytes
 from django.contrib.sites.shortcuts import get_current_site
 from django.contrib.auth.tokens import default_token_generator
 from django.contrib.auth.decorators import login_required
-from .forms import RegistrationForm, UserForm
-from .models import Profile
 
 import requests
+
+from .forms import RegistrationForm, UserForm
+from .models import Profile
 
 
 def register(request):
@@ -130,27 +130,6 @@ def dashboard(request):
     return render(request, 'dashboard.html', context)
 
 
-def reset_password(request):
-    if request.method == 'POST':
-        password = request.POST['password']
-        confirm_password = request.POST['confirm_password']
-        
-        if password == confirm_password:
-            uid = request.session.get('uid')
-            user = Profile.objects.get(pk=uid)
-            user.set_password(password)
-            user.save()
-            messages.success(request, 'Password reset successful')
-            return redirect('login')
-        
-        else:
-            messages.error(request, 'Password do not match!')
-            return redirect('reset_password')
-    
-    else:
-        return render(request, 'reset_password.html')
-
-
 @login_required(login_url='login')
 def edit_profile(request):
     if request.method == 'POST':
@@ -188,7 +167,7 @@ def change_password(request):
                 user.set_password(new_password)
                 user.save()
                 messages.success(request, 'Password is now updated!')
-                return redirect('change_password')
+                return redirect('dashboard')
             
             else:
                 messages.error(request, 'Your current password is not correct!')
@@ -198,3 +177,83 @@ def change_password(request):
             return redirect('change_password')
     
     return render(request, 'change_password.html')
+
+
+def reset_password(request, uidb64, token):
+    try:
+        uid = urlsafe_base64_decode(uidb64).decode()
+        user = Profile._default_manager.get(pk=uid)
+    except (TypeError, ValueError, OverflowError, Profile.DoesNotExist):
+        user = None
+
+    if user is not None and default_token_generator.check_token(user, token):
+        if request.method == 'POST':
+            new_password = request.POST.get('new_password')
+            confirm_new_password = request.POST.get('confirm_new_password')
+            
+            if new_password == confirm_new_password:
+                user.set_password(new_password)
+                user.save()
+                messages.success(request, 'Your password has been reset successfully. You can now log in.')
+                return redirect('login')
+            else:
+                messages.error(request, 'Passwords do not match!')
+        return render(request, 'reset_password.html', {'uidb64': uidb64, 'token': token})
+
+    else:
+        messages.error(request, 'The password reset link is invalid.')
+        return redirect('request_password_reset')
+
+
+def request_password_reset(request):
+    if request.method == 'POST':
+        email = request.POST['email']
+        try:
+            user = Profile.objects.get(email=email)
+            # Create password reset token and email
+            current_site = get_current_site(request)
+            mail_subject = 'Reset your password'
+            message = render_to_string('request_password_reset.html', {
+                'user': user,
+                'domain': current_site.domain,
+                'uid': urlsafe_base64_encode(force_bytes(user.pk)),
+                'token': default_token_generator.make_token(user),
+            })
+            to_email = email
+            
+            # Create and send the email
+            email_message = EmailMessage(
+                mail_subject,
+                message,
+                from_email='Postwall <glenncoding@gmail.com>',
+                to=[to_email]
+            )
+            email_message.content_subtype = "html"
+            email_message.send()
+
+            messages.success(request, 'A password reset link has been sent to your email.')
+            return redirect('login')  # Redirect after sending email
+        except Profile.DoesNotExist:
+            messages.error(request, 'No account found with this email address.')
+
+    return render(request, 'reset_password.html')  # Render the request form
+
+
+def create_new_password(request, uidb64, token):
+    if request.method == 'POST':
+        new_password = request.POST.get('new_password')
+        confirm_new_password = request.POST.get('confirm_new_password')
+
+        if new_password == confirm_new_password:
+            try:
+                uid = force_bytes(urlsafe_base64_decode(uidb64))
+                user = Profile.objects.get(pk=uid)  # Use Profile instead of User
+                user.set_password(new_password)
+                user.save()
+                messages.success(request, 'Your password has been updated!')
+                return redirect('login')
+            except (TypeError, ValueError, OverflowError, Profile.DoesNotExist):
+                user = None
+                messages.error(request, 'Invalid reset link')
+
+    return render(request, 'create_new_password.html', {'uidb64': uidb64, 'token': token})

@@ -35,7 +35,7 @@
                     <form method="post" action="{% url 'add_comment' item.post.id %}">
                         {% csrf_token %}
                         <div class="postwall-form-container">
-                            <textarea id="id_textarea" name="comment_text" rows="1" placeholder="Add comment here"></textarea>
+                            <textarea id="id_textarea" name="comment_text" rows="1" placeholder="Add Comment Here..."></textarea>
                             <div class="postwall-form-button-container">
                                 <button type="submit" class="green-button">Post</button>
                             </div>
@@ -47,4 +47,19 @@
     {% endif %}
     </div>
 </div>
+{% endblock %}
+
+{% block javascript %}
+<script>
+    $(document).ready(function() {
+        function pulsatePlaceholder() {
+            $(".postwall-form-container textarea").animate({
+                opacity: 0.5
+            }, 1000).animate({
+                opacity: 1
+            }, 1000, pulsatePlaceholder);
+        }
+        pulsatePlaceholder();
+    });
+</script>
 {% endblock %}
