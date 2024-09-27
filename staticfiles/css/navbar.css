@@ -15,7 +15,7 @@
 	align-items: center;
 }
 
-/********************* NAVBAR TOGGLER BUTTON */
+/* Navbar toggler button */
 .navbar-toggler {
 	width: 80px;
 	position: relative; /* Needed to center image */
@@ -39,7 +39,7 @@
 	transform: translateY(2px);
 }
 
-/* CSS for profile image in toggler button */
+/* Profile image within toggler button */
 .profile-image-toggler {
 	width: 50px;
 	height: 50px;
@@ -55,7 +55,7 @@
 	display: none;
 }
 
-/**************** NAVBAR BRAND */
+/* Postwall */
 .navbar-brand {
 	padding: 0 5px;
 	display: flex;
@@ -82,7 +82,7 @@
 	transform: translateY(2px);
 }
 
-/**************** NAVBAR SEARH */
+/* Styles for search content */
 .search-input {
 	display: flex;
 	position: relative;
@@ -124,7 +124,7 @@
 	transform: translateY(2px);
 }
 
-/******************* NAVBAR LINKS */
+/* Styles for navbar links */
 .nav-link {
 	font-family: "Cocogoose-Condensed-letterpress-trial", "Sans-Serif";
 	border-radius: 0;
@@ -152,14 +152,13 @@
 	transform: translateY(2px);
 }
 
-/******************* NAVBAR INPUT GROUP */
+/* Navbar input styles */
 .input-group {
 	justify-content: center;
 	display: flex;
 	align-items: center;
 }
 
-/******************* NAVBAR INPUT ITEMS */
 .nav-item:first-child .nav-link {
 	border-top-left-radius: 5px;
 	border-bottom-left-radius: 5px;
@@ -193,15 +192,15 @@
 	box-shadow: inset 10px 0px 5px -5px rgba(0, 0, 0, 0.5);
 }
 
-/* CSS for profile image in dropdown */
+/* CSS for profile image in Profile item (last-child) */
 .profile-image {
-	width: 30px; /* Set appropriate width */
-	height: auto; /* Maintain aspect ratio */
-	border-radius: 5px; /* Optional: make it round */
-	margin-right: 10px; /* Space between image and text */
+	width: 30px;
+	height: auto;
+	border-radius: 5px;
+	margin-right: 10px;
 }
 
-/*   <---------------------------------------------------------------------------- RESPONSIVE - SMALL SCREEN */
+/* Responsive settings - (max-width: 768px) */
 @media (max-width: 768px) {
 	.navbar {
 		height: auto;
@@ -273,8 +272,8 @@
 
 	.nav-item:last-child .nav-link {
 		display: flex;
-		align-items: center; /* Center items vertically */
-		justify-content: center; /* Center items horizontally */
+		align-items: center;
+		justify-content: center;
 	}
 
 	.dropdown-menu {
@@ -300,7 +299,7 @@
 	}
 }
 
-/*   <---------------------------------------------------------------------------- RESPONSIVE - MEDIUM SCREEN */
+/* Responsive settings - (min-width: 769px to max-width: 1200px) */
 @media (min-width: 769px) and (max-width: 1200px) {
 	.navbar {
 		height: auto;
@@ -372,8 +371,8 @@
 
 	.nav-item:last-child .nav-link {
 		display: flex;
-		align-items: center; /* Center items vertically */
-		justify-content: center; /* Center items horizontally */
+		align-items: center;
+		justify-content: center;
 	}
 
 	.dropdown-menu {
@@ -392,7 +391,7 @@
 	}
 }
 
-/*   <---------------------------------------------------------------------------- RESPONSIVE - LARGE SCREEN */
+/* Responsive settings - (min-width: 1201px) */
 @media (min-width: 1201px) {
 	.navbar {
 		height: auto;
