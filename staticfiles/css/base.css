@@ -1,44 +1,50 @@
 /* Fonts */
 @font-face {
 	font-family: "Cocogoose-Narrow-Letterpress-trial";
-	src: url("/static/fonts/Cocogoose-Narrow-Letterpress-trial.ttf")
-		format("TrueType");
+	src: 	url("/static/fonts/Cocogoose-Narrow-Letterpress-trial.ttf")
+			format("TrueType");
 }
 
 @font-face {
 	font-family: "Cocogoose-Condensed-Letterpress-trial";
-	src: url("/static/fonts/Cocogoose-Condensed-Letterpress-trial.ttf")
-		format("TrueType");
+	src: 	url("/static/fonts/Cocogoose-Condensed-Letterpress-trial.ttf")
+			format("TrueType");
 }
 
 @font-face {
 	font-family: "CrispyCream3D-9YgR0";
-	src: url("/static/fonts/CrispyCream3D-9YgR0.otf") format("OpenType");
+	src: 	url("/static/fonts/CrispyCream3D-9YgR0.otf")
+			format("OpenType");
 }
 
 @font-face {
 	font-family: "SweetLove-DOK99";
-	src: url("/static/fonts/SweetLove-DOK99.otf") format("OpenType");
+	src: 	url("/static/fonts/SweetLove-DOK99.otf")
+			format("OpenType");
 }
 
 @font-face {
 	font-family: "SFDigitalReadout-Heavy";
-	src: url("/static/fonts/SFDigitalReadout-Heavy.ttf") format("TrueType");
+	src: 	url("/static/fonts/SFDigitalReadout-Heavy.ttf")
+			format("TrueType");
 }
 
 @font-face {
 	font-family: "digital-7";
-	src:url("/static/fonts/digital-7.ttf") format("TrueType");
+	src: 	url("/static/fonts/digital-7.ttf")
+			format("TrueType");
 }
 
 @font-face {
 	font-family: "Asap-Bold";
-	src: url("/static/fonts/Asap-Bold.otf") format("OpenType");
+	src: 	url("/static/fonts/Asap-Bold.otf")
+			format("OpenType");
 }
 
 @font-face {
 	font-family: "Asap-Regular";
-	src: url("/static/fonts/Asap-Regular.ttf") format("OpenType");
+	src: 	url("/static/fonts/Asap-Regular.ttf")
+			format("OpenType");
 }
 
 /* Base Styles */
@@ -56,7 +62,7 @@ html {
 	background-size: cover;
 }
 
-/* Wallpapers/Containers */
+/* Wallpapers */
 .brickwall {
 	max-width: 100%;
 	min-height: 100vh;
@@ -95,7 +101,6 @@ html {
                 inset -0.5vw -1vw 0.5vw -0.5vw rgba(0, 0, 0, 0.5); /* Top shadow */
 }
 
-/* Transparent style */
 .item-container {
 	max-width: 800px;
 	width: 100%;
@@ -104,7 +109,7 @@ html {
 	border-radius: 5px;
 	border-style: inset;
 	border-color: #000;
-	background: #0000004d;
+	background: #0000004d; /* Transparent Style */
 }
 
 .leather {
@@ -119,7 +124,7 @@ html {
 }
 
 /* Buttons */
-/* Green button */
+/* Green Button */
 .green-button {
 	font-family: "Cocogoose-Narrow-Letterpress-trial", "Sans-Serif";
 	border-radius: 5px;
@@ -137,7 +142,7 @@ html {
 	transform: translateY(2px);
 }
 
-/* Green-small-button */
+/* Green Small Button */
 .green-small-button {
 	font-family: "Cocogoose-Narrow-Letterpress-trial", "Sans-Serif";
 	border-radius: 5px;
@@ -155,7 +160,7 @@ html {
 	transform: translateY(2px);
 }
 
-/* Button-1 */
+/* Button 1 */
 .button-1 {
 	font-family: "Cocogoose-Condensed-letterpress-trial", "Sans-Serif";
 	text-decoration: none;
@@ -174,7 +179,7 @@ html {
 	transform: translateY(2px);
 }
 
-/* Red-button */
+/* Red Button */
 .red-button {
 	display: flex;
 	justify-content: center;
@@ -219,7 +224,7 @@ html {
 	text-align: center;
 }
 
-/* ID for removing default Inputfields */
+/* ID used due to class cant change the default field styles */
 #id_first_name,
 #id_last_name,
 #id_email,
@@ -247,7 +252,7 @@ html {
 	box-shadow: 0px 0px 3px #01f16d;
 }
 
-/* Profile-picture */
+/* Profile Picture */
 .profile-picture-container {
 	max-width: 300px;
 	width: 100%;
@@ -265,7 +270,7 @@ html {
     display: block;
 }
 
-/* Styles for Postwall.html */
+/* POSTWALL.HTML */
 /* Container for a post incl. title, image, content, meta */
 .polaroid {
 	max-width: 100%;
@@ -283,13 +288,13 @@ html {
 		        -0.25vw -0.5vw 0.25vw -0.25vw rgba(0, 0, 0, 0.5);
 }
 
-/* Title for a uploaded post */
+/* Post Title Style */
 .postwall-title {
 	font-family: "CrispyCream3D-9YgR0", "Sans-Serif";
 	text-align: center;
 }
 
-/* Link to details of a uploaded post */
+/* Link to Post Details for specific Post */
 .postwall-link-container {
 	position: relative;
 }
@@ -323,7 +328,7 @@ html {
 	transform: scaleX(-1);
 }
 
-/* Image of a uploaded post */
+/* Uploaded Post Image */
 .postwall-image-container {
     margin: 0 auto;
     padding: 0 20px;
@@ -342,21 +347,21 @@ html {
     object-fit: contain;
 }
 
-/* Content of a uploaded post */
+/* Uploaded Post Content */
 .postwall-content {
 	padding: 5px;
 	font-family: "SweetLove-DOK99", "Sans-Serif";
 	text-align: center;
 }
 
-/* Meta of a uploaded post */
+/* Meta when uploading a Post */
 .postwall-meta {
 	margin-top: 1vh;
 	font-family: "digital-7", "Sans-Serif";
 	text-align: center;
 }
 
-/* Container for comments to uploaded post */
+/* Container for comments for each Post */
 .postwall-comments-container {
 	margin-top: 1vh;
 	border-radius: 5px;
@@ -391,12 +396,12 @@ html {
 	border-bottom: 2px solid #192221;
 }
 
-/* Needed to avoid double border */
+/* 1. Needed to avoid double border */
 .postwall-comments-li:last-child {
 	border-bottom: none;
 }
 
-/* Needed to avoid double border */
+/* 2. Needed to avoid double border */
 #id_textarea {
 	border: 2px solid #192221;
 }
@@ -426,16 +431,17 @@ html {
 }
 
 .postwall-form-button-container {
+	margin-top: 10px;
 	text-align: center;
 }
 
-/* Style for reset_password.html */
+/* RESET_PASSWORD.HTML */
 .reset_password_guide {
 	font-family: "Asap-Bold", "Sans-Serif";
 	color: #000;
 }
 
-/* Styles for login.html */
+/* LOGIN.HTML */
 /* "Forgot your Password?" */
 .smal-text {
 	font-family: "Asap-Regular", "Sans-Serif";
@@ -472,7 +478,7 @@ html {
 	transform: translateY(2px);
 }
 
-/* Styles for Post.html */
+/* POST.HTML */
 .post-header {
 	font-family: "Cocogoose-Condensed-letterpress-trial", "Sans-Serif";
 	text-align: center;
@@ -480,8 +486,9 @@ html {
 	text-shadow: 1px 1px 2px #000;
 }
 
-/* Container for creating post */
+/* Container for creating a Post */
 .post-form-container {
+	border-style: border-box;
 	border-radius: 5px;
 	border-style: outset;
 	border-color: #1b645e;
@@ -494,29 +501,30 @@ html {
 	color: #fff;
 }
 
-/* Container for post button */
+/* Container for the Post Button */
 .post-form-button-container {
+	margin-top: 15px;
 	text-align: center;
 }
 
-/* Styles for post_detail.html */
-/* Container for template content */
+/* POST_DETAIL.HTML */
+/* Container for Post content */
 .post_detail-container {
 	border-radius: 5px;
 }
 
-/* Title of uploaded post */
+/* Post Title */
 .post_detail-title {
 	font-family: "CrispyCream3D-9YgR0", "Sans-Serif";
 	text-align: center;
 }
 
-/* Container for uploaded image */
+/* Image Container */
 .post_detail-image-container {
 	text-align: center;
 }
 
-/* Content of uploaded post */
+/* Post Content */
 .post_detail-content {
 	margin-top: 10px;
 	font-family: "Asap-Regular", "Sans-Serif";
@@ -526,26 +534,26 @@ html {
 	color: #000;
 }
 
-/* Meta of uploaded post */
+/* Post Meta */
 .post_detail-meta {
 	font-family: "Asap-Regular", "Sans-Serif";
 	text-align: center;
 	color: #000;
 }
 
-/* Comments container to uploaded post */
+/* Comments Container */
 .post_detail-comments-container {
 	border-color: #2f3d3ca9;
 }
 
-/* Comments container header */
+/* Comments Header Container */
 .post_detail-comments-header {
 	font-family: "Asap-Bold", "Sans-Serif";
 	border-radius: 5px 5px 0px 0px;
 	background-color: #2f3d3ca9;
 }
 
-/* Comment styles */
+/* Comment Styles */
 .post_detail-comments {
 	list-style-type: none;
 }
@@ -569,16 +577,17 @@ html {
 }
 /* "No comments" */
 .post_detail-no-comments {
+	padding-left: 5px;
 	background-color: #FFF;
 	list-style-type: none;
 }
 
-/* Container for deleting post */
+/* Delete Post Container */
 .post_detail-delete-post-container {
 	position: relative;
 }
 
-/* Container for delete post button */
+/* Delete Post Button Container */
 .post_detail-delete-post-button {
 	margin: 0 auto;
 	position: absolute;
@@ -595,7 +604,7 @@ html {
 	transform: scaleX(-1);
 }
 
-/* Container for "delete post confirmation" */
+/* Delete Confirmation Container */
 #delete-confirmation-container {
 	font-family: "Asap-Regular", "Sans-Serif";
 	text-align: center;
@@ -617,14 +626,14 @@ html {
 	justify-content: center;
 }
 
-/* Container for deleting comment */
+/* Delete Comment Container */
 .post_detail-delete-comment-container {
 	float: right;
 	position: relative;
 	right: 5px;
 }
 
-/* Delete comment button */
+/* Delete Comment */
 .post_detail-delete-comment {
 	margin: 0 auto;
 	z-index: 1;
@@ -655,7 +664,7 @@ html {
 	}
 }
 
-/* Style for dashboard_sidebar.html */
+/* DASHBOARD_SIDEBAR.HTML */
 .sidebar-ul {
 	padding: 0px;
 	font-family: "Cocogoose-Condensed-letterpress-trial";
@@ -675,6 +684,7 @@ html {
 	transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 
+/* Hover and active state styles */
 .sidebar-item:hover,
 .sidebar-item:focus,
 .sidebar-item.active {
@@ -685,36 +695,36 @@ html {
 	transform: translateY(2px);
 }
 
-/* 1. Dashboard */
-#sidebar-item-dashboard {
-	border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
+/* 1. Dashboard (Top Rounded Corners) */
+#item-dashboard {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
-#sidebar-item-dashboard:hover,
-#sidebar-item-dashboard:focus,
-#sidebar-item-dashboard:first-child.active {
-	box-shadow: inset 0px -5px 5px 0px rgba(0, 0, 0, 0.5); /* Bottom Shadow */
+#item-dashboard:hover,
+#item-dashboard:focus,
+#item-dashboard.active {
+    box-shadow: inset 0px -5px 5px 0px rgba(0, 0, 0, 0.5); /* Bottom Shadow */
 }
 
-/* 2. Edit_profile */
-#sidebar-item-edit_profile:hover,
-#sidebar-item-edit_profile:focus,
-#sidebar-item-edit_profile.active {
-	box-shadow: inset 0px 5px 5px 0px rgba(0, 0, 0, 0.5), /* Top Shadow */
-				inset 0px -5px 5px 0px rgba(0, 0, 0, 0.5); /* Bottom Shadow */	
+/* 2. Edit Profile (Top and Bottom Shadows) */
+#item-edit_profile:hover,
+#item-edit_profile:focus,
+#item-edit_profile.active {
+    box-shadow: inset 0px 5px 5px 0px rgba(0, 0, 0, 0.5), /* Top Shadow */
+                inset 0px -5px 5px 0px rgba(0, 0, 0, 0.5); /* Bottom Shadow */
 }
 
-/* 3. Change_password */
-#sidebar-item-change_password {
-	border-bottom-left-radius: 5px;
-	border-bottom-right-radius: 5px;
+/* 3. Change Password (Bottom Rounded Corners) */
+#item-change_password {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
-#sidebar-item-change_password:hover,
-#sidebar-item-change_password:focus,
-#sidebar-item-change_password.active {
-	box-shadow: inset 0px 5px 5px 0px rgba(0, 0, 0, 0.5); /* Top Shadow */
+#item-change_password:hover,
+#item-change_password:focus,
+#item-change_password.active {
+    box-shadow: inset 0px 5px 5px 0px rgba(0, 0, 0, 0.5); /* Top Shadow */
 }
 
 /* Container for Logout button */
@@ -748,12 +758,72 @@ html {
 	font-family: "Asap-Bold", "Sans-Serif";
 }
 
+/* SEARCH_RESULTS.HTML */
+.search_results-container-all {
+	margin: 40px auto;
+	padding: 10px;
+	max-width: 500px;
+	background-color: #3a3939;
+	border-radius: 5px;
+}
+
+/* Search Results Header - Styles */
+.search_results-header-container {
+	font-family: "Cocogoose-Condensed-Letterpress-trial", "Sans-Serif";
+	text-align: center;
+}
+
+.search_results-header {
+	color: #e44c9f;
+}
+
+/* Search Results Keyword - Styles */
+.search_results-keyword-container {
+	font-family: "Cocogoose-Condensed-Letterpress-trial", "Sans-Serif";
+	text-align: center;
+}
+
+.search_results-keyword {
+	color: #FFF;
+}
+
+/* Search Results List - Styles */
+.search_results-list-container {
+	align-items: center;
+	margin: 0 auto;
+	max-width: 300px;
+	border-radius: 5px;
+	text-align: center;
+	background-color: #5f5e5e;
+}
+
+.search_results-ul {
+	padding: 5px;
+	font-family: "Asap-bold", "Sans-Serif";
+	list-style: none;
+}
+
+.search_results-li:hover {
+	background-color: #5f5e5e;
+}
+
+.search_results-li a {
+    text-decoration: none;
+	color: #FFF;
+}
+
+.search_results-li a:hover {
+    text-decoration: none;
+	color: #01f16d;
+	background-color: #5f5e5e;
+}
+
 /* Styles for Footer.html */
 .developer {
 	margin: 0 auto;
 	outline-width: 5px;
 	position: relative;
-	font-family: "Cocogoose-Narrow-Letterpress-trial";
+	font-family: "Cocogoose-Narrow-Letterpress-trial", "Sans-Serif";
 	text-align: center;
 	color:#00000041;
     text-shadow: 2px 1px 1px#fff;
@@ -785,7 +855,7 @@ html {
     opacity: 0;
 }
 
-/* Responsive settings */
+/* Responsive Settings - Small Screens */
 @media (max-width: 768px) {
 	/* Base */
 	.brickwall {
@@ -824,10 +894,6 @@ html {
 	.postwall-comments-ul,
 	.postwall-form-container textarea {
 		font-size: 14px;
-	}
-
-	.postwall-form-button-container {
-		margin-top: 10px;
 	}
 
 	/* Post.html */
@@ -871,7 +937,7 @@ html {
 
 	.post_detail-content {
 		font-size: 16px;
-		font-family: "Asap-Bold";
+		font-family: "Asap-Bold", "Sans-Serif";
 	}
 
 	.post_detail-meta {
@@ -934,6 +1000,7 @@ html {
 	}
 
 	.account-container {
+		margin-top: 5px;
 		font-size: 18px;
 	}
 
@@ -941,7 +1008,16 @@ html {
 		font-size: 20px;
 	}
 
+	/* Login.html */
+	.login-container {
+		margin: 10px 50px;
+	}
+
 	/* Register.html */
+	.register-container {
+		margin: 10px 50px;
+	}
+
 	.smal-text {
 		font-size: 16px;
 	}
@@ -952,6 +1028,7 @@ html {
 	}
 }
 
+/* Responsive Settings - Medium Screens */
 @media (min-width: 769px) and (max-width: 1200px) {
 	/* Base */
 	.brickwall {
@@ -1021,7 +1098,7 @@ html {
 	}
 
 	.post_detail-content {
-		font-family: "Asap-Bold";
+		font-family: "Asap-Bold", "Sans-Serif";
 		font-size: 20px;
 	}
 
@@ -1089,6 +1166,7 @@ html {
 	}
 
 	.account-container {
+		margin-top: 15px;
 		font-size: 20px;
 	}
 
@@ -1096,22 +1174,27 @@ html {
 		font-size: 24px;
 	}
 
-	.margin-1 {
-		margin: 0 100px 0 100px;
+	/* Login.html */
+	.login-container {
+		margin: 10px 180px;
 	}
 
-	/* Login.html */
+	/* Register.html */
+	.register-container {
+		margin: 10px 180px;
+	}
+
 	.smal-text {
 		font-size: 18px;
 	}
 
-	/* Register.html */
+	/* Footer.html */
 	.developer {
 		font-size: 28px;
 	}
 }
 
-/* RESPONSIVE - LARGE SCREEN */
+/* Responsive Settings - Large Screens */
 @media (min-width: 1201px) {
 	/* Base */
 	.brickwall {
@@ -1250,6 +1333,7 @@ html {
 	}
 
 	.account-container {
+		margin-top: 25px;
 		font-size: 20px;
 	}
 
@@ -1257,16 +1341,21 @@ html {
 		font-size: 26px;
 	}
 
-	.margin-1 {
-		margin: 0 300px 0 300px;
+	/* Login.html */
+	.login-container {
+		margin: 10px 200px;
 	}
 
-	/* Login.html */
+	/* Register.html */
+	.register-container {
+		margin: 10px 200px;
+	}
+
 	.smal-text {
 		font-size: 18px;
 	}
 
-	/* Register.html */
+	/* Footer.html */
 	.developer {
 		font-size: 28px;
 	}

@@ -5,61 +5,68 @@
 <div class="brickwall">
     {% if posts_with_comments %}
         {% for item in posts_with_comments %}
-            
-            <!-- Post Content -->
-            <div class="concrete">
+
+            <!-- For each Post -->
+            <div class="concrete" data-post-id="{{ item.post.id }}">
+
                 <div class="polaroid">
+                    <!-- Link to details for specific post -->
                     <div class="postwall-link-container">
-                        <a href="{% url 'post_detail' post_id=item.post.id %}" class="postwall-link">
+                        <a href="{% url 'post_detail' item.post.id %}" class="postwall-link">
                             <i class="fa-solid fa-up-right-and-down-left-from-center fa-2xl"></i>
                         </a>
                     </div>
+
+                    <!-- Specific Post Title -->
                     <div class="postwall-title">{{ item.post.title }}</div>
                     <div class="postwall-image-container">
-                    {% if item.post.img %}
-                        <img class="postwall-image" src="{{ item.post.img.url }}" alt="{{ item.post.title }}">
-                    {% endif %}
+                        {% if item.post.img %}
+                            <!-- Incl./excl. Image -->
+                            <img class="postwall-image" src="{{ item.post.img.url }}" alt="{{ item.post.title }}">
+                        {% endif %}
                     </div>
+
+                    <!-- Meta & Content for specific Post -->
                     <p class="postwall-meta">{{ item.post.user.username }} - {{ item.post.created_at }}</p>
                     <p class="postwall-content">{{ item.post.short_content }}</p>
                 </div>
-                
-                <!-- Comment Section -->
+
+                <!-- Comments for specific Post -->
                 <div class="postwall-comments-container">
                     <div class="postwall-comments-header">Comments</div>
                     <ul class="postwall-comments-ul">
+
+                        <!-- Loop through comments if they exist -->
                         {% for comment in item.comments %}
-                            <li class="postwall-comments-li"><strong>{{ comment.user.username }}:</strong> {{ comment.text }}</li>
+                            <li class="postwall-comments-li"><strong>{{ comment.user.username }}:</strong>
+                                {{ comment.text }}
+                            </li>
                         {% endfor %}
                     </ul>
-                    <form method="post" action="{% url 'add_comment' item.post.id %}">
+
+                    <!-- Form to add a comment using button or key "Enter"  -->
+                    <form method="post" action="{% url 'add_comment' item.post.id %}" id="comment-form-{{ item.post.id }}">
                         {% csrf_token %}
                         <div class="postwall-form-container">
-                            <textarea id="id_textarea" name="comment_text" rows="1" placeholder="Add Comment Here..."></textarea>
+                            <textarea id="id_textarea" name="comment_text" rows="1" placeholder="Add Comment Here..."
+                                onkeypress="handleKeyPress(event, {{ item.post.id }})"></textarea>
                             <div class="postwall-form-button-container">
-                                <button type="submit" class="green-button">Post</button>
+
+                                <!-- Submit button too add comment -->
+                                <button type="submit" class="green-button" aria-label="Post comment">
+                                    Post
+                                </button>
                             </div>
                         </div>
                     </form>
+
                 </div>
             </div>
         {% endfor %}
     {% endif %}
-    </div>
 </div>
-{% endblock %}
 
-{% block javascript %}
-<script>
-    $(document).ready(function() {
-        function pulsatePlaceholder() {
-            $(".postwall-form-container textarea").animate({
-                opacity: 0.5
-            }, 1000).animate({
-                opacity: 1
-            }, 1000, pulsatePlaceholder);
-        }
-        pulsatePlaceholder();
-    });
-</script>
+<!-- See Script for Description -->
+<script src="{% static 'js/comments.js' %}"></script>
+<script src="{% static 'js/scroll_to_post.js' %}"></script>
 {% endblock %}

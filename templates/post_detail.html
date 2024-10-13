@@ -7,11 +7,13 @@
     <!-- Posted Content -->
     <div class="post_detail-container">
         <div class="post_detail-title">{{ post.title }}</div>
-        <div class="post_detail-image-container">
-            {% if post.img %}
-                <img src="{{ post.img.url }}" class="post-img img-fluid" alt="Post image"/>
-            {% endif %}
-        </div>
+
+        {% if post.img %}
+            <div class="post_detail-image-container">
+            <img src="{{ post.img.url }}" class="post-img img-fluid" alt="Post image"/>
+            </div>
+        {% endif %}
+
         <div class="post_detail-content">{{ post.content }}</div>
         <div class="post_detail-meta">
             (Posted by {{ post.user.username }} in {{ post.created_at }})
@@ -20,22 +22,24 @@
         <!-- Delete Post -->
         {% if request.user == post.user or request.user.is_admin %}
             <div class="post_detail-delete-post-container">
-                <button type="button" class="post_detail-delete-post-button" onclick="showDeleteConfirmation()">
+                <button type="button" class="post_detail-delete-post-button"
+                    onclick="showDeleteConfirmation()" aria-label="Delete post">
                     <i class="fa-solid fa-trash"></i>
                 </button>
             </div>
 
             <!-- Delete Post Confirmation -->
-            <div id="delete-confirmation-container" style="display: none">
+            <div id="delete-confirmation-container">
                 <p>Are you sure you want to delete this post?</p>
                 <form method="post" action="{% url 'delete_post' post_id=post.id %}">
                     {% csrf_token %}
                     <div class="delete-confirmation-button-container">
                         <button type="submit" class="red-button">Yes</button>
-                        <button type="button" class="green-small-button" onclick="hideDeleteConfirmation()">No</button>
+                        <button type="button" class="green-small-button" onclick="hideDeleteConfirmation()">
+                            No
+                        </button>
                     </div>
                 </form>
-                
             </div>
         {% endif %}
 
@@ -45,10 +49,9 @@
                 <ul class="post_detail-comments-ul">
                     {% for comment in comments %}
                         <li class="post_detail-comments-li">
-                            <strong>{{ comment.user.username }}:</strong>
-                            {{ comment.text }}
-
+                            <strong>{{ comment.user.username }}:</strong> {{ comment.text }}
                             <!-- Delete Comments -->
+
                             {% if request.user == comment.user or request.user.is_admin %}
                                 <div class="post_detail-delete-comment-container">
                                     <form method="post" action="{% url 'delete_comment' comment_id=comment.id %}">
@@ -60,23 +63,18 @@
                                 </div>
                             {% endif %}
                         </li>
+
                     {% empty %}
-                        <li class="post_detail-no-comments">Be the first to make a comment!</li>
+                        <li class="post_detail-no-comments"> No comments yet!</li>
                     {% endfor %}
+
                 </ul>
             </div>
         </div>
     </div>
 </div>
+{% endblock %}
 
-<script>
-    function showDeleteConfirmation() {
-        document.getElementById("delete-confirmation-container").style.display = "block";
-    }
-
-    function hideDeleteConfirmation() {
-        document.getElementById("delete-confirmation-container").style.display = "none";
-    }
-</script>
-
+{% block extra_scripts %}
+	<script src="{% static 'js/delete_confirmation.js' %}"></script>
 {% endblock %}

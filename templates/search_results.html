@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %} Postwall - Search Results {% endblock %}
+
+{% block content %}
+<div class="brickwall">
+
+    <!-- Wrapper for all search result elements -->
+    <div class="search_results-container-all">
+
+        <!-- Container for header and keyword -->
+        <div class="search_results-container-1">
+            <div class="search_results-header-container">
+                <h2 class="search_results-header">Search Results for:</h2>
+            </div>
+            <div class="search_results-keyword-container">
+                <h3 class="search_results-keyword">"{{ request.GET.keyword }}"</h3>
+            </div>
+        </div>
+
+        <!-- Container for search results -->
+        <div class="search_results-list-container">
+        {% if posts %}
+            <ul class="search_results-ul">
+                {% for post in posts %}
+                    <li class="search_results-li">
+                        <a href="{% url 'post_detail' post.id %}">{{ post.title }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p>No results found.</p>
+        {% endif %}
+        </div>
+
+    </div>
+</div>
+{% endblock %}

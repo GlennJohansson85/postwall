@@ -1,129 +1,95 @@
-{% load static %} {% block extra_css %}
-<link href="{% static 'css/navbar.css' %}" rel="stylesheet" type="text/css" />
-{% endblock %} {% block extra_scripts %}
-<script src="{% static 'js/navbar.js' %}"></script>
+{% load static %}
+
+{% block extra_css %}
+	<link href="{% static 'css/navbar.css' %}" rel="stylesheet" type="text/css"/>
 {% endblock %}
 
+{% block header %}
 <header>
-	<!-- BRAND -->
+
+	<!-- Brand -->
 	<nav class="navbar navbar-expand-lg">
 		<div class="container-fluid">
 			<ul class="navbar-nav">
 				<li class="nav-item">
-					<a
-						class="navbar-brand {% if request.path == '/postwall/' %} active {% endif %}"
-						href="{% url 'postwall' %}"
-						>Post Wall</a
-					>
+					<a class="navbar-brand {% if request.path == '/postwall/' %} active {% endif %}"
+						href="{% url 'postwall' %}">Post Wall</a>
 				</li>
 			</ul>
 
-			<!-- TOGGLER -->
-			<button
-				class="navbar-toggler"
-				type="button"
-				data-bs-toggle="collapse"
-				data-bs-target="#navbarSupportedContent"
-				aria-controls="navbarSupportedContent"
-				aria-expanded="false"
-				aria-label="Toggle navigation">
+			<!-- Toggler -->
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+				data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+				aria-expanded="false" aria-label="Toggle navigation">
+
 				{% if user.is_authenticated and profile_picture_url %}
-				<img
-					src="{{ profile_picture_url }}"
-					alt="profile pic"
-					class="profile-image-toggler" />
+					<!-- Show profile picture in toggler if authenticated -->
+					<img src="{{ profile_picture_url }}" alt="profile pic" class="profile-image-toggler"/>
 				{% endif %}
+
 				<i class="fas fa-chevron-down"></i>
 			</button>
 
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<!-- SEARCH (Moved outside of the UL) -->
-				<div class="input-group ms-auto">
-					<input
-						class="form-control search-input"
-						type="search"
-						placeholder="Search"
-						aria-label="Search" />
-					<button class="btn search-btn" type="button" id="btn-search">
+
+				<!-- Search Function -->
+				<form action="{% url 'search' %}" method="GET" class="input-group ms-auto">
+					<input type="text" name="keyword" class="form-control search-input"
+						placeholder="Search for a Post" aria-label="Search" id="search-input"
+						autocomplete="off"/>
+					<button class="search-btn" type="submit" id="btn-search" aria-label="Search posts">
 						<i class="fas fa-search"></i>
 					</button>
-				</div>
+					<div class="suggestions"></div>
+				</form>
 
-				<!-- NAV ITEMS -->
+				<!-- Nav Links -->
 				<ul class="navbar-nav ms-auto">
-					<!-- POST LINK -->
+
+					<!-- Post Link -->
 					<li class="nav-item">
-						<a
-							class="nav-link {% if request.path == '/post/' %}active{% endif %}"
-							href="{% url 'post' %}"
-							>Post</a
-						>
+						<a class="nav-link {% if request.resolver_match.url_name == '/post/' %} active {% endif %}"
+							href="{% url 'post' %}">Post</a>
 					</li>
 
-					<!-- MESSAGE LINK -->
+					<!-- Message Link - Not Operational -->
 					<li class="nav-item">
-						<a
-							class="nav-link {% if request.path == '/messages/' %}active{% endif %}"
-							href="#"
-							>Messages</a
-						>
+						<a class="nav-link {% if request.resolver_match.url_name == '/messages/' %} active {% endif %}"
+							href="#">Messages</a>
 					</li>
 
-					<!-- FRIENDS LINK -->
+					<!-- Friends Link - Not Operational -->
 					<li class="nav-item">
-						<a
-							class="nav-link {% if request.path == '/friends/' %}active{% endif %}"
-							href="#"
-							>Friends</a
-						>
-					</li>
-
-					<!-- PROFILE DROPDOWN -->
-					<li class="nav-item dropdown">
-						<a
-							class="nav-link dropdown-toggle {% if request.path == '/profile/' %}active{% endif %}"
-							href="{% url 'login' %}"
-							id="profileDropdown"
-							role="button"
-							data-bs-toggle="dropdown"
-							aria-expanded="false">
-							{% if user.is_authenticated and profile_picture_url %}
-							<!-- Show profile image in toggler button -->
+						<a class="nav-link {% if request.resolver_match.url_name == '/friends/' %} active {% endif %}"
+							href="#">Friends</a>
+					<li class="nav-item">
+						<!-- Dropdown Link (Profile Dashboard) -->
+						<a class="nav-link {% if request.resolver_match.url_name == 'profile' %} active {% endif %}" 
+							href="{% if user.is_authenticated %}{% url 'dashboard' %}{% else %}{% url 'login' %}{% endif %}" 
+							id="profiledropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+						{% if user.is_authenticated and profile_picture_url %}	
+							<!-- Show profile picture in link when authenticated -->
 							<span class="d-lg-none">
-								<img
-									src="{{ profile_picture_url }}"
-									alt="profile pic"
-									class="profile-image-toggler" />
+								<img src="{{ profile_picture_url }}" alt="profile pic" class="profile-image-toggler"/>
 							</span>
-							<!-- Show profile text in dropdown -->
+
+							<!-- Show the profile picture when on large screens -->
 							<span class="d-none d-lg-inline">
-								<img
-									src="{{ profile_picture_url }}"
-									alt="profile pic"
-									class="profile-image" />
+								<img src="{{ profile_picture_url }}" alt="profile pic" class="profile-image"/>
 							</span>
-							{% else %}
-							<!-- Show profile text in both cases -->
+						{% else %}
+							<!-- Show profile text in both cases if there's an error -->
 							<span class="d-lg-none">Profile</span>
 							<span class="d-none d-lg-inline">Profile</span>
-							{% endif %}
+						{% endif %}
 						</a>
-						<ul
-							class="dropdown-menu dropdown-menu-end"
-							aria-labelledby="profileDropdown">
+
+						<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="profileDropdown">
 							{% if user.is_authenticated %}
-							<li>
-								<a class="dropdown-item" href="{% url 'dashboard' %}"
-									>Dashboard</a
-								>
-							</li>
-							<li>
-								<a class="dropdown-item" href="{% url 'logout' %}">Logout</a>
-							</li>
+								<li><a class="dropdown-item {% if request.resolver_match.url_name == 'dashboard' %} active {% endif %}" href="{% url 'dashboard' %}">Dashboard</a></li>
+								<li><a class="dropdown-item {% if request.resolver_match.url_name == 'logout' %} active {% endif %}" href="{% url 'logout' %}">Logout</a></li>
 							{% else %}
-							<li>
-								<a class="dropdown-item" href="{% url 'login' %}">Login</a>
-							</li>
+								<li><a class="dropdown-item {% if request.resolver_match.url_name == 'login' %} active {% endif %}" href="{% url 'login' %}">Login</a></li>
 							{% endif %}
 						</ul>
 					</li>
@@ -132,3 +98,11 @@
 		</div>
 	</nav>
 </header>
+{% endblock %}
+
+{% block extra_scripts %}
+	<!-- See scripts for description -->
+    <script src="{% static 'js/navbar.js' %}"></script>
+    <script src="{% static 'js/hide_search.js' %}"></script>
+	<script src="{% static 'js/search.js' %}"></script>
+{% endblock %}
