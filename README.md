@@ -1,2 +1,2 @@
-# Postwall - Blog project
+# <center>Postwall - Blog project</center>
 <hr>
