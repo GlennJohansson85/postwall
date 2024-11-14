@@ -3,6 +3,8 @@
   <a href="https://postwall-500ee4318184.herokuapp.com/">View the live project here</a>
 </div>
 
+Postwall is a platform where you can share your thoughts, ideas, and daily experiences through blog posts and photos. Whether you're documenting your life, sharing creative projects, or simply reflecting on your day, Postwall provides a space for you to express yourself and connect with others.
+
 
 <h2 align="center"> User Experience (UX) </h2>
 
