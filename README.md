@@ -4,10 +4,7 @@
 </div>
 
 
-[View the live project here](https://postwall-500ee4318184.herokuapp.com/)
-
-
-## User Experience (UX)
+<h2 align="center"> User Experience (UX) </h2>
 
 -   ### User stories
 
