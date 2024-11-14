@@ -12,7 +12,7 @@
 
 <h3 align="center">First Time Visitor Goals</h3>
    <h4 align="center">When first visiting Postwall, users are introduced to a user-friendly platform where they can:</h4>
-	 <h5>Browse posts  Posts are displayed on the Postwall page in descending order, with each post featuring a title, image, short text, and metadata (author’s username and timestamp).</h5>
+	 <h5><strong>Browse posts</strong> which are displayed on the main page "Postwall" in descending order, with each post featuring a title, image(optional), short text, and metadata (author’s username and timestamp).</h5>
 
 
 All posts are displayed on the main page (Postwall) in descending order. Each post includes metadata showing the author's username and timestamp.
