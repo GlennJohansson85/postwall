@@ -4,19 +4,18 @@
 </div>
 
 <h4 align="center">Postwall is a platform where you can share your thoughts, ideas, and daily experiences through blog posts and photos. 
-  <br>Whether you're documenting your life, sharing creative projects, or simply reflecting on your day,
+  <br>Whether you're documenting your life, sharing creative projects, or simply reflecting on your day.
   <br>Postwall provides a space for you to express yourself and connect with others.</h4>
 
 
-<h2 align="center"> User Experience (UX) </h2>
+<h2 align="center">User Stories</h2>
 
--   ### User stories
+## First Time Visitor Goals
+   When first visiting Postwall, users are introduced to a user-friendly platform with a hint of punk/retro design: 
+	 * Browse posts  Posts are displayed on the Postwall page in descending order, with each post featuring a title, image, short text, and metadata (author’s username and timestamp).
 
-    -   #### First Time Visitor Goals
 
-        Postwall is a blog platform where users can share their content (text/images) with other registered users. 
-
-        All posts are displayed on the main page (Postwall) in descending order. Each post includes metadata showing the author's username and timestamp.
+All posts are displayed on the main page (Postwall) in descending order. Each post includes metadata showing the author's username and timestamp.
 
         Registered users can add comments to each post, which are displayed in ascending order, with the commentator's username at the beginning of each comment.
 
