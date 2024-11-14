@@ -11,8 +11,8 @@
 <h2 align="center">User Stories</h2>
 
 <h3 align="center">First Time Visitor Goals</h3>
-   <div align="center">When first visiting Postwall, users are introduced to a user-friendly platform with a hint of punk/retro design:</div>
-	 * Browse posts  Posts are displayed on the Postwall page in descending order, with each post featuring a title, image, short text, and metadata (author’s username and timestamp).
+   <h4 align="center">When first visiting Postwall, users are introduced to a user-friendly platform where they can:</h4>
+	 <h5>Browse posts  Posts are displayed on the Postwall page in descending order, with each post featuring a title, image, short text, and metadata (author’s username and timestamp).</h5>
 
 
 All posts are displayed on the main page (Postwall) in descending order. Each post includes metadata showing the author's username and timestamp.
