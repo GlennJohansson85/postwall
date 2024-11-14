@@ -1,6 +1,6 @@
 <h1 align="center">Postwall</h1>
 
-<p align="center">[Click here to see the live project!](https://github.com/user-attachments/assets/d7aba876-2522-4569-bdc5-2ec3d0a89c45)</p>
+<p align="center"[Click here to see the live project!]>(https://github.com/user-attachments/assets/d7aba876-2522-4569-bdc5-2ec3d0a89c45)</p>
 
 ## User Experience (UX)
 
