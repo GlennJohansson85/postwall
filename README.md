@@ -1,5 +1,5 @@
 <h1 align="center">Postwall</h1>
-[View the live project here.]([https://codeinstitute.net](https://github.com/user-attachments/assets/d7aba876-2522-4569-bdc5-2ec3d0a89c45))
+[View the live project here.](https://github.com/user-attachments/assets/d7aba876-2522-4569-bdc5-2ec3d0a89c45)
 
 
 ## User Experience (UX)
