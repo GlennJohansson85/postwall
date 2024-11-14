@@ -1,5 +1,5 @@
 <h1 align="center">Postwall</h1>
-[View the live project here.](https://postwall-500ee4318184.herokuapp.com/)
+[View the live project here](https://postwall-500ee4318184.herokuapp.com/)
 
 
 
