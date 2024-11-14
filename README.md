@@ -1,8 +1,8 @@
 <h1 align="center">Postwall</h1>
-
-<div style="text-align: center;">
+<div align="center">
   <a href="https://postwall-500ee4318184.herokuapp.com/">View the live project here</a>
 </div>
+
 
 [View the live project here](https://postwall-500ee4318184.herokuapp.com/)
 
