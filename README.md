@@ -23,8 +23,11 @@ Postwall provides a space for you to express yourself and connect with others.**
 
 
 ### Returning Visitor Goals
-**For returning visitors, Postwall offers a seamless, efficient experience to encourage continued engagement:**
+**For returning (registered) visitors, Postwall offers a seamless, efficient experience to encourage continued engagement:**
 
+* **Post Content:** *Users can write posts, share articles, or document experiences, along with images that enhance their storytelling.*
+* **Upload Photos:** *Photos can be uploaded to accompany posts, creating a visually rich experience for visitors and commenters.*
+* **Engage with Comments:** Registered users can leave comments on posts directly from the Postwall page. Comments are displayed in ascending order and the user can see responses in real-time without being redirected to a separate post page.*
 
         Registered users can add comments to each post, which are displayed in ascending order, with the commentator's username at the beginning of each comment.
 
