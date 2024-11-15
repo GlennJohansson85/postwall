@@ -19,15 +19,11 @@
 
 ### First Time Visitor Goals
 #### When first visiting Postwall, users are introduced to a user-friendly platform with a retro design where they can:
-* <strong>Browse posts</strong>
-which are displayed on the main page "Postwall" in descending order, with each post featuring a post title, image (optional), a short description and metadata (author’s username and timestamp).
+* <strong>Browse posts</strong> which are displayed on the main page "Postwall" in descending order, with each post featuring a post title, image (optional), a short description and metadata (author’s username and timestamp).
 <br>
-* <strong>Search posts</strong>
-using the searchfield in the navbar. Post titles are familiar to the user´s input and will be presented as links in a dropdown. When clicked, the user will be scrolled down to the specific post.
-By pressing "Enter" or clicking on the search icon, all related posts will be presented as links in a result page.
+* <strong>Search posts</strong> using the searchfield in the navbar. Post titles are familiar to the user´s input and will be presented as links in a dropdown. When clicked, the user will be scrolled down to the specific post. By pressing "Enter" or clicking on the search icon, all related posts will be presented as links in a result page.
 <br>
-* <strong>Read comments</strong>
-related to each post made by other registered users.
+* <strong>Read comments</strong> related to each post made by other registered users.
 <br>
 
 
