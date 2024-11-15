@@ -3,16 +3,16 @@
   <a href="https://postwall-500ee4318184.herokuapp.com/">View the live project here</a>
 </div>
 
-<h4 align="center">Postwall is a platform where you can share your thoughts and daily experiences through blog posts and photos. 
+<h3 align="center">Postwall is a platform where you can share your thoughts and daily experiences through blog posts and photos. 
   <br>Whether you're documenting your life, sharing creative projects, or simply reflecting on your day.
-  <br>Postwall provides a space for you to express yourself and connect with others.</h4>
+  <br>Postwall provides a space for you to express yourself and connect with others.</h3>
 
 
-<h2 align="center">User Stories</h2>
+## User Stories
 
-<h3 align="center">First Time Visitor Goals</h3>
-<h4>When first visiting Postwall, users are introduced to a user-friendly platform where they can:</h4>
-<h5><strong>Browse posts</strong> which are displayed on the main page "Postwall" in descending order, with each post featuring a title, image(optional), short text, and metadata (author’s username and timestamp).</h5>
+### First Time Visitor Goals
+#### When first visiting Postwall, users are introduced to a user-friendly platform where they can:
+* <strong>Browse posts</strong> which are displayed on the main page "Postwall" in descending order, with each post featuring a title, image(optional), short text, and metadata (author’s username and timestamp).</h5>
 
 
 All posts are displayed on the main page (Postwall) in descending order. Each post includes metadata showing the author's username and timestamp.
