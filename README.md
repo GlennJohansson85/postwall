@@ -1,4 +1,4 @@
-# Postwall [Live Project](https://postwall-500ee4318184.herokuapp.com/)
+# [Postwall](https://postwall-500ee4318184.herokuapp.com/)
 
 <h4 align="center"> Postwall is a platform where you can share your thoughts and daily experiences through blog posts and photos.
   <br>
