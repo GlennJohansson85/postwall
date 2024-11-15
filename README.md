@@ -18,7 +18,7 @@
 
 **Browse Posts** *displayed on the main page in descending order, with each post featuring a post title, image (optional), a short description and metadata (author’s username and timestamp).*
 
-**Search Posts** ****using the searchfield in the navbar. Post titles are familiar to the user´s input and will be presented as links in a dropdown. When clicked, the user will be scrolled down to the specific post. By pressing "Enter" or clicking on the search icon, all related posts will be presented as links in a result page.****
+**Search Posts** *using the searchfield in the navbar. Post titles are familiar to the user´s input and will be presented as links in a dropdown. When clicked, the user will be scrolled down to the specific post. By pressing "Enter" or clicking on the search icon, all related posts will be presented as links in a result page.*
 
 **Read Post Comments** made by other registered user.
 
