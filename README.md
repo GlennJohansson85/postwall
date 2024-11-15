@@ -25,7 +25,7 @@
   <br>
 * <strong>Read Post Comments</strong> made by other registered user. 
   <br>
-* <strong>Become a Member</strong> and start share & connect with others.
+* <strong>Sign up</strong> and engage with the Community.
   <br>
 
 
