@@ -15,7 +15,7 @@
 </h4>
 
 
-## User Stories
+# User Stories
 
 ### First Time Visitor Goals
 #### When first visiting Postwall, users are introduced to a user-friendly platform with a retro design where they can:
