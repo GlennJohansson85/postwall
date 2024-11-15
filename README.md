@@ -28,6 +28,9 @@
 * <strong>Sign up</strong> and engage with the Community.
   <br>
 
+### Returning Visitor Goals
+#### For returning visitors, Postwall offers a seamless, efficient experience to encourage continued engagement:
+
 
         Registered users can add comments to each post, which are displayed in ascending order, with the commentator's username at the beginning of each comment.
 
