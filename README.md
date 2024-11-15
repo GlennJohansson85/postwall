@@ -13,7 +13,7 @@
 
 <h2 align="center">User Stories</h2>
 
-**First Time Visitor Goals**
+### **First Time Visitor Goals**
 
 **When first visiting Postwall, users are introduced to a user-friendly platform with where they can:**
 
