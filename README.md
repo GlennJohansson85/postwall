@@ -1,13 +1,13 @@
 # [Postwall](https://postwall-500ee4318184.herokuapp.com/)
 
-<h4 align="center"> Postwall is a platform where you can share your thoughts and daily experiences through blog posts and photos.
-  <br>
-  Whether you're documenting your life, sharing creative projects, or simply reflecting on your day.
-  <br>
-  Postwall provides a space for you to express yourself and connect with others.
-</h4>
+### Postwall is a platform where you can share your thoughts and daily experiences through blog posts and photos.
+<br>
+### Whether you're documenting your life, sharing creative projects, or simply reflecting on your day.
+<br>
+### Postwall provides a space for you to express yourself and connect with others.
 
-<h2 align="center">User Stories</h2>
+
+## User Stories
 
 ### **First Time Visitor Goals**
 
