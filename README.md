@@ -66,9 +66,8 @@ Posts/Comments can only be deleted by the author or the website administrators. 
 
 * [Font Awesome](https://fontawesome.com/) for icons in the html.
 
-  
-1. [Hover.css:](https://ianlunn.github.io/Hover/)
-    - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
+* [Fontspace](https://www.fontspace.com/) & [1001Fonts](https://www.1001fonts.com/) for the fonts used in the project.
+
 1. [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
 1. [Font Awesome:](https://fontawesome.com/)
