@@ -60,9 +60,12 @@ Posts/Comments can only be deleted by the author or the website administrators. 
 * [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
 ### 5. Frameworks, Libraries & Programs Used
-* [Bootstrap 5.0.2:](https://getbootstrap.com/docs/5.0/getting-started/introduction/) Bootstrap was used to assist with the responsiveness and styling of the website.
+* [Bootstrap 5.0.2](https://getbootstrap.com/docs/5.0/getting-started/introduction/) was used to assist with the responsiveness and styling of the website.
   
-* [jQuery 3.7.1:](https://jquery.com/)
+* [jQuery 3.7.1](https://jquery.com/) to interact with the HTML model (DOM).
+
+* [Font Awesome](https://fontawesome.com/) for icons in the html.
+
   
 1. [Hover.css:](https://ianlunn.github.io/Hover/)
     - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
