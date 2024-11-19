@@ -10,7 +10,7 @@ Postwall provides a space for you to express yourself and connect with others.**
 ## 1. User Stories
 
 ### **1.1 First Time Visitor Goals**
-**When first visiting Postwall, users are introduced to a user-friendly platform with where they can:**
+   **When first visiting Postwall, users are introduced to a user-friendly platform with where they can:**
 
 * **Navigate** through the different pages in the navbar.
 * **Browse Posts** displayed on the main page in descending order, with each post featuring a post title, image (optional), a short description and metadata (author’s username and timestamp).
@@ -20,7 +20,7 @@ Postwall provides a space for you to express yourself and connect with others.**
 
 
 ### **1.2 Returning Visitor Goals**
-**For returning (registered) visitors, Postwall offers a seamless, efficient experience to encourage continued engagement:**
+   **For returning (registered) visitors, Postwall offers a seamless, efficient experience to encourage continued engagement:**
 
 * **Engage** with others through posts, share articles, or document experiences, along with images that enhance their storytelling.
 * **Share Moments** through photos creating a visually rich experience for visitors and commenters.
@@ -28,7 +28,7 @@ Postwall provides a space for you to express yourself and connect with others.**
 * **The Dasboard** provides the user the ability to customize their profiles by adding a profile picture or change their account details.
 
  ### **1.3 Frequent Visitor Goals**
-**For frequent visitors the website offers a easy and appealing design:**
+   **For frequent visitors the website offers a easy and appealing design:**
 
 * **A Unique Design** which features a punk and retro aesthetic, with a brick wall background showcasing posts as Polaroid-style images. Each post combines digital metadata with handwritten content, enhancing the nostalgic, vintage vibe. The navigation bar and buttons glow with neon lighting when hovered over, while active buttons stay pressed, casting shadows to guide users and indicate their current page. This design creates an immersive, interactive experience that brings the past to life in a modern way.
 
