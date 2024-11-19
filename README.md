@@ -1,3 +1,5 @@
+# WORK IN PROGRESS
+
 # Postwall
 [Live Project here](https://postwall-500ee4318184.herokuapp.com/)
 
@@ -64,16 +66,12 @@ Posts/Comments can only be deleted by the author or the website administrators. 
   
 * [jQuery 3.7.1](https://jquery.com/) to interact with the HTML model (DOM).
 
-* [Font Awesome](https://fontawesome.com/) for icons in the html.
+* [Font Awesome](https://fontawesome.com/) for the icons.
 
-* [Fontspace](https://www.fontspace.com/) & [1001Fonts](https://www.1001fonts.com/) for the fonts used in the project.
+* [Fontspace](https://www.fontspace.com/) & [1001Fonts](https://www.1001fonts.com/) for the fonts.
 
-1. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
-1. [Font Awesome:](https://fontawesome.com/)
-    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-1. 
-    - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
+CONTINUE HERE 2024-11-19
+
 1. [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
