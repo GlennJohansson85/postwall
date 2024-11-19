@@ -46,9 +46,9 @@ Postwall provides a space for you to express yourself and connect with others.**
 Posts/Comments can only be deleted by the author or the website administrators. (If a post is deleted, its comments will be removed as well.)
 
 ## 2. Wireframes
-### 2.1 Home Page Wireframe - [View](ADD)
-### 2.2 Mobile Wireframe - [View](ADD)
-### 2.3 Contact Us Page Wireframe - [View](ADD)
+* Home Page Wireframe - [View](ADD)
+* Mobile Wireframe - [View](ADD)
+* Contact Us Page Wireframe - [View](ADD)
 
 ## 3. Features
 ### 3.1 Responsive on all device sizes
