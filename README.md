@@ -11,7 +11,7 @@ Postwall provides a space for you to express yourself and connect with others.**
 ## 1. User Stories
 
 ### **1.1 First Time Visitor Goals**
-   **When first visiting Postwall, users are introduced to a user-friendly platform with where they can:**
+   **When first visiting Postwall, users are introduced to a user-friendly platform where they can:**
 
 * **Navigate** through the different pages in the navbar.
   
