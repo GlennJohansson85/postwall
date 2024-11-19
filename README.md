@@ -32,8 +32,9 @@ Postwall provides a space for you to express yourself and connect with others.**
 
 * **A Unique Design** which features a punk and retro aesthetic, with a brick wall background showcasing posts as Polaroid-style images. Each post combines digital metadata with handwritten content, enhancing the nostalgic, vintage vibe. The navigation bar and buttons glow with neon lighting when hovered over, while active buttons stay pressed, casting shadows to guide users and indicate their current page. This design creates an immersive, interactive experience that brings the past to life in a modern way.
 
-* **Post Details** 
-
+* **Post Details** allows users to view individual posts in a larger, more immersive layout. The content is displayed in a modern, easy-to-read font, providing a clearer reading experience. Additionally, users can view images associated with the post, including metadata and related comments.
+  
+* **Delete Content** is available to all authors and website admins through the details of each post. As a user, you can delete your own posts (including related comments) or your comments on others' posts by accessing the post details. To delete a comment, simply click the button on the right side of it, and to delete a post, click the trash can icon in the bottom right corner of the post. For added security, you will be asked to confirm your decision before deleting a post.
  Posts/Comments can only be deleted by the author or the website administrators. (If a post is deleted, its comments will be removed as well.)
 
         To bring this project to life with all of its functionalities (described in the "Features" section), I used HTML, CSS, JavaScript, Python, as well as the Bootstrap framework and jQuery.
