@@ -60,8 +60,7 @@ Posts/Comments can only be deleted by the author or the website administrators. 
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
 ### 5. Frameworks, Libraries & Programs Used
-#### 5.1 [Bootstrap 5.0.2:](https://getbootstrap.com/docs/5.0/getting-started/introduction/)**
-  Bootstrap was used to assist with the responsiveness and styling of the website.
+#### 5.1 [Bootstrap 5.0.2:](https://getbootstrap.com/docs/5.0/getting-started/introduction/): Bootstrap was used to assist with the responsiveness and styling of the website.
 
 * **5.2[jQuery 3.7.1:](https://jquery.com/)**
   
