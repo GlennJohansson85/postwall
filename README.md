@@ -62,7 +62,7 @@ Posts/Comments can only be deleted by the author or the website administrators. 
 ### 5. Frameworks, Libraries & Programs Used
 
 #### 5.1 [Bootstrap 5.0.2:](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
-    - Bootstrap was used to assist with the responsiveness and styling of the website.
+#### 5.1.1 Bootstrap was used to assist with the responsiveness and styling of the website.
 1. [Hover.css:](https://ianlunn.github.io/Hover/)
     - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
 1. [Google Fonts:](https://fonts.google.com/)
