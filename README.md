@@ -51,18 +51,18 @@ Posts/Comments can only be deleted by the author or the website administrators. 
 * Contact Us Page Wireframe - [View](ADD)
 
 ## 3. Features
-### 3.1 Responsive on all device sizes
-### 3.2 Interactive elements
+* Responsive on all device sizes
+* Interactive elements
 
 ## 4. Technologies Used
 ### 4.1 Languages Used
--   [HTML5](https://en.wikipedia.org/wiki/HTML5)
--   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
 ### 5. Frameworks, Libraries & Programs Used
-#### 5.1 [Bootstrap 5.0.2:](https://getbootstrap.com/docs/5.0/getting-started/introduction/): Bootstrap was used to assist with the responsiveness and styling of the website.
-
-* **5.2[jQuery 3.7.1:](https://jquery.com/)**
+* [Bootstrap 5.0.2:](https://getbootstrap.com/docs/5.0/getting-started/introduction/): Bootstrap was used to assist with the responsiveness and styling of the website.
+  
+* [jQuery 3.7.1:](https://jquery.com/)
   
 1. [Hover.css:](https://ianlunn.github.io/Hover/)
     - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
