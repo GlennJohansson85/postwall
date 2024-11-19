@@ -7,9 +7,9 @@ Whether you're documenting your life, sharing creative projects, or simply refle
 Postwall provides a space for you to express yourself and connect with others.**
 
 
-## User Stories
+## 1. User Stories
 
-### **First Time Visitor Goals**
+### **1.1 First Time Visitor Goals**
 
 **When first visiting Postwall, users are introduced to a user-friendly platform with where they can:**
 
@@ -24,7 +24,7 @@ Postwall provides a space for you to express yourself and connect with others.**
 * **Sign up** *and engage with the Community.*
 
 
-### Returning Visitor Goals
+### **1.2 Returning Visitor Goals**
 **For returning (registered) visitors, Postwall offers a seamless, efficient experience to encourage continued engagement:**
 
 * **Post Content:** *Users can write posts, share articles, or document experiences, along with images that enhance their storytelling.*
