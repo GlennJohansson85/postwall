@@ -1,7 +1,7 @@
 # WORK IN PROGRESS
 
 # Postwall
-[Live Project here](https://postwall-500ee4318184.herokuapp.com/)
+[Deployed Project](https://postwall-500ee4318184.herokuapp.com/)
 
 **Postwall is a platform where you can share your thoughts and daily experiences through blog posts and photos.
 <br>
