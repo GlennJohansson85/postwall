@@ -62,19 +62,28 @@ Posts/Comments can only be deleted by the author or the website administrators. 
 * [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
 ### 5. Frameworks, Libraries & Programs Used
-* [Bootstrap 5.0.2](https://getbootstrap.com/docs/5.0/getting-started/introduction/) For responsiveness and styling.
+
+* [Bootstrap 5.0.2:](https://getbootstrap.com/docs/5.0/getting-started/introduction/) Frameworks, Responsive settings and styling.
   
-* [jQuery 3.7.1](https://jquery.com/) To interact with the HTML models(DOM).
+* [jQuery 3.7.1:](https://jquery.com/) Interaction with the HTML models(DOM).
 
-* [Font Awesome](https://fontawesome.com/) Icons.
+* [Font Awesome:](https://fontawesome.com/) Icons.
 
-* [Fontspace](https://www.fontspace.com/) & [1001Fonts](https://www.1001fonts.com/) Fonts. (!!!!Dont forget credits!!!)
+* [Fontspace:](https://www.fontspace.com/) & [1001Fonts:](https://www.1001fonts.com/) Fonts.
 
-* [Visual Studio Code](https://code.visualstudio.com/) Coding Software.
+* [Visual Studio Code:](https://code.visualstudio.com/) Coding Software.
 
-* [GitHub Desktop](https://desktop.github.com/download/) Commit, Fetch & Push.
+* [GitHub Desktop:](https://desktop.github.com/download/) Commit, Fetch & Push.
 
-* [GitHub:](https://github.com/) Project Repository.
+* [GitHub:](https://github.com/) Repository.
+
+* [Heroku:](https://www.heroku.com/) Deployment.
+
+* [Amazon AWS:](https://aws.amazon.com/) Storage = static & media.
+
+* [Google Gmail:](https://mail.google.com/) Mail service (account verification, password reset) 
+
+* [Temp Mail:](https://temp-mail.org/en/) Testing mail service settings.
 
 * 
 
