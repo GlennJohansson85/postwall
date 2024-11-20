@@ -62,24 +62,23 @@ Posts/Comments can only be deleted by the author or the website administrators. 
 * [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
 ### 5. Frameworks, Libraries & Programs Used
-* [Bootstrap 5.0.2](https://getbootstrap.com/docs/5.0/getting-started/introduction/) was used to assist with the responsiveness and styling of the website.
+* [Bootstrap 5.0.2](https://getbootstrap.com/docs/5.0/getting-started/introduction/) For responsiveness and styling.
   
-* [jQuery 3.7.1](https://jquery.com/) to interact with the HTML model (DOM).
+* [jQuery 3.7.1](https://jquery.com/) To interact with the HTML models(DOM).
 
-* [Font Awesome](https://fontawesome.com/) for the icons.
+* [Font Awesome](https://fontawesome.com/) Icons.
 
-* [Fontspace](https://www.fontspace.com/) & [1001Fonts](https://www.1001fonts.com/) for the fonts.
+* [Fontspace](https://www.fontspace.com/) & [1001Fonts](https://www.1001fonts.com/) Fonts. (!!!!Dont forget credits!!!)
 
-CONTINUE HERE 2024-11-19
+* [Visual Studio Code](https://code.visualstudio.com/) Coding Software.
 
-1. [Git](https://git-scm.com/)
-    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-1. [GitHub:](https://github.com/)
-    - GitHub is used to store the projects code after being pushed from Git.
-1. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
-    - Photoshop was used to create the logo, resizing images and editing photos for the website.
-1. [Balsamiq:](https://balsamiq.com/)
-    - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+* [GitHub Desktop](https://desktop.github.com/download/) Commit, Fetch & Push.
+
+* [GitHub:](https://github.com/) Project Repository.
+
+* 
+
+
 
 ## 6. Testing
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
