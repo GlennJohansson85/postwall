@@ -48,7 +48,7 @@ Navbar, homepage, post_detail, Dashboard
 
 ### 5. Frameworks, Libraries & Programs Used:
 
-* [Visual Studio Code:](https://code.visualstudio.com/) Coding software
+* **[Visual Studio Code:](https://code.visualstudio.com/) Coding software**
 
 * [GitHub Desktop:](https://desktop.github.com/download/) Commit, Fetch & Push
 
