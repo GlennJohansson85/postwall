@@ -14,7 +14,7 @@ Postwall provides a space for you to express yourself and connect with others.**
 
 ### 1.1 First Time Visitor Goals
 * **1.1.1 As a First Time Visitor, I want to understand the purpose of the site.**
-* 1.1.2 As a First Time Visitor, I want to navigate through the site.
+* **1.1.2** As a First Time Visitor, I want to navigate through the site.
 * 1.1.1 As a First Time Visitor, I want to browse the posts.
 
 ### 1.2 Returning Visitor Goals
