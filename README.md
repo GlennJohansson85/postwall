@@ -61,15 +61,7 @@ Posts/Comments can only be deleted by the author or the website administrators. 
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)
 * [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
-### 5. Frameworks, Libraries & Programs Used
-
-* [Bootstrap 5.0.2:](https://getbootstrap.com/docs/5.0/getting-started/introduction/) Frameworks, responsiveness & styling
-  
-* [jQuery 3.7.1:](https://jquery.com/) Interaction with the HTML models (DOM)
-
-* [Font Awesome:](https://fontawesome.com/) Icons
-
-* [Fontspace:](https://www.fontspace.com/) & [1001Fonts:](https://www.1001fonts.com/) Fonts
+### 5. Frameworks, Libraries & Programs Used:
 
 * [Visual Studio Code:](https://code.visualstudio.com/) Coding software
 
@@ -86,6 +78,28 @@ Posts/Comments can only be deleted by the author or the website administrators. 
 * [Google Gmail:](https://mail.google.com/) Mail service (account & password verification) 
 
 * [Temp Mail:](https://temp-mail.org/en/) Create false accounts/testing
+
+* [Bootstrap 5.0.2:](https://getbootstrap.com/docs/5.0/getting-started/introduction/) Frameworks, responsiveness & styling
+  
+* [jQuery 3.7.1:](https://jquery.com/) Interaction with the HTML models (DOM)
+
+* [Font Awesome:](https://fontawesome.com/) Icons
+
+* [Fontspace:](https://www.fontspace.com/) & [1001Fonts:](https://www.1001fonts.com/) Fonts
+
+* [Freepik](https://www.freepik.com/) Background Images
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
