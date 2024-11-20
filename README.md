@@ -70,7 +70,7 @@ Navbar, homepage, post_detail, Dashboard
 
 * **[Font Awesome:](https://fontawesome.com/) Icons**
 
-* **[Fontspace:](https://www.fontspace.com/) & [1001Fonts:](https://www.1001fonts.com/) Fonts**
+* **[Fontspace](https://www.fontspace.com/) & [1001Fonts:](https://www.1001fonts.com/) Fonts**
 
 * **[Freepik:](https://www.freepik.com/) Background Images**
 
