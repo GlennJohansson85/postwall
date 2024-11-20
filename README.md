@@ -13,6 +13,8 @@ Postwall provides a space for you to express yourself and connect with others.**
 ## 1. User Stories
 
 ### 1.1 As a First Time Visitor, I want to:
+<ul style="list-style-type: none;">
+  <li>**1.1.1 Understand the purpose of the site.**</li>
 * **1.1.1 Understand the purpose of the site.**
 * **1.1.2 Navigate through the site.**
 * **1.1.3 Browse posts.**
