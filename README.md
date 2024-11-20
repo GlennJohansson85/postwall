@@ -23,9 +23,9 @@ Postwall provides a space for you to express yourself and connect with others.**
 * **1.2.3 Register to the site.**
 
 ### 1.3 As a Frequent Visitor, I want to:
-* **1.3.1 Share my views on others content/comment**
-* **1.3.2 Have the freedom to regret them aswell**
-* **1.3.3 See content in a larger scale**
+* **1.3.1 Share my views/comment on others content.**
+* **1.3.2 Have the freedom to regret them aswell.**
+* **1.3.3 See content in a larger scale.**
 
 
 ## 2. Wireframes
