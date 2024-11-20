@@ -14,19 +14,18 @@ Postwall provides a space for you to express yourself and connect with others.**
 
 ### 1.1 First Time Visitor Goals
 * **1.1.1 As a First Time Visitor, I want to understand the purpose of the site.**
-* **1.1.2** As a First Time Visitor, I want to navigate through the site.
-* 1.1.1 As a First Time Visitor, I want to browse the posts.
+* **1.1.2 As a First Time Visitor, I want to navigate through the site.**
+* **1.1.3 As a First Time Visitor, I want to browse the posts.**
 
 ### 1.2 Returning Visitor Goals
-#### 1.2.1 As a Returning Visitor, I want to search for a specific post.
-#### 1.2.2 As a Returning Visitor, I want to upload a post.
-#### 1.2.3 As a Returning Visitor, I want to register to the site. 
+* **1.2.1 As a Returning Visitor, I want to search for a specific post.**
+* **1.2.2 As a Returning Visitor, I want to upload a post.**
+* **1.2.3 As a Returning Visitor, I want to register to the site.**
 
-### 1.3 Frequent User Goals
-#### 1.3.1 As a Frequent User, I want to engage with others through commenting on others content.
-#### 1.3.2 As a Frequent User, I want to share my views and regret them aswell. 
-#### 1.3.3 As a Frequent User, I want to see photos in a larger scale.
-
+### 1.3 Frequent Visitor Goals
+* **1.3.1 As a Frequent User, I want to engage with others through commenting on others content.**
+* **1.3.2 As a Frequent User, I want to share my views and regret them aswell.**
+* **1.3.3 As a Frequent User, I want to see photos in a larger scale.**
 
 
 ## 2. Wireframes
