@@ -30,7 +30,9 @@ Postwall provides a space for you to express yourself and connect with others.**
 
 
 ## 2. Wireframes
+Navbar, homepage, post_detail, Dashboard
 
+2024-11-20 CONTINUE
 
 * Home Page Wireframe - [View](ADD)
 * Mobile Wireframe - [View](ADD)
