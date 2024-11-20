@@ -50,29 +50,29 @@ Navbar, homepage, post_detail, Dashboard
 
 * **[Visual Studio Code](https://code.visualstudio.com/) - Coding software**
 
-* **[GitHub Desktop:](https://desktop.github.com/download/) Commit, Fetch & Push**
+* **[GitHub Desktop](https://desktop.github.com/download/) - Commit, Fetch & Push**
 
-* **[GitHub:](https://github.com/) Repository**
+* **[GitHub](https://github.com/) - Repository**
 
-* **[Django:](https://docs.djangoproject.com/) Work environment pre deployment**
+* **[Django](https://docs.djangoproject.com/) - Work environment pre deployment**
 
-* **[Heroku:](https://www.heroku.com/) Deployed**
+* **[Heroku](https://www.heroku.com/) - Deployed**
 
-* **[Amazon AWS:](https://aws.amazon.com/) Storage (static & media)**
+* **[Amazon AWS](https://aws.amazon.com/) - Storage (static & media)**
 
-* **[Google Gmail:](https://mail.google.com/) Mail service (account & password verification)**
+* **[Google Gmail](https://mail.google.com/) - Mail service (account & password verification)**
 
-* **[Temp Mail:](https://temp-mail.org/en/) Create false accounts/testing**
+* **[Temp Mail](https://temp-mail.org/en/) - Create false accounts/testing**
 
-* **[Bootstrap 5.0.2:](https://getbootstrap.com/docs/5.0/getting-started/introduction/) Frameworks, responsiveness & styling**
+* **[Bootstrap 5.0.2](https://getbootstrap.com/docs/5.0/getting-started/introduction/) - Frameworks, responsiveness & styling**
   
-* **[jQuery 3.7.1:](https://jquery.com/) Interaction with the HTML models (DOM)**
+* **[jQuery 3.7.1](https://jquery.com/) - Interaction with the HTML models (DOM)**
 
-* **[Font Awesome:](https://fontawesome.com/) Icons**
+* **[Font Awesome](https://fontawesome.com/) - Icons**
 
-* **[Fontspace](https://www.fontspace.com/) & [1001Fonts:](https://www.1001fonts.com/) Fonts**
+* **[Fontspace](https://www.fontspace.com/) & [1001Fonts](https://www.1001fonts.com/) - Fonts**
 
-* **[Freepik:](https://www.freepik.com/) Background Images**
+* **[Freepik](https://www.freepik.com/) - Background Images**
 
 
 
