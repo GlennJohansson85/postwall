@@ -33,7 +33,14 @@ Navbar, homepage, post_detail, Dashboard
 
 2024-11-20 CONTINUE
 
-* Home Page Wireframe - [View](ADD)
+* 2.1 Desktop Wireframes
+    * 2.1.1 [navbar](B:\MY_PROJECTS\project_1\docs\wireframes\desktop-postwall.png)
+    * 2.1.2 [footer](B:\MY_PROJECTS\project_1\docs\wireframes\desktop-postwall.png)
+    * 2.1.3 [postwall](B:\MY_PROJECTS\project_1\docs\wireframes\desktop-postwall.png)
+    * 2.1.4 [post_detail](B:\MY_PROJECTS\project_1\docs\wireframes\desktop-postwall.png)
+    * 2.1.5 [dashboard](B:\MY_PROJECTS\project_1\docs\wireframes\desktop-postwall.png)
+    * 2.1.6 [register](B:\MY_PROJECTS\project_1\docs\wireframes\desktop-postwall.png)
+    * 2.1.7 [login](B:\MY_PROJECTS\project_1\docs\wireframes\desktop-postwall.png)
 * Mobile Wireframe - [View](ADD)
 
 

@@ -59,7 +59,7 @@
 					</li>
 
 					<!-- Friends Link - Not Operational -->
-					<li class="nav-item">
+					<li class="nav-item dropdown">
 						<a class="nav-link {% if request.resolver_match.url_name == '/friends/' %} active {% endif %}"
 							href="#">Friends</a>
 					<li class="nav-item">
@@ -67,21 +67,21 @@
 						<a class="nav-link {% if request.resolver_match.url_name == 'profile' %} active {% endif %}" 
 							href="{% if user.is_authenticated %}{% url 'dashboard' %}{% else %}{% url 'login' %}{% endif %}" 
 							id="profiledropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-						{% if user.is_authenticated and profile_picture_url %}	
-							<!-- Show profile picture in link when authenticated -->
-							<span class="d-lg-none">
-								<img src="{{ profile_picture_url }}" alt="profile pic" class="profile-image-toggler"/>
-							</span>
+							{% if user.is_authenticated and profile_picture_url %}	
+								<!-- Show profile picture in link when authenticated -->
+								<span class="d-lg-none">
+									<img src="{{ profile_picture_url }}" alt="profile pic" class="profile-image-toggler"/>
+								</span>
 
-							<!-- Show the profile picture when on large screens -->
-							<span class="d-none d-lg-inline">
-								<img src="{{ profile_picture_url }}" alt="profile pic" class="profile-image"/>
-							</span>
-						{% else %}
-							<!-- Show profile text in both cases if there's an error -->
-							<span class="d-lg-none">Profile</span>
-							<span class="d-none d-lg-inline">Profile</span>
-						{% endif %}
+								<!-- Show the profile picture when on large screens -->
+								<span class="d-none d-lg-inline">
+									<img src="{{ profile_picture_url }}" alt="profile pic" class="profile-image"/>
+								</span>
+							{% else %}
+								<!-- Show profile text in both cases if there's an error -->
+								<span class="d-lg-none">Profile</span>
+								<span class="d-none d-lg-inline">Profile</span>
+							{% endif %}
 						</a>
 
 						<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="profileDropdown">
