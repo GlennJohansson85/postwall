@@ -27,17 +27,17 @@ Postwall provides a space for you to express yourself and connect with others.**
 
 
 ## 2. Wireframes
-* 2.1 Desktop
-    * 2.1.1 [navbar](https://github.com/GlennJohansson85/postwall/blob/main/docs/wireframes/desktop-navbar.png)
-    * 2.1.2 [footer](https://github.com/GlennJohansson85/postwall/blob/main/docs/wireframes/desktop-footer.png)
-    * 2.1.3 [postwall](https://github.com/GlennJohansson85/postwall/blob/main/docs/wireframes/desktop-postwall.png)
-    * 2.1.4 [post_detail](https://github.com/GlennJohansson85/postwall/blob/main/docs/wireframes/desktop-post_detail.png)
-    * 2.1.5 [dashboard](https://github.com/GlennJohansson85/postwall/blob/main/docs/wireframes/desktop-dashboard.png)
-    * 2.1.6 [register](https://github.com/GlennJohansson85/postwall/blob/main/docs/wireframes/desktop-register.png)
-    * 2.1.7 [login](https://github.com/GlennJohansson85/postwall/blob/main/docs/wireframes/desktop-login.png)
-* 2.2 Mobile
-     * 2.2.1 [Toggler closed](https://github.com/GlennJohansson85/postwall/blob/main/docs/wireframes/mobile-toggler_closed.png)
-     * 2.2.2 [Toggler open](https://github.com/GlennJohansson85/postwall/blob/main/docs/wireframes/mobile-toggler_open.png)
+* 2.1 **Desktop**
+    * [navbar](https://github.com/GlennJohansson85/postwall/blob/main/docs/wireframes/desktop-navbar.png)
+    * [footer](https://github.com/GlennJohansson85/postwall/blob/main/docs/wireframes/desktop-footer.png)
+    * [postwall](https://github.com/GlennJohansson85/postwall/blob/main/docs/wireframes/desktop-postwall.png)
+    * [post_detail](https://github.com/GlennJohansson85/postwall/blob/main/docs/wireframes/desktop-post_detail.png)
+    * [dashboard](https://github.com/GlennJohansson85/postwall/blob/main/docs/wireframes/desktop-dashboard.png)
+    * [register](https://github.com/GlennJohansson85/postwall/blob/main/docs/wireframes/desktop-register.png)
+    * [login](https://github.com/GlennJohansson85/postwall/blob/main/docs/wireframes/desktop-login.png)
+* 2.2 **Mobile**
+     * [Toggler closed](https://github.com/GlennJohansson85/postwall/blob/main/docs/wireframes/mobile-toggler_closed.png)
+     * [Toggler open](https://github.com/GlennJohansson85/postwall/blob/main/docs/wireframes/mobile-toggler_open.png)
 
 
 ## 3. Features
