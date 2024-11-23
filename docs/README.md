@@ -9,25 +9,25 @@ Whether you're documenting your life, sharing creative projects, or simply refle
 Postwall provides a space for you to express yourself and connect with others.**
 
 
-## 1 User Stories
-### 1.1 As a First Time Visitor, I want to:
-* **1.1.1 Understand the purpose of the site.**
-* **1.1.2 Navigate through the site.**
-* **1.1.3 Browse posts.**
+## 1. User Stories
+### 1.1. As a First Time Visitor, I want to:
+* **1.1.1. Understand the purpose of the site.**
+* **1.1.2. Navigate through the site.**
+* **1.1.3. Browse posts.**
 
-### 1.2 As a Returning Visitor, I want to:
-* **1.2.1 Search posts.**
-* **1.2.2 Upload posts.**
-* **1.2.3 Register to the site.**
+### 1.2. As a Returning Visitor, I want to:
+* **1.2.1. Search posts.**
+* **1.2.2. Upload posts.**
+* **1.2.3. Register to the site.**
 
-### 1.3 As a Frequent Visitor, I want to:
-* **1.3.1 Share my views/comment on others content.**
-* **1.3.2 Have the freedom to regret them aswell.**
-* **1.3.3 See content in a larger scale.**
+### 1.3. As a Frequent Visitor, I want to:
+* **1.3.1. Share my views/comment on others content.**
+* **1.3.2. Have the freedom to regret them aswell.**
+* **1.3.3. See content in a larger scale.**
 
 
-## 2 Wireframes
-**2.1 Desktop:**
+## 2. Wireframes
+### 2.1. Desktop:
 * [Postwall](https://github.com/GlennJohansson85/postwall/blob/main/docs/wireframes/desktop-postwall.png)
 * [Post_detail](https://github.com/GlennJohansson85/postwall/blob/main/docs/wireframes/desktop-post_detail.png)
 * [Dashboard](https://github.com/GlennJohansson85/postwall/blob/main/docs/wireframes/desktop-dashboard.png)
@@ -36,7 +36,7 @@ Postwall provides a space for you to express yourself and connect with others.**
 * [Navbar](https://github.com/GlennJohansson85/postwall/blob/main/docs/wireframes/desktop-navbar.png)
 * [Footer](https://github.com/GlennJohansson85/postwall/blob/main/docs/wireframes/desktop-footer.png)
 
-**2.2 Mobile**
+### 2.2. Mobile
 * [Toggler closed](https://github.com/GlennJohansson85/postwall/blob/main/docs/wireframes/mobile-toggler_closed.png)
 * [Toggler open](https://github.com/GlennJohansson85/postwall/blob/main/docs/wireframes/mobile-toggler_open.png)
 
