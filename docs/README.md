@@ -35,13 +35,14 @@ Postwall provides a space for you to express yourself and connect with others.**
 * **[Navbar](https://github.com/GlennJohansson85/postwall/blob/main/docs/wireframes/desktop-navbar.png)**
 * **[Footer](https://github.com/GlennJohansson85/postwall/blob/main/docs/wireframes/desktop-footer.png)**
 
-### 2.2. Mobile
+### 2.2. Mobile:
 * **[Toggler closed](https://github.com/GlennJohansson85/postwall/blob/main/docs/wireframes/mobile-toggler_closed.png)**
 * **[Toggler open](https://github.com/GlennJohansson85/postwall/blob/main/docs/wireframes/mobile-toggler_open.png)**
 
 
 ## 3. Features
-* **User Authentication**: Users can register, log in, edit their profile (including updating account details and adding a profile picture), and reset their password if forgotten.
+* ### User Authentication:
+  **Users can register, log in, edit their profile (including updating account details and adding a profile picture), and reset their password if forgotten.**
 
 * **Email Verification**: Email verification is required when creating an account or changing a password, enhancing security and providing a safer user experience.
   
