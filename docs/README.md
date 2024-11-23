@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/9079d82d-43a6-4700-9bf6-3acb84338422)# WORK IN PROGRESS
+WORK IN PROGRESS
 
 # Postwall
 [Deployed Project](https://postwall-500ee4318184.herokuapp.com/)
