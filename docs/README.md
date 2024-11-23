@@ -44,7 +44,8 @@ Postwall provides a space for you to express yourself and connect with others.**
 ### 3.1 User Authentication:
 **3.1.1 Register**
 <br>
- ![3 1 1-register](https://github.com/user-attachments/assets/5cedae0c-9cb8-4540-97ed-7ca17a910245)
+![image](https://github.com/user-attachments/assets/381bd420-f094-435d-8bdf-fe91e0faa29b)
+
 **3.1.2 Sign in**
 **3.1.3 Sign out** 
 **3.1.4 Access their Dashboard**
