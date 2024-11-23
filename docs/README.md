@@ -34,7 +34,6 @@ Navbar, homepage, post_detail, Dashboard
 2024-11-20 CONTINUE
 
 * 2.1 Desktop Wireframes
-* 2.1.1 <a href="https://github.com/GlennJohansson85/postwall/blob/main/docs/wireframes/desktop-navbar.png" target="_blank">navbar</a>
     * 2.1.1 [navbar](https://github.com/GlennJohansson85/postwall/blob/main/docs/wireframes/desktop-navbar.png)
     * 2.1.2 [footer](https://github.com/GlennJohansson85/postwall/blob/main/docs/wireframes/desktop-footer.png)
     * 2.1.3 [postwall](https://github.com/GlennJohansson85/postwall/blob/main/docs/wireframes/desktop-postwall.png)
