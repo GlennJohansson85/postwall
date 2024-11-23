@@ -110,10 +110,10 @@
 }
 
 /* CSS for profile image in Profile item (last-child) */
-/*.profile-image {
+.profile-image {
 	width: 30px;
 	height: auto;
-}*/
+}
 
 .dropdown-menu {
 	margin-top: 0;
@@ -121,14 +121,12 @@
 	max-width: inherit;
 }
 
-
 .dropdown-item {
 	margin: 0px;
 	padding: 0px;
 	text-align: center;
 
 }
-
 
 /* Styles for search content */
 .search-input {
@@ -430,7 +428,7 @@
 		justify-content: center;
 	}
 
-	/*.dropdown-menu {
+	.dropdown-menu {
 		position: absolute!important;
 		min-width: auto!important;
 	}
@@ -442,7 +440,7 @@
 
 	.d-none {
 		display: none;
-	}*/
+	}
 }
 
 /* Responsive Settings - Large Screens */
@@ -490,20 +488,19 @@
 		font-size: 26px;
 	}
 
-	/*.profile-image {
+	.profile-image {
 		width: auto;
 		height: 60px;
 		object-fit: cover;
 	}
 
-	dropdown-menu {
+	.dropdown-menu {
 		position: absolute !important;
 		min-width: auto !important;
 	}
 
-	/* Profile link - Dropdown style 
 	.dropdown-item {
 		font-size: 18px;
 		line-height: 18px;
-	}*/
+	}
 }

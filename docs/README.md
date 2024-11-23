@@ -9,58 +9,81 @@ Postwall provides a space for you to express yourself and connect with others.**
 
 
 ## 1. User Stories
-### 1.1. As a First Time Visitor, I want to:
-* **1.1.1. Understand the purpose of the site.**
-* **1.1.2. Navigate through the site.**
-* **1.1.3. Browse posts.**
+### 1.1 As a First Time Visitor, I want to:
+* **1.1.1 Understand the purpose of the site.**
+* **1.1.2 Navigate through the site.**
+* **1.1.3 Browse posts.**
 
-### 1.2. As a Returning Visitor, I want to:
-* **1.2.1. Search posts.**
-* **1.2.2. Upload posts.**
-* **1.2.3. Register to the site.**
+### 1.2 As a Returning Visitor, I want to:
+* **1.2.1 Search posts.**
+* **1.2.2 Upload posts.**
+* **1.2.3 Register to the site.**
 
-### 1.3. As a Frequent Visitor, I want to:
-* **1.3.1. Share my views/comment on others content.**
-* **1.3.2. Have the freedom to regret them aswell.**
-* **1.3.3. See content in a larger scale.**
+### 1.3 As a Frequent Visitor, I want to:
+* **1.3.1 Share my views/comment on others content.**
+* **1.3.2 Have the freedom to regret them aswell.**
+* **1.3.3 See content in a larger scale.**
 
 
 ## 2. Wireframes
-### 2.1. Desktop:
-* **[Postwall](https://github.com/GlennJohansson85/postwall/blob/main/docs/wireframes/desktop-postwall.png)**
-* **[Post_detail](https://github.com/GlennJohansson85/postwall/blob/main/docs/wireframes/desktop-post_detail.png)**
-* **[Dashboard](https://github.com/GlennJohansson85/postwall/blob/main/docs/wireframes/desktop-dashboard.png)**
-* **[Register](https://github.com/GlennJohansson85/postwall/blob/main/docs/wireframes/desktop-register.png)**
-* **[Login](https://github.com/GlennJohansson85/postwall/blob/main/docs/wireframes/desktop-login.png)**
-* **[Navbar](https://github.com/GlennJohansson85/postwall/blob/main/docs/wireframes/desktop-navbar.png)**
-* **[Footer](https://github.com/GlennJohansson85/postwall/blob/main/docs/wireframes/desktop-footer.png)**
+### 2.1 Desktop:
+* **[2.1.1 Postwall](https://github.com/GlennJohansson85/postwall/blob/main/docs/2-wireframes/2.1.1-postwall.png)**
+* **[2.1.2 Post_detail](https://github.com/GlennJohansson85/postwall/blob/main/docs/2-wireframes/2.1.2-post_detail.png)**
+* **[2.1.3 Dashboard](https://github.com/GlennJohansson85/postwall/blob/main/docs/2-wireframes/2.1.3-dashboard.png)**
+* **[2.1.4 Register](https://github.com/GlennJohansson85/postwall/blob/main/docs/2-wireframes/2.1.4-register.png)**
+* **[2.1.5 Login](https://github.com/GlennJohansson85/postwall/blob/main/docs/2-wireframes/2.1.5-login.png)**
+* **[2.1.6 Navbar](https://github.com/GlennJohansson85/postwall/blob/main/docs/2-wireframes/2.1.6-navbar.png)**
+* **[2.1.7 Footer](https://github.com/GlennJohansson85/postwall/blob/main/docs/2-wireframes/2.1.7-footer.png)**
 
-### 2.2. Mobile:
-* **[Toggler closed](https://github.com/GlennJohansson85/postwall/blob/main/docs/wireframes/mobile-toggler_closed.png)**
-* **[Toggler open](https://github.com/GlennJohansson85/postwall/blob/main/docs/wireframes/mobile-toggler_open.png)**
+### 2.2 Mobile:
+* **[2.2.1 Toggler closed](https://github.com/GlennJohansson85/postwall/blob/main/docs/2-wireframes/2.2.1-toggler_closed.png)**
+* **[2.2.2 Toggler open](https://github.com/GlennJohansson85/postwall/blob/main/docs/2-wireframes/2.2.2-toggler_open.png)**
 
 
 ## 3. Features
-* ### User Authentication:
-  **Users can register, log in, edit their profile (including updating account details and adding a profile picture), and reset their password if forgotten.**
+### 3.1 User Authentication:
+**Users can:**
+  * **3.1.1 Register**
+  * **3.1.2 Sign in**
+  * **3.1.3 Sign out** 
+  * **3.1.4 Access their Dashboard**
+  * **3.1.5 Edit their Profile** 
+  * **3.1.6 Change Passwords**
 
-* **Email Verification**: Email verification is required when creating an account or changing a password, enhancing security and providing a safer user experience.
-  
-* **Post Creation and Management**: Users can create posts and add text and images. Metadata shows the username of the author and the date the post was published. Posts can be deleted from the post details, with deletion restricted to the author or admin. To ensure safety, the author is prompted to confirm before deleting a post.
+### 3.2 Email Verification:
+**Email verification is required when creating an account or changing passwords**
 
-* **Commenting System**: Users can comment on posts without being redirected to a separate page. After submitting a comment, they will be automatically scrolled back to the same post. Comments can be deleted from the post details, and this action is restricted to the author or admin.
-  
-* **Search Functionality**: A built-in search bar allows users to easily find posts by keywords in their titles. Suggestions are displayed as links in a dropdown, or users can view results on a separate page by clicking the search icon. Clicking on a suggestion will scroll the user to the suggested post.
+### 3.3 Post Creation and Management:
+* **3.3.1 Users can create posts with text & image content. 
+* **3.3.2 Meta data is automatically produced when posting, showing the author & the date the post was published.**
+* **3.3.3 A post can be deleted from its detail page, with deletion permissions restricted to the author or admin. To prevent accidental removal, the author is prompted to confirm the action before proceeding with the deletion.**
 
-* **Alert Messages**: Informative messages will appear when the user performs certain tasks (e.g., registering, logging in/out, posting, and more). These messages automatically fade after a set period.
-  
-* **Responsive Design**: The website is fully responsive, providing a smooth experience on both desktop and mobile devices.
+### 3.4 Commenting System: 
+* **3.4.1 Commenting on a post is done within the same page. Through javascript the author is scrolled back to the same post after submitting a comment.**
+* **3.4.2 A comment can be deleted from the post detail page, with deletion only restricted to the author or admin. However, the comment will also be deleted if the post author deletes her post. 
+
+### 3.5 Search Functionaltiy:
+* **3.5.1 A built-in search bar allows users to easily find posts by keywords in their titles.**
+* **3.5.2 Suggestions can be displayed in two ways:**
+* **3.5.2.1 As clickable links in a dropdown.**
+When clicking on a suggestion the user is scrolled down to the specific post.
+
+* **3.5.2.2 As clickable links in a result page, if the user clicks on the search icon**
+When clicking on a suggestion the user is redirected back to the Postwall page, where all the posts are, and scrolled down to the specific post.
+
+### 3.6 Alert Messages:
+**Informative messages will appear when the user performs certain tasks:
+* **3.6.1 Registering**
+* **3.6.2 Sign in**
+* **3.6.3 Sign out**
+* **3.6.4 Posting, deleting & more** 
+
+**These messages automatically fade after a set period.**
+
+### 3.7 Responsive Design: 
+**The website is fully responsive, providing a smooth experience on both desktop and mobile devices.**
 
 
-
-
-* Responsive on all device sizes
-* Interactive elements
 
 ## 4. Technologies Used
 ### 4.1 Languages Used
