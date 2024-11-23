@@ -42,12 +42,21 @@ Postwall provides a space for you to express yourself and connect with others.**
 
 ## 3. Features
 ### 3.1 User Authentication:
+<<<<<<< HEAD
   * **3.1.1 Register**
   * **3.1.2 Sign in**
   * **3.1.3 Sign out** 
   * **3.1.4 Access their Dashboard**
   * **3.1.5 Edit their Profile** 
   * **3.1.6 Change Passwords**
+=======
+**3.1.1 Register**
+**3.1.2 Sign in**
+**3.1.3 Sign out** 
+**3.1.4 Access their Dashboard**
+**3.1.5 Edit their Profile** 
+**3.1.6 Change Passwords**
+>>>>>>> beb07423d28f9177badaab13c6b360a393e4a749
 
 ### 3.2 Email Verification:
 **Email verification is required when creating an account or changing passwords**
