@@ -29,9 +29,6 @@ Postwall provides a space for you to express yourself and connect with others.**
 
 
 ## 2. Wireframes
-Navbar, homepage, post_detail, Dashboard
-
-2024-11-20 CONTINUE
 
 * 2.1 Desktop Wireframes
     * 2.1.1 [navbar](https://github.com/GlennJohansson85/postwall/blob/main/docs/wireframes/desktop-navbar.png)
