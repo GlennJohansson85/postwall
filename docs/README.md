@@ -42,15 +42,14 @@ Postwall provides a space for you to express yourself and connect with others.**
 
 ## 3. Features
 ### 3.1 User Authentication:
-**Users can:**
-  * **3.1.1 Register**
-    ![3 1 1-register](https://github.com/user-attachments/assets/5cedae0c-9cb8-4540-97ed-7ca17a910245)
-
-  * **3.1.2 Sign in**
-  * **3.1.3 Sign out** 
-  * **3.1.4 Access their Dashboard**
-  * **3.1.5 Edit their Profile** 
-  * **3.1.6 Change Passwords**
+**3.1.1 Register**
+ ![3 1 1-register](https://github.com/user-attachments/assets/5cedae0c-9cb8-4540-97ed-7ca17a910245)
+<br>
+**3.1.2 Sign in**
+**3.1.3 Sign out** 
+**3.1.4 Access their Dashboard**
+**3.1.5 Edit their Profile** 
+**3.1.6 Change Passwords**
 
 ### 3.2 Email Verification:
 **Email verification is required when creating an account or changing passwords**
