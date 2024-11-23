@@ -42,7 +42,6 @@ Postwall provides a space for you to express yourself and connect with others.**
 
 ## 3. Features
 ### 3.1 User Authentication:
-**Users can:**
   * **3.1.1 Register**
   * **3.1.2 Sign in**
   * **3.1.3 Sign out** 

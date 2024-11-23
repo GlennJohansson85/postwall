@@ -115,18 +115,9 @@
 	height: auto;
 }
 
-.dropdown-menu {
-	margin-top: 0;
-	position: absolute;
-	max-width: inherit;
-}
 
-.dropdown-item {
-	margin: 0px;
-	padding: 0px;
-	text-align: center;
 
-}
+
 
 /* Styles for search content */
 .search-input {
@@ -492,11 +483,6 @@
 		width: auto;
 		height: 60px;
 		object-fit: cover;
-	}
-
-	.dropdown-menu {
-		position: absolute !important;
-		min-width: auto !important;
 	}
 
 	.dropdown-item {
