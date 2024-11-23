@@ -1,8 +1,7 @@
-# WORK IN PROGRESS
+![image](https://github.com/user-attachments/assets/9079d82d-43a6-4700-9bf6-3acb84338422)# WORK IN PROGRESS
 
 # Postwall
 [Deployed Project](https://postwall-500ee4318184.herokuapp.com/)
-
 **Postwall is a platform where you can share your thoughts and daily experiences through blog posts and photos.
 <br>
 Whether you're documenting your life, sharing creative projects, or simply reflecting on your day. 
@@ -11,7 +10,6 @@ Postwall provides a space for you to express yourself and connect with others.**
 
 
 ## 1. User Stories
-
 ### 1.1 As a First Time Visitor, I want to:
 * **1.1.1 Understand the purpose of the site.**
 * **1.1.2 Navigate through the site.**
@@ -29,7 +27,6 @@ Postwall provides a space for you to express yourself and connect with others.**
 
 
 ## 2. Wireframes
-
 * 2.1 Desktop
     * 2.1.1 [navbar](https://github.com/GlennJohansson85/postwall/blob/main/docs/wireframes/desktop-navbar.png)
     * 2.1.2 [footer](https://github.com/GlennJohansson85/postwall/blob/main/docs/wireframes/desktop-footer.png)
@@ -44,6 +41,23 @@ Postwall provides a space for you to express yourself and connect with others.**
 
 
 ## 3. Features
+* **User Authentication**: Users can register, log in, edit their profile (including updating account details and adding a profile picture), and reset their password if forgotten.
+
+* **Email Verification**: Email verification is required when creating an account or changing a password, enhancing security and providing a safer user experience.
+  
+* **Post Creation and Management**: Users can create posts and add text and images. Metadata shows the username of the author and the date the post was published. Posts can be deleted from the post details, with deletion restricted to the author or admin. To ensure safety, the author is prompted to confirm before deleting a post.
+
+* **Commenting System**: Users can comment on posts without being redirected to a separate page. After submitting a comment, they will be automatically scrolled back to the same post. Comments can be deleted from the post details, and this action is restricted to the author or admin.
+  
+* **Search Functionality**: A built-in search bar allows users to easily find posts by keywords in their titles. Suggestions are displayed as links in a dropdown, or users can view results on a separate page by clicking the search icon. Clicking on a suggestion will scroll the user to the suggested post.
+
+* **Alert Messages**: Informative messages will appear when the user performs certain tasks (e.g., registering, logging in/out, posting, and more). These messages automatically fade after a set period.
+  
+* **Responsive Design**: The website is fully responsive, providing a smooth experience on both desktop and mobile devices.
+
+
+
+
 * Responsive on all device sizes
 * Interactive elements
 
