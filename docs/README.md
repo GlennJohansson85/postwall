@@ -29,18 +29,15 @@ Postwall provides a space for you to express yourself and connect with others.**
 
 
 ## 2. Wireframes
-Navbar, homepage, post_detail, Dashboard
-
-2024-11-20 CONTINUE
 
 * 2.1 Desktop Wireframes
-    * 2.1.1 [navbar](B:\MY_PROJECTS\project_1\docs\wireframes\desktop-postwall.png)
-    * 2.1.2 [footer](B:\MY_PROJECTS\project_1\docs\wireframes\desktop-postwall.png)
-    * 2.1.3 [postwall](B:\MY_PROJECTS\project_1\docs\wireframes\desktop-postwall.png)
-    * 2.1.4 [post_detail](B:\MY_PROJECTS\project_1\docs\wireframes\desktop-postwall.png)
-    * 2.1.5 [dashboard](B:\MY_PROJECTS\project_1\docs\wireframes\desktop-postwall.png)
-    * 2.1.6 [register](B:\MY_PROJECTS\project_1\docs\wireframes\desktop-postwall.png)
-    * 2.1.7 [login](B:\MY_PROJECTS\project_1\docs\wireframes\desktop-postwall.png)
+    * 2.1.1 [navbar](https://github.com/GlennJohansson85/postwall/blob/main/docs/wireframes/desktop-navbar.png)
+    * 2.1.2 [footer](https://github.com/GlennJohansson85/postwall/blob/main/docs/wireframes/desktop-footer.png)
+    * 2.1.3 [postwall](https://github.com/GlennJohansson85/postwall/blob/main/docs/wireframes/desktop-postwall.png)
+    * 2.1.4 [post_detail](https://github.com/GlennJohansson85/postwall/blob/main/docs/wireframes/desktop-post_detail.png)
+    * 2.1.5 [dashboard](https://github.com/GlennJohansson85/postwall/blob/main/docs/wireframes/desktop-dashboard.png)
+    * 2.1.6 [register](https://github.com/GlennJohansson85/postwall/blob/main/docs/wireframes/desktop-register.png)
+    * 2.1.7 [login](https://github.com/GlennJohansson85/postwall/blob/main/docs/wireframes/desktop-login.png)
 * Mobile Wireframe - [View](ADD)
 
 
