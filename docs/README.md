@@ -46,10 +46,8 @@ Postwall provides a space for you to express yourself and connect with others.**
 
 ### 3.2 Email Verification:
 **Email verification is used when:**
-* **[3.2.1 Registering to the site](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3.2-email_verification/3.2.1-desktop-register.png)**
-* **3.2.2 Forget account password**
-  * [forget_password.html](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3.2-email_verification/3.2.2-desktop-register.png)
-  * [inbox](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3.2-email_verification/3.2.2-desktop-register.png)
+* **[3.2.1 Registering to the site](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3-features/3.2-email_verification/3.2.1-dekstop-register.png)**
+* **[3.2.2 Forget account password](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3-features/3.2-email_verification/3.2.2-desktop-forget_password.png)**
 
 ### 3.3 Post Creation and Management:
 * **[3.3.1 Create posts with text content and images](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3.3-post/3.3.1-desktop-post.png)**
