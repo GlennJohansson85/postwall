@@ -13,17 +13,14 @@ Postwall provides a space for you to express yourself and connect with others.**
 * **1.1.1 Understand the purpose of the site.**
 * **1.1.2 Navigate through the site.**
 * **1.1.3 Browse posts.**
-
 ### 1.2 As a Returning Visitor, I want to:
 * **1.2.1 Search posts.**
 * **1.2.2 Upload posts.**
 * **1.2.3 Register to the site.**
-
 ### 1.3 As a Frequent Visitor, I want to:
 * **1.3.1 Share my views/comment on others content.**
 * **1.3.2 Have the freedom to regret them aswell.**
 * **1.3.3 See content in a larger scale.**
-
 
 ## 2. Wireframes
 ### 2.1 Desktop:
@@ -34,7 +31,6 @@ Postwall provides a space for you to express yourself and connect with others.**
 * **[2.1.5 Login](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/2-wireframes/2.1.5-login.png)**
 * **[2.1.6 Navbar](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/2-wireframes/2.1.6-navbar.png)**
 * **[2.1.7 Footer](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/2-wireframes/2.1.7-footer.png)**
-
 ### 2.2 Mobile:
 * **[2.2.1 Toggler closed](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/2-wireframes/2.2.1-toggler_closed.png)**
 * **[2.2.2 Toggler open](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/2-wireframes/2.2.2-toggler_open.png)**
@@ -48,10 +44,10 @@ Postwall provides a space for you to express yourself and connect with others.**
   * **[3.1.5 Edit their Profile](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3-features/3.1.5-desktop-edit_profile.png)**
   * **[3.1.6 Change Passwords](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3-features/3.1.6-desktop-change_password.png)**
 
-
-
 ### 3.2 Email Verification:
-**Email verification is required when creating an account or changing passwords**
+**Email verification is required when registering to the website or changing account password**
+* **3.2.1 Upon registration, the user receives an [alert message!](image.png) that a verification email has been sent with a link to confirm their account.**
+
 
 ### 3.3 Post Creation and Management:
 * **3.3.1 Users can create posts with text & image content. 
