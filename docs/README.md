@@ -24,7 +24,7 @@ Postwall provides a space for you to express yourself and connect with others.**
 
 ## 2. Wireframes
 ### 2.1 Desktop:
-* **[2.1.1 Postwall](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/2-wireframes/2.1-desktop/2.1.1-postwall.png)**
+* **[2.1.1](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/2-wireframes/2.1-desktop/2.1.1-postwall.png) Postwall**
 * **[2.1.2 Post_detail](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/2-wireframes/2.1-desktop/2.1.2-post_detail.png)**
 * **[2.1.3 Dashboard](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/2-wireframes/2.1-desktop/2.1.3-dashboard.png)**
 * **[2.1.4 Register](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/2-wireframes/2.1-desktop/2.1.4-register.png)**
