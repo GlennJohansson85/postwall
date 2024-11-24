@@ -56,16 +56,14 @@ Postwall provides a space for you to express yourself and connect with others.**
   * **[3.3.3.1](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3.3-post/3.3.3.1-desktop-delete_post.png) To prevent accidental removal, the author is prompted to confirm the action before proceeding with the deletion**
 
 ### 3.4 Commenting System: 
-* **[3.4.1](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3.3-post/3.4.1-desktop-comment.png) Commenting on a post is done within the same page. Through javascript the author is scrolled back to the same post after submitting a comment.**
-* **[3.4.2](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3.3-post/3.4.2-desktop-delete_comment.png) A comment can be deleted from the post detail page, with deletion only restricted to the author or admin. However, the comment will also be deleted if the post author deletes her post.**
+* **[3.4.1](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3.4-commenting_system/3.4.1-desktop-comment.png) Commenting on a post is done within the same page. Through javascript the author is scrolled back to the same post after submitting a comment.**
+* **[3.4.2](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3.4-commenting_system/3.4.2-desktop-delete_comment.png) A comment can be deleted from the post detail page, with deletion only restricted to the author or admin. However, the comment will also be deleted if the post author deletes her post.**
 
 ### 3.5 Search Functionaltiy:
-* **3.5.1 A built-in search bar allows users to easily find posts by keywords in their titles.**
+* **[3.5.1](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3.5-search_functionality/3.5.) A built-in search bar allows users to easily find posts by keywords in their titles.**
 * **3.5.2 Suggestions can be displayed in two ways:**
-* **3.5.2.1 As clickable links in a dropdown.**
-When clicking on a suggestion the user is scrolled down to the specific post.
-
-* **3.5.2.2 As clickable links in a result page, if the user clicks on the search icon**
+* **[3.5.2.1](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3.5-search_functionality/3.5.2.1) As clickable links in a dropdown.**
+* **[3.5.2.2](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3.5-search_functionality/3.5.2.2) As clickable links in a result page, if the user clicks on the search icon.**
 When clicking on a suggestion the user is redirected back to the Postwall page, where all the posts are, and scrolled down to the specific post.
 
 ### 3.6 Alert Messages:
