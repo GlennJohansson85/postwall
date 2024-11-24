@@ -36,8 +36,8 @@ Postwall provides a space for you to express yourself and connect with others.**
 * **[2.1.7 Footer](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/2-wireframes/2.1.7-footer.png)**
 
 ### 2.2 Mobile:
-* **[2.2.1 Toggler closed](https://github.com/GlennJohansson85/postwall/docs/2-wireframes/2.2.1-toggler_closed.png)**
-* **[2.2.2 Toggler open](https://github.com/GlennJohansson85/postwall/docs/2-wireframes/2.2.2-toggler_open.png)**
+* **[2.2.1 Toggler closed](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/2-wireframes/2.2.1-toggler_closed.png)**
+* **[2.2.2 Toggler open](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/2-wireframes/2.2.2-toggler_open.png)**
 
 postwall/docs/3-features/3.1.1-desktop-register.png/
 ## 3. Features
