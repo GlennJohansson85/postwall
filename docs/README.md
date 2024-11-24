@@ -42,13 +42,13 @@ Postwall provides a space for you to express yourself and connect with others.**
 
 ## 3. Features
 ### 3.1 User Authentication:
-  * **[3.1.1 Register](https://github.com/GlennJohansson85/postwall/blob/main/docs/3-features/3.1.1-desktop-register)**
-  * **[3.1.2 Log in](https://github.com/GlennJohansson85/postwall/blob/main/docs/3-features/3.1.2-desktop-login)**
-  * **[3.1.3 Log out](https://github.com/GlennJohansson85/postwall/blob/main/docs/3-features/3.1.3-desktop-logout)**
-  * **[3.1.4 Access their Dashboard](https://github.com/GlennJohansson85/postwall/blob/main/docs/3-features/3.1.4-desktop-dashboard)**
-  * **[3.1.5 Edit their Profile](https://github.com/GlennJohansson85/postwall/blob/main/docs/3-features/3.1.5-desktop-edit_profile)**
-  * **[3.1.6 Change Passwords](https://github.com/GlennJohansson85/postwall/blob/main/docs/3-features/3.1.6-desktop-change_password)**
-c
+  * **[3.1.1 Register](https://github.com/GlennJohansson85/postwall/blob/main/docs/3-features/3.1.1-desktop-register.png)**
+  * **[3.1.2 Log in](https://github.com/GlennJohansson85/postwall/blob/main/docs/3-features/3.1.2-desktop-login.png)**
+  * **[3.1.3 Log out](https://github.com/GlennJohansson85/postwall/blob/main/docs/3-features/3.1.3-desktop-logout.png)**
+  * **[3.1.4 Access their Dashboard](https://github.com/GlennJohansson85/postwall/blob/main/docs/3-features/3.1.4-desktop-dashboard.png)**
+  * **[3.1.5 Edit their Profile](https://github.com/GlennJohansson85/postwall/blob/main/docs/3-features/3.1.5-desktop-edit_profile.png)**
+  * **[3.1.6 Change Passwords](https://github.com/GlennJohansson85/postwall/blob/main/docs/3-features/3.1.6-desktop-change_password.png)**
+
 
 ### 3.2 Email Verification:
 **Email verification is required when creating an account or changing passwords**
