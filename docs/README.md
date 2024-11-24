@@ -52,11 +52,12 @@ Postwall provides a space for you to express yourself and connect with others.**
 ### 3.3 Post Creation and Management:
 * **[3.3.1 Create posts with text content and images](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3.3-post/3.3.1-desktop-post.png)**
 * **[3.3.2 Meta data is automatically produced when posting, showing the author & the date the post was published](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3.3-post/3.3.2-desktop-meta.png)**
-* **3.3.3 A post can be deleted from its detail page, with deletion permissions restricted to the author or admin. To prevent accidental removal, the author is prompted to confirm the action before proceeding with the deletion.**
+* **[3.3.3 A post can be deleted from its detail page, with deletion permissions restricted to the author or admin](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3.3-post/3.3.3-desktop-delete_post.png)**
+  * [3.3.3.1 To prevent accidental removal, the author is prompted to confirm the action before proceeding with the deletion](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3.3-post/3.3.3.1-desktop-delete_post.png)**
 
 ### 3.4 Commenting System: 
-* **3.4.1 Commenting on a post is done within the same page. Through javascript the author is scrolled back to the same post after submitting a comment.**
-* **3.4.2 A comment can be deleted from the post detail page, with deletion only restricted to the author or admin. However, the comment will also be deleted if the post author deletes her post. 
+* **[3.4.1 Commenting on a post is done within the same page. Through javascript the author is scrolled back to the same post after submitting a comment.](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3.3-post/3.4.1-desktop-comment.png)**
+* **[3.4.2 A comment can be deleted from the post detail page, with deletion only restricted to the author or admin. However, the comment will also be deleted if the post author deletes her post.](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3.3-post/3.4.2-desktop-delete_comment.png)**
 
 ### 3.5 Search Functionaltiy:
 * **3.5.1 A built-in search bar allows users to easily find posts by keywords in their titles.**
