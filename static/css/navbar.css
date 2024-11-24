@@ -117,6 +117,14 @@
 
 
 
+.dropdown-menu {
+  position: absolute;
+  z-index: 1050;
+}
+
+.dropdown-item {
+	width: fit-content;
+}
 
 
 /* Styles for search content */
@@ -233,9 +241,9 @@
 	display: inline;
 }
 
-/* Hide profile image in dropdown on small screens
+/* Hide profile image in dropdown on small screens */
 .profile-image-dropdown {
-	display: none;/*
+	display: none;
 }
 
 /* Responsive settings - Small Screens */

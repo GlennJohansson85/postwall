@@ -6,7 +6,6 @@
 
 {% block header %}
 <header>
-
 	<!-- Brand -->
 	<nav class="navbar navbar-expand-lg">
 		<div class="container-fluid">
@@ -21,17 +20,13 @@
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
 				data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
 				aria-expanded="false" aria-label="Toggle navigation">
-
 				{% if user.is_authenticated and profile_picture_url %}
-					<!-- Show profile picture in toggler if authenticated -->
 					<img src="{{ profile_picture_url }}" alt="profile pic" class="profile-image-toggler"/>
 				{% endif %}
-
 				<i class="fas fa-chevron-down"></i>
 			</button>
 
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-
 				<!-- Search Function -->
 				<form action="{% url 'search' %}" method="GET" class="input-group ms-auto">
 					<input type="text" name="keyword" class="form-control search-input"
@@ -61,17 +56,18 @@
 					<li class="nav-item dropdown">
 						<a class="nav-link {% if request.resolver_match.url_name == '/friends/' %} active {% endif %}"
 							href="#">Friends</a>
-					<li class="nav-item">
-						<!-- Dropdown Link (Profile Dashboard) -->
-						<a class="nav-link {% if request.resolver_match.url_name == 'profile' %} active {% endif %}" 
-							href="{% if user.is_authenticated %}{% url 'dashboard' %}{% else %}{% url 'login' %}{% endif %}" 
+					</li>
+
+					<!-- Dropdown Link (Profile Dashboard) -->
+					<li class="nav-item dropdown">
+						<a class="nav-link {% if request.resolver_match.url_name == 'profile' %} active {% endif %}"
+							href="{% if user.is_authenticated %}{% url 'dashboard' %}{% else %}{% url 'login' %}{% endif %}"
 							id="profiledropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 							{% if user.is_authenticated and profile_picture_url %}	
 								<!-- Show profile picture in link when authenticated -->
 								<span class="d-lg-none">
 									<img src="{{ profile_picture_url }}" alt="profile pic" class="profile-image-toggler"/>
 								</span>
-
 								<!-- Show the profile picture when on large screens -->
 								<span class="d-none d-lg-inline">
 									<img src="{{ profile_picture_url }}" alt="profile pic" class="profile-image"/>
@@ -82,8 +78,7 @@
 								<span class="d-none d-lg-inline">Profile</span>
 							{% endif %}
 						</a>
-
-						<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="profileDropdown">
+						<ul class="dropdown-menu">
 							{% if user.is_authenticated %}
 								<li><a class="dropdown-item {% if request.resolver_match.url_name == 'dashboard' %} active {% endif %}" href="{% url 'dashboard' %}">Dashboard</a></li>
 								<li><a class="dropdown-item {% if request.resolver_match.url_name == 'logout' %} active {% endif %}" href="{% url 'logout' %}">Logout</a></li>
@@ -92,6 +87,7 @@
 							{% endif %}
 						</ul>
 					</li>
+
 				</ul>
 			</div>
 		</div>
