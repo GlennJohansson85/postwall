@@ -46,7 +46,7 @@ Postwall provides a space for you to express yourself and connect with others.**
 
 ### 3.2 Email Verification:
 **Email verification is required when registering to the website or changing account password**
-* **3.2.1 Upon registration, the user receives an [alert message!](image.png) that a verification email has been sent with a link to confirm their account.**
+* **3.2.1 Upon registration, the user receives an ![alert message](image.png) that a verification email has been sent with a link to confirm their account.**
 
 
 ### 3.3 Post Creation and Management:
