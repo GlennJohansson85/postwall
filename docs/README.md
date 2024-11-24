@@ -27,27 +27,27 @@ Postwall provides a space for you to express yourself and connect with others.**
 
 ## 2. Wireframes
 ### 2.1 Desktop:
-* **[2.1.1 Postwall](https://github.com/GlennJohansson85/postwall/blob/main/docs/2-wireframes/2.1.1-postwall.png)**
-* **[2.1.2 Post_detail](https://github.com/GlennJohansson85/postwall/blob/main/docs/2-wireframes/2.1.2-post_detail.png)**
-* **[2.1.3 Dashboard](https://github.com/GlennJohansson85/postwall/blob/main/docs/2-wireframes/2.1.3-dashboard.png)**
-* **[2.1.4 Register](https://github.com/GlennJohansson85/postwall/blob/main/docs/2-wireframes/2.1.4-register.png)**
-* **[2.1.5 Login](https://github.com/GlennJohansson85/postwall/blob/main/docs/2-wireframes/2.1.5-login.png)**
-* **[2.1.6 Navbar](https://github.com/GlennJohansson85/postwall/blob/main/docs/2-wireframes/2.1.6-navbar.png)**
-* **[2.1.7 Footer](https://github.com/GlennJohansson85/postwall/blob/main/docs/2-wireframes/2.1.7-footer.png)**
+* **[2.1.1 Postwall](https://github.com/GlennJohansson85/postwall/docs/2-wireframes/2.1.1-postwall.png)**
+* **[2.1.2 Post_detail](https://github.com/GlennJohansson85/postwall/docs/2-wireframes/2.1.2-post_detail.png)**
+* **[2.1.3 Dashboard](https://github.com/GlennJohansson85/postwall/docs/2-wireframes/2.1.3-dashboard.png)**
+* **[2.1.4 Register](https://github.com/GlennJohansson85/postwall/docs/2-wireframes/2.1.4-register.png)**
+* **[2.1.5 Login](https://github.com/GlennJohansson85/postwall/docs/2-wireframes/2.1.5-login.png)**
+* **[2.1.6 Navbar](https://github.com/GlennJohansson85/postwall/docs/2-wireframes/2.1.6-navbar.png)**
+* **[2.1.7 Footer](https://github.com/GlennJohansson85/postwall/docs/2-wireframes/2.1.7-footer.png)**
 
 ### 2.2 Mobile:
-* **[2.2.1 Toggler closed](https://github.com/GlennJohansson85/postwall/blob/main/docs/2-wireframes/2.2.1-toggler_closed.png)**
-* **[2.2.2 Toggler open](https://github.com/GlennJohansson85/postwall/blob/main/docs/2-wireframes/2.2.2-toggler_open.png)**
+* **[2.2.1 Toggler closed](https://github.com/GlennJohansson85/postwall/docs/2-wireframes/2.2.1-toggler_closed.png)**
+* **[2.2.2 Toggler open](https://github.com/GlennJohansson85/postwall/docs/2-wireframes/2.2.2-toggler_open.png)**
 
-
+postwall/docs/3-features/3.1.1-desktop-register.png/
 ## 3. Features
 ### 3.1 User Authentication:
-  * **[3.1.1 Register](https://github.com/GlennJohansson85/postwall/blob/main/docs/3-features/3.1.1-desktop-register.png)**
-  * **[3.1.2 Log in](https://github.com/GlennJohansson85/postwall/blob/main/docs/3-features/3.1.2-desktop-login.png)**
-  * **[3.1.3 Log out](https://github.com/GlennJohansson85/postwall/blob/main/docs/3-features/3.1.3-desktop-logout.png)**
-  * **[3.1.4 Access their Dashboard](https://github.com/GlennJohansson85/postwall/blob/main/docs/3-features/3.1.4-desktop-dashboard.png)**
-  * **[3.1.5 Edit their Profile](https://github.com/GlennJohansson85/postwall/blob/main/docs/3-features/3.1.5-desktop-edit_profile.png)**
-  * **[3.1.6 Change Passwords](https://github.com/GlennJohansson85/postwall/blob/main/docs/3-features/3.1.6-desktop-change_password.png)**
+  * **[3.1.1 Register](https://github.com/GlennJohansson85/postwall/docs/3-features/3.1.1-desktop-register.png/)**
+  * **[3.1.2 Log in](https://github.com/GlennJohansson85/postwall/docs/3-features/3.1.2-desktop-login.png)**
+  * **[3.1.3 Log out](https://github.com/GlennJohansson85/postwall/docs/3-features/3.1.3-desktop-logout.png)**
+  * **[3.1.4 Access their Dashboard](https://github.com/GlennJohansson85/postwall/docs/3-features/3.1.4-desktop-dashboard.png)**
+  * **[3.1.5 Edit their Profile](https://github.com/GlennJohansson85/postwall/docs/3-features/3.1.5-desktop-edit_profile.png)**
+  * **[3.1.6 Change Passwords](https://github.com/GlennJohansson85/postwall/docs/3-features/3.1.6-desktop-change_password.png)**
 
 
 ### 3.2 Email Verification:
