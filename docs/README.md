@@ -48,9 +48,7 @@ Postwall provides a space for you to express yourself and connect with others.**
   * **[3.1.5 Edit their Profile](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3-features/3.1.5-desktop-edit_profile.png)**
   * **[3.1.6 Change Passwords](https://github.com/GlennJohansson85/blob/main/postwall/docs/images/3-features/3.1.6-desktop-change_password.png)**
 
-docs/images/3-features/3.1.5-desktop-edit_profile.png
 
-https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3-features/3.1.5-desktop-edit_profile.png
 
 ### 3.2 Email Verification:
 **Email verification is required when creating an account or changing passwords**
