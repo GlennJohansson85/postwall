@@ -26,7 +26,7 @@ Postwall provides a space for you to express yourself and connect with others.**
 ## 2. Wireframes
 ### 2.1 Desktop Wireframes:
 <details>
-  <summary><strong>2.1.1 Postwall</strong></summary>
+  <summary><strong>2.1.1</strong> Postwall</summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.1-postwall.png" alt="Postwall Image">
 </details>
 <details>
