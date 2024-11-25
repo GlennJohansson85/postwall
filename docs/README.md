@@ -30,8 +30,35 @@ Postwall provides a space for you to express yourself and connect with others.**
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.1-postwall.png" alt="Postwall Image">
 </details>
 
+<details>
+  <summary>2.1.2 Post_detail</summary>
+  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.1-postwall.png" alt="Postwall Image">
+</details>
 
+<details>
+  <summary>2.1.3 Dashboard</summary>
+  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.1-postwall.png" alt="Postwall Image">
+</details>
 
+<details>
+  <summary>2.1.4 Register</summary>
+  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.1-postwall.png" alt="Postwall Image">
+</details>
+
+<details>
+  <summary>2.1.5 Login</summary>
+  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.1-postwall.png" alt="Postwall Image">
+</details>
+
+<details>
+  <summary>2.1.6 Navbar</summary>
+  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.1-postwall.png" alt="Postwall Image">
+</details>
+
+<details>
+  <summary>2.1.7 Footer</summary>
+  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.1-postwall.png" alt="Postwall Image">
+</details>
 
 ### 2.1 Desktop:
 * **[2.1.1](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/2-wireframes/2.1-desktop/2.1.1-postwall.png) Postwall**
