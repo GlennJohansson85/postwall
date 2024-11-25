@@ -93,15 +93,18 @@ Postwall provides a space for you to express yourself and connect with others.**
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.1-user_authentication/3.1.6-desktop-change_password.png" alt="Postwall Image">
 </details>
 
-  * **[3.1.1](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3-features/3.1-user_authentication/3.1.1-desktop-register.png) Register**
-  * **[3.1.2](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3-features/3.1-user_authentication/3.1.2-desktop-login.png) Log in**
-  * **[3.1.3](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3-features/3.1-user_authentication/3.1.3-desktop-logout.png) Log out**
-  * **[3.1.4](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3-features/3.1-user_authentication/3.1.4-desktop-dashboard.png) Access the Dashboard**
-  * **[3.1.5](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3-features/3.1-user_authentication/3.1.5-desktop-edit_profile.png) Edit Profile**
-  * **[3.1.6](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3-features/3.1-user_authentication/3.1.6-desktop-change_password.png) Change Password**
-
 ### 3.2 Email Verification:
 **Email verification is used when:**
+
+<details>
+  <summary><strong>3.2.1 User registration</strong></summary>
+  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.2-email_verification/3.2.1-dekstop-register.png" alt="Postwall Image">
+</details>
+<details>
+  <summary><strong>3.2.2 Change password</strong></summary>
+  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.2-email_verification/3.2.2-desktop-forget_password.png" alt="Postwall Image">
+</details>
+
 * **[3.2.1](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3-features/3.2-email_verification/3.2.1-dekstop-register.png) User registration**
 * **[3.2.2](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3-features/3.2-email_verification/3.2.2-desktop-forget_password.png) Change password**
 
