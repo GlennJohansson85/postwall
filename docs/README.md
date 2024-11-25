@@ -7,6 +7,7 @@ WORK IN PROGRESS
 Whether you're documenting your life, sharing creative projects, or simply reflecting on your day.
 Postwall provides a space for you to express yourself and connect with others.**
 
+!!! AM I RESPONSIVE - ADD IMAGE !!!
 
 ## 1. User Stories
 ### 1.1 As a First Time Visitor, I want to:
@@ -84,7 +85,9 @@ Postwall provides a space for you to express yourself and connect with others.**
 ### 3.7 Responsive Design: 
 **The website is fully responsive, providing a smooth experience on both desktop and mobile devices.**
 
-![alt text](image-1.png)
+![image](https://github.com/user-attachments/assets/ce2d7c94-f7fb-45a2-9075-e9803b86d096)
+
+
 
 
 ## 4. Technologies Used
