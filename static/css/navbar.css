@@ -1,30 +1,36 @@
 /* nav BAR settings */
 .navbar {
 	box-sizing: border-box;
-    width: 100%;
-    max-width: 1200px;
+	max-width: 1200px;
+	width: 100%;
 	position: fixed;
 	z-index: 1000;
+	align-items: center;
 	display: flex;
-    justify-content: space-between;
-    align-items: center;
+	justify-content: space-between;
+}
+
+.navbar-nav {
+	flex-direction: row;
+	display: flex;
+	align-items: center;
 }
 
 /* Navbar Brand: "Post Wall" */
 .navbar-brand {
-    padding: 0 5px;
-    position: relative;
-    z-index: 1000;
-    outline: none;
-    display: flex;
-    align-items: center;
-    font-family: "Cocogoose-Condensed-Letterpress-trial", "Sans-Serif";
-    color: #fff;
-    background-color: #3a3939;
-    border-radius: 5px;
-    text-shadow: -3px -1px 0px #e44c9f;
-    box-shadow: 2px 2px 0px 0px #e44c9f;
-    transition: box-shadow 0.2s ease, transform 0.2s ease;
+	padding: 0 5px;
+	display: flex;
+	border-radius: 5px;
+	align-items: center;
+	outline: none;
+	position: relative;
+	z-index: 1000;
+	font-family: "Cocogoose-Condensed-Letterpress-trial", "Sans-Serif";
+	color: #fff;
+	background-color: #3a3939;
+	text-shadow: -3px -1px 0px #e44c9f;
+	box-shadow: 2px 2px 0px 0px #e44c9f;
+	transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 
 /* Navbar Brand: Hover, Focus & Active state */
@@ -40,19 +46,19 @@
 
 /* Navbar Links */
 .nav-link {
-    padding: 0 15px;
-    white-space: nowrap;
-    position: relative;
-    z-index: 1000;
-    outline: none;
-    display: inline-flex;
-    align-items: center;
-    font-family: "Cocogoose-Condensed-letterpress-trial", "Sans-Serif";
-    color: #fff;
-    background-color: #3a3939;
-    border-radius: 0;
-    box-shadow: 2px 2px 0px 0px #e44c9f;
-    transition: box-shadow 0.2s ease, transform 0.2s ease;
+	font-family: "Cocogoose-Condensed-letterpress-trial", "Sans-Serif";
+	border-radius: 0;
+	outline: none;
+	position: relative;
+	z-index: 1000;
+	color: #fff;
+	background-color: #3a3939;
+	box-shadow: 2px 2px 0px 0px #e44c9f;
+	transition: box-shadow 0.2s ease, transform 0.2s ease;
+	padding: 0 15px;
+	white-space: nowrap;
+	display: inline-flex;
+	align-items: center;
 }
 
 .nav-link:hover,
@@ -115,17 +121,11 @@
 	height: auto;
 }
 
-
-
 .dropdown-menu {
-  position: absolute;
-  z-index: 1050;
+	font-family: "Asap-Bold";
+	background-clip: padding-box;
+    box-shadow: 0px 0px 3px #01f16d;
 }
-
-.dropdown-item {
-	width: fit-content;
-}
-
 
 /* Styles for search content */
 .search-input {
@@ -282,10 +282,6 @@
 		flex-direction: row;
 	}
 
-	.navbar-nav .nav-link {
-        padding: 5px 10px;
-    }
-
 	.navbar-brand {
 		font-size: 30px;
 		height: 40px;
@@ -321,17 +317,31 @@
 		padding-bottom: 5px;
 		box-sizing: border-box;
 		font-size: 20px;
+		height: 40px;
+		line-height: 40px;
 	}
 
 	.nav-item {
 		flex: 1;
 		display: flex;
+		height: 40px;
+		line-height: 40px;
 	}
 
 	.nav-item:last-child .nav-link {
 		display: flex;
 		align-items: center;
 		justify-content: center;
+	}
+
+	.dropdown-menu {
+		position: absolute!important;
+		min-width: auto!important;
+	}
+
+	.dropdown-item {
+		font-size: 16px;
+		line-height: 16px;
 	}
 
 	.d-none {
@@ -493,6 +503,12 @@
 		object-fit: cover;
 	}
 
+	.dropdown-menu {
+		position: absolute !important;
+		min-width: auto !important;
+	}
+
+	/* Profile link - Dropdown style */
 	.dropdown-item {
 		font-size: 18px;
 		line-height: 18px;
