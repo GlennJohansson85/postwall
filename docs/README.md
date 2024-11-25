@@ -84,6 +84,7 @@ Postwall provides a space for you to express yourself and connect with others.**
 ### 3.7 Responsive Design: 
 **The website is fully responsive, providing a smooth experience on both desktop and mobile devices.**
 
+![alt text](image-1.png)
 
 
 ## 4. Technologies Used
