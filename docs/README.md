@@ -24,7 +24,7 @@ Postwall provides a space for you to express yourself and connect with others.**
 * **1.3.3 See content in a larger scale.**
 
 ## 2. Wireframes
-
+### 2.1 Desktop:
 <details>
   <summary>2.1.1 Postwall</summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.1-postwall.png" alt="Postwall Image">
@@ -52,6 +52,17 @@ Postwall provides a space for you to express yourself and connect with others.**
 <details>
   <summary>2.1.7 Footer</summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.7-footer.png" alt="Postwall Image">
+</details>
+
+### 2.2 Mobile:
+
+<details>
+  <summary>**2.2.1 Navbar**</summary>
+  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.2-mobile/2.2.1-toggler_closed.png" alt="Postwall Image">
+</details>
+<details>
+  <summary>2.2.2 Footer</summary>
+  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.2-mobile/2.2.2-toggler_open.png" alt="Postwall Image">
 </details>
 
 ### 2.1 Desktop:
