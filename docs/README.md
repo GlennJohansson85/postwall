@@ -82,15 +82,15 @@ Postwall provides a space for you to express yourself and connect with others.**
 </details>
 <details>
   <summary><strong>3.1.4 Access the Dashboard</strong></summary>
-  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3.1-user_authentication/3.1.4-desktop-dashboard.png" alt="Postwall Image">
+  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.1-user_authentication/3.1.4-desktop-dashboard.png" alt="Postwall Image">
 </details>
 <details>
   <summary><strong>3.1.5 Edit Profile</strong></summary>
-  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3.1-user_authentication/3.1.5-desktop-edit_profile.png" alt="Postwall Image">
+  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.1-user_authentication/3.1.5-desktop-edit_profile.png" alt="Postwall Image">
 </details>
 <details>
   <summary><strong>3.1.6 Change Password</strong></summary>
-  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3.1-user_authentication/3.1.6-desktop-change_password.png" alt="Postwall Image">
+  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.1-user_authentication/3.1.6-desktop-change_password.png" alt="Postwall Image">
 </details>
 
   * **[3.1.1](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3-features/3.1-user_authentication/3.1.1-desktop-register.png) Register**
