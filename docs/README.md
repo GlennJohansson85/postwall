@@ -68,10 +68,16 @@ Postwall provides a space for you to express yourself and connect with others.**
 
 ### 3.6 Alert Messages:
 **Informative messages will appear when the user performs certain tasks:
-* **3.6.1 Registering**
-* **3.6.2 Sign in**
-* **3.6.3 Sign out**
-* **3.6.4 Posting, deleting & more** 
+* **[3.6.1](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3-features/3.6-alert_messages/3.6.1-registration.png) Registration**
+* **[3.6.2](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3-features/3.6-alert_messages/3.6.2-login.png) Log in**
+* **[3.6.3](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3-features/3.6-alert_messages/3.6.3-logout.png) Log out**
+* **[3.6.4](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3-features/3.6-alert_messages/3.6.4-password_updated.png) Password updated**
+* **[3.6.5](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3-features/3.6-alert_messages/3.6.5-password_reset.png) Password reset**
+
+* **3.6.6 Errors**
+  * **[3.6.6.1](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3-features/3.6-alert_messages/3.6.6.1-login_errorpng) Login error**
+  * **[3.6.6.2](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3-features/3.6-alert_messages/3.6.6.2-password_inccorect) Password incorrect**
+  * **[3.6.6.3](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3-features/3.6-alert_messages/3.6.6.3-passwords_nomatch.png) Passwords do not match**
 
 **These messages automatically fade after a set period.**
 
