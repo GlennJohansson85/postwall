@@ -26,7 +26,7 @@ Postwall provides a space for you to express yourself and connect with others.**
 ## 2. Wireframes
 ### 2.1 Desktop Wireframes:
 <details>
-  <summary><strong>2.1.1</strong><cursive>Postwall</cursive></summary>
+  <summary><strong>2.1.1</strong>Postwall</summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.1-postwall.png" alt="Postwall Image">
 </details>
 <details>
@@ -56,11 +56,11 @@ Postwall provides a space for you to express yourself and connect with others.**
 
 ### 2.2 Mobile Wireframes:
 <details>
-  <summary><strong>2.2.1 Navbar</strong></summary>
+  <summary><strong>2.2.1</strong> Navbar</summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.2-mobile/2.2.1-toggler_closed.png" alt="Postwall Image">
 </details>
 <details>
-  <summary><strong>2.2.2 Footer</strong></summary>
+  <summary><strong>2.2.2</strong> Footer</summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.2-mobile/2.2.2-toggler_open.png" alt="Postwall Image">
 </details>
 
@@ -69,27 +69,27 @@ Postwall provides a space for you to express yourself and connect with others.**
 ### 3.1 User Authentication:
 
 <details>
-  <summary><strong>3.1.1 Register</strong></summary>
+  <summary><strong>3.1.1</strong> Register</summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.1-user_authentication/3.1.1-desktop-register.png" alt="Postwall Image">
 </details>
 <details>
-  <summary><strong>3.1.2 Log in</strong></summary>
+  <summary><strong>3.1.2</strong> Log in</summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.1-user_authentication/3.1.2-desktop-login.png" alt="Postwall Image">
 </details>
 <details>
-  <summary><strong>3.1.3 Log out</strong></summary>
+  <summary><strong>3.1.3</strong> Log out</summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.1-user_authentication/3.1.3-desktop-logout.png" alt="Postwall Image">
 </details>
 <details>
-  <summary><strong>3.1.4 Access the Dashboard</strong></summary>
+  <summary><strong>3.1.4</strong> Access the Dashboard</summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.1-user_authentication/3.1.4-desktop-dashboard.png" alt="Postwall Image">
 </details>
 <details>
-  <summary><strong>3.1.5 Edit Profile</strong></summary>
+  <summary><strong>3.1.5</strong> Edit Profile</summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.1-user_authentication/3.1.5-desktop-edit_profile.png" alt="Postwall Image">
 </details>
 <details>
-  <summary><strong>3.1.6 Change Password</strong></summary>
+  <summary><strong>3.1.6</strong> Change Password</summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.1-user_authentication/3.1.6-desktop-change_password.png" alt="Postwall Image">
 </details>
 
