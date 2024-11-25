@@ -55,7 +55,6 @@ Postwall provides a space for you to express yourself and connect with others.**
 </details>
 
 ### 2.2 Mobile Wireframes:
-
 <details>
   <summary><strong>2.2.1 Navbar</strong></summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.2-mobile/2.2.1-toggler_closed.png" alt="Postwall Image">
@@ -65,20 +64,35 @@ Postwall provides a space for you to express yourself and connect with others.**
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.2-mobile/2.2.2-toggler_open.png" alt="Postwall Image">
 </details>
 
-### 2.1 Desktop:
-* **[2.1.1](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/2-wireframes/2.1-desktop/2.1.1-postwall.png) Postwall**
-* **[2.1.2](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/2-wireframes/2.1-desktop/2.1.2-post_detail.png) Post_detail**
-* **[2.1.3](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/2-wireframes/2.1-desktop/2.1.3-dashboard.png) Dashboard**
-* **[2.1.4](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/2-wireframes/2.1-desktop/2.1.4-register.png) Register**
-* **[2.1.5](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/2-wireframes/2.1-desktop/2.1.5-login.png) Login**
-* **[2.1.6](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/2-wireframes/2.1-desktop/2.1.6-navbar.png) Navbar**
-* **[2.1.7](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/2-wireframes/2.1-desktop/2.1.7-footer.png) Footer**
-### 2.2 Mobile:
-* **[2.2.1](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/2-wireframes/2.2-mobile/2.2.1-toggler_closed.png) Toggler closed**
-* **[2.2.2](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/2-wireframes/2.2-mobile/2.2.2-toggler_open.png) Toggler open**
 
 ## 3. Features
 ### 3.1 User Authentication:
+
+<details>
+  <summary><strong>3.1.1</strong></summary>
+  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.1-user_authentication/3.1.1-desktop-register.png" alt="Postwall Image">
+</details>
+<details>
+  <summary><strong>3.1.2</strong></summary>
+  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.1-user_authentication/3.1.2-desktop-login.png" alt="Postwall Image">
+</details>
+<details>
+  <summary><strong>3.1.3</strong></summary>
+  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.1-user_authentication/3.1.3-desktop-logout.png" alt="Postwall Image">
+</details>
+<details>
+  <summary><strong>3.1.4</strong></summary>
+  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3.1-user_authentication/3.1.4-desktop-dashboard.png" alt="Postwall Image">
+</details>
+<details>
+  <summary><strong>3.1.5</strong></summary>
+  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3.1-user_authentication/3.1.5-desktop-edit_profile.png" alt="Postwall Image">
+</details>
+<details>
+  <summary><strong>3.1.6</strong></summary>
+  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3.1-user_authentication/3.1.6-desktop-change_password.png" alt="Postwall Image">
+</details>
+
   * **[3.1.1](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3-features/3.1-user_authentication/3.1.1-desktop-register.png) Register**
   * **[3.1.2](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3-features/3.1-user_authentication/3.1.2-desktop-login.png) Log in**
   * **[3.1.3](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3-features/3.1-user_authentication/3.1.3-desktop-logout.png) Log out**
