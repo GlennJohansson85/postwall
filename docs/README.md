@@ -61,7 +61,7 @@ Postwall provides a space for you to express yourself and connect with others.**
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.2-mobile/2.2.1-toggler_closed.png" alt="Postwall Image">
 </details>
 <details>
-  <summary>2.2.2 Footer</summary>
+  <summary><strong>2.2.2 Footer</strong></summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.2-mobile/2.2.2-toggler_open.png" alt="Postwall Image">
 </details>
 
