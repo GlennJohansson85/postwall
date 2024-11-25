@@ -7,6 +7,7 @@ WORK IN PROGRESS
 Whether you're documenting your life, sharing creative projects, or simply reflecting on your day.
 Postwall provides a space for you to express yourself and connect with others.**
 
+!!! AM I RESPONSIVE - ADD IMAGE !!!
 
 ## 1. User Stories
 ### 1.1 As a First Time Visitor, I want to:
