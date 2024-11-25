@@ -25,7 +25,7 @@ Postwall provides a space for you to express yourself and connect with others.**
 
 ## 2. Wireframes
 <details><summary>See colour pallet</summary>
-<img src="docs/images/2-wireframes/2.1-desktop/2.1.1-postwall.png">
+<img src="docs/images/3-features/3.6-alert_messages/3.6.6.3-passwords_nomatch.png">
 </details>
 
 
