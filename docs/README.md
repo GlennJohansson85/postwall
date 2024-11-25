@@ -94,14 +94,14 @@ Postwall provides a space for you to express yourself and connect with others.**
 </details>
 
 ### 3.2 Email Verification:
-**Email verification is used when:**
+**Email verification is done:**
 
 <details>
-  <summary><strong>3.2.1 User registration</strong></summary>
+  <summary><strong>3.2.1 When a new user register to the website. A email, with a link, is sent to the users´email. By clicking the link the user verify its his/hers email address</strong></summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.2-email_verification/3.2.1-dekstop-register.png" alt="Postwall Image">
 </details>
 <details>
-  <summary><strong>3.2.2 Change password</strong></summary>
+  <summary><strong>3.2.2 If the user forgets his/hers account password </strong></summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.2-email_verification/3.2.2-desktop-forget_password.png" alt="Postwall Image">
 </details>
 
