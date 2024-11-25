@@ -24,40 +24,40 @@ Postwall provides a space for you to express yourself and connect with others.**
 * **1.3.3 See content in a larger scale.**
 
 ## 2. Wireframes
-### 2.1 Desktop:
+### 2.1 Desktop Wireframes:
 <details>
-  <summary>2.1.1 Postwall</summary>
+  <summary><strong>2.1.1 Postwall</strong></summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.1-postwall.png" alt="Postwall Image">
 </details>
 <details>
-  <summary>2.1.2 Post_detail</summary>
+  <summary><strong>2.1.2 Post_detail</strong></summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.2-post_detail.png" alt="Postwall Image">
 </details>
 <details>
-  <summary>2.1.3 Dashboard</summary>
+  <summary><strong>2.1.3 Dashboard</strong></summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.3-dashboard.png" alt="Postwall Image">
 </details>
 <details>
-  <summary>2.1.4 Register</summary>
+  <summary><strong>2.1.4 Register</strong></summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.4-register.png" alt="Postwall Image">
 </details>
 <details>
-  <summary>2.1.5 Login</summary>
+  <summary><strong>2.1.5 Login</strong></summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.5-login.png" alt="Postwall Image">
 </details>
 <details>
-  <summary>2.1.6 Navbar</summary>
+  <summary><strong>2.1.6 Navbar</strong></summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.6-navbar.png" alt="Postwall Image">
 </details>
 <details>
-  <summary>2.1.7 Footer</summary>
+  <summary><strong>2.1.7 Footer</strong></summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.7-footer.png" alt="Postwall Image">
 </details>
 
-### 2.2 Mobile:
+### 2.2 Mobile Wireframes:
 
 <details>
-  <summary>**2.2.1 Navbar**</summary>
+  <summary><strong>2.2.1 Navbar</strong></summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.2-mobile/2.2.1-toggler_closed.png" alt="Postwall Image">
 </details>
 <details>
