@@ -1,6 +1,6 @@
 WORK IN PROGRESS
 
-# Postwall **[Deployed Project](https://postwall-500ee4318184.herokuapp.com/)**
+# Postwall <p>[Deployed Project](https://postwall-500ee4318184.herokuapp.com/)</p>
 ![image](https://github.com/user-attachments/assets/dc567fb1-18c5-43fc-ac19-7a3fa2331543)
 
 **[Deployed Project](https://postwall-500ee4318184.herokuapp.com/)**
