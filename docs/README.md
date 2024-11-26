@@ -1,6 +1,8 @@
 WORK IN PROGRESS
 
 # Postwall
+![image](https://github.com/user-attachments/assets/dc567fb1-18c5-43fc-ac19-7a3fa2331543)
+
 **[Deployed Project](https://postwall-500ee4318184.herokuapp.com/)**
 
 **Postwall is a platform where you can share your thoughts and daily experiences through blog posts and photos.
