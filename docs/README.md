@@ -12,6 +12,7 @@ Postwall provides a space for you to express yourself and connect with others.**
 ## 1. User Stories
 ![image](https://github.com/user-attachments/assets/e59cee8c-98e2-4aeb-bf68-4c025ab2e5b3)
 
+![image](https://github.com/user-attachments/assets/f0a219de-fa8f-48e8-b2b0-72bd6a66963b)
 
 ### 1.1 As a First Time Visitor, I want to:
 * **1.1.1 Understand the purpose of the site.**
