@@ -8,9 +8,9 @@ Whether you're documenting your life, sharing creative projects, or simply refle
 Postwall provides a space for you to express yourself and connect with others.**
 
 * **Project Goals:**
-* Create a blog platform using the tools and knowledge gained from Code Insitute**
+  * Create a blog platform using the tools and knowledge gained from Code Insitute**
 * **User Goals:**
-* Create a blog platform where users can connect and share their content**
+  * Create a blog platform where users can connect and share their content**
 
 ## 1. User Stories
 ### 1.1 As a First Time Visitor, I want to:
