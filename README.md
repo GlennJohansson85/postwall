@@ -1,37 +1,44 @@
-WORK IN PROGRESS
-
 # Postwall
 
 ![image](https://github.com/user-attachments/assets/03595a0c-54ca-4e1f-94e4-cb030943d9af)
 
-## A
-
-**Postwall is a platform where you can share your thoughts and daily experiences through blog posts and photos.
-Whether you're documenting your life, sharing creative projects, or simply reflecting on your day.
-Postwall provides a space for you to express yourself and connect with others.**
-
 **[See Live Project Here!](https://postwall-500ee4318184.herokuapp.com/)**
 
+### About:
+Postwall is a platform where you can share your thoughts and daily experiences through blog posts and photos. Whether you're documenting your life, sharing creative projects, or simply reflecting on your day. Postwall provides a space for you to express yourself and connect with others.
 
+### Project Goals:
+Create a blog platform using the tools and knowledge gained from Code Insitute.
 
+### User Goals:
+Create a blog platform where users can connect and share their content.
 
+## 1. User Experience
+### 1.1 User Stories:
 
-## 1. User Stories
-### 1.1 As a First Time Visitor, I want to:
-* **1.1.1** Understand the purpose of the site
-* **1.1.2** Navigate through the site
-* **1.1.3** Browse posts
+#### 1.1.1 As a First Time Visitor, I want to:
+* Understand the purpose of the site
+* Navigate through the site
+* Browse posts
 
-### 1.2 As a Returning Visitor, I want to:
-* **1.2.1** Search posts
-* **1.2.2** Upload posts
-* **1.2.3** Register to the site
+#### 1.1.2 As a Returning Visitor, I want to:
+* Search posts
+* Upload posts
+* Register to the site
 
-### 1.3 As a Frequent Visitor, I want to:
-* **1.3.1** Share my views/comment on others content
-* **1.3.2** Have the freedom to regret them aswell
-* **1.3.3** See content in a larger scale
+#### 1.1.3 As a Frequent Visitor, I want to:
+* Share my views/comment on others content
+* Have the freedom to regret them aswell
+* See content in a larger scale
 
+### 1.2 Design
+
+<details>
+  <summary>
+    <strong>1.2.1</strong> Color Scheme:
+  </summary>
+  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/1-user_experience/1.2.1-color_scheme.png" alt="Dark, light color schemes used in project - Screenshot">
+</details>
 
 
 ## 2. Wireframes
