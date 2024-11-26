@@ -4,11 +4,17 @@ WORK IN PROGRESS
 
 ![image](https://github.com/user-attachments/assets/03595a0c-54ca-4e1f-94e4-cb030943d9af)
 
+## A
+
 **Postwall is a platform where you can share your thoughts and daily experiences through blog posts and photos.
 Whether you're documenting your life, sharing creative projects, or simply reflecting on your day.
 Postwall provides a space for you to express yourself and connect with others.**
 
 **[See Live Project Here!](https://postwall-500ee4318184.herokuapp.com/)**
+
+
+
+
 
 ## 1. User Stories
 ### 1.1 As a First Time Visitor, I want to:
@@ -25,6 +31,8 @@ Postwall provides a space for you to express yourself and connect with others.**
 * **1.3.1** Share my views/comment on others content
 * **1.3.2** Have the freedom to regret them aswell
 * **1.3.3** See content in a larger scale
+
+
 
 ## 2. Wireframes
 ### 2.1 Desktop Wireframes:
@@ -235,7 +243,7 @@ Postwall provides a space for you to express yourself and connect with others.**
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.6-alert_messages/3.6.5-password_reset.png" alt="Password reset alert message, Desktop View - Screenshot">
 </details>
 
-* **3.6.6 Errors**
+**3.6.6 Errors**
 <details>
   <summary>
     <strong>3.6.6.1</strong> Log in error
@@ -254,6 +262,7 @@ Postwall provides a space for you to express yourself and connect with others.**
   </summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.6-alert_messages/3.6.6.3-passwords-nomatch.png" alt="Passwords not matching alert message, Desktop View - Screenshot">
 </details>
+
 **These messages automatically fade after a set period.**
 
 ### 3.7 Responsive Design:
