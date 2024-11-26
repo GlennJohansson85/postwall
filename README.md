@@ -127,15 +127,19 @@ Postwall provides a space for you to express yourself and connect with others.**
 </details>
 
 
-
-# CONTINUE
-
-* **[3.3.1](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3.3-post/3.3.1-desktop-post.png)** Create posts with text content and images
-* **[3.3.2](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3.3-post/3.3.2-desktop-meta.png)** Meta data is automatically produced when posting, showing the author & the date the post was published
-* **[3.3.3](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3.3-post/3.3.3-desktop-delete_post.png)** A post can be deleted from its detail page, with deletion permissions restricted to the author or admin
-  * **[3.3.3.1](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3.3-post/3.3.3.1-desktop-delete_post.png)** To prevent accidental removal, the author is prompted to confirm the action before proceeding with the deletion
-
 ### 3.4 Commenting System:
+
+<details>
+  <summary><strong>3.4.1</strong> Commenting on a post is done within the same page. Through javascript the author is scrolled back to the same post after submitting a comment</summary>
+  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.4-commenting_system/3.4.1-desktop-comment.png)" alt="Popup - Confirm deletion of a Post, Desktop View - Screenshot">
+</details>
+
+<details>
+  <summary><strong>3.4.2</strong> A comment can be deleted from the post detail page, with deletion only restricted to the author or admin. However, the comment will also be deleted if the post author deletes her post</summary>
+  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.4-commenting_system/3.4.2-desktop-delete_comment.png" alt="Popup - Confirm deletion of a Post, Desktop View - Screenshot">
+</details>
+
+
 * **[3.4.1](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3.4-commenting_system/3.4.1-desktop-comment.png)** Commenting on a post is done within the same page. Through javascript the author is scrolled back to the same post after submitting a comment.
 * **[3.4.2](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3.4-commenting_system/3.4.2-desktop-delete_comment.png)** A comment can be deleted from the post detail page, with deletion only restricted to the author or admin. However, the comment will also be deleted if the post author deletes her post.
 
