@@ -17,12 +17,14 @@ Postwall provides a space for you to express yourself and connect with others.**
 * **1.1.1 Understand the purpose of the site.**
 * **1.1.2 Navigate through the site.**
 * **1.1.3 Browse posts.**
-![image](https://github.com/user-attachments/assets/9a740b9d-486e-43a5-9f38-ef550e170c7f)
+![image](https://github.com/user-attachments/assets/abe8433d-b56e-4f64-8bfe-8e8049456c4f)
+
 ### 1.2 As a Returning Visitor, I want to:
 * **1.2.1 Search posts.**
 * **1.2.2 Upload posts.**
 * **1.2.3 Register to the site.**
-![image](https://github.com/user-attachments/assets/9a740b9d-486e-43a5-9f38-ef550e170c7f)
+![image](https://github.com/user-attachments/assets/9fe179fe-f1bd-4a61-82b7-12f576c4612f)
+
 ### 1.3 As a Frequent Visitor, I want to:
 * **1.3.1 Share my views/comment on others content.**
 * **1.3.2 Have the freedom to regret them aswell.**
