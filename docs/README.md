@@ -17,6 +17,7 @@ Postwall provides a space for you to express yourself and connect with others.**
 * **1.1.1 Understand the purpose of the site.**
 * **1.1.2 Navigate through the site.**
 * **1.1.3 Browse posts.**
+<br>
 ![image](https://github.com/user-attachments/assets/abe8433d-b56e-4f64-8bfe-8e8049456c4f)
 
 ### 1.2 As a Returning Visitor, I want to:
