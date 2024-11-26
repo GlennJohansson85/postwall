@@ -105,6 +105,9 @@ Postwall provides a space for you to express yourself and connect with others.**
 </details>
 
 ### 3.3 Post Creation and Management:
+
+# CONTINUE
+
 * **[3.3.1](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3.3-post/3.3.1-desktop-post.png)** Create posts with text content and images
 * **[3.3.2](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3.3-post/3.3.2-desktop-meta.png)** Meta data is automatically produced when posting, showing the author & the date the post was published
 * **[3.3.3](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3.3-post/3.3.3-desktop-delete_post.png)** A post can be deleted from its detail page, with deletion permissions restricted to the author or admin
