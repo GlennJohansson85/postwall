@@ -5,26 +5,30 @@
 
 ### About:
 Postwall is a platform where you can share your thoughts and daily experiences through blog posts and photos. Whether you're documenting your life, sharing creative projects, or simply reflecting on your day. Postwall provides a space for you to express yourself and connect with others.
+
 ### Project Goals:
 Create a blog platform using the tools and knowledge gained from Code Insitute.
+
 ### User Goals:
 Create a blog platform where users can connect and share their content.
 
-## 1. User Stories
-### 1.1 As a First Time Visitor, I want to:
-* **1.1.1** Understand the purpose of the site
-* **1.1.2** Navigate through the site
-* **1.1.3** Browse posts
+## 1. User Experience
+### 1.1 User Stories:
 
-### 1.2 As a Returning Visitor, I want to:
-* **1.2.1** Search posts
-* **1.2.2** Upload posts
-* **1.2.3** Register to the site
+#### 1.1.1 As a First Time Visitor, I want to:
+* Understand the purpose of the site
+* Navigate through the site
+* Browse posts
 
-### 1.3 As a Frequent Visitor, I want to:
-* **1.3.1** Share my views/comment on others content
-* **1.3.2** Have the freedom to regret them aswell
-* **1.3.3** See content in a larger scale
+### 1.1.2 As a Returning Visitor, I want to:
+* Search posts
+* Upload posts
+* Register to the site
+
+### 1.1.3 As a Frequent Visitor, I want to:
+* Share my views/comment on others content
+* Have the freedom to regret them aswell
+* See content in a larger scale
 
 ## 2. Wireframes
 ### 2.1 Desktop Wireframes:
