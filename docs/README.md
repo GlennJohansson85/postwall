@@ -15,18 +15,18 @@ Postwall provides a space for you to express yourself and connect with others.**
 
 ### 1.1 As a First Time Visitor, I want to:
 * 1.1.1 Understand the purpose of the site
-* **1.1.2 Navigate through the site.**
-* **1.1.3 Browse posts.**
+* 1.1.2 Navigate through the site
+* 1.1.3 Browse posts
 
 ### 1.2 As a Returning Visitor, I want to:
-* ***1.2.1 Search posts.***
-* ***1.2.2 Upload posts.***
-* ***1.2.3 Register to the site.***
+* 1.2.1 Search posts
+* 1.2.2 Upload posts
+* 1.2.3 Register to the site
 
 ### 1.3 As a Frequent Visitor, I want to:
-* ***1.3.1 Share my views/comment on others content.***
-* ***1.3.2 Have the freedom to regret them aswell.***
-* ***1.3.3 See content in a larger scale.***
+* 1.3.1 Share my views/comment on others content
+* 1.3.2 Have the freedom to regret them aswell
+* 1.3.3 See content in a larger scale
 
 ## 2. Wireframes
 ### **2.1** Desktop Wireframes:
