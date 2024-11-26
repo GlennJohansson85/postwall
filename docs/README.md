@@ -18,7 +18,8 @@ Postwall provides a space for you to express yourself and connect with others.**
 * **1.1.2 Navigate through the site.**
 * **1.1.3 Browse posts.**
 <br>
-![image](https://github.com/user-attachments/assets/abe8433d-b56e-4f64-8bfe-8e8049456c4f)
+
+![image](https://github.com/user-attachments/assets/ca45c847-e8a7-4ee9-9ee0-31c9791d4d5e)
 
 ### 1.2 As a Returning Visitor, I want to:
 * **1.2.1 Search posts.**
