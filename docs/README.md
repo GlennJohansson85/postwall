@@ -7,7 +7,9 @@ WORK IN PROGRESS
 **Postwall is a platform where you can share your thoughts and daily experiences through blog posts and photos.
 Whether you're documenting your life, sharing creative projects, or simply reflecting on your day.
 Postwall provides a space for you to express yourself and connect with others.**
-**[Deployed Project](https://postwall-500ee4318184.herokuapp.com/)**
+
+**[See live Project:](https://postwall-500ee4318184.herokuapp.com/)**
+
 ## 1. User Stories
 ### 1.1 As a First Time Visitor, I want to:
 * **1.1.1** Understand the purpose of the site
