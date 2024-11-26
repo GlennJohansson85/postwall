@@ -96,7 +96,7 @@ Postwall provides a space for you to express yourself and connect with others.**
 ### 3.2 Email Verification:
 **Email verification is done:**
 <details>
-  <summary><strong>3.2.1</strong> When a new user register to the website. A email, with a link, is sent to the users´email. By clicking the link the user verify its his/hers email address</summary>
+  <summary><strong>3.2.1</strong> When a new user register to the website. A email with a link, to verify their account, is sent to their inbox.</summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.2-email_verification/3.2.1-dekstop-register.png" alt="Postwall Image">
 </details>
 <details>
@@ -144,13 +144,11 @@ Postwall provides a space for you to express yourself and connect with others.**
 
 ![image](https://github.com/user-attachments/assets/ce2d7c94-f7fb-45a2-9075-e9803b86d096)
 
-
-
-
 ## 4. Technologies Used
 ### 4.1 Languages Used
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)
 * [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+NOT COMPLETE
 
 ### 5. Frameworks, Libraries & Programs Used:
 
@@ -181,21 +179,6 @@ Postwall provides a space for you to express yourself and connect with others.**
 * **[Freepik](https://www.freepik.com/) - Background Images**
 
 * **[Balsamiq Wireframes](https://balsamiq.com/wireframes/) - Project Wireframes**
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## 6. Testing
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
