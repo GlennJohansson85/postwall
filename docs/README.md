@@ -97,7 +97,7 @@ Postwall provides a space for you to express yourself and connect with others.**
 **Email verification is done:**
 
 <details>
-  <summary><strong>3.2.1 When a new user register to the website. A email, with a link, is sent to the users´email. By clicking the link the user verify its his/hers email address</strong></summary>
+  <summary><strong>3.2.1</strong> When a new user register to the website. A email, with a link, is sent to the users´email. By clicking the link the user verify its his/hers email address</summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.2-email_verification/3.2.1-dekstop-register.png" alt="Postwall Image">
 </details>
 <details>
