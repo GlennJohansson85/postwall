@@ -1,6 +1,6 @@
 WORK IN PROGRESS
 
-# Postwall 
+# Postwall
 
 ![image](https://github.com/user-attachments/assets/03595a0c-54ca-4e1f-94e4-cb030943d9af)
 
@@ -30,82 +30,100 @@ Postwall provides a space for you to express yourself and connect with others.**
 ### 2.1 Desktop Wireframes:
 <details>
   <summary><strong>2.1.1</strong> Postwall</summary>
-  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.1-postwall.png" alt="Postwall Image">
+  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.1-postwall.png" alt="Postwall Wireframe, Desktop View - Screenshot">
 </details>
 <details>
   <summary><strong>2.1.2</strong> Post_detail</summary>
-  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.2-post_detail.png" alt="Postwall Image">
+  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.2-post_detail.png" alt="Post_detail Wireframe, Desktop View - Screenshot">
 </details>
 <details>
   <summary><strong>2.1.3</strong> Dashboard</summary>
-  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.3-dashboard.png" alt="Postwall Image">
+  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.3-dashboard.png" alt="Dashboard Wireframe, Desktop View - Screenshot">
 </details>
 <details>
   <summary><strong>2.1.4</strong> Register</summary>
-  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.4-register.png" alt="Postwall Image">
+  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.4-register.png" alt="Register Wireframe, Desktop View - Screenshot">
 </details>
 <details>
   <summary><strong>2.1.5</strong> Login</summary>
-  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.5-login.png" alt="Postwall Image">
+  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.5-login.png" alt="Login Wireframe, Desktop View - Screenshot">
 </details>
 <details>
   <summary><strong>2.1.6</strong> Navbar</summary>
-  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.6-navbar.png" alt="Postwall Image">
+  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.6-navbar.png" alt="Navbar Wireframe, Desktop View - Screenshot">
 </details>
 <details>
   <summary><strong>2.1.7</strong> Footer</summary>
-  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.7-footer.png" alt="Postwall Image">
+  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.7-footer.png" alt="Footer Wireframe, Desktop View - Screenshot">
 </details>
 
 ### 2.2 Mobile Wireframes:
 <details>
   <summary><strong>2.2.1</strong> Navbar</summary>
-  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.2-mobile/2.2.1-toggler_closed.png" alt="Postwall Image">
+  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.2-mobile/2.2.1-toggler_closed.png" alt="Navbar Wireframe, Mobile View - Screenshot">
 </details>
 <details>
   <summary><strong>2.2.2</strong> Footer</summary>
-  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.2-mobile/2.2.2-toggler_open.png" alt="Postwall Image">
+  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.2-mobile/2.2.2-toggler_open.png" alt="Footer Wireframe, Mobile View - Screenshot">
 </details>
 
 ## 3. Features
 ### 3.1 User Authentication:
 <details>
   <summary><strong>3.1.1</strong> Register</summary>
-  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.1-user_authentication/3.1.1-desktop-register.png" alt="Postwall Image">
+  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.1-user_authentication/3.1.1-desktop-register.png" alt="Register Page, Desktop View - Screenshot">
 </details>
 <details>
   <summary><strong>3.1.2</strong> Log in</summary>
-  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.1-user_authentication/3.1.2-desktop-login.png" alt="Postwall Image">
+  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.1-user_authentication/3.1.2-desktop-login.png" alt="Login Page, Desktop View - Screenshot">
 </details>
 <details>
   <summary><strong>3.1.3</strong> Log out</summary>
-  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.1-user_authentication/3.1.3-desktop-logout.png" alt="Postwall Image">
+  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.1-user_authentication/3.1.3-desktop-logout.png" alt="Logout Page, Desktop View - Screenshot">
 </details>
 <details>
   <summary><strong>3.1.4</strong> Access the Dashboard</summary>
-  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.1-user_authentication/3.1.4-desktop-dashboard.png" alt="Postwall Image">
+  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.1-user_authentication/3.1.4-desktop-dashboard.png" alt="Dashboard Page, Desktop View - Screenshot">
 </details>
 <details>
   <summary><strong>3.1.5</strong> Edit Profile</summary>
-  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.1-user_authentication/3.1.5-desktop-edit_profile.png" alt="Postwall Image">
+  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.1-user_authentication/3.1.5-desktop-edit_profile.png" alt="Edit_Profile Page, Desktop View - Screenshot">
 </details>
 <details>
   <summary><strong>3.1.6</strong> Change Password</summary>
-  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.1-user_authentication/3.1.6-desktop-change_password.png" alt="Postwall Image">
+  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.1-user_authentication/3.1.6-desktop-change_password.png" alt="Change_Password Page, Desktop View - Screenshot">
 </details>
 
 ### 3.2 Email Verification:
 **Email verification is done:**
 <details>
   <summary><strong>3.2.1</strong> When a new user register to the website. A email with a link, to verify their account, is sent to their inbox.</summary>
-  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.2-email_verification/3.2.1-dekstop-register.png" alt="Postwall Image">
+  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.2-email_verification/3.2.1-dekstop-register.png" alt="Welcome Message after registering, user email inbox - Screenshot ">
 </details>
 <details>
   <summary><strong>3.2.2</strong> If the user forgets his/hers account password</summary>
-  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.2-email_verification/3.2.2-desktop-forget_password.png" alt="Postwall Image">
+  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.2-email_verification/3.2.2-desktop-forget_password.png" alt="Reseting Password, user email inbox - Screenshot ">
 </details>
 
 ### 3.3 Post Creation and Management:
+<details>
+  <summary><strong>3.3.3</strong> Create posts with text content and images</summary>
+  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.3-post/3.3.1-desktop-post.png" alt="Post Page, Desktop View - Screenshot">
+</details>
+<details>
+  <summary><strong>3.3.4</strong> Meta data is automatically produced when posting, showing the author & the date the post was published</summary>
+  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.3-post/3.3.2-desktop-meta.png" alt="Uploaded Post Meta, Desktop View - Screenshot">
+</details>
+<details>
+  <summary><strong>3.3.5</strong> A post can be deleted from its detail page, with deletion permissions restricted to the author or admin</summary>
+  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.3-post/3.3.3-desktop-delete_post.png" alt="Post_detail Page, Desktop View - Screenshot">
+</details>
+<details>
+  <summary><strong>3.3.5.1</strong> To prevent accidental removal, the author is prompted to confirm the action before proceeding with the deletion</summary>
+  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.3-post/3.3.3.1-desktop-delete_post.png" alt="Popup - Confirm deletion of a Post, Desktop View - Screenshot">
+</details>
+
+
 
 # CONTINUE
 
@@ -114,7 +132,7 @@ Postwall provides a space for you to express yourself and connect with others.**
 * **[3.3.3](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3.3-post/3.3.3-desktop-delete_post.png)** A post can be deleted from its detail page, with deletion permissions restricted to the author or admin
   * **[3.3.3.1](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3.3-post/3.3.3.1-desktop-delete_post.png)** To prevent accidental removal, the author is prompted to confirm the action before proceeding with the deletion
 
-### 3.4 Commenting System: 
+### 3.4 Commenting System:
 * **[3.4.1](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3.4-commenting_system/3.4.1-desktop-comment.png)** Commenting on a post is done within the same page. Through javascript the author is scrolled back to the same post after submitting a comment.
 * **[3.4.2](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3.4-commenting_system/3.4.2-desktop-delete_comment.png)** A comment can be deleted from the post detail page, with deletion only restricted to the author or admin. However, the comment will also be deleted if the post author deletes her post.
 
@@ -140,7 +158,7 @@ Postwall provides a space for you to express yourself and connect with others.**
 
 **These messages automatically fade after a set period.**
 
-### 3.7 Responsive Design: 
+### 3.7 Responsive Design:
 **The website is fully responsive, providing a smooth experience on both desktop and mobile devices.**
 
 ![image](https://github.com/user-attachments/assets/ce2d7c94-f7fb-45a2-9075-e9803b86d096)
@@ -170,7 +188,7 @@ NOT COMPLETE
 * **[Temp Mail](https://temp-mail.org/en/) - Create false accounts/testing**
 
 * **[Bootstrap 5.0.2](https://getbootstrap.com/docs/5.0/getting-started/introduction/) - Frameworks, responsiveness & styling**
-  
+
 * **[jQuery 3.7.1](https://jquery.com/) - Interaction with the HTML models (DOM)**
 
 * **[Font Awesome](https://fontawesome.com/) - Icons**

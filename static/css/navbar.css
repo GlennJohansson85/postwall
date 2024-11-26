@@ -1,4 +1,4 @@
-/* nav BAR settings */
+/* Navbar */
 .navbar {
 	box-sizing: border-box;
 	max-width: 1200px;
@@ -16,7 +16,7 @@
 	align-items: center;
 }
 
-/* Navbar Brand: "Post Wall" */
+/* Navbar Brand */
 .navbar-brand {
 	padding: 0 5px;
 	display: flex;
@@ -33,7 +33,7 @@
 	transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 
-/* Navbar Brand: Hover, Focus & Active state */
+/* Navbar Brand: Hover, Focus, Active state */
 .navbar-brand:hover,
 .navbar-brand:focus,
 .navbar-brand.active {
@@ -61,6 +61,7 @@
 	align-items: center;
 }
 
+/* Navbar Links: Hover, Focus, Active state */
 .nav-link:hover,
 .nav-link:focus,
 .nav-link.active {
@@ -72,7 +73,7 @@
 	transform: translateY(2px);
 }
 
-/* Navbar input styles */
+/* Navbar Input Group*/
 .input-group {
 	justify-content: center;
 	display: flex;
