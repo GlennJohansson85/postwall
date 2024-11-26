@@ -17,15 +17,11 @@ Postwall provides a space for you to express yourself and connect with others.**
 * **1.1.1 Understand the purpose of the site.**
 * **1.1.2 Navigate through the site.**
 * **1.1.3 Browse posts.**
-<br>
-
-![image](https://github.com/user-attachments/assets/ca45c847-e8a7-4ee9-9ee0-31c9791d4d5e)
 
 ### 1.2 As a Returning Visitor, I want to:
 * **1.2.1 Search posts.**
 * **1.2.2 Upload posts.**
 * **1.2.3 Register to the site.**
-![image](https://github.com/user-attachments/assets/9fe179fe-f1bd-4a61-82b7-12f576c4612f)
 
 ### 1.3 As a Frequent Visitor, I want to:
 * **1.3.1 Share my views/comment on others content.**
@@ -33,7 +29,7 @@ Postwall provides a space for you to express yourself and connect with others.**
 * **1.3.3 See content in a larger scale.**
 
 ## 2. Wireframes
-### 2.1 Desktop Wireframes:
+### **2.1** Desktop Wireframes:
 <details>
   <summary><strong>2.1.1</strong> Postwall</summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.1-postwall.png" alt="Postwall Image">
@@ -63,7 +59,7 @@ Postwall provides a space for you to express yourself and connect with others.**
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.7-footer.png" alt="Postwall Image">
 </details>
 
-### 2.2 Mobile Wireframes:
+### **2.2** Mobile Wireframes:
 <details>
   <summary><strong>2.2.1</strong> Navbar</summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.2-mobile/2.2.1-toggler_closed.png" alt="Postwall Image">
