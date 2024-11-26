@@ -20,15 +20,20 @@ Create a blog platform where users can connect and share their content.
 * Navigate through the site
 * Browse posts
 
-### 1.1.2 As a Returning Visitor, I want to:
+#### 1.1.2 As a Returning Visitor, I want to:
 * Search posts
 * Upload posts
 * Register to the site
 
-### 1.1.3 As a Frequent Visitor, I want to:
+#### 1.1.3 As a Frequent Visitor, I want to:
 * Share my views/comment on others content
 * Have the freedom to regret them aswell
 * See content in a larger scale
+
+### 1.2 Design
+
+#### 1.2.1 Color Scheme: 
+
 
 ## 2. Wireframes
 ### 2.1 Desktop Wireframes:
