@@ -209,6 +209,15 @@ Postwall provides a space for you to express yourself and connect with others.**
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.5-search_functionality/3.5.2.2-desktop-search_results.png" alt="Search results Page, Desktop View - Screenshot">
 </details>
 
+### 3.6 Alert Messages:
+**Informative messages will appear when the user performs certain tasks:**
+
+* **3.6.1** Registration ![3 6 1-registration](https://github.com/user-attachments/assets/3905d278-78ee-4033-8d53-fa30e777d01d)
+
+* **3.6.2** Log in
+* **3.6.3** Log out
+* **3.6.4** Password updated
+* **3.6.5** Password reset
 
 ### 3.6 Alert Messages:
 **Informative messages will appear when the user performs certain tasks:**
