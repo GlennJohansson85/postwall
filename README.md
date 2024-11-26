@@ -187,6 +187,7 @@ Postwall provides a space for you to express yourself and connect with others.**
   </summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.5-search_functionality/3.5.1-desktop-search.png" alt="Searchfield in Navbar, Desktop View - Screenshot">
 </details>
+
 **3.5.2 Suggestions can be displayed in two ways:**
 <details>
   <summary>
@@ -233,6 +234,7 @@ Postwall provides a space for you to express yourself and connect with others.**
   </summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.6-alert_messages/3.6.5-password_reset.png" alt="Password reset alert message, Desktop View - Screenshot">
 </details>
+
 * **3.6.6 Errors**
 <details>
   <summary>
@@ -252,24 +254,12 @@ Postwall provides a space for you to express yourself and connect with others.**
   </summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.6-alert_messages/3.6.6.3-passwords-nomatch.png" alt="Passwords not matching alert message, Desktop View - Screenshot">
 </details>
-
-* **[3.6.1](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3-features/3.6-alert_messages/3.6.1-registration.png)** Registration
-* **[3.6.2](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3-features/3.6-alert_messages/3.6.2-login.png)** Log in
-* **[3.6.3](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3-features/3.6-alert_messages/3.6.3-logout.png)** Log out
-* **[3.6.4](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3-features/3.6-alert_messages/3.6.4-password_updated.png)** Password updated
-* **[3.6.5](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3-features/3.6-alert_messages/3.6.5-password_reset.png)** Password reset
-
-* **3.6.6 Errors**
-  * **[3.6.6.1](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3-features/3.6-alert_messages/3.6.6.1-login_errorpng)** Login error
-  * **[3.6.6.2](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3-features/3.6-alert_messages/3.6.6.2-password_inccorect)** Password incorrect
-  * **[3.6.6.3](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3-features/3.6-alert_messages/3.6.6.3-passwords_nomatch.png)** Passwords do not match
-
 **These messages automatically fade after a set period.**
 
 ### 3.7 Responsive Design:
 **The website is fully responsive, providing a smooth experience on both desktop and mobile devices.**
 
-![image](https://github.com/user-attachments/assets/ce2d7c94-f7fb-45a2-9075-e9803b86d096)
+!ADD IMAGES ON ALL DEVICES!
 
 ## 4. Technologies Used
 ### 4.1 Languages Used
