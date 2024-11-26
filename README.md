@@ -174,12 +174,14 @@ Postwall provides a space for you to express yourself and connect with others.**
   <summary>
     <strong>3.4.1</strong> Commenting on a post is done within the same page. Through javascript the author is scrolled back to the same post after submitting a comment
   </summary>
+  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.4-commenting_system/3.4.1-desktop-comment.png" alt="Commenting on a Post, Desktop View - Screenshot">
 </details>
 
 <details>
   <summary>
-    <strong>3.4.2</strong> A comment can be deleted from the post detail page, with deletion only restricted to the author or admin. However, the comment will also be deleted if the post author deletes her post
+    <strong>3.4.1.1</strong> A comment can be deleted from the post detail page, with deletion only restricted to the author or admin. However, the comment will also be deleted if the post author deletes her post
   </summary>
+  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.4-commenting_system/3.4.1.1-desktop-delete_comment.png" alt="Deleting a Comment, Desktop View - Screenshot">
 </details>
 
 
