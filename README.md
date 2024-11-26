@@ -146,28 +146,24 @@ Postwall provides a space for you to express yourself and connect with others.**
   </summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.3-post/3.3.1-desktop-post.png" alt="Post Page, Desktop View - Screenshot">
 </details>
-
 <details>
   <summary>
     <strong>3.3.2</strong> Meta data is automatically produced when posting, showing the author & the date the post was published
   </summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.3-post/3.3.2-desktop-meta.png" alt="Uploaded Post Meta, Desktop View - Screenshot">
 </details>
-
 <details>
   <summary>
     <strong>3.3.3</strong> A post can be deleted from its detail page, with deletion permissions restricted to the author or admin
   </summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.3-post/3.3.3-desktop-delete_post.png" alt="Post_detail Page, Desktop View - Screenshot">
 </details>
-
 <details>
   <summary>
     <strong>3.3.3.1</strong> To prevent accidental removal, the author is prompted to confirm the action before proceeding with the deletion
   </summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.3-post/3.3.3.1-desktop-confirm_delete.png" alt="Popup - Confirm deletion of a Post, Desktop View - Screenshot">
 </details>
-
 
 ### 3.4 Commenting System:
 <details>
@@ -176,7 +172,6 @@ Postwall provides a space for you to express yourself and connect with others.**
   </summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.4-commenting_system/3.4.1-desktop-comment.png" alt="Commenting on a Post, Desktop View - Screenshot">
 </details>
-
 <details>
   <summary>
     <strong>3.4.1.1</strong> A comment can be deleted from the post detail page, with deletion only restricted to the author or admin. However, the comment will also be deleted if the post author deletes her post. On the far right, in the comment row, there is a delete button which deletes the comment, only visible to the author/admin.
@@ -192,16 +187,13 @@ Postwall provides a space for you to express yourself and connect with others.**
   </summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.5-search_functionality/3.5.1-desktop-search.png" alt="Searchfield in Navbar, Desktop View - Screenshot">
 </details>
-
 **3.5.2 Suggestions can be displayed in two ways:**
-
 <details>
   <summary>
     <strong>3.5.2.1</strong> As clickable links in a dropdown.
   </summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.5-search_functionality/3.5.2.1-desktop-search_dropdown.png" alt="Searchfield dropdown, Desktop View - Screenshot">
 </details>
-
 <details>
   <summary>
     <strong>3.5.2.2</strong> As clickable links in a result page, if the user clicks on the search icon.
@@ -211,68 +203,49 @@ Postwall provides a space for you to express yourself and connect with others.**
 
 ### 3.6 Alert Messages:
 **Informative messages will appear when the user performs certain tasks:**
-
-* **3.6.1** Registration ![3 6 1-registration](https://github.com/user-attachments/assets/3905d278-78ee-4033-8d53-fa30e777d01d)
-
-* **3.6.2** Log in
-* **3.6.3** Log out
-* **3.6.4** Password updated
-* **3.6.5** Password reset
-
-### 3.6 Alert Messages:
-**Informative messages will appear when the user performs certain tasks:**
-
 <details>
   <summary>
     <strong>3.6.1</strong> Registration
   </summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.6-alert_messages/3.6.1-registration.png" alt="Registration alert message, Desktop View - Screenshot">
 </details>
-
 <details>
   <summary>
     <strong>3.6.2</strong> Log in
   </summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.6-alert_messages/3.6.2-login.png" alt="Login successful alert message, Desktop View - Screenshot">
 </details>
-
 <details>
   <summary>
     <strong>3.6.3</strong> Log out
   </summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.6-alert_messages/3.6.3-logout.png" alt="logout successful alert message, Desktop View - Screenshot">
 </details>
-
 <details>
   <summary>
     <strong>3.6.4</strong> Password updated
   </summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.6-alert_messages/3.6.4-password_updated.png" alt="Password updated alert message, Desktop View - Screenshot">
 </details>
-
 <details>
   <summary>
     <strong>3.6.5</strong> Password reset
   </summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.6-alert_messages/3.6.5-password_reset.png" alt="Password reset alert message, Desktop View - Screenshot">
 </details>
-
 * **3.6.6 Errors**
-
 <details>
   <summary>
     <strong>3.6.6.1</strong> Log in error
   </summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.6-alert_messages/3.6.6.1-login_error.png" alt="Login errer alert message, Desktop View - Screenshot">
 </details>
-
 <details>
   <summary>
     <strong>3.6.6.2</strong> Password incorrect
   </summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.6-alert_messages/3.6.6.2-password_incorrect.png" alt="Password incorrect alert message, Desktop View - Screenshot">
 </details>
-
 <details>
   <summary>
     <strong>3.6.6.3</strong> Passwords do not match
