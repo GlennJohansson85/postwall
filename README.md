@@ -51,7 +51,7 @@ Create a blog platform where users can connect and share their content.
   <summary>
     <strong>1.2.3</strong> Imagery:
   </summary>
-  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/1-user_experience/1.2.1-color_scheme.png" alt="Dark, light color schemes used in project - Screenshot">
+  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/1-user_experience/1.2.3-imagery.png" alt="3 images showing visual design for the website: Links, buttons, wallpapers - Image incl. text">
 </details>
 
 ## 2. Wireframes
