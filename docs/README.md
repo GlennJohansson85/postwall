@@ -8,7 +8,7 @@ WORK IN PROGRESS
 Whether you're documenting your life, sharing creative projects, or simply reflecting on your day.
 Postwall provides a space for you to express yourself and connect with others.**
 
-**[See live Project:](https://postwall-500ee4318184.herokuapp.com/)**
+**[See Live Project Here!](https://postwall-500ee4318184.herokuapp.com/)**
 
 ## 1. User Stories
 ### 1.1 As a First Time Visitor, I want to:
