@@ -10,6 +10,8 @@ Postwall provides a space for you to express yourself and connect with others.**
 !!! AM I RESPONSIVE - ADD IMAGE !!!
 
 ## 1. User Stories
+![image](https://github.com/user-attachments/assets/cf6d64c0-ceec-427d-af1a-7f088ba6219a)
+
 ### 1.1 As a First Time Visitor, I want to:
 * **1.1.1 Understand the purpose of the site.**
 * **1.1.2 Navigate through the site.**
