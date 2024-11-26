@@ -179,17 +179,35 @@ Postwall provides a space for you to express yourself and connect with others.**
 
 <details>
   <summary>
-    <strong>3.4.1.1</strong> A comment can be deleted from the post detail page, with deletion only restricted to the author or admin. However, the comment will also be deleted if the post author deletes her post
+    <strong>3.4.1.1</strong> A comment can be deleted from the post detail page, with deletion only restricted to the author or admin. However, the comment will also be deleted if the post author deletes her post. On the far right, in the comment row, there is a delete button which deletes the comment, only visible to the author/admin.
   </summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.4-commenting_system/3.4.1.1-desktop-delete_comment.png" alt="Deleting a Comment, Desktop View - Screenshot">
 </details>
 
 
 ### 3.5 Search Functionaltiy:
-* **[3.5.1](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3-features/3.5-search_functionality/3.5.1-desktop-search.png)** A built-in search bar allows users to easily find posts by keywords in their titles.
-* **3.5.2 Suggestions can be displayed in two ways:**
-  * **[3.5.2.1](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3-features/3.5-search_functionality/3.5.2.1-desktop-search_dropdown.png)** As clickable links in a dropdown.
-  * **[3.5.2.2](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3-features/3.5-search_functionality/3.5.2.2-desktop-searh_results.png)** As clickable links in a result page, if the user clicks on the search icon.
+<details>
+  <summary>
+    <strong>3.5.1</strong> A built-in search bar allows users to easily find posts by keywords in their titles.
+  </summary>
+  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.5-search_functionality/3.5.1-desktop-search.png" alt="">
+</details>
+
+**3.5.2 Suggestions can be displayed in two ways:**
+
+<details>
+  <summary>
+    <strong>3.5.2.1</strong> As clickable links in a dropdown.
+  </summary>
+  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.5-search_functionality/3.5.2.1-desktop-search_dropdown.png" alt="">
+</details>
+
+<details>
+  <summary>
+    <strong>3.5.2.2</strong> As clickable links in a result page, if the user clicks on the search icon.
+  </summary>
+  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.5-search_functionality/3.5.2.2-desktop-search_dropdown.png" alt="">
+</details>
 
 
 ### 3.6 Alert Messages:
