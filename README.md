@@ -3,14 +3,15 @@
 ![image](https://github.com/user-attachments/assets/03595a0c-54ca-4e1f-94e4-cb030943d9af)
 **[See Live Project Here!](https://postwall-500ee4318184.herokuapp.com/)**
 
-**Postwall is a platform where you can share your thoughts and daily experiences through blog posts and photos.
+**About:**
+Postwall is a platform where you can share your thoughts and daily experiences through blog posts and photos.
 Whether you're documenting your life, sharing creative projects, or simply reflecting on your day.
-Postwall provides a space for you to express yourself and connect with others.**
+Postwall provides a space for you to express yourself and connect with others.
 
 * **Project Goals:**
-  * Create a blog platform using the tools and knowledge gained from Code Insitute**
+  * Create a blog platform using the tools and knowledge gained from Code Insitute.
 * **User Goals:**
-  * Create a blog platform where users can connect and share their content**
+  * Create a blog platform where users can connect and share their content.
 
 ## 1. User Stories
 ### 1.1 As a First Time Visitor, I want to:
