@@ -123,7 +123,7 @@ Postwall provides a space for you to express yourself and connect with others.**
 
 <details>
   <summary><strong>3.3.3.1</strong> To prevent accidental removal, the author is prompted to confirm the action before proceeding with the deletion</summary>
-  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.3-post/3.3.3.1-desktop-delete_post.png" alt="Popup - Confirm deletion of a Post, Desktop View - Screenshot">
+  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.3-post/3.3.3.1-desktop-confirm_delete.png" alt="Popup - Confirm deletion of a Post, Desktop View - Screenshot">
 </details>
 
 
