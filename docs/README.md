@@ -56,7 +56,7 @@ Postwall provides a space for you to express yourself and connect with others.**
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.7-footer.png" alt="Postwall Image">
 </details>
 
-### **2.2** Mobile Wireframes:
+### 2.2 Mobile Wireframes:
 <details>
   <summary><strong>2.2.1</strong> Navbar</summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.2-mobile/2.2.1-toggler_closed.png" alt="Postwall Image">
@@ -66,10 +66,8 @@ Postwall provides a space for you to express yourself and connect with others.**
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.2-mobile/2.2.2-toggler_open.png" alt="Postwall Image">
 </details>
 
-
 ## 3. Features
 ### 3.1 User Authentication:
-
 <details>
   <summary><strong>3.1.1</strong> Register</summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.1-user_authentication/3.1.1-desktop-register.png" alt="Postwall Image">
