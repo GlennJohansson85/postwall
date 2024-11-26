@@ -101,12 +101,12 @@ Postwall provides a space for you to express yourself and connect with others.**
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.2-email_verification/3.2.1-dekstop-register.png" alt="Postwall Image">
 </details>
 <details>
-  <summary><strong>3.2.2 If the user forgets his/hers account password </strong></summary>
+  <summary><strong>3.2.2</strong> If the user forgets his/hers account password </summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.2-email_verification/3.2.2-desktop-forget_password.png" alt="Postwall Image">
 </details>
 
-* **[3.2.1](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3-features/3.2-email_verification/3.2.1-dekstop-register.png) User registration**
-* **[3.2.2](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3-features/3.2-email_verification/3.2.2-desktop-forget_password.png) Change password**
+* **[3.2.1](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3-features/3.2-email_verification/3.2.1-dekstop-register.png)** User registration
+* **[3.2.2](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3-features/3.2-email_verification/3.2.2-desktop-forget_password.png)**Change password
 
 ### 3.3 Post Creation and Management:
 * **[3.3.1](https://github.com/GlennJohansson85/postwall/blob/main/docs/images/3.3-post/3.3.1-desktop-post.png) Create posts with text content and images**
