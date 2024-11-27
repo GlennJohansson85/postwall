@@ -306,40 +306,45 @@ Create a blog platform where users can connect and share their content.
 </details>
 
 ## 4. Technologies Used
-### 4.1 Languages Used
-* [HTML5](https://en.wikipedia.org/wiki/HTML5)
-* [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
-NOT COMPLETE
+### 4.1 Languages Used:
+* **[HTML5](https://en.wikipedia.org/wiki/HTML5)** - Markup language used for structuring web pages.
+* **[CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)** - Styling language used for the presentation of the HTML elements.
+* **[Python](https://www.python.org/)** - Programming language used for the backend of the application.
+* **[SQL](https://en.wikipedia.org/wiki/SQL)** - Used for database queries (e.g., in SQLite or PostgreSQL databases).
 
-### 5. Frameworks, Libraries & Programs Used:
 
-* **[Visual Studio Code](https://code.visualstudio.com/) - Coding software**
+### 4.2. Frameworks, Libraries & Programs Used:
+### **Frameworks:**
+* **[Django](https://www.djangoproject.com/)** - High-level Python web framework for rapid development.
+* **[Django Cloudinary Storage](https://django-cloudinary-storage.readthedocs.io/en/latest/)** - Integration with Cloudinary for media file management.
+* **[Django Storages](https://django-storages.readthedocs.io/)** - Integration with different cloud storage solutions like AWS S3.
 
-* **[GitHub Desktop](https://desktop.github.com/download/) - Commit, Fetch & Push**
+### **Libraries:**
+* **[requests](https://requests.readthedocs.io/)** - Library for making HTTP requests.
+* **[django-environ](https://django-environ.readthedocs.io/)** - Configuration management library for reading environment variables.
+* **[dj-database-url](https://pypi.org/project/dj-database-url/)** - Simplifies database configuration using URL format.
+* **[boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)** - AWS SDK for Python to interact with AWS services.
+* **[Pillow](https://python-pillow.org/)** - Python Imaging Library for image processing.
+* **[pyyaml](https://pyyaml.org/)** - YAML parser and emitter for Python.
 
-* **[GitHub](https://github.com/) - Repository**
+### **Development Tools:**
+* **[Visual Studio Code](https://code.visualstudio.com/)** - Code editor used for development.
+* **[GitHub Desktop](https://desktop.github.com/)** - GitHub client for managing repository and version control.
+* **[GitHub](https://github.com/)** - Platform for version control and collaboration.
+* **[Heroku](https://www.heroku.com/)** - Platform for deploying and running the app.
+* **[Amazon AWS](https://aws.amazon.com/)** - Cloud services used for storage (static and media).
+* **[Postman](https://www.postman.com/)** - API testing tool.
 
-* **[Django](https://docs.djangoproject.com/) - Work environment pre deployment**
+### **Other Libraries & Tools Used:**
+* **[Google Gmail](https://mail.google.com/)** - Used for email services (account and password verification).
+* **[Temp Mail](https://temp-mail.org/)** - For creating temporary email accounts used for testing purposes.
+* **[Bootstrap 5.0.2](https://getbootstrap.com/docs/5.0/getting-started/introduction/)** - Framework for responsive web design and styling.
+* **[jQuery 3.7.1](https://jquery.com/)** - Library for manipulating the HTML DOM.
+* **[Font Awesome](https://fontawesome.com/)** - Icons used throughout the application.
+* **[Fontspace](https://www.fontspace.com/)** & **[1001Fonts](https://www.1001fonts.com/)** - Sources for fonts used in the design.
+* **[Freepik](https://www.freepik.com/)** - Used for sourcing background images and other assets.
+* **[Balsamiq Wireframes](https://balsamiq.com/wireframes/)** - Wireframing tool used in the design phase of the project.
 
-* **[Heroku](https://www.heroku.com/) - Deployed**
-
-* **[Amazon AWS](https://aws.amazon.com/) - Storage (static & media)**
-
-* **[Google Gmail](https://mail.google.com/) - Mail service (account & password verification)**
-
-* **[Temp Mail](https://temp-mail.org/en/) - Create false accounts/testing**
-
-* **[Bootstrap 5.0.2](https://getbootstrap.com/docs/5.0/getting-started/introduction/) - Frameworks, responsiveness & styling**
-
-* **[jQuery 3.7.1](https://jquery.com/) - Interaction with the HTML models (DOM)**
-
-* **[Font Awesome](https://fontawesome.com/) - Icons**
-
-* **[Fontspace](https://www.fontspace.com/) & [1001Fonts](https://www.1001fonts.com/) - Fonts**
-
-* **[Freepik](https://www.freepik.com/) - Background Images**
-
-* **[Balsamiq Wireframes](https://balsamiq.com/wireframes/) - Project Wireframes**
 
 ## 6. Testing
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
