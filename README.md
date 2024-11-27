@@ -352,9 +352,9 @@ The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator.html.en#va
 **6.1 W3C CSS Validator Results:**
 <details>
   <summary>
-    <strong>6.1.1</strong> base.css:
+    <strong>6.1.1</strong> base.css W3C Validation Results:
   </summary>
-  <embed src="https://github.com/GlennJohansson85/postwall/blob/main/docs/6.1-testing/6.1-base.css-w3c_validation_results.pdf" width="600" height="500" type="application/pdf">
+  [Click here to view the PDF of base.css W3C Validation Results](https://github.com/GlennJohansson85/postwall/blob/main/docs/6.1-testing/6.1-base.css-w3c_validation_results.pdf)
 </details>
 
 <details>
