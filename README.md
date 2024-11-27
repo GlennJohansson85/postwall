@@ -314,12 +314,12 @@ Create a blog platform where users can connect and share their content.
 
 
 ### 4.2. Frameworks, Libraries & Programs Used:
-### **Frameworks:**
+### **4.2.1 Frameworks:**
 * **[Django](https://www.djangoproject.com/)** - High-level Python web framework for rapid development.
 * **[Django Cloudinary Storage](https://django-cloudinary-storage.readthedocs.io/en/latest/)** - Integration with Cloudinary for media file management.
 * **[Django Storages](https://django-storages.readthedocs.io/)** - Integration with different cloud storage solutions like AWS S3.
 
-### **Libraries:**
+### **4.2.1.2 Libraries:**
 * **[requests](https://requests.readthedocs.io/)** - Library for making HTTP requests.
 * **[django-environ](https://django-environ.readthedocs.io/)** - Configuration management library for reading environment variables.
 * **[dj-database-url](https://pypi.org/project/dj-database-url/)** - Simplifies database configuration using URL format.
@@ -327,7 +327,7 @@ Create a blog platform where users can connect and share their content.
 * **[Pillow](https://python-pillow.org/)** - Python Imaging Library for image processing.
 * **[pyyaml](https://pyyaml.org/)** - YAML parser and emitter for Python.
 
-### **Development Tools:**
+### **4.2.1.3 Development Tools:**
 * **[Visual Studio Code](https://code.visualstudio.com/)** - Code editor used for development.
 * **[GitHub Desktop](https://desktop.github.com/)** - GitHub client for managing repository and version control.
 * **[GitHub](https://github.com/)** - Platform for version control and collaboration.
@@ -335,7 +335,7 @@ Create a blog platform where users can connect and share their content.
 * **[Amazon AWS](https://aws.amazon.com/)** - Cloud services used for storage (static and media).
 * **[Postman](https://www.postman.com/)** - API testing tool.
 
-### **Other Libraries & Tools Used:**
+### **4.2.1.4 Other Libraries & Tools Used:**
 * **[Google Gmail](https://mail.google.com/)** - Used for email services (account and password verification).
 * **[Temp Mail](https://temp-mail.org/)** - For creating temporary email accounts used for testing purposes.
 * **[Bootstrap 5.0.2](https://getbootstrap.com/docs/5.0/getting-started/introduction/)** - Framework for responsive web design and styling.
@@ -349,8 +349,13 @@ Create a blog platform where users can connect and share their content.
 ## 6. Testing
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
+**[W3C CSS Validator Results:](https://jigsaw.w3.org/css-validator/#validate_by_input)**
+
+-   [base.css](https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/6.1-testing/6.1-base.css-w3c_validation_results.pdf)
+-   [navbar.css](https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/6.1-testing/6.1-navbar.css-w3c_validation_results.pdf)
+
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+
 
 ### 6.1 Testing User Stories from User Experience (UX) Section
 
