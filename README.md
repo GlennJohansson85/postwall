@@ -347,14 +347,25 @@ Create a blog platform where users can connect and share their content.
 
 
 ## 6. Testing
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator.html.en#validate_by_input) and [W3C Markup Validator](https://validator.w3.org/#validate_by_input) Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-**[W3C CSS Validator Results:](https://jigsaw.w3.org/css-validator/#validate_by_input)**
+**6.1 W3C CSS Validator Results:**
+<details>
+  <summary>
+    <strong>6.1.1</strong> base.css:
+  </summary>
+  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/6.1-testing/6.1-base.css-w3c_validation_results.pdf" alt="All pages in one image">
+</details>
 
--   [base.css](https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/6.1-testing/6.1-base.css-w3c_validation_results.pdf)
--   [navbar.css](https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/6.1-testing/6.1-navbar.css-w3c_validation_results.pdf)
+<details>
+  <summary>
+    <strong>6.1.2</strong> navbar.css:
+  </summary>
+  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/6.1-testing/6.1-navbar.css-w3c_validation_results.pdf" alt="All pages in one image">
+</details>
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+**6.2 W3C HTML Validator Results:**
+
 
 
 ### 6.1 Testing User Stories from User Experience (UX) Section
