@@ -286,7 +286,12 @@ Create a blog platform where users can connect and share their content.
 **These messages automatically fade after a set period.**
 
 ### 3.7 Responsive Design:
-**The website is fully responsive, providing a smooth experience on both desktop and mobile devices.**
+<details>
+  <summary>
+    <strong>3.7.1</strong> Desktop:
+  </summary>
+  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.7-responsive_design/3.7.1-desktop.png" alt="All pages in one image">
+</details>
 
 !ADD IMAGES ON ALL DEVICES!
 
