@@ -292,15 +292,18 @@ Create a blog platform where users can connect and share their content.
   </summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.7-responsive_design/3.7.1-desktop.png" alt="All desktop pages in one image">
 </details>
-
 <details>
   <summary>
     <strong>3.7.2</strong> Mobile (Pixel 7):
   </summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.7-responsive_design/3.7.2-mobile.png" alt="All pages in one image">
 </details>
-
-!ADD IMAGES ON ALL DEVICES!
+<details>
+  <summary>
+    <strong>3.7.3</strong> Tablet (Surface Pro):
+  </summary>
+  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.7-responsive_design/3.7.3-tablet.png" alt="All pages in one image">
+</details>
 
 ## 4. Technologies Used
 ### 4.1 Languages Used
