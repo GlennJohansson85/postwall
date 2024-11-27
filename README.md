@@ -350,15 +350,8 @@ Create a blog platform where users can connect and share their content.
 The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator.html.en#validate_by_input) and [W3C Markup Validator](https://validator.w3.org/#validate_by_input) Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 * **6.1 W3C CSS Validator Results:**
-* - [base.css results here](https://github.com/GlennJohansson85/postwall/blob/main/docs/6.1-testing/6.1-base.css-w3c_validation_results.pdf)
-* - [navbar.css results here](https://github.com/GlennJohansson85/postwall/blob/main/docs/6.1-testing/6.1-navbar.css-w3c_validation_results.pdf)
-
-**6.2 W3C HTML Validator Results:**
-<h3>6.1.1 base.css W3C Validation Results:</h3>
-<a href="https://github.com/GlennJohansson85/postwall/blob/main/docs/6.1-testing/6.1-base.css-w3c_validation_results.pdf" target="_blank">base.css results here</a>
-
-<h3>6.1.2 navbar.css W3C Validation Results:</h3>
-<a href="https://github.com/GlennJohansson85/postwall/blob/main/docs/6.1-testing/6.1-navbar.css-w3c_validation_results.pdf" target="_blank">navbar.css results here</a>
+* <a href="https://github.com/GlennJohansson85/postwall/blob/main/docs/6.1-testing/6.1-base.css-w3c_validation_results.pdf" target="_blank">base.css</a>
+* <a href="https://github.com/GlennJohansson85/postwall/blob/main/docs/6.1-testing/6.1-navbar.css-w3c_validation_results.pdf" target="_blank">navbar.css</a>
 
 ### 6.1 Testing User Stories from User Experience (UX) Section
 
