@@ -357,12 +357,8 @@ Create a blog platform where users can connect and share their content.
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/6-testing/w3c-navbar.css-png" alt="w3c results for navbar.css">
 </details>
 
-### 6.2 W3C Markup Validator
+### 6.2 W3C HTML Validator
 
-
-  
-* <a href="https://github.com/GlennJohansson85/postwall/blob/main/docs/6.1-testing/6.1-base.css-w3c_validation_results.pdf" target="_blank">base.css</a>
-* <a href="https://github.com/GlennJohansson85/postwall/blob/main/docs/6.1-testing/6.1-navbar.css-w3c_validation_results.pdf" target="_blank">navbar.css</a>
 
 ### 6.1 Testing User Stories from User Experience (UX) Section
 
