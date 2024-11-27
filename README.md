@@ -280,7 +280,7 @@ Create a blog platform where users can connect and share their content.
   <summary>
     <strong>3.6.6.3</strong> Passwords do not match
   </summary>
-  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.6-alert_messages/3.6.6.3-passwords-nomatch.png" alt="Passwords not matching alert message, Desktop View - Screenshot">
+  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.6-alert_messages/3.6.6.3-passwords_nomatch.png" alt="Passwords not matching alert message, Desktop View - Screenshot">
 </details>
 
 **These messages automatically fade after a set period.**
