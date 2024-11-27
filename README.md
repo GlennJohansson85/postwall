@@ -350,12 +350,8 @@ Create a blog platform where users can connect and share their content.
 The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator.html.en#validate_by_input) and [W3C Markup Validator](https://validator.w3.org/#validate_by_input) Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 **6.1 W3C CSS Validator Results:**
-<details>
-  <summary>
-    <strong>6.1.1</strong> base.css W3C Validation Results:
-  </summary>
-  [Click here to view the PDF of base.css W3C Validation Results](https://github.com/GlennJohansson85/postwall/blob/main/docs/6.1-testing/6.1-base.css-w3c_validation_results.pdf)
-</details>
+[6.1.1 base.css W3C Validation Results:](https://github.com/GlennJohansson85/postwall/blob/main/docs/6.1-testing/6.1-base.css-w3c_validation_results.pdf)
+
 
 <details>
   <summary>
