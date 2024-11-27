@@ -354,14 +354,14 @@ The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator.html.en#va
   <summary>
     <strong>6.1.1</strong> base.css:
   </summary>
-  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/6.1-testing/6.1-base.css-w3c_validation_results.pdf" alt="All pages in one image">
+  <a href="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/6.1-testing/6.1-base.css-w3c_validation_results.pdf">
 </details>
 
 <details>
   <summary>
     <strong>6.1.2</strong> navbar.css:
   </summary>
-  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/6.1-testing/6.1-navbar.css-w3c_validation_results.pdf" alt="All pages in one image">
+  <a href="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/6.1-testing/6.1-navbar.css-w3c_validation_results.pdf">
 </details>
 
 **6.2 W3C HTML Validator Results:**
