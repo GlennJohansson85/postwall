@@ -354,7 +354,7 @@ The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator.html.en#va
   <summary>
     <strong>6.1.1</strong> base.css:
   </summary>
-  <embed src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/6.1-testing/6.1-base.css-w3c_validation_results.pdf" width="600" height="500" type="application/pdf">
+  <embed src="https://github.com/GlennJohansson85/postwall/blob/main/docs/6.1-testing/6.1-base.css-w3c_validation_results.pdf" width="600" height="500" type="application/pdf">
 </details>
 
 <details>
