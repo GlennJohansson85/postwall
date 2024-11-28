@@ -24,7 +24,7 @@
 
 ## 1.2 Design
 <details>
-  <summary margin-left: 20px;>
+  <summary margin-left: 50px;>
     <strong>1.2.1</strong> Color Scheme:
   </summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/1-user_experience/1.2.1-color_scheme.png" alt="Dark, light color schemes used in project - Screenshot">
