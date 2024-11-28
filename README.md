@@ -36,12 +36,12 @@ Create a blog platform where users can connect and share their content.
 </details>
 
 <details>
-    <summary><strong>1.2.2 Typography</strong></summary>
+    <summary><strong>1.2.2 - Typography</strong></summary>
         <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/1-user_experience/1.2.2-fonts.png" alt="Fonts used in project - Image">
 </details>
 
 <details>
-    <summary><strong>1.2.3 Imagery</strong></summary>
+    <summary><strong>1.2.3 - Imagery</strong></summary>
         <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/1-user_experience/1.2.3-imagery.png" alt="3 images showing visual design for the website: Links, buttons, wallpapers - Image incl. text">
 </details>
 
@@ -49,74 +49,74 @@ Create a blog platform where users can connect and share their content.
 # 2. Wireframes
 ## 2.1 Desktop Wireframes:
 <details>
-    <summary><strong>2.1.1 Postwall</strong></summary>
+    <summary><strong>2.1.1 - Postwall</strong></summary>
       <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.1-postwall.png" alt="Postwall Wireframe, Desktop View - Screenshot">
 </details>
 
 <details>
-  <summary><strong>2.1.2 Post_detail</strong></summary>
+  <summary><strong>2.1.2 - Post_detail</strong></summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.2-post_detail.png" alt="Post_detail Wireframe, Desktop View - Screenshot">
 </details>
 
 <details>
-    <summary><strong>2.1.3 Dashboard</strong></summary>
+    <summary><strong>2.1.3 - Dashboard</strong></summary>
       <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.3-dashboard.png" alt="Dashboard Wireframe, Desktop View - Screenshot">
 </details>
 
 <details>
-  <summary><strong>2.1.4 Register</strong></summary>
+  <summary><strong>2.1.4 - Register</strong></summary>
       <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.4-register.png" alt="Register Wireframe, Desktop View - Screenshot">
 </details>
 
 <details>
-    <summary><strong>2.1.5 Login</strong></summary>
+    <summary><strong>2.1.5 - Login</strong></summary>
       <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.5-login.png" alt="Login Wireframe, Desktop View - Screenshot">
 </details>
 
 <details>
-    <summary><strong>2.1.6 Navbar</strong></summary>
+    <summary><strong>2.1.6 - Navbar</strong></summary>
       <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.6-navbar.png" alt="Navbar Wireframe, Desktop View - Screenshot">
 </details>
 
 <details>
-    <summary><strong>2.1.7 Footer</strong></summary>
+    <summary><strong>2.1.7 - Footer</strong></summary>
       <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.7-footer.png" alt="Footer Wireframe, Desktop View - Screenshot">
 </details>
 
 
 ## 2.2 Mobile Wireframes:
-<details><summary><strong>2.2.1 Navbar</strong></summary>
+<details><summary><strong>2.2.1 - Navbar</strong></summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.2-mobile/2.2.1-toggler_closed.png" alt="Navbar Wireframe, Mobile View - Screenshot">
 </details>
 
-<details><summary><strong>2.2.2 Footer</strong></summary>
+<details><summary><strong>2.2.2 - Footer</strong></summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.2-mobile/2.2.2-toggler_open.png" alt="Footer Wireframe, Mobile View - Screenshot">
 </details>
 
 
 # 3. Features
 ## 3.1 User Authentication:
-<details><summary><strong>3.1.1</strong> Register</summary>
+<details><summary><strong>3.1.1 - Register</strong></summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.1-user_authentication/3.1.1-desktop-register.png" alt="Register Page, Desktop View - Screenshot">
 </details>
 
-<details><summary><strong>3.1.2</strong> Log in</summary>
+<details><summary><strong>3.1.2 - Log in</strong></summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.1-user_authentication/3.1.2-desktop-login.png" alt="Login Page, Desktop View - Screenshot">
 </details>
 
-<details><summary><strong>3.1.3</strong> Log out</summary>
+<details><summary><strong>3.1.3 - Log out</strong></summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.1-user_authentication/3.1.3-desktop-logout.png" alt="Logout Page, Desktop View - Screenshot">
 </details>
 
-<details><summary><strong>3.1.4</strong> Access the Dashboard</summary>
+<details><summary><strong>3.1.4 - Access the Dashboard</strong></summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.1-user_authentication/3.1.4-desktop-dashboard.png" alt="Dashboard Page, Desktop View - Screenshot">
 </details>
 
-<details><summary><strong>3.1.5</strong> Edit Profile</summary>
+<details><summary><strong>3.1.5 - Edit Profile</strong></summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.1-user_authentication/3.1.5-desktop-edit_profile.png" alt="Edit_Profile Page, Desktop View - Screenshot">
 </details>
 
-<details><summary><strong>3.1.6</strong> Change Password</summary>
+<details><summary><strong>3.1.6 - Change Password</summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.1-user_authentication/3.1.6-desktop-change_password.png" alt="Change_Password Page, Desktop View - Screenshot">
 </details>
 
