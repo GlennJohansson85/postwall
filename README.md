@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Postwall</h1>
+  <h1 bold>Postwall</hit>
 </div>
 
 
