@@ -33,7 +33,7 @@ Create a blog platform where users can connect and share their content.
 
 
 ## 1.2 Design
-<ul>
+<ul style="list-style-type: none;">
     <li>
         <details>
             <summary><strong>1.2.1</strong> Color Scheme:</summary>
