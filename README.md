@@ -259,6 +259,9 @@ Create a blog platform where users can connect and share their content.
 * **[Freepik](https://www.freepik.com/)** - Used for sourcing background images and other assets.
 * **[Balsamiq Wireframes](https://balsamiq.com/wireframes/)** - Wireframing tool used in the design phase of the project.
 
+### **4.2.5 Agile Development:**
+* This project was developed using **Agile development** methodology, ensuring iterative development, regular feedback, and continuous improvement throughout the development cycle.
+
 # 6. Testing
 ## 6.1 W3C Validator Test
 <details>
