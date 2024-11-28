@@ -135,20 +135,24 @@ Create a blog platform where users can connect and share their content.
 </details>
 
 ## 3.3 Post Creation and Management:
-<details><summary><strong>3.3.1</strong> Create posts with text content and images</summary>
-  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.3-post/3.3.1-desktop-post.png" alt="Post Page, Desktop View - Screenshot">
+<details>
+    <summary><strong>3.3.1 - Create posts with text content and images</strong></summary>
+      <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.3-post/3.3.1-desktop-post.png" alt="Post Page, Desktop View - Screenshot">
 </details>
 
-<details><summary><strong>3.3.2</strong> Meta data is automatically produced when posting, showing the author & the date the post was published</summary>
-  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.3-post/3.3.2-desktop-meta.png" alt="Uploaded Post Meta, Desktop View - Screenshot">
+<details>
+    <summary><strong>3.3.2 - Meta data is automatically produced when posting, showing the author & the date the post was published</strong></summary>
+      <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.3-post/3.3.2-desktop-meta.png" alt="Uploaded Post Meta, Desktop View - Screenshot">
 </details>
 
-<details><summary><strong>3.3.3</strong> A post can be deleted from its detail page, with deletion permissions restricted to the author or admin</summary>
-  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.3-post/3.3.3-desktop-delete_post.png" alt="Post_detail Page, Desktop View - Screenshot">
+<details>
+    <summary><strong>3.3.3 - A post can be deleted from its detail page, with deletion permissions restricted to the author or admin</strong></summary>
+      <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.3-post/3.3.3-desktop-delete_post.png" alt="Post_detail Page, Desktop View - Screenshot">
 </details>
 
-<details><summary><strong>3.3.3.1</strong> To prevent accidental removal, the author is prompted to confirm the action before proceeding with the deletion</summary>
-  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.3-post/3.3.3.1-desktop-confirm_delete.png" alt="Popup - Confirm deletion of a Post, Desktop View - Screenshot">
+<details>
+    <summary><strong>3.3.3.1 - To prevent accidental removal, the author is prompted to confirm the action before proceeding with the deletion</strong></summary>
+      <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.3-post/3.3.3.1-desktop-confirm_delete.png" alt="Popup - Confirm deletion of a Post, Desktop View - Screenshot">
 </details>
 
 
