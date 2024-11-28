@@ -276,10 +276,11 @@ Create a blog platform where users can connect and share their content.
 
 !
 
-## 6.2 Testing of User Stories from UX Chapter
+## 6.2 Testing of: 1. User Experience, 1.1  User Stories 
 
-### 6.2.1 First Time User Goals
-### 6.2.1.1 TEST - As a first-time user, I want to quickly understand the purpose of the website.
+### [1.1.1 - As a first-time user, I want to quickly understand the purpose of the website.
+https://github.com/GlennJohansson85/postwall/issues/4#issue-2702818741
+
 **The landing page, homepage, is where all posts are located. The first thing the user sees is a uploaded post, the name of the website, Postwall, shining in green. By reading the nav-links, and the placerholder text "Search for a Post" in the search field the Visitor should get a clear understanding of the purpose.
 ### 6.2.1.2 TEST - As a first-time user, Navigate through the site.
 **Navigation system is easy to use. Nav-links, shines in bright green showing the user which page she is currently one. Navbar is fixated at the top, always easy to access.
@@ -287,7 +288,7 @@ Create a blog platform where users can connect and share their content.
 **The landing page, is where all posts are uploaded in a descending order. The only thing the visitor needs to do is to scroll the mousewheel to see all the uploaded content.
 
 ### 6.2.2 Returning User Goals
-### 6.2.2.1 TEST - As a returning user, I want to be able to search for pots.
+### 6.2.2.1 TEST - As a returning user, I want to be able to search for posts.
 **As previously mentioned, users have the ability to browse posts. To enhance the experience, a search field is available in the navbar, allowing users to quickly find specific posts. When users type keywords, post titles containing those terms will appear in a dropdown list or on a dedicated results page, providing an efficient way to find relevant content.
 ### 6.2.2.2 TEST - As a returning user, I want to register to the site.
 **A returning user means a curious user. A unregistered user cant engage and share their content. By redirecting the user to the login page, when trying to access the post page, we engage the user to register. Through the login page there is a clear link, in the center of the page, which asks the user to register. Also, by pressing the profile nav-link anoter link to the login page is presented.
