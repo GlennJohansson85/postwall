@@ -186,26 +186,31 @@ Create a blog platform where users can connect and share their content.
 
 
 ## 3.6 Alert Messages:
-**Informative messages will appear when the user performs certain tasks:**
+***Informative messages will appear when the user performs certain tasks:***
 
-<details><summary><strong>3.6.1</strong> Registration</summary>
-  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.6-alert_messages/3.6.1-registration.png" alt="Registration alert message, Desktop View - Screenshot">
+<details>
+    <summary><strong>3.6.1 - Registration</strong></summary>
+      <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.6-alert_messages/3.6.1-registration.png" alt="Registration alert message, Desktop View - Screenshot">
 </details>
 
-<details><summary><strong>3.6.2</strong> Log in</summary>
-  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.6-alert_messages/3.6.2-login.png" alt="Login successful alert message, Desktop View - Screenshot">
+<details>
+    <summary><strong>3.6.2 - Log in</strong></summary>
+      <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.6-alert_messages/3.6.2-login.png" alt="Login successful alert message, Desktop View - Screenshot">
 </details>
 
-<details><summary><strong>3.6.3</strong> Log out</summary>
-  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.6-alert_messages/3.6.3-logout.png" alt="logout successful alert message, Desktop View - Screenshot">
+<details>
+    <summary><strong>3.6.3 - Log out</strong></summary>
+      <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.6-alert_messages/3.6.3-logout.png" alt="logout successful alert message, Desktop View - Screenshot">
 </details>
 
-<details><summary><strong>3.6.4</strong> Password updated</summary>
-  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.6-alert_messages/3.6.4-password_updated.png" alt="Password updated alert message, Desktop View - Screenshot">
+<details>
+    <summary><strong>3.6.4 - Password updated</strong></summary>
+      <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.6-alert_messages/3.6.4-password_updated.png" alt="Password updated alert message, Desktop View - Screenshot">
 </details>
 
-<details><summary><strong>3.6.5</strong> Password reset</summary>
-  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.6-alert_messages/3.6.5-password_reset.png" alt="Password reset alert message, Desktop View - Screenshot">
+<details>
+    <summary><strong>3.6.5 - Password reset</strong></summary>
+      <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.6-alert_messages/3.6.5-password_reset.png" alt="Password reset alert message, Desktop View - Screenshot">
 </details>
 
 
