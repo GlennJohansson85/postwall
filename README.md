@@ -308,7 +308,7 @@ Create a blog platform where users can connect and share their content.
 
 ### First Time User Goals:
 &nbsp;&nbsp;&nbsp;&nbsp;**a)** As a **First Time User**, I want to quickly understand the purpose of the website.
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The landing page, homepage, is where all posts are located. The first thing the user sees is a uploaded post, the name of the website, Postwall, shining in green. By reading the nav-links, and the placerholder text "Search for a Post" in the search field the Visitor should get a clear understanding of the purpose.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* The landing page, homepage, is where all posts are located. The first thing the user sees is a uploaded post, the name of the website, Postwall, shining in green. By reading the nav-links, and the placerholder text "Search for a Post" in the search field the Visitor should get a clear understanding of the purpose.
 
 &nbsp;&nbsp;&nbsp;&nbsp;**b)** As a **First Time User**, I want to navigate through the site.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Navigation system is easy to use. Nav-links, shines in bright green showing the user which page she is currently one. Navbar is fixated at the top, always easy to access.
