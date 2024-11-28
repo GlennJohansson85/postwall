@@ -48,33 +48,33 @@ Create a blog platform where users can connect and share their content.
 
 # 2. Wireframes
 ## 2.1 Desktop Wireframes:
-<details><summary><strong>2.1.1</strong> Postwall</summary>
+<details><summary><strong>2.1.1 Postwall</strong></summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.1-postwall.png" alt="Postwall Wireframe, Desktop View - Screenshot">
 </details>
 
 <details>
-  <summary><strong>2.1.2</strong> Post_detail</summary>
+  <summary><strong>2.1.2 Post_detail</strong></summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.2-post_detail.png" alt="Post_detail Wireframe, Desktop View - Screenshot">
 </details>
 
-<details><summary><strong>2.1.3</strong> Dashboard</summary>
+<details><summary><strong>2.1.3 Dashboard</strong></summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.3-dashboard.png" alt="Dashboard Wireframe, Desktop View - Screenshot">
 </details>
 
 <details>
-  <summary><strong>2.1.4</strong> Register</summary>
+  <summary><strong>2.1.4 Register</strong></summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.4-register.png" alt="Register Wireframe, Desktop View - Screenshot">
 </details>
 
-<details><summary><strong>2.1.5</strong> Login</summary>
+<details><summary><strong>2.1.5 Login</strong></summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.5-login.png" alt="Login Wireframe, Desktop View - Screenshot">
 </details>
 
-<details><summary><strong>2.1.6</strong> Navbar</summary>
+<details><summary><strong>2.1.6 Navbar</strong></summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.6-navbar.png" alt="Navbar Wireframe, Desktop View - Screenshot">
 </details>
 
-<details><summary><strong>2.1.7</strong> Footer</summary>
+<details><summary><strong>2.1.7 Footer</strong></summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.7-footer.png" alt="Footer Wireframe, Desktop View - Screenshot">
 </details>
 
