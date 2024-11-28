@@ -37,19 +37,19 @@ Create a blog platform where users can connect and share their content.
     <li>
         <details>
             <summary><strong>1.2.1</strong> Color Scheme:</summary>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/1-user_experience/1.2.1-color_scheme.png" alt="Dark, light color schemes used in project - Screenshot">
+                <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/1-user_experience/1.2.1-color_scheme.png" alt="Dark, light color schemes used in project - Screenshot">
         </details>
     </li>
     <li>
         <details>
             <summary><strong>1.2.2</strong> Typography:</summary>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/1-user_experience/1.2.2-fonts.png" alt="Fonts used in project - Image">
+                <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/1-user_experience/1.2.2-fonts.png" alt="Fonts used in project - Image">
         </details>
     </li>
     <li>
         <details>
             <summary><strong>1.2.3</strong> Imagery:</summary>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/1-user_experience/1.2.3-imagery.png" alt="3 images showing visual design for the website: Links, buttons, wallpapers - Image incl. text">
+                <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/1-user_experience/1.2.3-imagery.png" alt="3 images showing visual design for the website: Links, buttons, wallpapers - Image incl. text">
         </details>
     </li>
 </ul>
