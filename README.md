@@ -13,20 +13,20 @@ Create a blog platform where users can connect and share their content.
 
 # User Experience
 ## 1.1 User Stories:
-### 1.1.1 First Time User Goals
-- **a)** As a "First Time User", I want to quickly understand the purpose of the website.
-- **b)** As a "First Time User", I want to navigate through the site.
-- **c)** As a "First Time User", I want to browse posts.
+### 1.1.1 First Time User Goals>
+> **a)** As a "First Time User", I want to quickly understand the purpose of the website.
+> **b)** As a "First Time User", I want to navigate through the site.
+> **c)** As a "First Time User", I want to browse posts.
 
 ### 1.1.2 Returning User Goals
-- **a)** As a "Returning User", I want to search for posts.
-- **b)** As a "Returning User", I want to register to the site.
-- **c)** As a "Returning User", I want to post.
+> **a)** As a "Returning User", I want to search for posts.
+> **b)** As a "Returning User", I want to register to the site.
+> **c)** As a "Returning User", I want to post.
 
 ### 1.1.3 Frequent User Goals
-- **a)** As a "Frequent User", I want to share my views/comment on others' content.
-- **b)** As a "Frequent User", I want to have the freedom to delete or edit my comments as well.
-- **c)** As a "Frequent User", I want to see content in a larger scale.
+> **a)** As a "Frequent User", I want to share my views/comment on others' content.
+> **b)** As a "Frequent User", I want to have the freedom to delete or edit my comments as well.
+> **c)** As a "Frequent User", I want to see content in a larger scale.
 
 
 ## 1.2 Design
@@ -278,33 +278,33 @@ Create a blog platform where users can connect and share their content.
 
 **1.1.1 First Time User Goals:**
 a) As a "First Time User", I want to quickly understand the purpose of the website.
-*  -  The landing page, homepage, is where all posts are located. The first thing the user sees is a uploaded post, the name of the website, Postwall, shining in green. By reading the nav-links, and the placerholder text "Search for a Post" in the search field the Visitor should get a clear understanding of the purpose.
+> The landing page, homepage, is where all posts are located. The first thing the user sees is a uploaded post, the name of the website, Postwall, shining in green. By reading the nav-links, and the placerholder text "Search for a Post" in the search field the Visitor should get a clear understanding of the purpose.
 
 b) As a "First Time User", I want to navigate through the site.
-  * Navigation system is easy to use. Nav-links, shines in bright green showing the user which page she is currently one. Navbar is fixated at the top, always easy to access.
+> Navigation system is easy to use. Nav-links, shines in bright green showing the user which page she is currently one. Navbar is fixated at the top, always easy to access.
 
 c) As a "First Time User", I want to browse posts.
-The landing page, is where all posts are uploaded in a descending order. The only thing the visitor needs to do is to scroll the mousewheel to see all the uploaded content.
+> The landing page, is where all posts are uploaded in a descending order. The only thing the visitor needs to do is to scroll the mousewheel to see all the uploaded content.
 
 **1.1.2 Returning User Goals:**
 a) As a "Returning User", I want to search for posts.
-As previously mentioned, users have the ability to browse posts. To enhance the experience, a search field is available in the navbar, allowing users to quickly find specific posts. When users type keywords, post titles containing those terms will appear in a dropdown list or on a dedicated results page, providing an efficient way to find relevant content.
+> As previously mentioned, users have the ability to browse posts. To enhance the experience, a search field is available in the navbar, allowing users to quickly find specific posts. When users type keywords, post titles containing those terms will appear in a dropdown list or on a dedicated results page, providing an efficient way to find relevant content.
 
 b) As a "Returning User", I want to register to the site.
-A returning user means a curious user. A unregistered user cant engage and share their content. By redirecting the user to the login page, when trying to access the post page, we engage the user to register. Through the login page there is a clear link, in the center of the page, which asks the user to register. Also, by pressing the profile nav-link anoter link to the login page is presented.
+> A returning user means a curious user. A unregistered user cant engage and share their content. By redirecting the user to the login page, when trying to access the post page, we engage the user to register. Through the login page there is a clear link, in the center of the page, which asks the user to register. Also, by pressing the profile nav-link anoter link to the login page is presented.
 
 c) As a "Returning User", I want to post.
-When registered, The user can create posts easily by just clicking on the Post link in the navbar. To upload a post the user just needs to provide a title, a short text (content) and optionally a image.
+> When registered, The user can create posts easily by just clicking on the Post link in the navbar. To upload a post the user just needs to provide a title, a short text (content) and optionally a image.
 
 **1.1.3 Frequent User Goals:**
 a) As a "Frequent User", I want to share my views/comment on others content.
-Each post has a comment form beneath it. All registered users can use this to comment. Commenting is done within the same page the post is uploaded. Placeholder text, in bright purple, show sthe user where to input their comment. Beneath the field is the post button located. All comments are in a ascending order with the latest at the bottom.  After posting a comment, the website refreshes, and the user is scrolled to the same post so the user can see the comment has been successfully submitted.
+> Each post has a comment form beneath it. All registered users can use this to comment. Commenting is done within the same page the post is uploaded. Placeholder text, in bright purple, show sthe user where to input their comment. Beneath the field is the post button located. All comments are in a ascending order with the latest at the bottom.  After posting a comment, the website refreshes, and the user is scrolled to the same post so the user can see the comment has been successfully submitted.
 
 b) As a "Frequent User", I want to have the freedom to regret them aswell.
-All authors can delete their own content with the exception that if a author/admin decides to delete a post. Included comments will also be deleted. A user cant delete others content due to the delete buttons is only visible for the uploader. The delete buttons are next to each post/comment in the post details page making it easy to do so.
+> All authors can delete their own content with the exception that if a author/admin decides to delete a post. Included comments will also be deleted. A user cant delete others content due to the delete buttons is only visible for the uploader. The delete buttons are next to each post/comment in the post details page making it easy to do so.
 
 c) As a "Frequent User", I want to see content in a larger scale.
-By accessing the post details the user will be able to see a post in a larger scale.
+> By accessing the post details the user will be able to see a post in a larger scale.
 
 
 ### 6.1.4 Further Testing
