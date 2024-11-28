@@ -1,9 +1,9 @@
 # Postwall
 <a href="https://postwall-500ee4318184.herokuapp.com/">See Live Project Here!</a>
-
 **About:** Postwall is a platform where you can share your thoughts and daily experiences through blog posts and photos. Whether you're documenting your life, sharing creative projects, or simply reflecting on your day. Postwall provides a space for you to express yourself and connect with others.
 **Project Goals:** Create a blog platform using the tools and knowledge gained from Code Institute.
 **User Goals:** Create a blog platform where users can connect and share their content.
+
 
 # User Experience
 ## 1.1 User Stories:
@@ -22,274 +22,192 @@
 * Have the freedom to regret them aswell
 * See content in a larger scale
 
+
 ## 1.2 Design
-<details>
-  <summary margin-left: 50px;>
-    <strong>1.2.1</strong> Color Scheme:
-  </summary>
+<details><summary><strong>1.2.1</strong> Color Scheme:</summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/1-user_experience/1.2.1-color_scheme.png" alt="Dark, light color schemes used in project - Screenshot">
 </details>
-<details>
-  <summary>
-    <strong>1.2.2</strong> Typography:
-  </summary>
+
+<details><summary><strong>1.2.2</strong> Typography:</summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/1-user_experience/1.2.2-fonts.png" alt="Fonts used in project - Image">
 </details>
-<details>
-  <summary>
-    <strong>1.2.3</strong> Imagery:
-  </summary>
+
+<details><summary><strong>1.2.3</strong> Imagery:</summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/1-user_experience/1.2.3-imagery.png" alt="3 images showing visual design for the website: Links, buttons, wallpapers - Image incl. text">
 </details>
 
+
 # 2. Wireframes
 ## 2.1 Desktop Wireframes:
-<details>
-  <summary>
-    <strong>2.1.1</strong> Postwall
-  </summary>
+<details><summary><strong>2.1.1</strong> Postwall</summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.1-postwall.png" alt="Postwall Wireframe, Desktop View - Screenshot">
 </details>
+
 <details>
-  <summary>
-    <strong>2.1.2</strong> Post_detail
-  </summary>
+  <summary><strong>2.1.2</strong> Post_detail</summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.2-post_detail.png" alt="Post_detail Wireframe, Desktop View - Screenshot">
 </details>
-<details>
-  <summary>
-    <strong>2.1.3</strong> Dashboard
-  </summary>
+
+<details><summary><strong>2.1.3</strong> Dashboard</summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.3-dashboard.png" alt="Dashboard Wireframe, Desktop View - Screenshot">
 </details>
+
 <details>
-  <summary>
-    <strong>2.1.4</strong> Register
-  </summary>
+  <summary><strong>2.1.4</strong> Register</summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.4-register.png" alt="Register Wireframe, Desktop View - Screenshot">
 </details>
-<details>
-  <summary>
-    <strong>2.1.5</strong> Login
-  </summary>
+
+<details><summary><strong>2.1.5</strong> Login</summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.5-login.png" alt="Login Wireframe, Desktop View - Screenshot">
 </details>
-<details>
-  <summary>
-    <strong>2.1.6</strong> Navbar
-  </summary>
+
+<details><summary><strong>2.1.6</strong> Navbar</summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.6-navbar.png" alt="Navbar Wireframe, Desktop View - Screenshot">
 </details>
-<details>
-  <summary>
-    <strong>2.1.7</strong> Footer
-  </summary>
+
+<details><summary><strong>2.1.7</strong> Footer</summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.7-footer.png" alt="Footer Wireframe, Desktop View - Screenshot">
 </details>
 
+
 ## 2.2 Mobile Wireframes:
-<details>
-  <summary>
-    <strong>2.2.1</strong> Navbar
-  </summary>
+<details><summary><strong>2.2.1</strong> Navbar</summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.2-mobile/2.2.1-toggler_closed.png" alt="Navbar Wireframe, Mobile View - Screenshot">
 </details>
-<details>
-  <summary>
-    <strong>2.2.2</strong> Footer
-  </summary>
+
+<details><summary><strong>2.2.2</strong> Footer</summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.2-mobile/2.2.2-toggler_open.png" alt="Footer Wireframe, Mobile View - Screenshot">
 </details>
 
+
 # 3. Features
 ## 3.1 User Authentication:
-<details>
-  <summary>
-    <strong>3.1.1</strong> Register
-  </summary>
+<details><summary><strong>3.1.1</strong> Register</summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.1-user_authentication/3.1.1-desktop-register.png" alt="Register Page, Desktop View - Screenshot">
 </details>
-<details>
-  <summary>
-    <strong>3.1.2</strong> Log in
-  </summary>
+
+<details><summary><strong>3.1.2</strong> Log in</summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.1-user_authentication/3.1.2-desktop-login.png" alt="Login Page, Desktop View - Screenshot">
 </details>
-<details>
-  <summary>
-    <strong>3.1.3</strong> Log out
-  </summary>
+
+<details><summary><strong>3.1.3</strong> Log out</summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.1-user_authentication/3.1.3-desktop-logout.png" alt="Logout Page, Desktop View - Screenshot">
 </details>
-<details>
-  <summary>
-    <strong>3.1.4</strong> Access the Dashboard
-  </summary>
+
+<details><summary><strong>3.1.4</strong> Access the Dashboard</summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.1-user_authentication/3.1.4-desktop-dashboard.png" alt="Dashboard Page, Desktop View - Screenshot">
 </details>
-<details>
-  <summary>
-    <strong>3.1.5</strong> Edit Profile
-  </summary>
+
+<details><summary><strong>3.1.5</strong> Edit Profile</summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.1-user_authentication/3.1.5-desktop-edit_profile.png" alt="Edit_Profile Page, Desktop View - Screenshot">
 </details>
-<details>
-  <summary>
-    <strong>3.1.6</strong> Change Password
-  </summary>
+
+<details><summary><strong>3.1.6</strong> Change Password</summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.1-user_authentication/3.1.6-desktop-change_password.png" alt="Change_Password Page, Desktop View - Screenshot">
 </details>
 
+
 ## 3.2 Email Verification:
 **Email verification is done:**
-<details>
-  <summary>
-    <strong>3.2.1</strong> When a new user register to the website. A email with a link, to verify their account, is sent to their inbox.
-  </summary>
+<details><summary><strong>3.2.1</strong> When a new user register to the website. A email with a link, to verify their account, is sent to their inbox.</summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.2-email_verification/3.2.1-dekstop-register.png" alt="Welcome Message after registering, user email inbox - Screenshot ">
 </details>
-<details>
-  <summary>
-    <strong>3.2.2</strong> If the user forgets his/hers account password
-  </summary>
+
+<details><summary><strong>3.2.2</strong> If the user forgets his/hers account password</summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.2-email_verification/3.2.2-desktop-forget_password.png" alt="Reseting Password, user email inbox - Screenshot ">
 </details>
 
 ## 3.3 Post Creation and Management:
-<details>
-  <summary>
-    <strong>3.3.1</strong> Create posts with text content and images
-  </summary>
+<details><summary><strong>3.3.1</strong> Create posts with text content and images</summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.3-post/3.3.1-desktop-post.png" alt="Post Page, Desktop View - Screenshot">
 </details>
-<details>
-  <summary>
-    <strong>3.3.2</strong> Meta data is automatically produced when posting, showing the author & the date the post was published
-  </summary>
+
+<details><summary><strong>3.3.2</strong> Meta data is automatically produced when posting, showing the author & the date the post was published</summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.3-post/3.3.2-desktop-meta.png" alt="Uploaded Post Meta, Desktop View - Screenshot">
 </details>
-<details>
-  <summary>
-    <strong>3.3.3</strong> A post can be deleted from its detail page, with deletion permissions restricted to the author or admin
-  </summary>
+
+<details><summary><strong>3.3.3</strong> A post can be deleted from its detail page, with deletion permissions restricted to the author or admin</summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.3-post/3.3.3-desktop-delete_post.png" alt="Post_detail Page, Desktop View - Screenshot">
 </details>
-<details>
-  <summary>
-    <strong>3.3.3.1</strong> To prevent accidental removal, the author is prompted to confirm the action before proceeding with the deletion
-  </summary>
+
+<details><summary><strong>3.3.3.1</strong> To prevent accidental removal, the author is prompted to confirm the action before proceeding with the deletion</summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.3-post/3.3.3.1-desktop-confirm_delete.png" alt="Popup - Confirm deletion of a Post, Desktop View - Screenshot">
 </details>
 
+
 ### 3.4 Commenting System:
-<details>
-  <summary>
-    <strong>3.4.1</strong> Commenting on a post is done within the same page. Through javascript the author is scrolled back to the same post after submitting a comment
-  </summary>
+<details><summary><strong>3.4.1</strong> Commenting on a post is done within the same page. Through javascript the author is scrolled back to the same post after submitting a comment</summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.4-commenting_system/3.4.1-desktop-comment.png" alt="Commenting on a Post, Desktop View - Screenshot">
 </details>
-<details>
-  <summary>
-    <strong>3.4.1.1</strong> A comment can be deleted from the post detail page, with deletion only restricted to the author or admin. However, the comment will also be deleted if the post author deletes her post. On the far right, in the comment row, there is a delete button which deletes the comment, only visible to the author/admin.
-  </summary>
+
+<details><summary><strong>3.4.1.1</strong> A comment can be deleted from the post detail page, with deletion only restricted to the author or admin. However, the comment will also be deleted if the post author deletes her post. On the far right, in the comment row, there is a delete button which deletes the comment, only visible to the author/admin.</summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.4-commenting_system/3.4.1.1-desktop-delete_comment.png" alt="Deleting a Comment, Desktop View - Screenshot">
 </details>
 
-
 ## 3.5 Search Functionaltiy:
-<details>
-  <summary>
-    <strong>3.5.1</strong> A built-in search bar allows users to easily find posts by keywords in their titles.
-  </summary>
+<details><summary><strong>3.5.1</strong> A built-in search bar allows users to easily find posts by keywords in their titles.</summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.5-search_functionality/3.5.1-desktop-search.png" alt="Searchfield in Navbar, Desktop View - Screenshot">
 </details>
 
 **3.5.2 Suggestions can be displayed in two ways:**
-<details>
-  <summary>
-    <strong>3.5.2.1</strong> As clickable links in a dropdown.
-  </summary>
+<details><summary><strong>3.5.2.1</strong> As clickable links in a dropdown.</summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.5-search_functionality/3.5.2.1-desktop-search_dropdown.png" alt="Searchfield dropdown, Desktop View - Screenshot">
 </details>
-<details>
-  <summary>
-    <strong>3.5.2.2</strong> As clickable links in a result page, if the user clicks on the search icon.
-  </summary>
+
+<details><summary><strong>3.5.2.2</strong> As clickable links in a result page, if the user clicks on the search icon.</summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.5-search_functionality/3.5.2.2-desktop-search_results.png" alt="Search results Page, Desktop View - Screenshot">
 </details>
 
+
 ## 3.6 Alert Messages:
 **Informative messages will appear when the user performs certain tasks:**
-<details>
-  <summary>
-    <strong>3.6.1</strong> Registration
-  </summary>
+
+<details><summary><strong>3.6.1</strong> Registration</summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.6-alert_messages/3.6.1-registration.png" alt="Registration alert message, Desktop View - Screenshot">
 </details>
-<details>
-  <summary>
-    <strong>3.6.2</strong> Log in
-  </summary>
+
+<details><summary><strong>3.6.2</strong> Log in</summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.6-alert_messages/3.6.2-login.png" alt="Login successful alert message, Desktop View - Screenshot">
 </details>
-<details>
-  <summary>
-    <strong>3.6.3</strong> Log out
-  </summary>
+
+<details><summary><strong>3.6.3</strong> Log out</summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.6-alert_messages/3.6.3-logout.png" alt="logout successful alert message, Desktop View - Screenshot">
 </details>
-<details>
-  <summary>
-    <strong>3.6.4</strong> Password updated
-  </summary>
+
+<details><summary><strong>3.6.4</strong> Password updated</summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.6-alert_messages/3.6.4-password_updated.png" alt="Password updated alert message, Desktop View - Screenshot">
 </details>
-<details>
-  <summary>
-    <strong>3.6.5</strong> Password reset
-  </summary>
+
+<details><summary><strong>3.6.5</strong> Password reset</summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.6-alert_messages/3.6.5-password_reset.png" alt="Password reset alert message, Desktop View - Screenshot">
 </details>
 
+
 **3.6.6 Errors**
-<details>
-  <summary>
-    <strong>3.6.6.1</strong> Log in error
-  </summary>
+<details><summary><strong>3.6.6.1</strong> Log in error</summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.6-alert_messages/3.6.6.1-login_error.png" alt="Login errer alert message, Desktop View - Screenshot">
 </details>
-<details>
-  <summary>
-    <strong>3.6.6.2</strong> Password incorrect
-  </summary>
+
+<details><summary><strong>3.6.6.2</strong> Password incorrect</summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.6-alert_messages/3.6.6.2-password_incorrect.png" alt="Password incorrect alert message, Desktop View - Screenshot">
 </details>
-<details>
-  <summary>
-    <strong>3.6.6.3</strong> Passwords do not match
-  </summary>
+
+<details><summary><strong>3.6.6.3</strong> Passwords do not match</summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.6-alert_messages/3.6.6.3-passwords_nomatch.png" alt="Passwords not matching alert message, Desktop View - Screenshot">
 </details>
 
 **These messages automatically fade after a set period.**
 
 ## 3.7 Responsive Design:
-<details>
-  <summary>
-    <strong>3.7.1</strong> Desktop:
-  </summary>
+<details><summary><strong>3.7.1</strong> Desktop:</summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.7-responsive_design/3.7.1-desktop.png" alt="All desktop pages in one image">
 </details>
-<details>
-  <summary>
-    <strong>3.7.2</strong> Mobile (Pixel 7):
-  </summary>
+
+<details><summary><strong>3.7.2</strong> Mobile (Pixel 7):</summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.7-responsive_design/3.7.2-mobile.png" alt="All pages in one image">
 </details>
-<details>
-  <summary>
-    <strong>3.7.3</strong> Tablet (Surface Pro):
-  </summary>
+
+<details><summary><strong>3.7.3</strong> Tablet (Surface Pro):</summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.7-responsive_design/3.7.3-tablet.png" alt="All pages in one image">
 </details>
 
@@ -349,14 +267,24 @@
 * [base.css](https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/6-testing/w3c-base.pdf)
 * [navbar.css](https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/6-testing/w3c-navbar.pdf)
 
-!HTML!?
+!
 
+## 6.2 Testing User Stories from User Experience (UX) Section
+### 6.2.1 Test: First Time Visistor Goals:
+#### **6.2.1.1 Test:** - I want to understand the purpose of the site.
+#### **6.2.1.2 Test:** - Navigate through the site
+#### **6.2.1.3 Test:** - Browse posts
 
+#### 6.2.1.1 I want to understand the purpose of the site.
+#### 6.2.1.2 Navigate through the site
+#### 6.2.1.3 Browse posts
 
-## **6.2 Testing User Stories from User Experience (UX) Section**
+* **Test** *:
+* -  Open the homepage of the site.
+    2. Browse through the page
+    Result: The name of the website "Postwall", the uploaded posts, the navigation items clearly reveals the purpose of the website. 
 
-### 6.2.1 First-Time Visitor Goals
-As a First-Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+####
 
 1.1 Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath, there is a Hero Image with Text and a "Learn More" Call to Action button.
 1.2 The main points are made immediately with the hero image, communicating the site’s purpose clearly.
@@ -449,6 +377,14 @@ As a Frequent Visitor, I want to sign up for the newsletter so that I am emailed
 3.1 At the bottom of every page their is a footer which content is consistent throughout all pages.
 3.2 To the right hand side of the footer the user can see "Subscribe to our Newsletter" and are prompted to Enter their email address.
 3.3 There is a "Submit" button to the right hand side of the input field which is located close to the field and can easily be distinguished.
+
+
+
+
+
+
+
+
 
 ### 6.1.4 Further Testing
 
