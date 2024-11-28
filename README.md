@@ -307,6 +307,17 @@ Create a blog platform where users can connect and share their content.
 ## 6.2 Testing of User Stories (From Chapter 1.1)
 
 ### First Time User Goals:
+<ul>
+    <li>
+        **a)** As a **First Time User**, I want to quickly understand the purpose of the website.
+            <ul>
+                <li>
+                    The landing page, homepage, is where all posts are located. The first thing the user sees is a uploaded post, the name of the website, Postwall, shining in green. By reading the nav-links, and the placerholder text "Search for a Post" in the search field the Visitor should get a clear understanding of the purpose.
+                </li>
+            </ul>
+    </li>
+</ul>
+
 &nbsp;&nbsp;&nbsp;&nbsp;**a)** As a **First Time User**, I want to quickly understand the purpose of the website.
 <br>
 The landing page, homepage, is where all posts are located. The first thing the user sees is a uploaded post, the name of the website, Postwall, shining in green. By reading the nav-links, and the placerholder text "Search for a Post" in the search field the Visitor should get a clear understanding of the purpose.
