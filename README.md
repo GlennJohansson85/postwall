@@ -8,9 +8,9 @@
 # User Experience
 ## 1.1 User Stories:
 ### 1.1.1 As a First Time Visitor, I want to:
-  * Understand the purpose of the site
-  * Navigate through the site
-  * Browse posts
+ * Understand the purpose of the site
+ * Navigate through the site
+ * Browse posts
 
 ### 1.1.2 As a Returning Visitor, I want to:
 * Search posts
@@ -24,7 +24,7 @@
 
 ## 1.2 Design
 <details>
-  <summary>
+  <summary style="margin-left: 20px;">
     <strong>1.2.1</strong> Color Scheme:
   </summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/1-user_experience/1.2.1-color_scheme.png" alt="Dark, light color schemes used in project - Screenshot">
