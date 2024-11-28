@@ -1,15 +1,15 @@
 <div align="center">
-  <h1 bold>Postwall</h1>
-    <a href="https://postwall-500ee4318184.herokuapp.com/">See Live Project Here!</a>
-  
-  <h2>About:</h2>
-    <p>Postwall is a platform where you can share your thoughts and daily experiences through blog posts and photos. Whether you're documenting your life, sharing creative projects, or simply reflecting on your day. Postwall provides a space for you to express yourself and connect with others.</p>
-  
-  <h2>Project Goals:</h2>
-    <p>Create a blog platform using the tools and knowledge gained from Code Insitute.</p>
-    
-  <h2>User Goals:</h2>
-    <p>Create a blog platform where users can connect and share their content.</p>
+  <h1 style="margin: 0; padding: 0;">Postwall</h1>
+  <a href="https://postwall-500ee4318184.herokuapp.com/">See Live Project Here!</a>
+
+  <h2 style="margin: 0; padding: 0;">About:</h2>
+  <p>Postwall is a platform where you can share your thoughts and daily experiences through blog posts and photos. Whether you're documenting your life, sharing creative projects, or simply reflecting on your day. Postwall provides a space for you to express yourself and connect with others.</p>
+
+  <h2 style="margin: 0; padding: 0;">Project Goals:</h2>
+  <p>Create a blog platform using the tools and knowledge gained from Code Institute.</p>
+
+  <h2 style="margin: 0; padding: 0;">User Goals:</h2>
+  <p>Create a blog platform where users can connect and share their content.</p>
 </div>
 
 
