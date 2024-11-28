@@ -312,10 +312,10 @@ Create a blog platform where users can connect and share their content.
 
 <details>
   <summary>View User Story here</summary>
-      <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/6-testing/6.2/1.1.1-user_story-purpose.png" alt="User Story - Purpose img">
+      <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/6-testing/6.2/1.1.1-user_story-purpose.png" alt="User Story - Purpose img">
 </details>
 
-
+docs/images/6-testing/6.2/1.1.1-user_story-purpose.png
 - **b)** As a **First Time User**, I want to navigate through the site.
   - The navigation system is easy to use. The nav-links shine in bright green, showing the user which page they are currently on. The navbar is fixed at the top, always easily accessible
   - [View User Story here](https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/6-testing/6.2/1.1.1-user_story-navigate.png)
