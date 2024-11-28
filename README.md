@@ -1,54 +1,40 @@
 # Postwall
 <a href="https://postwall-500ee4318184.herokuapp.com/">See Live Project Here!</a>
 
-
-**About:**
-<br>
-    Postwall is a platform where you can share your thoughts and daily experiences through blog posts and photos. Whether you're documenting your life, sharing creative projects, or simply reflecting on your day. Postwall provides a space for you to express yourself and connect with others.</p>
- 
-**Project Goals:**
-    Create a blog platform using the tools and knowledge gained from Code Institute.</p>
-
-**User Goals:**
-    Create a blog platform where users can connect and share their content.</p>
-
+**About:** Postwall is a platform where you can share your thoughts and daily experiences through blog posts and photos. Whether you're documenting your life, sharing creative projects, or simply reflecting on your day. Postwall provides a space for you to express yourself and connect with others.
+**Project Goals:** Create a blog platform using the tools and knowledge gained from Code Institute.
+**User Goals:** Create a blog platform where users can connect and share their content.
 
 # User Experience
-
-
-### 1.1 User Stories:
-
-#### 1.1.1 As a First Time Visitor, I want to:
+## 1.1 User Stories:
+### 1.1.1 As a First Time Visitor, I want to:
 * Understand the purpose of the site
 * Navigate through the site
 * Browse posts
 
-#### 1.1.2 As a Returning Visitor, I want to:
+### 1.1.2 As a Returning Visitor, I want to:
 * Search posts
 * Upload posts
 * Register to the site
 
-#### 1.1.3 As a Frequent Visitor, I want to:
+### 1.1.3 As a Frequent Visitor, I want to:
 * Share my views/comment on others content
 * Have the freedom to regret them aswell
 * See content in a larger scale
 
-### 1.2 Design
-
+## 1.2 Design
 <details>
   <summary>
     <strong>1.2.1</strong> Color Scheme:
   </summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/1-user_experience/1.2.1-color_scheme.png" alt="Dark, light color schemes used in project - Screenshot">
 </details>
-
 <details>
   <summary>
     <strong>1.2.2</strong> Typography:
   </summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/1-user_experience/1.2.2-fonts.png" alt="Fonts used in project - Image">
 </details>
-
 <details>
   <summary>
     <strong>1.2.3</strong> Imagery:
@@ -56,8 +42,8 @@
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/1-user_experience/1.2.3-imagery.png" alt="3 images showing visual design for the website: Links, buttons, wallpapers - Image incl. text">
 </details>
 
-## 2. Wireframes
-### 2.1 Desktop Wireframes:
+# 2. Wireframes
+## 2.1 Desktop Wireframes:
 <details>
   <summary>
     <strong>2.1.1</strong> Postwall
@@ -101,7 +87,7 @@
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.7-footer.png" alt="Footer Wireframe, Desktop View - Screenshot">
 </details>
 
-### 2.2 Mobile Wireframes:
+## 2.2 Mobile Wireframes:
 <details>
   <summary>
     <strong>2.2.1</strong> Navbar
@@ -115,8 +101,8 @@
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.2-mobile/2.2.2-toggler_open.png" alt="Footer Wireframe, Mobile View - Screenshot">
 </details>
 
-## 3. Features
-### 3.1 User Authentication:
+# 3. Features
+## 3.1 User Authentication:
 <details>
   <summary>
     <strong>3.1.1</strong> Register
@@ -154,7 +140,7 @@
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.1-user_authentication/3.1.6-desktop-change_password.png" alt="Change_Password Page, Desktop View - Screenshot">
 </details>
 
-### 3.2 Email Verification:
+## 3.2 Email Verification:
 **Email verification is done:**
 <details>
   <summary>
@@ -169,7 +155,7 @@
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.2-email_verification/3.2.2-desktop-forget_password.png" alt="Reseting Password, user email inbox - Screenshot ">
 </details>
 
-### 3.3 Post Creation and Management:
+## 3.3 Post Creation and Management:
 <details>
   <summary>
     <strong>3.3.1</strong> Create posts with text content and images
@@ -210,7 +196,7 @@
 </details>
 
 
-### 3.5 Search Functionaltiy:
+## 3.5 Search Functionaltiy:
 <details>
   <summary>
     <strong>3.5.1</strong> A built-in search bar allows users to easily find posts by keywords in their titles.
@@ -232,7 +218,7 @@
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.5-search_functionality/3.5.2.2-desktop-search_results.png" alt="Search results Page, Desktop View - Screenshot">
 </details>
 
-### 3.6 Alert Messages:
+## 3.6 Alert Messages:
 **Informative messages will appear when the user performs certain tasks:**
 <details>
   <summary>
@@ -287,7 +273,7 @@
 
 **These messages automatically fade after a set period.**
 
-### 3.7 Responsive Design:
+## 3.7 Responsive Design:
 <details>
   <summary>
     <strong>3.7.1</strong> Desktop:
@@ -307,21 +293,21 @@
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.7-responsive_design/3.7.3-tablet.png" alt="All pages in one image">
 </details>
 
-## 4. Technologies Used
-### 4.1 Languages Used:
+# 4. Technologies Used
+## 4.1 Languages Used:
 * **[HTML5](https://en.wikipedia.org/wiki/HTML5)** - Markup language used for structuring web pages.
 * **[CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)** - Styling language used for the presentation of the HTML elements.
 * **[Python](https://www.python.org/)** - Programming language used for the backend of the application.
 * **[SQL](https://en.wikipedia.org/wiki/SQL)** - Used for database queries (e.g., in SQLite or PostgreSQL databases).
 
 
-### 4.2. Frameworks, Libraries & Programs Used:
+## 4.2. Frameworks, Libraries & Programs Used:
 ### **4.2.1 Frameworks:**
 * **[Django](https://www.djangoproject.com/)** - High-level Python web framework for rapid development.
 * **[Django Cloudinary Storage](https://django-cloudinary-storage.readthedocs.io/en/latest/)** - Integration with Cloudinary for media file management.
 * **[Django Storages](https://django-storages.readthedocs.io/)** - Integration with different cloud storage solutions like AWS S3.
 
-### **4.2.1.2 Libraries:**
+### **4.2.2 Libraries:**
 * **[requests](https://requests.readthedocs.io/)** - Library for making HTTP requests.
 * **[django-environ](https://django-environ.readthedocs.io/)** - Configuration management library for reading environment variables.
 * **[dj-database-url](https://pypi.org/project/dj-database-url/)** - Simplifies database configuration using URL format.
@@ -329,7 +315,7 @@
 * **[Pillow](https://python-pillow.org/)** - Python Imaging Library for image processing.
 * **[pyyaml](https://pyyaml.org/)** - YAML parser and emitter for Python.
 
-### **4.2.1.3 Development Tools:**
+### **4.2.3 Development Tools:**
 * **[Visual Studio Code](https://code.visualstudio.com/)** - Code editor used for development.
 * **[GitHub Desktop](https://desktop.github.com/)** - GitHub client for managing repository and version control.
 * **[GitHub](https://github.com/)** - Platform for version control and collaboration.
@@ -337,7 +323,7 @@
 * **[Amazon AWS](https://aws.amazon.com/)** - Cloud services used for storage (static and media).
 * **[Postman](https://www.postman.com/)** - API testing tool.
 
-### **4.2.1.4 Other Libraries & Tools Used:**
+### **4.2.4 Other Libraries & Tools Used:**
 * **[Google Gmail](https://mail.google.com/)** - Used for email services (account and password verification).
 * **[Temp Mail](https://temp-mail.org/)** - For creating temporary email accounts used for testing purposes.
 * **[Bootstrap 5.0.2](https://getbootstrap.com/docs/5.0/getting-started/introduction/)** - Framework for responsive web design and styling.
@@ -347,9 +333,8 @@
 * **[Freepik](https://www.freepik.com/)** - Used for sourcing background images and other assets.
 * **[Balsamiq Wireframes](https://balsamiq.com/wireframes/)** - Wireframing tool used in the design phase of the project.
 
-
-## 6. Testing
-### 6.1 W3C Validator Test
+# 6. Testing
+## 6.1 W3C Validator Test
 <details>
   <summary>Base Stylesheet Results</summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/6-testing/w3c-base.png" alt="w3c results for base.css">
@@ -368,9 +353,9 @@
 
 
 
-### **6.2 Testing User Stories from User Experience (UX) Section**
+## **6.2 Testing User Stories from User Experience (UX) Section**
 
-##6.2.1 First-Time Visitor Goals
+### 6.2.1 First-Time Visitor Goals
 As a First-Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
 
 1.1 Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath, there is a Hero Image with Text and a "Learn More" Call to Action button.
