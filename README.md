@@ -8,9 +8,9 @@
 # User Experience
 ## 1.1 User Stories:
 ### 1.1.1 As a First Time Visitor, I want to:
-* Understand the purpose of the site
-* Navigate through the site
-* Browse posts
+  * Understand the purpose of the site
+  * Navigate through the site
+  * Browse posts
 
 ### 1.1.2 As a Returning Visitor, I want to:
 * Search posts
