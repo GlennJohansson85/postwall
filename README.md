@@ -130,53 +130,58 @@ Create a blog platform where users can connect and share their content.
 </details>
 
 <details>
-    <summary><strong>3.2.2 - If the user forgets his/hers account password</strong></summary>
+    <summary><strong>3.2.2 - If the user forgets his/hers account password.</strong></summary>
       <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.2-email_verification/3.2.2-desktop-forget_password.png" alt="Reseting Password, user email inbox - Screenshot ">
 </details>
 
 ## 3.3 Post Creation and Management:
 <details>
-    <summary><strong>3.3.1 - Create posts with text content and images</strong></summary>
+    <summary><strong>3.3.1 - Create posts with text content and images.</strong></summary>
       <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.3-post/3.3.1-desktop-post.png" alt="Post Page, Desktop View - Screenshot">
 </details>
 
 <details>
-    <summary><strong>3.3.2 - Meta data is automatically produced when posting, showing the author & the date the post was published</strong></summary>
+    <summary><strong>3.3.2 - Meta data is automatically produced when posting, showing the author & the date the post was published.</strong></summary>
       <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.3-post/3.3.2-desktop-meta.png" alt="Uploaded Post Meta, Desktop View - Screenshot">
 </details>
 
 <details>
-    <summary><strong>3.3.3 - A post can be deleted from its detail page, with deletion permissions restricted to the author or admin</strong></summary>
+    <summary><strong>3.3.3 - A post can be deleted from its detail page, with deletion permissions restricted to the author or admin.</strong></summary>
       <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.3-post/3.3.3-desktop-delete_post.png" alt="Post_detail Page, Desktop View - Screenshot">
 </details>
 
 <details>
-    <summary><strong>3.3.3.1 - To prevent accidental removal, the author is prompted to confirm the action before proceeding with the deletion</strong></summary>
+    <summary><strong>3.3.3.1 - To prevent accidental removal, the author is prompted to confirm the action before proceeding with the deletion.</strong></summary>
       <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.3-post/3.3.3.1-desktop-confirm_delete.png" alt="Popup - Confirm deletion of a Post, Desktop View - Screenshot">
 </details>
 
 
 ### 3.4 Commenting System:
-<details><summary><strong>3.4.1</strong> Commenting on a post is done within the same page. Through javascript the author is scrolled back to the same post after submitting a comment</summary>
-  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.4-commenting_system/3.4.1-desktop-comment.png" alt="Commenting on a Post, Desktop View - Screenshot">
+<details>
+    <summary><strong>3.4.1 - Commenting on a post is done within the same page. Through javascript the author is scrolled back to the same post after submitting a comment</strong></summary>
+      <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.4-commenting_system/3.4.1-desktop-comment.png" alt="Commenting on a Post, Desktop View - Screenshot">
 </details>
 
-<details><summary><strong>3.4.1.1</strong> A comment can be deleted from the post detail page, with deletion only restricted to the author or admin. However, the comment will also be deleted if the post author deletes her post. On the far right, in the comment row, there is a delete button which deletes the comment, only visible to the author/admin.</summary>
-  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.4-commenting_system/3.4.1.1-desktop-delete_comment.png" alt="Deleting a Comment, Desktop View - Screenshot">
+<details>
+    <summary><strong>3.4.1.1 -  A comment can be deleted from the post detail page, with deletion only restricted to the author or admin. However, the comment will also be deleted if the post author deletes her post. On the far right, in the comment row, there is a delete button which deletes the comment, only visible to the author/admin.</strong></summary>
+      <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.4-commenting_system/3.4.1.1-desktop-delete_comment.png" alt="Deleting a Comment, Desktop View - Screenshot">
 </details>
 
 ## 3.5 Search Functionaltiy:
-<details><summary><strong>3.5.1</strong> A built-in search bar allows users to easily find posts by keywords in their titles.</summary>
-  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.5-search_functionality/3.5.1-desktop-search.png" alt="Searchfield in Navbar, Desktop View - Screenshot">
+<details>
+    <summary><strong>3.5.1 - A built-in search bar allows users to easily find posts by keywords in their titles.</strong></summary>
+      <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.5-search_functionality/3.5.1-desktop-search.png" alt="Searchfield in Navbar, Desktop View - Screenshot">
 </details>
 
-**3.5.2 Suggestions can be displayed in two ways:**
-<details><summary><strong>3.5.2.1</strong> As clickable links in a dropdown.</summary>
-  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.5-search_functionality/3.5.2.1-desktop-search_dropdown.png" alt="Searchfield dropdown, Desktop View - Screenshot">
+***3.5.2 Suggestions can be displayed in two ways:***
+<details>
+    <summary><strong>3.5.2.1 - As clickable links in a dropdown.</strong></summary>
+      <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.5-search_functionality/3.5.2.1-desktop-search_dropdown.png" alt="Searchfield dropdown, Desktop View - Screenshot">
 </details>
 
-<details><summary><strong>3.5.2.2</strong> As clickable links in a result page, if the user clicks on the search icon.</summary>
-  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.5-search_functionality/3.5.2.2-desktop-search_results.png" alt="Search results Page, Desktop View - Screenshot">
+<details>
+    <summary><strong>3.5.2.2 - As clickable links in a result page, if the user clicks on the search icon.</strong></summary>
+      <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.5-search_functionality/3.5.2.2-desktop-search_results.png" alt="Search results Page, Desktop View - Screenshot">
 </details>
 
 
