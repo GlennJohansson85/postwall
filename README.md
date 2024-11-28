@@ -14,19 +14,19 @@ Create a blog platform where users can connect and share their content.
 # User Experience
 ## 1.1 User Stories:
 ### 1.1.1 First Time User Goals:
-  > **a)** As a "First Time User", I want to quickly understand the purpose of the website.
-  > **b)** As a "First Time User", I want to navigate through the site.
-  > **c)** As a "First Time User", I want to browse posts.
+- **a)** As a "First Time User", I want to quickly understand the purpose of the website.
+- **b)** As a "First Time User", I want to navigate through the site.
+- **c)** As a "First Time User", I want to browse posts.
 
 ### 1.1.2 Returning User Goals:
-  > **a)** As a "Returning User", I want to search for posts.
-  > **b)** As a "Returning User", I want to register to the site.
-  > **c)** As a "Returning User", I want to post.
+- **a)** As a "Returning User", I want to search for posts.
+- **b)** As a "Returning User", I want to register to the site.
+- **c)** As a "Returning User", I want to post.
 
 ### 1.1.3 Frequent User Goals:
-  > **a)** As a "Frequent User", I want to share my views/comment on others' content.
-  > **b)** As a "Frequent User", I want to have the freedom to delete or edit my comments as well.
-  > **c)** As a "Frequent User", I want to see content in a larger scale.
+- **a)** As a "Frequent User", I want to share my views/comment on others' content.
+- **b)** As a "Frequent User", I want to have the freedom to delete or edit my comments as well.
+- **c)** As a "Frequent User", I want to see content in a larger scale.
 
 
 
