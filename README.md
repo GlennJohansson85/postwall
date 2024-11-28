@@ -29,30 +29,22 @@ Create a blog platform where users can connect and share their content.
 &nbsp;&nbsp;&nbsp;&nbsp;**c)** As a **Frequent User**, I want to see content in a larger scale.
 
 
-
-
-
 ## 1.2 Design
-<ul class="unstyled">
-    <li>
-        <details>
-            <summary><strong>1.2.1</strong> Color Scheme:</summary>
-                <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/1-user_experience/1.2.1-color_scheme.png" alt="Dark, light color schemes used in project - Screenshot">
-        </details>
-    </li>
-    <li>
-        <details>
-            <summary><strong>1.2.2</strong> Typography:</summary>
-                <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/1-user_experience/1.2.2-fonts.png" alt="Fonts used in project - Image">
-        </details>
-    </li>
-    <li>
-        <details>
-            <summary><strong>1.2.3</strong> Imagery:</summary>
-                <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/1-user_experience/1.2.3-imagery.png" alt="3 images showing visual design for the website: Links, buttons, wallpapers - Image incl. text">
-        </details>
-    </li>
-</ul>
+<details>
+    <summary><strong>1.2.1</strong> Color Scheme:</summary>
+        <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/1-user_experience/1.2.1-color_scheme.png" alt="Dark, light color schemes used in project - Screenshot">
+</details>
+
+<details>
+    <summary><strong>1.2.2</strong> Typography:</summary>
+        <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/1-user_experience/1.2.2-fonts.png" alt="Fonts used in project - Image">
+</details>
+
+<details>
+    <summary><strong>1.2.3</strong> Imagery:</summary>
+        <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/1-user_experience/1.2.3-imagery.png" alt="3 images showing visual design for the website: Links, buttons, wallpapers - Image incl. text">
+</details>
+
 
 # 2. Wireframes
 ## 2.1 Desktop Wireframes:
