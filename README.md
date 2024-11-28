@@ -4,13 +4,13 @@
 </div>
 
 * **About:**
-* Postwall is a platform where you can share your thoughts and daily experiences through blog posts and photos. Whether you're documenting your life, sharing creative projects, or simply reflecting on your day. Postwall provides a space for you to express yourself and connect with others.</p>
+    Postwall is a platform where you can share your thoughts and daily experiences through blog posts and photos. Whether you're documenting your life, sharing creative projects, or simply reflecting on your day. Postwall provides a space for you to express yourself and connect with others.</p>
  
 * **Project Goals:**
-* Create a blog platform using the tools and knowledge gained from Code Institute.</p>
+    Create a blog platform using the tools and knowledge gained from Code Institute.</p>
 
 * **User Goals:**
-* Create a blog platform where users can connect and share their content.</p>
+    Create a blog platform where users can connect and share their content.</p>
 
 
 # User Experience
