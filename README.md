@@ -1,19 +1,26 @@
 <div align="center">
-  <h1 style="margin: 0; padding: 0;">Postwall</h1>
+  <h1 bold>Postwall</h1>
   <a href="https://postwall-500ee4318184.herokuapp.com/">See Live Project Here!</a>
-
-  <h2 style="margin: 0; padding: 0;">About:</h2>
-  <p>Postwall is a platform where you can share your thoughts and daily experiences through blog posts and photos. Whether you're documenting your life, sharing creative projects, or simply reflecting on your day. Postwall provides a space for you to express yourself and connect with others.</p>
-
-  <h2 style="margin: 0; padding: 0;">Project Goals:</h2>
-  <p>Create a blog platform using the tools and knowledge gained from Code Institute.</p>
-
-  <h2 style="margin: 0; padding: 0;">User Goals:</h2>
-  <p>Create a blog platform where users can connect and share their content.</p>
+  <ul>
+    <li>
+      <h2>About:</h2>
+      <p>Postwall is a platform where you can share your thoughts and daily experiences through blog posts and photos. Whether you're documenting your life, sharing creative projects, or simply reflecting on your day. Postwall provides a space for you to express yourself and connect with others.</p>
+    </li>
+    <li>
+      <h2>Project Goals:</h2>
+      <p>Create a blog platform using the tools and knowledge gained from Code Institute.</p>
+    </li>
+    <li>
+      <h2>User Goals:</h2>
+      <p>Create a blog platform where users can connect and share their content.</p>
+    </li>
+  </ul>
 </div>
 
+<div align="center"> 
+  <h1 bold>User Experience</h1>
+</div>
 
-## 1. User Experience
 ### 1.1 User Stories:
 
 #### 1.1.1 As a First Time Visitor, I want to:
