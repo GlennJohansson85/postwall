@@ -347,25 +347,73 @@ Create a blog platform where users can connect and share their content.
 
 
 ## 6. Testing
-### 6.1 W3C CSS Validator:
+### 6.1 W3C Validator Test
 <details>
-  <summary>base.css</summary>
+  <summary>Base Stylesheet Results</summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/6-testing/w3c-base.png" alt="w3c results for base.css">
 </details>
 
 <details>
-  <summary>navbar.css</summary>
+  <summary>Navbar Stylesheet Results</summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/6-testing/w3c-navbar.png" alt="w3c results for navbar.css">
 </details>
 
-### 6.2 W3C HTML Validator
-<details>
-  <summary>navbar.css</summary>
-  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/6-testing/w3c-navbar.png" alt="w3c results for navbar.css">
-</details>
+**Complete tests can be found here:**
+* [base.css](https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/6-testing/w3c-base.pdf)
+* [navbar.css](https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/6-testing/w3c-navbar.pdf)
+
+!HTML!?
 
 
-### 6.1 Testing User Stories from User Experience (UX) Section
+
+### **6.2 Testing User Stories from User Experience (UX) Section**
+
+##6.2.1 First-Time Visitor Goals
+As a First-Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+
+1.1 Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath, there is a Hero Image with Text and a "Learn More" Call to Action button.
+1.2 The main points are made immediately with the hero image, communicating the site’s purpose clearly.
+1.3 The user has two options: click the call to action button or scroll down. Both options will lead to the same place — a section where they can learn more about the organisation.
+As a First-Time Visitor, I want to be able to easily navigate throughout the site to find content.
+
+2.1 The site has been designed to be fluid and never entrap the user. At the top of each page, there is a clean navigation bar, and each link describes clearly what the page will display.
+2.2 At the bottom of the first three pages, there is a redirection call to action to ensure the user always has somewhere to go and doesn’t feel trapped after reaching the bottom of the page.
+2.3 On the Contact Us Page, after a form response is submitted, the page refreshes, and the user is brought back to the top of the page where the navigation bar is.
+As a First-Time Visitor, I want to look for testimonials to understand what other users think of the organisation and see if they are trusted. I also want to locate their social media links to check their following.
+
+3.1 Once the visitor has read the About Us and What We Do sections, they will notice the "Why We Are Loved So Much" section, where testimonials are presented.
+3.2 The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
+3.3 At the bottom of the Contact Us page, under the form, the user is informed that they can alternatively contact the organisation via social media, and the relevant social media links are provided.
+6.1.2 Returning Visitor Goals
+As a Returning Visitor, I want to find new programming challenges or hackathons.
+
+1.1 These new challenges are clearly displayed in a banner message on the homepage or other relevant sections.
+1.2 Clicking on the banner will direct them to a dedicated page featuring a hero image and another call to action button for further details.
+As a Returning Visitor, I want to find the best way to get in contact with the organisation for any questions I may have.
+
+2.1 The navigation bar clearly highlights the "Contact Us" page.
+2.2 Here, users can fill out the form on the page or see that they can alternatively message the organisation via social media links provided.
+2.3 The footer contains links to the organisation's Facebook, Twitter, and Instagram pages, as well as the organisation's email.
+2.4 Whichever link they click will open in a new tab to ensure the user can easily return to the website.
+2.5 The email button automatically opens the user's email app and pre-fills the organisation's email address in the "To" section.
+As a Returning Visitor, I want to find the Facebook Group link so that I can join and interact with others in the community.
+
+3.1 The Facebook page can be found in the footer of every page and opens in a new tab for the user. More information can be found on the Facebook page itself.
+3.2 Alternatively, the user can scroll to the bottom of the home page to find the Facebook Group redirect card and easily join by clicking the "Join Now!" button. This will open the Facebook page in a new tab.
+3.3 If the user is on the "Our Favourites" page, they will also see a call to action button inviting them to join the Facebook group, with an incentive of weekly favourite products being posted there.
+6.1.3 Frequent Visitor Goals
+As a Frequent Visitor, I want to check if there are any newly added challenges or hackathons.
+
+1.1 The user is already familiar with the website layout and can easily click on the banner message, which will lead them to the page listing the latest challenges.
+As a Frequent Visitor, I want to check if there are any new blog posts.
+
+2.1 The user, being familiar with the website layout, can easily click the blog link to explore the latest blog posts.
+As a Frequent Visitor, I want to sign up for the newsletter so that I am emailed any major updates or changes to the website or organisation.
+
+3.1 At the bottom of every page, the footer is consistent across all pages.
+3.2 On the right-hand side of the footer, the user will see the prompt "Subscribe to our Newsletter" with an input field to enter their email address.
+3.3 A "Submit" button is positioned right next to the input field, making it easy to find and distinguish, allowing the user to submit their email address and sign up for updates.ll
+* See content in a larger scale
 
 #### 6.1.1 First Time Visitor Goals
 1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
