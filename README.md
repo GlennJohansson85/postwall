@@ -14,7 +14,7 @@ Create a blog platform where users can connect and share their content.
 # User Experience
 ## 1.1 User Stories:
 ### 1.1.1 First Time User Goals:
-&nbsp;&nbsp;;**a)** As a "First Time User", I want to quickly understand the purpose of the website.  
+&nbsp;&nbsp;&nbsp;&nbsp;**a)** As a "First Time User", I want to quickly understand the purpose of the website.   
 &nbsp;&nbsp;**b)** As a "First Time User", I want to navigate through the site.  
 &nbsp;&nbsp;**c)** As a "First Time User", I want to browse posts.
 
