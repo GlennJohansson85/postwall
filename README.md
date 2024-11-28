@@ -2,13 +2,14 @@
 <a href="https://postwall-500ee4318184.herokuapp.com/">See Live Project Here!</a>
 
 
-* **About:**
+**About:**
+<br>
     Postwall is a platform where you can share your thoughts and daily experiences through blog posts and photos. Whether you're documenting your life, sharing creative projects, or simply reflecting on your day. Postwall provides a space for you to express yourself and connect with others.</p>
  
-* **Project Goals:**
+**Project Goals:**
     Create a blog platform using the tools and knowledge gained from Code Institute.</p>
 
-* **User Goals:**
+**User Goals:**
     Create a blog platform where users can connect and share their content.</p>
 
 
