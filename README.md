@@ -1,4 +1,7 @@
-<h1 style="text-align: center;">Postwall</h1>
+<div align="center">
+  <h1>Postwall</h1>
+</div>
+
 
 <div style="text-align: center;"![image](https://github.com/user-attachments/assets/03595a0c-54ca-4e1f-94e4-cb030943d9af)</div>
 
