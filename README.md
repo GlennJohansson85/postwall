@@ -122,13 +122,16 @@ Create a blog platform where users can connect and share their content.
 
 
 ## 3.2 Email Verification:
-***Email verification is performed when:***
-<details><summary><strong>3.2.1</strong> When a new user register to the website. A email with a link, to verify their account, is sent to their inbox.</summary>
-  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.2-email_verification/3.2.1-dekstop-register.png" alt="Welcome Message after registering, user email inbox - Screenshot ">
+***Email verification is performed:***
+
+<details>
+    <summary><strong>3.2.1 - When a new user register to the website. A email with a link, to verify their account, is sent to their inbox.</strong></summary>
+      <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.2-email_verification/3.2.1-dekstop-register.png" alt="Welcome Message after registering, user email inbox - Screenshot ">
 </details>
 
-<details><summary><strong>3.2.2</strong> If the user forgets his/hers account password</summary>
-  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.2-email_verification/3.2.2-desktop-forget_password.png" alt="Reseting Password, user email inbox - Screenshot ">
+<details>
+    <summary><strong>3.2.2 - If the user forgets his/hers account password</strong></summary>
+      <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.2-email_verification/3.2.2-desktop-forget_password.png" alt="Reseting Password, user email inbox - Screenshot ">
 </details>
 
 ## 3.3 Post Creation and Management:
