@@ -2,7 +2,7 @@
 
 ![image](https://github.com/user-attachments/assets/03595a0c-54ca-4e1f-94e4-cb030943d9af)</div>
 
-<div align="center">[See Live Project Here!](https://postwall-500ee4318184.herokuapp.com/)</div>
+<div align="center"><a href="https://postwall-500ee4318184.herokuapp.com/">See Live Project Here!</a></div>
 
 
 ### About:
