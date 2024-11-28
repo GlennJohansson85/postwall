@@ -215,31 +215,38 @@ Create a blog platform where users can connect and share their content.
 
 
 **3.6.6 Errors**
-<details><summary><strong>3.6.6.1</strong> Log in error</summary>
-  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.6-alert_messages/3.6.6.1-login_error.png" alt="Login errer alert message, Desktop View - Screenshot">
+
+<details>
+    <summary><strong>3.6.6.1 - Log in error</strong></summary>
+      <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.6-alert_messages/3.6.6.1-login_error.png" alt="Login errer alert message, Desktop View - Screenshot">
 </details>
 
-<details><summary><strong>3.6.6.2</strong> Password incorrect</summary>
-  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.6-alert_messages/3.6.6.2-password_incorrect.png" alt="Password incorrect alert message, Desktop View - Screenshot">
+<details>
+    <summary><strong>3.6.6.2 - Password incorrect</strong></summary>
+      <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.6-alert_messages/3.6.6.2-password_incorrect.png" alt="Password incorrect alert message, Desktop View - Screenshot">
 </details>
 
-<details><summary><strong>3.6.6.3</strong> Passwords do not match</summary>
-  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.6-alert_messages/3.6.6.3-passwords_nomatch.png" alt="Passwords not matching alert message, Desktop View - Screenshot">
+<details>
+    <summary><strong>3.6.6.3 - Passwords do not match</strong></summary>
+      <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.6-alert_messages/3.6.6.3-passwords_nomatch.png" alt="Passwords not matching alert message, Desktop View - Screenshot">
 </details>
 
-**These messages automatically fade after a set period.**
+***These messages automatically fade after a set period.***
 
 ## 3.7 Responsive Design:
-<details><summary><strong>3.7.1</strong> Desktop:</summary>
-  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.7-responsive_design/3.7.1-desktop.png" alt="All desktop pages in one image">
+<details>
+    <summary><strong>3.7.1 - Desktop:</strong></summary>
+      <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.7-responsive_design/3.7.1-desktop.png" alt="All desktop pages in one image">
 </details>
 
-<details><summary><strong>3.7.2</strong> Mobile (Pixel 7):</summary>
-  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.7-responsive_design/3.7.2-mobile.png" alt="All pages in one image">
+<details>
+    <summary><strong>3.7.2 - Mobile (Pixel 7):</strong></summary>
+      <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.7-responsive_design/3.7.2-mobile.png" alt="All pages in one image">
 </details>
 
-<details><summary><strong>3.7.3</strong> Tablet (Surface Pro):</summary>
-  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.7-responsive_design/3.7.3-tablet.png" alt="All pages in one image">
+<details>
+    <summary><strong>3.7.3 - Tablet (Surface Pro):</strong></summary>
+      <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.7-responsive_design/3.7.3-tablet.png" alt="All pages in one image">
 </details>
 
 # 4. Technologies Used
