@@ -291,12 +291,12 @@ Create a blog platform where users can connect and share their content.
 ## 6.1 W3C Validator Test
 <details>
   <summary>Base Stylesheet Results</summary>
-      <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/6-testing/w3c-base.png" alt="w3c results for base.css">
+      <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/6-testing/6.1/w3c-base.png" alt="w3c results for base.css">
 </details>
 
 <details>
   <summary>Navbar Stylesheet Results</summary>
-      <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/6-testing/w3c-navbar.png" alt="w3c results for navbar.css">
+      <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/6-testing/6.1/w3c-navbar.png" alt="w3c results for navbar.css">
 </details>
 
 ***Complete test files can be found here:***
