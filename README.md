@@ -1,12 +1,10 @@
 <div align="center">
   <h1 bold>Postwall</h1>
-</div>
-
-<div align="center">
   <a href="https://postwall-500ee4318184.herokuapp.com/">See Live Project Here!</a>
 </div>
 
 <div align="center">
+  
   <h2>About:</h2>
     <p>Postwall is a platform where you can share your thoughts and daily experiences through blog posts and photos. Whether you're documenting your life, sharing creative projects, or simply reflecting on your day. Postwall provides a space for you to express yourself and connect with others.</p>
 </div>
