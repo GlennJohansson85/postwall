@@ -14,19 +14,20 @@ Create a blog platform where users can connect and share their content.
 # User Experience
 ## 1.1 User Stories:
 ### 1.1.1 First Time User Goals:
-&nbsp;&nbsp;&nbsp;&nbsp;**a) As a "First Time User",** I want to quickly understand the purpose of the website.   
-&nbsp;&nbsp;&nbsp;&nbsp;**b) As a "First Time User",** I want to navigate through the site.  
-&nbsp;&nbsp;&nbsp;&nbsp;**c) As a "First Time User",** I want to browse posts.
+&nbsp;&nbsp;&nbsp;&nbsp;**a)** As a "First Time User", I want to quickly understand the purpose of the website.  
+&nbsp;&nbsp;&nbsp;&nbsp;**b)** As a "First Time User", I want to navigate through the site.  
+&nbsp;&nbsp;&nbsp;&nbsp;**c)** As a "First Time User", I want to browse posts.
 
 ### 1.1.2 Returning User Goals:
-&nbsp;&nbsp;&nbsp;&nbsp;**a) As a "Returning User",** I want to search for posts.
-&nbsp;&nbsp;&nbsp;&nbsp;**b) As a "Returning User",** I want to register to the site.
-&nbsp;&nbsp;&nbsp;&nbsp;**c) As a "Returning User",** I want to post.
+&nbsp;&nbsp;&nbsp;&nbsp;**a)** As a "Returning User", I want to search for posts.  
+&nbsp;&nbsp;&nbsp;&nbsp;**b)** As a "Returning User", I want to register to the site.  
+&nbsp;&nbsp;&nbsp;&nbsp;**c)** As a "Returning User", I want to post.
 
 ### 1.1.3 Frequent User Goals:
-&nbsp;&nbsp;&nbsp;&nbsp;**a) As a "Frequent User",** I want to share my views/comment on others' content.
-&nbsp;&nbsp;&nbsp;&nbsp;**b) As a "Frequent User",** I want to have the freedom to delete or edit my comments as well.
-&nbsp;&nbsp;&nbsp;&nbsp;**c) As a "Frequent User",** I want to see content in a larger scale.
+&nbsp;&nbsp;&nbsp;&nbsp;**a)** As a "Frequent User", I want to share my views/comment on others' content.  
+&nbsp;&nbsp;&nbsp;&nbsp;**b)** As a "Frequent User", I want to have the freedom to delete or edit my comments as well.  
+&nbsp;&nbsp;&nbsp;&nbsp;**c)** As a "Frequent User", I want to see content in a larger scale.
+
 
 
 
