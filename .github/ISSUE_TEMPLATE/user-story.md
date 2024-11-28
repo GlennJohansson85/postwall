@@ -1,5 +1,5 @@
 ---
-Title: [User Story]: As a **First Time User**, I want to ** X **
+Title: [User Story]: As a First Time User, I want to
 labels: 'First Time User Stories'
 assignees: 'GlennJohansson85'
 
