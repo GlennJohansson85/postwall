@@ -1,25 +1,17 @@
 <div align="center">
   <h1 bold>Postwall</h1>
     <a href="https://postwall-500ee4318184.herokuapp.com/">See Live Project Here!</a>
-  <h2>About:</h2>
-    <p>Postwall is a platform where you can share your thoughts and daily experiences through blog posts and photos. Whether you're documenting your life, sharing creative projects, or simply reflecting on your day. Postwall provides a space for you to express yourself and connect with others.</p>
-</div>
-
-<div align="center">
   
   <h2>About:</h2>
     <p>Postwall is a platform where you can share your thoughts and daily experiences through blog posts and photos. Whether you're documenting your life, sharing creative projects, or simply reflecting on your day. Postwall provides a space for you to express yourself and connect with others.</p>
-</div>
   
-  <h2></h2>
-### About:
-Postwall is a platform where you can share your thoughts and daily experiences through blog posts and photos. Whether you're documenting your life, sharing creative projects, or simply reflecting on your day. Postwall provides a space for you to express yourself and connect with others.
+  <h2>Project Goals:</h2>
+    <p>Create a blog platform using the tools and knowledge gained from Code Insitute.</p>
+    
+  <h2>User Goals:</h2>
+    <p>Create a blog platform where users can connect and share their content.</p>
+</div>
 
-### Project Goals:
-Create a blog platform using the tools and knowledge gained from Code Insitute.
-
-### User Goals:
-Create a blog platform where users can connect and share their content.
 
 ## 1. User Experience
 ### 1.1 User Stories:
