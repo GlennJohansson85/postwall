@@ -31,7 +31,7 @@ Create a blog platform where users can connect and share their content.
 
 ## 1.2 Design
 <details>
-    <summary><strong>1.2.1 Color Scheme</strong></summary>
+    <summary><strong>1.2.1) Color Scheme</strong></summary>
         <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/1-user_experience/1.2.1-color_scheme.png" alt="Dark, light color schemes used in project - Screenshot">
 </details>
 
@@ -48,8 +48,9 @@ Create a blog platform where users can connect and share their content.
 
 # 2. Wireframes
 ## 2.1 Desktop Wireframes:
-<details><summary><strong>2.1.1 Postwall</strong></summary>
-  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.1-postwall.png" alt="Postwall Wireframe, Desktop View - Screenshot">
+<details>
+    <summary><strong>2.1.1 Postwall</strong></summary>
+      <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.1-postwall.png" alt="Postwall Wireframe, Desktop View - Screenshot">
 </details>
 
 <details>
@@ -57,34 +58,38 @@ Create a blog platform where users can connect and share their content.
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.2-post_detail.png" alt="Post_detail Wireframe, Desktop View - Screenshot">
 </details>
 
-<details><summary><strong>2.1.3 Dashboard</strong></summary>
-  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.3-dashboard.png" alt="Dashboard Wireframe, Desktop View - Screenshot">
+<details>
+    <summary><strong>2.1.3 Dashboard</strong></summary>
+      <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.3-dashboard.png" alt="Dashboard Wireframe, Desktop View - Screenshot">
 </details>
 
 <details>
   <summary><strong>2.1.4 Register</strong></summary>
-  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.4-register.png" alt="Register Wireframe, Desktop View - Screenshot">
+      <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.4-register.png" alt="Register Wireframe, Desktop View - Screenshot">
 </details>
 
-<details><summary><strong>2.1.5 Login</strong></summary>
-  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.5-login.png" alt="Login Wireframe, Desktop View - Screenshot">
+<details>
+    <summary><strong>2.1.5 Login</strong></summary>
+      <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.5-login.png" alt="Login Wireframe, Desktop View - Screenshot">
 </details>
 
-<details><summary><strong>2.1.6 Navbar</strong></summary>
-  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.6-navbar.png" alt="Navbar Wireframe, Desktop View - Screenshot">
+<details>
+    <summary><strong>2.1.6 Navbar</strong></summary>
+      <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.6-navbar.png" alt="Navbar Wireframe, Desktop View - Screenshot">
 </details>
 
-<details><summary><strong>2.1.7 Footer</strong></summary>
-  <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.7-footer.png" alt="Footer Wireframe, Desktop View - Screenshot">
+<details>
+    <summary><strong>2.1.7 Footer</strong></summary>
+      <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.1-desktop/2.1.7-footer.png" alt="Footer Wireframe, Desktop View - Screenshot">
 </details>
 
 
 ## 2.2 Mobile Wireframes:
-<details><summary><strong>2.2.1</strong> Navbar</summary>
+<details><summary><strong>2.2.1 Navbar</strong></summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.2-mobile/2.2.1-toggler_closed.png" alt="Navbar Wireframe, Mobile View - Screenshot">
 </details>
 
-<details><summary><strong>2.2.2</strong> Footer</summary>
+<details><summary><strong>2.2.2 Footer</strong></summary>
   <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/2-wireframes/2.2-mobile/2.2.2-toggler_open.png" alt="Footer Wireframe, Mobile View - Screenshot">
 </details>
 
