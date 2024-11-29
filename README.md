@@ -1,4 +1,6 @@
 <h1>Postwall</h1>
+![welcome](https://github.com/user-attachments/assets/9637042a-1ead-4434-bb6f-78245ac85661)
+
 
 [See Live Project Here!](https://postwall-500ee4318184.herokuapp.com/)
 
