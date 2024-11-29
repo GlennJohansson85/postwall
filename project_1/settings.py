@@ -2,20 +2,16 @@ import os
 from pathlib import Path
 import dj_database_url
 
-# Load environment variables from env.py if it exists
 if os.path.isfile('env.py'):
     import env
 
-# Base directory of the project
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-# Secret key configuration
 SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 # Debug mode (should be False in production)
 DEBUG = False
 
-# Allowed hosts for the application
 ALLOWED_HOSTS = [
     '127.0.0.1',
     'localhost',
@@ -97,7 +93,7 @@ else:
             'ENGINE': 'django.db.backends.sqlite3',
             'NAME': BASE_DIR / 'db.sqlite3',
         }
-   }
+    }
 
 # Password validation
 AUTH_PASSWORD_VALIDATORS = [
