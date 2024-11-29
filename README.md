@@ -1,7 +1,8 @@
 <h1>Postwall</h1>
-![image](https://github.com/user-attachments/assets/fc3a6dc9-b153-40be-9a7f-48c2935e6ff6)
 
 [See Live Project Here!](https://postwall-500ee4318184.herokuapp.com/)
+
+![welcome](https://github.com/user-attachments/assets/daa21a45-72d1-43e3-91d8-efdf90cc26b6)
 
 **About:**
 Postwall is a platform where you can share your thoughts and daily experiences through blog posts and photos. Whether you're documenting your life, sharing creative projects, or simply reflecting on your day. Postwall provides a space for you to express yourself and connect with others.
