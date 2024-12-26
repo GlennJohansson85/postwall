@@ -1,8 +1,6 @@
-<h1><center>Postwall</center><h1>
+<h1><c>Postwall</c><h1>
 
-<center>
-  [See Live Project Here!](https://postwall-500ee4318184.herokuapp.com/)
-</center>
+### [See Live Project Here!](https://postwall-500ee4318184.herokuapp.com/)
 
 <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/intro-image.png" alt="Website frontpage with monitor frame - image">
 
