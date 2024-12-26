@@ -1,5 +1,4 @@
-# Postwall    ***[See Live Project Here](https://postwall-500ee4318184.herokuapp.com/)***
-### [See Live Project Here](https://postwall-500ee4318184.herokuapp.com/)
+# [Postwall](https://postwall-500ee4318184.herokuapp.com/) #### Click to see live project
 
 <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/intro-image.png" alt="Website frontpage with monitor frame - image">
 
