@@ -4,31 +4,31 @@
 
 <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/intro-image.png" alt="Website frontpage with monitor frame - image">
 
-**About:**
+### About:
 Postwall is a platform where you can share your thoughts and daily experiences through blog posts and photos. Whether you're documenting your life, sharing creative projects, or simply reflecting on your day. Postwall provides a space for you to express yourself and connect with others.
 
-**Project Goals:**
+### Project Goals:
 Create a blog platform using the tools and knowledge gained from Code Institute.
 
-**User Goals:**
+### User Goals:
 Create a blog platform where users can connect and share their content.
 
 # User Experience
 ## 1.1 User Stories:
 ### 1.1.1 First Time User Goals:
-&nbsp;&nbsp;&nbsp;&nbsp;**a)** As a **First Time User**, I want to quickly understand the purpose of the website.
-&nbsp;&nbsp;&nbsp;&nbsp;**b)** As a **First Time User**, I want to navigate through the site.
-&nbsp;&nbsp;&nbsp;&nbsp;**c)** As a **First Time User**, I want to browse posts.
+&nbsp;&nbsp;&nbsp;&nbsp;a) As a **First Time User**, I want to quickly understand the purpose of the website.
+&nbsp;&nbsp;&nbsp;&nbsp;b) As a **First Time User**, I want to navigate through the site.
+&nbsp;&nbsp;&nbsp;&nbsp;c) As a **First Time User**, I want to browse posts.
 
 ### 1.1.2 Returning User Goals:
-&nbsp;&nbsp;&nbsp;&nbsp;**a)** As a **Returning User**, I want to search for posts.
-&nbsp;&nbsp;&nbsp;&nbsp;**b)** As a **Returning User**, I want to register to the site.
-&nbsp;&nbsp;&nbsp;&nbsp;**c)** As a **Returning User**, I want to post.
+&nbsp;&nbsp;&nbsp;&nbsp;a) As a **Returning User**, I want to search for posts.
+&nbsp;&nbsp;&nbsp;&nbsp;b) As a **Returning User**, I want to register to the site.
+&nbsp;&nbsp;&nbsp;&nbsp;c) As a **Returning User**, I want to post.
 
 ### 1.1.3 Frequent User Goals:
-&nbsp;&nbsp;&nbsp;&nbsp;**a)** As a **Frequent User**, I want to share my views/comment on others' content.
-&nbsp;&nbsp;&nbsp;&nbsp;**b)** As a **Frequent User**, I want to have the freedom to delete or edit my comments as well.
-&nbsp;&nbsp;&nbsp;&nbsp;**c)** As a **Frequent User**, I want to see content in a larger scale.
+&nbsp;&nbsp;&nbsp;&nbsp;a) As a **Frequent User**, I want to share my views/comment on others' content.
+&nbsp;&nbsp;&nbsp;&nbsp;b) As a **Frequent User**, I want to have the freedom to delete or edit my comments as well.
+&nbsp;&nbsp;&nbsp;&nbsp;c) As a **Frequent User**, I want to see content in a larger scale.
 
 
 ## 1.2 Design
