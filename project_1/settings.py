@@ -1,17 +1,24 @@
 import os
 from pathlib import Path
-import dj_database_url
-
 if os.path.isfile('env.py'):
     import env
 
+from django.contrib.messages import constants as messages
+from cloudinary import uploader
+
+
+# Base directory for the project
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+# Secret key
 SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
-# Debug mode (should be False in production)
-DEBUG = False
+# Debug settings
+DEBUG = True
 
+# URLs and Hosts
+ROOT_URLCONF = 'project_1.urls'
+WSGI_APPLICATION = 'project_1.wsgi.application'
 ALLOWED_HOSTS = [
     '127.0.0.1',
     'localhost',
@@ -19,14 +26,12 @@ ALLOWED_HOSTS = [
 ]
 
 # CSRF trusted origins
-CSRF_TRUSTED_ORIGINS = [
-    'https://postwall-500ee4318184.herokuapp.com'
-]
+CSRF_TRUSTED_ORIGINS = ['https://postwall-500ee4318184.herokuapp.com']
 
 # Custom user model
 AUTH_USER_MODEL = 'accounts.Profile'
 
-# Installed applications
+# Installed apps
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -36,11 +41,13 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'blog',
     'accounts',
-    'storages',
+    'cloudinary',
+    'cloudinary_storage',
     'gunicorn',
+    'whitenoise.runserver_nostatic',
 ]
 
-# Middleware configuration
+# Middleware
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -49,10 +56,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
-
-# Root URL configuration
-ROOT_URLCONF = 'project_1.urls'
 
 # Templates configuration
 TEMPLATES = [
@@ -73,42 +78,29 @@ TEMPLATES = [
     },
 ]
 
-# WSGI application
-WSGI_APPLICATION = 'project_1.wsgi.application'
 
-# Alert messages configuration
-from django.contrib.messages import constants as messages
+# Alert Messages
 MESSAGE_TAGS = {
     messages.ERROR: 'danger',
 }
 
-# Database configuration (SQLite by default, switches to Postgres in production)
-if 'DATABASE_URL' in os.environ:
-    DATABASES = {
-        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+# Database
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
-else:
-    DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.sqlite3',
-            'NAME': BASE_DIR / 'db.sqlite3',
-        }
-    }
+}
+
+# Auth
+AUTH_USER_MODEL = 'accounts.Profile'
 
 # Password validation
 AUTH_PASSWORD_VALIDATORS = [
-    {
-        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
-    },
-    {
-        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
-    },
-    {
-        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',
-    },
-    {
-        'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
-    },
+    { 'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator'},
+    { 'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator'},
+    { 'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator'},
+    { 'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator' },
 ]
 
 # Internationalization
@@ -126,35 +118,20 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
 EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
 
-# Static and media file handling for local development
+# Static files settings for local development
 STATIC_URL = '/static/'
-STATICFILES_DIRS = [BASE_DIR / 'static']
-STATIC_ROOT = BASE_DIR / 'staticfiles'
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
+# Cloudinary will handle the media
 MEDIA_URL = '/media/'
-MEDIA_ROOT = BASE_DIR / 'media'
+MEDIA_ROOT = BASE_DIR /'media'
 
+# Media files (Cloudinary)
+CLOUDINARY_STORAGE = {
+    'CLOUD_NAME': os.environ.get('CLOUDINARY_CLOUD_NAME'),
+    'API_KEY': os.environ.get('CLOUDINARY_API_KEY'),
+    'API_SECRET': os.environ.get('CLOUDINARY_API_SECRET'),
+}
 
-# AWS S3 settings for production
-if 'USE_AWS' in os.environ:
-    # AWS S3 bucket settings
-    AWS_S3_OBJECT_PARAMETERS = {
-        'Expires': 'Thu, 31 Dec 2099 20:00:00 GMT',
-        'CacheControl': 'max-age=94608000',
-    }
-
-    AWS_STORAGE_BUCKET_NAME = 'postwall-bucket'
-    AWS_S3_REGION_NAME = 'eu-north-1'
-    AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
-    AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
-    AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.eu-north-1.amazonaws.com'
-
-    # Static and media files
-    STATICFILES_STORAGE = 'custom_storages.StaticStorage'
-    STATICFILES_LOCATION = 'static'
-    DEFAULT_FILE_STORAGE = 'custom_storages.MediaStorage'
-    MEDIAFILES_LOCATION = 'media'
-
-    # Override static and media URLs in production
-    STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{STATICFILES_LOCATION}/'
-    MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{MEDIAFILES_LOCATION}/'
+DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
