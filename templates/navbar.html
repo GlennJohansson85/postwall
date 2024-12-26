@@ -17,7 +17,7 @@
 			</ul>
 
 			<!-- Toggler -->
-			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
 				data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
 				aria-expanded="false" aria-label="Toggle navigation">
 				{% if user.is_authenticated and profile_picture_url %}
@@ -27,12 +27,24 @@
 			</button>
 
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+
 				<!-- Search Function -->
 				<form action="{% url 'search' %}" method="GET" class="input-group ms-auto">
-					<input type="text" name="keyword" class="form-control search-input"
-						placeholder="Search for a Post" aria-label="Search" id="search-input"
-						autocomplete="off"/>
-					<button class="search-btn" type="submit" id="btn-search" aria-label="Search posts">
+					<input
+						type="text"
+						name="keyword"
+						class="form-control search-input"
+						placeholder="Search for a Post"
+						aria-label="Search"
+						id="search-input"
+						autocomplete="off"
+					/>
+					<button
+						class="search-btn"
+						type="submit"
+						id="btn-search"
+						aria-label="Search posts"
+					>
 						<i class="fas fa-search"></i>
 					</button>
 					<div class="suggestions"></div>
@@ -42,28 +54,39 @@
 				<ul class="navbar-nav ms-auto">
 					<!-- Post Link -->
 					<li class="nav-item">
-						<a class="nav-link {% if request.resolver_match.url_name == '/post/' %} active {% endif %}"
-							href="{% url 'post' %}">Post</a>
+						<a
+							class="nav-link {% if request.resolver_match.url_name == '/post/' %} active {% endif %}"
+							href="{% url 'post' %}">Post
+						</a>
 					</li>
 
 					<!-- Message Link - Not Operational -->
 					<li class="nav-item">
-						<a class="nav-link {% if request.resolver_match.url_name == '/messages/' %} active {% endif %}"
-							href="#">Messages</a>
+						<a
+							class="nav-link {% if request.resolver_match.url_name == '/messages/' %} active {% endif %}"
+							href="#">Messages
+						</a>
 					</li>
 
 					<!-- Friends Link - Not Operational -->
 					<li class="nav-item dropdown">
-						<a class="nav-link {% if request.resolver_match.url_name == '/friends/' %} active {% endif %}"
-							href="#">Friends</a>
+						<a
+							class="nav-link {% if request.resolver_match.url_name == '/friends/' %} active {% endif %}"
+							href="#">Friends
+						</a>
 					</li>
 
 					<!-- Dropdown Link (Profile Dashboard) -->
 					<li class="nav-item dropdown">
-						<a class="nav-link {% if request.resolver_match.url_name == 'profile' %} active {% endif %}"
+						<a
+							class="nav-link {% if request.resolver_match.url_name == 'profile' %} active {% endif %}"
 							href="{% if user.is_authenticated %}{% url 'dashboard' %}{% else %}{% url 'login' %}{% endif %}"
-							id="profiledropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-							{% if user.is_authenticated and profile_picture_url %}	
+							id="profiledropdown"
+							role="button"
+							data-bs-toggle="dropdown"
+							aria-expanded="false"
+						>
+							{% if user.is_authenticated and profile_picture_url %}
 								<!-- Show profile picture in link when authenticated -->
 								<span class="d-lg-none">
 									<img src="{{ profile_picture_url }}" alt="profile pic" class="profile-image-toggler"/>
@@ -72,32 +95,49 @@
 								<span class="d-none d-lg-inline">
 									<img src="{{ profile_picture_url }}" alt="profile pic" class="profile-image"/>
 								</span>
+
 							{% else %}
 								<!-- Show profile text in both cases if there's an error -->
 								<span class="d-lg-none">Profile</span>
 								<span class="d-none d-lg-inline">Profile</span>
 							{% endif %}
+
 						</a>
 						<ul class="dropdown-menu">
+
 							{% if user.is_authenticated %}
-								<li><a class="dropdown-item {% if request.resolver_match.url_name == 'dashboard' %} active {% endif %}" href="{% url 'dashboard' %}">Dashboard</a></li>
-								<li><a class="dropdown-item {% if request.resolver_match.url_name == 'logout' %} active {% endif %}" href="{% url 'logout' %}">Logout</a></li>
+								<li>
+									<a
+										class="dropdown-item {% if request.resolver_match.url_name == 'dashboard' %} active {% endif %}"
+										href="{% url 'dashboard' %}">Dashboard
+									</a>
+								</li>
+								<li>
+									<a
+										class="dropdown-item {% if request.resolver_match.url_name == 'logout' %} active {% endif %}"
+										href="{% url 'logout' %}">Logout
+									</a>
+								</li>
+
 							{% else %}
-								<li><a class="dropdown-item {% if request.resolver_match.url_name == 'login' %} active {% endif %}" href="{% url 'login' %}">Login</a></li>
+								<li>
+									<a
+										class="dropdown-item {% if request.resolver_match.url_name == 'login' %} active {% endif %}"
+										href="{% url 'login' %}">Login
+									</a>
+								</li>
 							{% endif %}
+
 						</ul>
 					</li>
-
 				</ul>
 			</div>
 		</div>
 	</nav>
 </header>
-{% endblock %}
 
-{% block extra_scripts %}
-	<!-- See scripts for description -->
     <script src="{% static 'js/navbar.js' %}"></script>
     <script src="{% static 'js/hide_search.js' %}"></script>
 	<script src="{% static 'js/search.js' %}"></script>
+
 {% endblock %}
