@@ -78,7 +78,6 @@ TEMPLATES = [
     },
 ]
 
-
 # Alert Messages
 MESSAGE_TAGS = {
     messages.ERROR: 'danger',

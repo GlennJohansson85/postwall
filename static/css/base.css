@@ -1,44 +1,37 @@
 /* Fonts */
 @font-face {
 	font-family: "Cocogoose-Narrow-Letterpress-trial";
-	src: 	url("/static/fonts/Cocogoose-Narrow-Letterpress-trial.ttf")
-			format("TrueType");
+	src: url("/static/fonts/Cocogoose-Narrow-Letterpress-trial.ttf") format("TrueType");
 }
 
 @font-face {
 	font-family: "Cocogoose-Condensed-Letterpress-trial";
-	src: 	url("/static/fonts/Cocogoose-Condensed-Letterpress-trial.ttf")
-			format("TrueType");
+	src: url("/static/fonts/Cocogoose-Condensed-Letterpress-trial.ttf")	format("TrueType");
 }
 
 @font-face {
 	font-family: "CrispyCream3D-9YgR0";
-	src: 	url("/static/fonts/CrispyCream3D-9YgR0.otf")
-			format("OpenType");
+	src: url("/static/fonts/CrispyCream3D-9YgR0.otf") format("OpenType");
 }
 
 @font-face {
 	font-family: "SweetLove-DOK99";
-	src: 	url("/static/fonts/SweetLove-DOK99.otf")
-			format("OpenType");
+	src: url("/static/fonts/SweetLove-DOK99.otf") format("OpenType");
 }
 
 @font-face {
 	font-family: "digital-7";
-	src: 	url("/static/fonts/digital-7.ttf")
-			format("TrueType");
+	src: url("/static/fonts/digital-7.ttf") format("TrueType");
 }
 
 @font-face {
 	font-family: "Asap-Bold";
-	src: 	url("/static/fonts/Asap-Bold.otf")
-			format("OpenType");
+	src: url("/static/fonts/Asap-Bold.otf") format("OpenType");
 }
 
 @font-face {
 	font-family: "Asap-Regular";
-	src: 	url("/static/fonts/Asap-Regular.ttf")
-			format("OpenType");
+	src: url("/static/fonts/Asap-Regular.ttf") format("OpenType");
 }
 
 /* Base Styles */
