@@ -112,7 +112,7 @@
 .nav-item:last-child .nav-link.active {
 	color: #01f16d;
 	background-color: #3a3939;
-	box-shadow: inset 10px 0px 5px -5px rgba(0, 0, 0, 0.5) !important;
+	box-shadow: inset 10px 0px 5px -5px rgba(0, 0, 0, 0.5)!important;
 	transform: translateY(2px);
 }
 
@@ -124,8 +124,18 @@
 
 .dropdown-menu {
 	font-family: "Asap-Bold";
+	background-color: #3a3939;
 	background-clip: padding-box;
     box-shadow: 0px 0px 3px #01f16d;
+}
+
+.dropdown-menu .dropdown-item {
+    color: #fff;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    color: #01f16d;
+	background-color: transparent;
 }
 
 /* Styles for search content */
