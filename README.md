@@ -300,56 +300,56 @@ Work developed in accordance to Agile Development
       <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/6-testing/6.2/1.1.1-user_story-navigate.png" alt="User Story - Navigate img">
 </details>
 
-*The navigation system is easy to use. The nav-links shine in bright green, showing the user which page they are currently on. The navbar is fixed at the top, always easily accessible*
+> The navigation system is easy to use. The nav-links shine in bright green, showing the user which page they are currently on. The navbar is fixed at the top, always easily accessible.
 
 <details>
   <summary>As a First Time User, I want to browse posts.</summary>
       <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/6-testing/6.2/1.1.1-user_story-browse.png" alt="User Story - Browse img">
 </details>
 
-*The landing page is where all posts are uploaded in descending order. The only thing the visitor needs to do is scroll the mousewheel to see all the uploaded content.*
+> The landing page is where all posts are uploaded in descending order. The only thing the visitor needs to do is scroll the mousewheel to see all the uploaded content.
 
 <details>
   <summary>As a Returning User, I want to search for posts.</summary>
       <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/6-testing/6.2/1.1.2-user_story-search.png" alt="User Story - Search img">
 </details>
 
-*As mentioned earlier, users have the ability to browse posts. To enhance the experience, a search field is available in the navbar, allowing users to quickly find specific posts. When users type keywords, post titles containing those terms will appear in a dropdown list or on a dedicated results page, providing an efficient way to find relevant content.*
+> As mentioned earlier, users have the ability to browse posts. To enhance the experience, a search field is available in the navbar, allowing users to quickly find specific posts. When users type keywords, post titles containing those terms will appear in a dropdown list or on a dedicated results page, providing an efficient way to find relevant content.
 
 <details>
   <summary>As a Returning User, I want to register to the site.</summary>
       <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/6-testing/6.2/1.1.2-user_story-register.png" alt="User Story - Register img">
 </details>
 
-*A returning user is a curious user. An unregistered user can't engage or share their content. By redirecting the user to the login page when trying to access the post page, we encourage the user to register. On the login page, there is a clear link in the center, prompting the user to register. Additionally, by clicking the profile nav-link, another link to the login page is presented.*
+> A returning user is a curious user. An unregistered user can't engage or share their content. By redirecting the user to the login page when trying to access the post page, we encourage the user to register. On the login page, there is a clear link in the center, prompting the user to register. Additionally, by clicking the profile nav-link, another link to the login page is presented.
 
 <details>
   <summary>As a Returning User, I want to post.</summary>
       <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/6-testing/6.2/1.1.2-user_story-post.png" alt="User Story - Post img">
 </details>
 
-*Once registered, the user can easily create posts by clicking on the "Post" link in the navbar. To upload a post, the user simply needs to provide a title, a short text (content), and optionally an image.*
+>Once registered, the user can easily create posts by clicking on the "Post" link in the navbar. To upload a post, the user simply needs to provide a title, a short text (content), and optionally an image.
 
 <details>
   <summary>Frequent User, I want to share my views/comment on others' content.</summary>
       <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/6-testing/6.2/1.1.3-user_story-comment.png" alt="User Story - Comment img">
 </details>
 
-*Each post has a comment form beneath it. All registered users can use this to comment. Commenting is done within the same page where the post is uploaded. Placeholder text, in bright purple, shows the user where to input their comment. Below the field is the "Post" button. All comments are displayed in ascending order, with the latest at the bottom. After posting a comment, the website refreshes, and the user is scrolled to the same post so they can see that the comment has been successfully submitted.*
+> Each post has a comment form beneath it. All registered users can use this to comment. Commenting is done within the same page where the post is uploaded. Placeholder text, in bright purple, shows the user where to input their comment. Below the field is the "Post" button. All comments are displayed in ascending order, with the latest at the bottom. After posting a comment, the website refreshes, and the user is scrolled to the same post so they can see that the comment has been successfully submitted.
 
 <details>
   <summary>As a Frequent User, I want to have the freedom to delete or edit my comments as well.</summary>
       <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/6-testing/6.2/1.1.3-user_story-delete.png" alt="User Story - Delete img">
 </details>
 
-*All authors can delete their own content, with the exception that if an author/admin decides to delete a post, the associated comments will also be deleted. A user can't delete others' content, as the delete button is only visible to the uploader. The delete buttons are located next to each post/comment on the post details page, making it easy to do so.*
+> All authors can delete their own content, with the exception that if an author/admin decides to delete a post, the associated comments will also be deleted. A user can't delete others' content, as the delete button is only visible to the uploader. The delete buttons are located next to each post/comment on the post details page, making it easy to do so.
 
 <details>
   <summary>As a Frequent User, I want to see content in a larger scale.</summary>
       <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/6-testing/6.2/1.1.3-user_story-enlarge.png" alt="User Story - Enlarge img">
 </details>
 
-*By accessing the post details, the user will be able to view a post on a larger scale.*
+> By accessing the post details, the user will be able to view a post on a larger scale.
 
 ### 6.1.4 Further Testing
 -   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
