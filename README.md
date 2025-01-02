@@ -309,8 +309,6 @@ Work developed in accordance to Agile Development
 
 *The landing page is where all posts are uploaded in descending order. The only thing the visitor needs to do is scroll the mousewheel to see all the uploaded content.*
 
-## Returning User Goals:
-
 <details>
   <summary>As a Returning User, I want to search for posts.</summary>
       <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/6-testing/6.2/1.1.2-user_story-search.png" alt="User Story - Search img">
@@ -332,7 +330,6 @@ Work developed in accordance to Agile Development
 
 *Once registered, the user can easily create posts by clicking on the "Post" link in the navbar. To upload a post, the user simply needs to provide a title, a short text (content), and optionally an image.*
 
-## Frequent User Goals:
 <details>
   <summary>Frequent User, I want to share my views/comment on others' content.</summary>
       <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/6-testing/6.2/1.1.3-user_story-comment.png" alt="User Story - Comment img">
