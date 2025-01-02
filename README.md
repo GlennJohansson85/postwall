@@ -269,7 +269,7 @@ These messages automatically fade after a set period.
 
 ### **4.2.5 Work Methodology:**
 
-***Work developed in accordance to Agile Development***
+Work developed in accordance to Agile Development
 
 # 5. Testing
 ## 5.1 W3C Validator Test
@@ -295,14 +295,14 @@ These messages automatically fade after a set period.
       <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/6-testing/6.2/1.1.1-user_story-purpose.png" alt="User Story - Purpose img">
 </details>
 
-### b) As a First Time User, I want to navigate through the site.
+#### b) As a First Time User, I want to navigate through the site.
 The navigation system is easy to use. The nav-links shine in bright green, showing the user which page they are currently on. The navbar is fixed at the top, always easily accessible
 <details>
   <summary>View User Story here</summary>
       <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/6-testing/6.2/1.1.1-user_story-navigate.png" alt="User Story - Navigate img">
 </details>
 
-### c) As a First Time User, I want to browse posts.
+#### c) As a First Time User, I want to browse posts.
 The landing page is where all posts are uploaded in descending order. The only thing the visitor needs to do is scroll the mousewheel to see all the uploaded content.
 <details>
   <summary>View User Story here</summary>
@@ -311,21 +311,21 @@ The landing page is where all posts are uploaded in descending order. The only t
 
 ## Returning User Goals:
 
-### a) As a Returning User, I want to search for posts.
+#### a) As a Returning User, I want to search for posts.
 As mentioned earlier, users have the ability to browse posts. To enhance the experience, a search field is available in the navbar, allowing users to quickly find specific posts. When users type keywords, post titles containing those terms will appear in a dropdown list or on a dedicated results page, providing an efficient way to find relevant content.
 <details>
   <summary>View User Story here</summary>
       <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/6-testing/6.2/1.1.2-user_story-search.png" alt="User Story - Search img">
 </details>
 
-### b) As a Returning User, I want to register to the site.
+#### b) As a Returning User, I want to register to the site.
 A returning user is a curious user. An unregistered user can't engage or share their content. By redirecting the user to the login page when trying to access the post page, we encourage the user to register. On the login page, there is a clear link in the center, prompting the user to register. Additionally, by clicking the profile nav-link, another link to the login page is presented.
 <details>
   <summary>View User Story here</summary>
       <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/6-testing/6.2/1.1.2-user_story-register.png" alt="User Story - Register img">
 </details>
 
-### c) As a Returning User, I want to post.
+#### c) As a Returning User, I want to post.
 Once registered, the user can easily create posts by clicking on the "Post" link in the navbar. To upload a post, the user simply needs to provide a title, a short text (content), and optionally an image.
 <details>
   <summary>View User Story here</summary>
@@ -334,21 +334,21 @@ Once registered, the user can easily create posts by clicking on the "Post" link
 
 ## Frequent User Goals:
 
-### a) Frequent User, I want to share my views/comment on others' content.
+#### a) Frequent User, I want to share my views/comment on others' content.
 Each post has a comment form beneath it. All registered users can use this to comment. Commenting is done within the same page where the post is uploaded. Placeholder text, in bright purple, shows the user where to input their comment. Below the field is the "Post" button. All comments are displayed in ascending order, with the latest at the bottom. After posting a comment, the website refreshes, and the user is scrolled to the same post so they can see that the comment has been successfully submitted.
 <details>
   <summary>View User Story here</summary>
       <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/6-testing/6.2/1.1.3-user_story-comment.png" alt="User Story - Comment img">
 </details>
 
-### b) As a Frequent User, I want to have the freedom to delete or edit my comments as well.
+#### b) As a Frequent User, I want to have the freedom to delete or edit my comments as well.
 All authors can delete their own content, with the exception that if an author/admin decides to delete a post, the associated comments will also be deleted. A user can't delete others' content, as the delete button is only visible to the uploader. The delete buttons are located next to each post/comment on the post details page, making it easy to do so.
 <details>
   <summary>View User Story here</summary>
       <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/6-testing/6.2/1.1.3-user_story-delete.png" alt="User Story - Delete img">
 </details>
 
-### c) As a Frequent User, I want to see content in a larger scale.
+#### c) As a Frequent User, I want to see content in a larger scale.
 By accessing the post details, the user will be able to view a post on a larger scale.
 <details>
   <summary>View User Story here</summary>
