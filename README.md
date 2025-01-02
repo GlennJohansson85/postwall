@@ -215,25 +215,25 @@
 
 ## 3.7 Responsive Design:
 <details>
-    <summary><strong>3.7.1 - Desktop:</strong></summary>
+    <summary>3.7.1 - Desktop:</summary>
       <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.7-responsive_design/3.7.1-desktop.png" alt="All desktop pages in one image">
 </details>
 <details>
-    <summary><strong>3.7.2 - Mobile (Pixel 7):</strong></summary>
+    <summary>3.7.2 - Mobile (Pixel 7):</summary>
       <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.7-responsive_design/3.7.2-mobile.png" alt="All pages in one image">
 </details>
 <details>
-    <summary><strong>3.7.3 - Tablet (Surface Pro):</strong></summary>
+    <summary>3.7.3 - Tablet (Surface Pro):</summary>
       <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.7-responsive_design/3.7.3-tablet.png" alt="All pages in one image">
 </details>
 
 # 4. Technologies Used
 
 ## 4.1 Languages Used:
-* **[HTML5](https://en.wikipedia.org/wiki/HTML5)** - Markup language used for structuring web pages.
-* **[CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)** - Styling language used for the presentation of the HTML elements.
-* **[Python](https://www.python.org/)** - Programming language used for the backend of the application.
-* **[SQL](https://en.wikipedia.org/wiki/SQL)** - Used for database queries (e.g., in SQLite or PostgreSQL databases).
+* **[HTML5](https://en.wikipedia.org/wiki/HTML5)** - ***Markup language used for structuring web pages.***
+* **[CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)** - ***Styling language used for the presentation of the HTML elements.***
+* **[Python](https://www.python.org/)** - ***Programming language used for the backend of the application.***
+* **[SQL](https://en.wikipedia.org/wiki/SQL)** - ***Used for database queries (e.g., in SQLite or PostgreSQL databases).***
 
 
 ## 4.2. Frameworks, Libraries & Programs Used:
