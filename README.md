@@ -1,5 +1,5 @@
 # [Postwall](https://postwall-500ee4318184.herokuapp.com/)
-***(Click name to see live project)***
+*(Click name to see live project)*
 
 <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/intro-image.png" alt="Website frontpage with monitor frame - image">
 
@@ -22,7 +22,7 @@ Create a blog platform where users can connect and share their content.
 ### 1.1.2 Returning User Goals:
 * **As a Returning User** - I want to search for posts.
 * **As a Returning User** - I want to register to the site.
-* **As a Returning User** - I want to post.*
+* **As a Returning User** - I want to post.
 
 ### 1.1.3 Frequent User Goals:
 * **As a Frequent User** - I want to share my views/comment on others' content.
@@ -116,7 +116,7 @@ Create a blog platform where users can connect and share their content.
 </details>
 
 ## 3.2 Email Verification:
-**Email verification is performed:**
+Email verification is performed:
 
 <details>
     <summary>3.2.1 - When a new user register to the website. A email with a link, to verify their account, is sent to their inbox.</summary>
@@ -162,7 +162,7 @@ Create a blog platform where users can connect and share their content.
       <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.5-search_functionality/3.5.1-desktop-search.png" alt="Searchfield in Navbar, Desktop View - Screenshot">
 </details>
 
-**3.5.2 Suggestions can be displayed in two ways:**
+3.5.2 Suggestions can be displayed in two ways:
 <details>
     <summary>3.5.2.1 - As clickable links in a dropdown.</summary>
       <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.5-search_functionality/3.5.2.1-desktop-search_dropdown.png" alt="Searchfield dropdown, Desktop View - Screenshot">
@@ -174,7 +174,7 @@ Create a blog platform where users can connect and share their content.
 
 
 ## 3.6 Alert Messages:
-**Informative messages will appear when the user performs certain tasks:**
+Informative messages will appear when the user performs certain tasks:
 
 <details>
     <summary>3.6.1 - Registration</summary>
@@ -197,7 +197,7 @@ Create a blog platform where users can connect and share their content.
       <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.6-alert_messages/3.6.5-password_reset.png" alt="Password reset alert message, Desktop View - Screenshot">
 </details>
 
-**3.6.6 Errors**
+3.6.6 Errors
 <details>
     <summary>3.6.6.1 - Log in error</summary>
       <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.6-alert_messages/3.6.6.1-login_error.png" alt="Login errer alert message, Desktop View - Screenshot">
@@ -211,7 +211,7 @@ Create a blog platform where users can connect and share their content.
       <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/3-features/3.6-alert_messages/3.6.6.3-passwords_nomatch.png" alt="Passwords not matching alert message, Desktop View - Screenshot">
 </details>
 
-**These messages automatically fade after a set period.**
+These messages automatically fade after a set period.
 
 ## 3.7 Responsive Design:
 <details>
@@ -230,42 +230,42 @@ Create a blog platform where users can connect and share their content.
 # 4. Technologies Used
 
 ## 4.1 Languages Used:
-* **[HTML5](https://en.wikipedia.org/wiki/HTML5)** - ***Markup language used for structuring web pages.***
-* **[CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)** - ***Styling language used for the presentation of the HTML elements.***
-* **[Python](https://www.python.org/)** - ***Programming language used for the backend of the application.***
-* **[SQL](https://en.wikipedia.org/wiki/SQL)** - ***Used for database queries (e.g., in SQLite or PostgreSQL databases).***
+* **[HTML5](https://en.wikipedia.org/wiki/HTML5)** - Markup language used for structuring web pages.
+* **[CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)** - Styling language used for the presentation of the HTML elements.
+* **[Python](https://www.python.org/)** - Programming language used for the backend of the application.
+* **[SQL](https://en.wikipedia.org/wiki/SQL)** - Used for database queries (e.g., in SQLite or PostgreSQL databases).
 
 
 ## 4.2. Frameworks, Libraries & Programs Used:
 ### **4.2.1 Frameworks:**
-* **[Django](https://www.djangoproject.com/)** - ***High-level Python web framework for rapid development.***
-* **[Django Cloudinary Storage](https://django-cloudinary-storage.readthedocs.io/en/latest/)** - ***Integration with Cloudinary for media file management.***
-* **[Django Storages](https://django-storages.readthedocs.io/)** - ***Integration with different cloud storage solutions like AWS S3.***
+* **[Django](https://www.djangoproject.com/)** - High-level Python web framework for rapid development.
+* **[Django Cloudinary Storage](https://django-cloudinary-storage.readthedocs.io/en/latest/)** - Integration with Cloudinary for media file management.
+* **[Django Storages](https://django-storages.readthedocs.io/)** - Integration with different cloud storage solutions like Cloudinary.
 
 ### **4.2.2 Libraries:**
-* **[requests](https://requests.readthedocs.io/)** - ***Library for making HTTP requests.***
-* **[django-environ](https://django-environ.readthedocs.io/)** - ***Configuration management library for reading environment variables.***
-* **[dj-database-url](https://pypi.org/project/dj-database-url/)** - ***Simplifies database configuration using URL format.***
-* **[Pillow](https://python-pillow.org/)** - ***Python Imaging Library for image processing.***
-* **[pyyaml](https://pyyaml.org/)** - ***YAML parser and emitter for Python.***
+* **[requests](https://requests.readthedocs.io/)** - Library for making HTTP requests.
+* **[django-environ](https://django-environ.readthedocs.io/)** - Configuration management library for reading environment variables.
+* **[dj-database-url](https://pypi.org/project/dj-database-url/)** - Simplifies database configuration using URL format.
+* **[Pillow](https://python-pillow.org/)** - Python Imaging Library for image processing.
+* **[pyyaml](https://pyyaml.org/)** - YAML parser and emitter for Python.
 
 ### **4.2.3 Development Tools:**
-* **[Visual Studio Code](https://code.visualstudio.com/)** - ***Code editor used for development.***
-* **[GitHub Desktop](https://desktop.github.com/)** - ***GitHub client for managing repository and version control.***
-* **[GitHub](https://github.com/)** - ***Platform for version control and collaboration.***
-* **[Heroku](https://www.heroku.com/)** - ***Platform for deploying and running the app.***
-* **[Cloudinary](https://cloudinary.com/documentation/python_quickstart)** - ***Cloud services used for storage (static and media).***
-* **[ElephantSQL](https://customer.elephantsql.com/login)** - ***Database - User Interactions***
+* **[Visual Studio Code](https://code.visualstudio.com/)** - Code editor used for development.
+* **[GitHub Desktop](https://desktop.github.com/)** - GitHub client for managing repository and version control.
+* **[GitHub](https://github.com/)** - Platform for version control and collaboration.
+* **[Heroku](https://www.heroku.com/)** - Platform for deploying and running the app.
+* **[Cloudinary](https://cloudinary.com/documentation/python_quickstart)** - Cloud services used for storage (static and media).
+* **[ElephantSQL](https://customer.elephantsql.com/login)** - Database - User Interactions
 
 ### **4.2.4 Other Libraries & Tools Used:**
-* **[Google Gmail](https://mail.google.com/)** - ***Used for email services (account and password verification).***
-* **[Temp Mail](https://temp-mail.org/)** - ***For creating temporary email accounts used for testing purposes.***
-* **[Bootstrap 5.0.2](https://getbootstrap.com/docs/5.0/getting-started/introduction/)** - ***Framework for responsive web design and styling.***
-* **[jQuery 3.7.1](https://jquery.com/)** - ***Library for manipulating the HTML DOM.***
-* **[Font Awesome](https://fontawesome.com/)** - ***Icons used throughout the application.***
-* **[Fontspace](https://www.fontspace.com/)** & **[1001Fonts](https://www.1001fonts.com/)** - ***Sources for fonts used in the design.***
-* **[Freepik](https://www.freepik.com/)** - ***Used for sourcing background images and other assets.***
-* **[Balsamiq Wireframes](https://balsamiq.com/wireframes/)** - ***Wireframing tool used in the design phase of the project.***
+* **[Google Gmail](https://mail.google.com/)** - Used for email services (account and password verification).
+* **[Temp Mail](https://temp-mail.org/)** - For creating temporary email accounts used for testing purposes.
+* **[Bootstrap 5.0.2](https://getbootstrap.com/docs/5.0/getting-started/introduction/)** - Framework for responsive web design and styling.
+* **[jQuery 3.7.1](https://jquery.com/)** - Library for manipulating the HTML DOM.
+* **[Font Awesome](https://fontawesome.com/)** - Icons used throughout the application.
+* **[Fontspace](https://www.fontspace.com/)** & **[1001Fonts](https://www.1001fonts.com/)** - Sources for fonts used in the design.
+* **[Freepik](https://www.freepik.com/)** - Used for sourcing background images and other assets.
+* **[Balsamiq Wireframes](https://balsamiq.com/wireframes/)** - Wireframing tool used in the design phase of the project.
 
 ### **4.2.5 Work Methodology:**
 
