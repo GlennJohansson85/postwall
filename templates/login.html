@@ -1,74 +1,64 @@
 {% extends 'base.html' %}
 {% load static %}
-
+{% block title %} Postwall - Login {% endblock %}
 {% block content %}
-<div class="brickwall">
-    <div class="concrete">
-        <div class="leather">
-            <div class="login-container">
-                {% if request.GET.command == 'verification' %}
-                    <!-- Verification message container -->
-                    <div class="container mx-auto alert alert-info text-center" role="alert">
-                        Please verify your account by clicking on the link in the email
-                        we have just sent to
-                        [{{ request.GET.email }}]
-                        <a href="{% url 'login' %}">Login</a>
-                    </div>
-                {% else %}
-
-                    <!-- Login form title -->
-                    <div class="form-title">Login</div>
-                    {% include 'alerts.html' %}
-
-                    <!-- Login form -->
-                    <form class="login-form" method="POST" action="{% url 'login' %}">
-                        {% csrf_token %}
-
-                        <!-- Email input -->
-                        <div class="form-group">
-                            <label class="form-label" for="email">Email:</label>
-                            <input
-                                class="form-control"
-                                id="id_email"
-                                type="email"
-                                placeholder="Your email address here"
-                                name="email"
-                            />
+    <div class="brickwall">
+        <div class="concrete">
+            <div class="leather">
+                <div class="login-container">
+                    {% if request.GET.command == 'verification' %}
+                        <!-- Verification message container -->
+                        <div class="container mx-auto alert alert-info text-center" role="alert">
+                            Please verify your account by clicking on the link in the email
+                            we have just sent to
+                            [{{ request.GET.email }}]
+                            <a href="{% url 'login' %}">Login</a>
                         </div>
-
-                        <!-- Password input -->
-                        <div class="form-group">
-                            <label class="form-label" for="password">Password:</label>
-                            <input
-                                class="form-control"
-                                id="id_password"
-                                type="password"
-                                placeholder="Your password here"
-                                name="password"
-                            />
-                        </div>
-
-                        <!-- Forgot password link -->
-                        <a class="smal-text" href="{% url 'request_password_reset' %}">
-                            Forgot your Password?
-                        </a>
-
-                        <!-- Submit button -->
-                        <div class="form-button-container">
-                            <button type="submit" class="button-1">Submit</button>
-                        </div>
-
-                    </form>
-                {% endif %}
-
+                    {% else %}
+                        <!-- Login form title -->
+                        <div class="form-title">Login</div>
+                        {% include 'alerts.html' %}
+                        <!-- Login form -->
+                        <form class="login-form" method="POST" action="{% url 'login' %}">
+                            {% csrf_token %}
+                            <!-- Email input -->
+                            <div class="form-group">
+                                <label class="form-label" for="email">Email:</label>
+                                <input
+                                    class="form-control"
+                                    id="id_email"
+                                    type="email"
+                                    placeholder="Your email address here"
+                                    name="email"
+                                />
+                            </div>
+                            <!-- Password input -->
+                            <div class="form-group">
+                                <label class="form-label" for="password">Password:</label>
+                                <input
+                                    class="form-control"
+                                    id="id_password"
+                                    type="password"
+                                    placeholder="Your password here"
+                                    name="password"
+                                />
+                            </div>
+                            <!-- Forgot password link -->
+                            <a class="smal-text" href="{% url 'request_password_reset' %}">
+                                Forgot your Password?
+                            </a>
+                            <!-- Submit button -->
+                            <div class="form-button-container">
+                                <button type="submit" class="button-1">Submit</button>
+                            </div>
+                        </form>
+                    {% endif %}
+                </div>
+            </div>
+            <!-- Registration prompt -->
+            <div class="account-container">Don't have an Account?
+                <a class="account" href="{% url 'register' %}">Register Here</a>
             </div>
         </div>
-
-        <!-- Registration prompt -->
-        <div class="account-container">Don't have an Account?
-            <a class="account" href="{% url 'register' %}">Register Here</a>
-        </div>
-
     </div>
-</div>
 {% endblock %}

@@ -1,22 +1,19 @@
 {% extends 'base.html' %}
 {% load static %}
-
+{% block title %} Postwall - Home Page {% endblock %}
 {% block content %}
     <div class="brickwall">
         {% if posts_with_comments %}
             {% for item in posts_with_comments %}
-
                 <!-- For each Post -->
                 <div class="concrete" data-post-id="{{ item.post.id }}">
                     <div class="polaroid">
-
                         <!-- Link to details for specific post -->
                         <div class="postwall-link-container">
                             <a href="{% url 'post_detail' item.post.id %}" class="postwall-link">
                                 <i class="fa-solid fa-up-right-and-down-left-from-center fa-2xl"></i>
                             </a>
                         </div>
-
                         <!-- Specific Post Title -->
                         <div class="postwall-title">{{ item.post.title }}</div>
                         <div class="postwall-image-container">
@@ -25,17 +22,14 @@
                                 <img class="postwall-image" src="{{ item.post.img.url }}" alt="{{ item.post.title }}">
                             {% endif %}
                         </div>
-
                         <!-- Meta & Content for specific Post -->
                         <p class="postwall-meta">{{ item.post.user.username }} - {{ item.post.created_at }}</p>
                         <p class="postwall-content">{{ item.post.short_content }}</p>
                     </div>
-
                     <!-- Comments for specific Post -->
                     <div class="postwall-comments-container">
                         <div class="postwall-comments-header">Comments</div>
                         <ul class="postwall-comments-ul">
-
                             <!-- Loop through comments if they exist -->
                             {% for comment in item.comments %}
                                 <li class="postwall-comments-li"><strong>{{ comment.user.username }}:</strong>
@@ -43,7 +37,6 @@
                                 </li>
                             {% endfor %}
                         </ul>
-
                         <!-- Form to add a comment using button or key "Enter"  -->
                         <form method="post" action="{% url 'add_comment' item.post.id %}" id="comment-form-{{ item.post.id }}">
                             {% csrf_token %}
@@ -51,7 +44,6 @@
                                 <textarea id="id_textarea" name="comment_text" rows="1" placeholder="Add Comment Here..."
                                     onkeypress="handleKeyPress(event, {{ item.post.id }})"></textarea>
                                 <div class="postwall-form-button-container">
-
                                     <!-- Submit button too add comment -->
                                     <button type="submit" class="green-button" aria-label="Post comment">
                                         Post
@@ -59,15 +51,9 @@
                                 </div>
                             </div>
                         </form>
-
                     </div>
                 </div>
             {% endfor %}
         {% endif %}
     </div>
-
-    <!-- See Script for Description -->
-    <script src="{% static 'js/comment.js' %}"></script>
-    <script src="{% static 'js/scroll_to_post.js' %}"></script>
-
 {% endblock %}

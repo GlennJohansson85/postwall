@@ -6,33 +6,26 @@
     <!-- Meta -->
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
     <!-- Title -->
     <title>{% block title %} Post Wall {% endblock %}</title>
-
     <!-- Bootstrap Css -->
     <link
         href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
         rel="stylesheet"
         crossorigin="anonymous"
     />
-
     <!-- Base Css -->
     <link href="{% static 'css/base.css' %}" rel="stylesheet" type="text/css"/>
     {% block extra_css %}{% endblock %}
-
     <!-- jQuery Script -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" crossorigin="anonymous"></script>
-
     <!-- Bootstrap Bundle & Popper Script -->
     <script
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         crossorigin="anonymous">
     </script>
-
     <!-- Font Awesome Script -->
     <script src="https://kit.fontawesome.com/6f8277bec5.js" crossorigin="anonymous"></script>
-
     <!-- Custom Scripts -->
     <script src="{% static 'js/alert.js' %}" defer></script>
     <script src="{% static 'js/navbar.js' %}" defer></script>
@@ -44,7 +37,6 @@
     {% block extra_scripts %}{% endblock %}
 </head>
 <body>
-
     <!-- Navbar -->
     {% include 'navbar.html' %}
 
@@ -58,6 +50,5 @@
 
     <!-- Footer -->
     {% include 'footer.html' %}
-
 </body>
 </html>

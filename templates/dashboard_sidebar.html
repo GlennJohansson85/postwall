@@ -1,43 +1,37 @@
 {% load static %}
-
 {% block content %}
-<aside class="col-md-5">
-	<div class="sidebar-container">
-		<ul class="sidebar-ul">
-
-			<!-- Dashboard -->
-			<li class="sidebar-li">
-				<a class="sidebar-item {% if request.resolver_match.url_name == 'dashboard' %} active {% endif %}"
-					id="item-dashboard" href="{% url 'dashboard' %}">
-					Dashboard
-				</a>
-			</li>
-
-			<!-- Edit Profile -->
-			<li class="sidebar-li">
-				<a class="sidebar-item {% if request.resolver_match.url_name == 'edit_profile' %} active {% endif %}"
-					id="item-edit_profile" href="{% url 'edit_profile' %}">
-					Edit Profile
-				</a>
-			</li>
-
-			<!-- Change Password -->
-			<li class="sidebar-li">
-				<a class="sidebar-item {% if request.resolver_match.url_name == 'change_password' %} active {% endif %}"
-					id="item-change_password" href="{% url 'change_password' %}">
-					Change Password
-				</a>
-			</li>
-
-			<br/>
-
-			<!-- Log out Button -->
-			<div class="sidebar-logout-button-container">
-				<a class="sidebar-logout-button" href="{% url 'logout' %}"><i class="fa fa-power-off"></i>
-					Log out
-				</a>
-			</div>
-		</ul>
-	</div>
-</aside>
+	<aside class="col-md-5">
+		<div class="sidebar-container">
+			<ul class="sidebar-ul">
+				<!-- Dashboard -->
+				<li class="sidebar-li">
+					<a class="sidebar-item {% if request.resolver_match.url_name == 'dashboard' %} active {% endif %}"
+						id="item-dashboard" href="{% url 'dashboard' %}">
+						Dashboard
+					</a>
+				</li>
+				<!-- Edit Profile -->
+				<li class="sidebar-li">
+					<a class="sidebar-item {% if request.resolver_match.url_name == 'edit_profile' %} active {% endif %}"
+						id="item-edit_profile" href="{% url 'edit_profile' %}">
+						Edit Profile
+					</a>
+				</li>
+				<!-- Change Password -->
+				<li class="sidebar-li">
+					<a class="sidebar-item {% if request.resolver_match.url_name == 'change_password' %} active {% endif %}"
+						id="item-change_password" href="{% url 'change_password' %}">
+						Change Password
+					</a>
+				</li>
+				<br/>
+				<!-- Log out Button -->
+				<div class="sidebar-logout-button-container">
+					<a class="sidebar-logout-button" href="{% url 'logout' %}"><i class="fa fa-power-off"></i>
+						Log out
+					</a>
+				</div>
+			</ul>
+		</div>
+	</aside>
 {% endblock %}

@@ -1,43 +1,36 @@
 {% extends 'base.html' %}
 {% load static %}
-{% block title %}
-	Postwall - Create a New Post
-{% endblock %}
+{% block title %} Postwall - Create a New Post {% endblock %}
 {% block content %}
-<div class="brickwall">
-	<div class="concrete">
-		<div class="post-header">Create a New Post</div>
-		<div class="post-form-container">
-			<form method="post" enctype="multipart/form-data">
-				{% csrf_token %}
-
-				<!-- Title Field -->
-				<div class="post-form">
-					<label for="id_title" class="post-form-label">Title:</label>
-					<input class="form-control" type="text" id="id_title" name="title"
-						placeholder="Write your title here..."/>
-				</div>
-
-				<!-- Content Field -->
-				<div class="post-form">
-					<label for="id_content" class="post-form-label">Content:</label>
-					<textarea class="form-control" id="id_content" name="content"
-						rows="5" placeholder="Write your content here..."></textarea>
-				</div>
-
-				<!-- Image Field -->
-				<div class="post-form">
-					<label for="id_img" class="post-form-label">Image:</label>
-					<input class="form-control" type="file" id="id_img" name="img"/>
-				</div>
-
-				<!-- Submit Button -->
-				<div class="post-form-button-container">
-					<button type="submit" class="green-button">Post</button>
-				</div>
-
-			</form>
+	<div class="brickwall">
+		<div class="concrete">
+			<div class="post-header">Create a New Post</div>
+			<div class="post-form-container">
+				<form method="post" enctype="multipart/form-data">
+					{% csrf_token %}
+					<!-- Title Field -->
+					<div class="post-form">
+						<label for="id_title" class="post-form-label">Title:</label>
+						<input class="form-control" type="text" id="id_title" name="title"
+							placeholder="Write your title here..."/>
+					</div>
+					<!-- Content Field -->
+					<div class="post-form">
+						<label for="id_content" class="post-form-label">Content:</label>
+						<textarea class="form-control" id="id_content" name="content"
+							rows="5" placeholder="Write your content here..."></textarea>
+					</div>
+					<!-- Image Field -->
+					<div class="post-form">
+						<label for="id_img" class="post-form-label">Image:</label>
+						<input class="form-control" type="file" id="id_img" name="img"/>
+					</div>
+					<!-- Submit Button -->
+					<div class="post-form-button-container">
+						<button type="submit" class="green-button">Post</button>
+					</div>
+				</form>
+			</div>
 		</div>
 	</div>
-</div>
 {% endblock %}

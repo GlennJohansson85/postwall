@@ -17,7 +17,6 @@ def postwall(request):
     most recent posts first. The context also includes the current logged-in user, enabling user-specific
     functionalities, such as adding comments.
     """
-
     # Retrieve all published posts, sorted in descending order by their creation date.
     posts_with_comments = []
     # Initialize a list to hold posts and their associated comments.
@@ -52,7 +51,6 @@ def post(request):
     After successfully saving the post, the user is redirected to the postwall page.
     If the request method is GET, an empty form is presented to the user for input.
     """
-
     # Check if the request method is POST (indicating a form submission)
     if request.method == 'POST':
         # Instantiate a PostForm with the submitted data and any uploaded files.
@@ -92,7 +90,6 @@ def post_detail(request, post_id):
     associated with the post. Users can see the larger version of the post's image and all comments
     related to that post. The post uploader/admin can delete the post/comments.
     """
-
     # Get the post by ID or return a 404 error if not found
     post = get_object_or_404(Post, id=post_id)
     # Fetch all related comments for that post
@@ -112,7 +109,7 @@ def post_detail(request, post_id):
             # Redirect the user to the postwall page after successfully saving the comment
             return redirect('postwall')
 
-    # If not POST, create an empty CommentForm instance for displaying the form 
+    # If not POST, create an empty CommentForm instance for displaying the form
     else:
         comment_form = CommentForm()
 
@@ -139,7 +136,6 @@ def add_comment(request, post_id):
     was made (scroll_to_post.js) in postwall.html.
     Only signed in users can add comments.
     """
-
     # Retrieve the post by ID or return a 404 error if not found
     post = get_object_or_404(Post, id=post_id)
 
@@ -181,7 +177,6 @@ def delete_post_confirmation(request, post_id):
     and the user is redirected to the 'postwall' page. Only signed-in users/admin
     can delete posts.
     """
-
     # Retrieve the post by its ID, or return a 404 error if not found
     post = get_object_or_404(Post, id=post_id)
 
@@ -206,7 +201,6 @@ def delete_post(request, post_id):
     or an admin. If the user is authorized, the post is deleted after confirmation, and a success message is displayed.
     Unauthorized users receive a forbidden response.
     """
-
     # Retrieve the post by its ID, or return a 404 error if not found
     post = get_object_or_404(Post, id=post_id)
 
@@ -232,7 +226,6 @@ def delete_comment(request, comment_id):
     or an admin. If the user is authorized, the comment is deleted, and a success message is displayed.
     Unauthorized users receive a forbidden response.
     """
-
     # Retrieve the comment by its ID, or return a 404 error if not found
     comment = get_object_or_404(Comment, id=comment_id)
 
@@ -259,7 +252,6 @@ def search(request):
     the posts accordingly. The results are then rendered in the
     'search_results.html' template.
     """
-
     # Retrieve the search keyword from the GET parameters, defaulting to an empty string if not provided
     keyword = request.GET.get('keyword', '')
     # Initialize an empty list to hold the matching posts
@@ -281,7 +273,6 @@ def search_suggestions(request):
     suggested post titles that match the given keyword. The suggestions are
     limited to a maximum of 10 results.
     """
-
     # Retrieve the search keyword from the GET parameters, defaulting to an empty string if not provided
     keyword = request.GET.get('keyword', '')
 
