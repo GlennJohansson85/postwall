@@ -267,31 +267,29 @@
 * **[Freepik](https://www.freepik.com/)** - ***Used for sourcing background images and other assets.***
 * **[Balsamiq Wireframes](https://balsamiq.com/wireframes/)** - ***Wireframing tool used in the design phase of the project.***
 
-### **4.2.5 Agile Development:**
-* This project was developed using **Agile development** methodology, ensuring iterative development, regular feedback, and continuous improvement throughout the development cycle.
+### **4.2.5 Work Methodology:**
 
-# 6. Testing
-## 6.1 W3C Validator Test
+***Work developed in accordance to Agile Development***
+
+# 5. Testing
+## 5.1 W3C Validator Test
 <details>
   <summary>Base Stylesheet Results</summary>
       <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/6-testing/6.1/w3c-base.png" alt="w3c results for base.css">
 </details>
-
 <details>
   <summary>Navbar Stylesheet Results</summary>
       <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/6-testing/6.1/w3c-navbar.png" alt="w3c results for navbar.css">
 </details>
 
-***Complete test files can be found here:***
+**Complete test files can be found here:**
 * [base.css](https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/6-testing/w3c-base.pdf)
 * [navbar.css](https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/6-testing/w3c-navbar.pdf)
 
-## 6.2 Testing of User Stories (From Chapter 1.1)
+## 5.2 Testing of User Stories (From Chapter 1.1)
 
-## First Time User Goals:
-
-### a) As a First Time User, I want to quickly understand the purpose of the website.
-The landing page (homepage) is where all posts are located. The first thing the user sees is an uploaded post, and the name of the website, Postwall, shines in green. By reading the nav-links and the placeholder text "Search for a Post" in the search field, the visitor should gain a clear understanding of the website's purpose.
+**a) As a First Time User, I want to quickly understand the purpose of the website.**
+***The landing page (homepage) is where all posts are located. The first thing the user sees is an uploaded post, and the name of the website, Postwall, shines in green. By reading the nav-links and the placeholder text "Search for a Post" in the search field, the visitor should gain a clear understanding of the website's purpose.***
 <details>
   <summary>View User Story here</summary>
       <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/6-testing/6.2/1.1.1-user_story-purpose.png" alt="User Story - Purpose img">
