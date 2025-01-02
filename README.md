@@ -254,8 +254,8 @@
 * **[GitHub Desktop](https://desktop.github.com/)** - ***GitHub client for managing repository and version control.***
 * **[GitHub](https://github.com/)** - ***Platform for version control and collaboration.***
 * **[Heroku](https://www.heroku.com/)** - ***Platform for deploying and running the app.***
-* **[Cloudinary]([https://aws.amazon.com/](https://cloudinary.com/documentation/python_quickstart))** - ***Cloud services used for storage (static and media).***
-* **[ElephantSQL]([https://www.postman.com/](https://customer.elephantsql.com/login))** - ***Database - User Interactions***
+* **[Cloudinary](https://cloudinary.com/documentation/python_quickstart)** - ***Cloud services used for storage (static and media).***
+* **[ElephantSQL](https://customer.elephantsql.com/login)** - ***Database - User Interactions***
 
 ### **4.2.4 Other Libraries & Tools Used:**
 * **[Google Gmail](https://mail.google.com/)** - ***Used for email services (account and password verification).***
