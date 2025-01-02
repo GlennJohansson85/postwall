@@ -1,6 +1,5 @@
 # [Postwall](https://postwall-500ee4318184.herokuapp.com/)
 *(Click name to see live project)*
-![white-pavement](https://github.com/user-attachments/assets/6f7098c1-0303-4722-8de0-0537b2b2b94a)
 
 <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/intro-image.png" alt="Website frontpage with monitor frame - image">
 
