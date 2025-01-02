@@ -282,7 +282,7 @@ Work developed in accordance to Agile Development
       <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/6-testing/6.1/w3c-navbar.png" alt="w3c results for navbar.css">
 </details>
 
-**Complete test files can be found here:**
+Complete test files can be found here:
 * [base.css](https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/6-testing/w3c-base.pdf)
 * [navbar.css](https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/6-testing/w3c-navbar.pdf)
 
