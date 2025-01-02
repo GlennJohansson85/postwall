@@ -293,7 +293,7 @@ Work developed in accordance to Agile Development
       <img src="https://raw.githubusercontent.com/GlennJohansson85/postwall/main/docs/images/6-testing/6.2/1.1.1-user_story-purpose.png" alt="User Story - Purpose img">
 </details>
 
-*The landing page (homepage) is where all posts are located. The first thing the user sees is an uploaded post, and the name of the website, Postwall, shines in green. By reading the nav-links and the placeholder text "Search for a Post" in the search field, the visitor should gain a clear understanding of the website's purpose.*
+> *The landing page (homepage) is where all posts are located. The first thing the user sees is an uploaded post, and the name of the website, Postwall, shines in green. By reading the nav-links and the placeholder text "Search for a Post" in the search field, the visitor should gain a clear understanding of the website's purpose.*
 
 <details>
   <summary>As a First Time User, I want to navigate through the site.</summary>
