@@ -34,6 +34,16 @@
 	src: url("/static/fonts/Asap-Regular.ttf") format("OpenType");
 }
 
+@font-face {
+	font-family: "SinkinSans-300Light";
+	src: url("/static/fonts/SinkinSans-300Light.otf") format("OpenType");
+}
+
+@font-face {
+	font-family: "SinkinSans-500Medium";
+	src: url("/static/fonts/SinkinSans-500Medium.otf") format("OpenType");
+}
+
 /* Base Styles */
 body {
 	max-width: 1200px;
@@ -195,6 +205,10 @@ html {
 	background-color: #fff;
 }
 
+.form-control::placeholder {
+	font-family: "SinkinSans-300Light";
+}
+
 .form-title {
 	font-family: "Cocogoose-Condensed-letterpress-trial", "Sans-Serif";
 	text-align: center;
@@ -203,7 +217,8 @@ html {
 
 .form-label {
 	margin: 5px 0px 0px 0px;
-	font-family: "Asap-Bold", "Sans-Serif";
+	font-family: "SinkinSans-500Medium", "Sans-Serif";
+	color: #fff;
 }
 
 .form-button-container {
@@ -369,7 +384,7 @@ html {
 .postwall-comments-ul {
 	margin: 0px;
 	padding: 0px;
-	font-family: "Asap-Regular", "Sans-Serif";
+	font-family: "SinkinSans-500Medium", "Sans-Serif";
 	list-style: none;
 }
 
@@ -402,7 +417,7 @@ html {
 	margin: 0px;
 	width: 100%;
 	padding-left: 5px;
-	font-family: "Asap-Regular", "Sans-Serif";
+	font-family: "SinkinSans-500Medium", "Sans-Serif";
 	outline: none;
 	border: none;
 	resize: none;
@@ -413,7 +428,6 @@ html {
 
 .postwall-form-container textarea::placeholder {
     padding-left: 3px;
-    font-family: "Asap-Bold";
     color: #a0176b;
 }
 
@@ -424,20 +438,20 @@ html {
 
 /* RESET_PASSWORD.HTML */
 .reset_password_guide {
-	font-family: "Asap-Bold", "Sans-Serif";
+	font-family: "SinkinSans-300Light", "Sans-Serif";
 	color: #000;
 }
 
 /* LOGIN.HTML */
 /* "Forgot your Password?" */
 .smal-text {
-	font-family: "Asap-Regular", "Sans-Serif";
+	font-family: "SinkinSans-300Light", "Sans-Serif";
 	text-decoration: none;
 	color: #000;
 }
 
 .smal-text:hover {
-	font-family: "Asap-Bold", "Sans-Serif";
+	font-family: "SinkinSans-300Light", "Sans-Serif";
 	text-decoration: underline;
 	color: #000;
 }
@@ -445,7 +459,7 @@ html {
 /* "Dont have an Account..." */
 .account-container {
 	margin-top: 10px;
-	font-family: "Asap-Bold", "Sans-Serif";
+	font-family: "SinkinSans-300Light", "Sans-Serif";
 	text-align: center;
 	color: #fff;
 }
@@ -473,25 +487,25 @@ html {
 	text-shadow: 1px 1px 2px #000;
 }
 
-/* Container for creating a Post */
-.post-form-container {
-	border-radius: 5px;
-	border-style: outset;
-	border-color: #1b645e;
-	background-image: url("/static/wallpapers/leather_1.png");
-	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-}
-
 .post-form-label {
-	font-family: "Asap-Bold", "Sans-Serif";
+	font-family: "SinkinSans-500Medium";
 	color: #fff;
 }
+
 
 /* Container for the Post Button */
 .post-form-button-container {
 	margin-top: 15px;
 	text-align: center;
 }
+
+.orange-frame {
+    background-image: url("/static/wallpapers/orange.png");
+    background-size: contain;
+    background-position: center 30px; /* Move the image down by 50px */
+    background-repeat: no-repeat;
+}
+
 
 /* POST_DETAIL.HTML */
 /* Container for Post content */
@@ -513,7 +527,7 @@ html {
 /* Post Content */
 .post_detail-content {
 	margin-top: 10px;
-	font-family: "Asap-Regular", "Sans-Serif";
+	font-family: "SinkinSans-300Light", "Sans-Serif";
 	text-align: center;
 	white-space: normal;
 	word-wrap: break-word;
@@ -522,7 +536,7 @@ html {
 
 /* Post Meta */
 .post_detail-meta {
-	font-family: "Asap-Regular", "Sans-Serif";
+	font-family: "SinkinSans-300Light", "Sans-Serif";
 	text-align: center;
 	color: #000;
 }
@@ -534,7 +548,7 @@ html {
 
 /* Comments Header Container */
 .post_detail-comments-header {
-	font-family: "Asap-Bold", "Sans-Serif";
+	font-family: "SinkinSans-300Light", "Sans-Serif";
 	border-radius: 5px 5px 0px 0px;
 	background-color: #2f3d3ca9;
 }
@@ -547,7 +561,7 @@ html {
 .post_detail-comments-ul {
 	margin: 0px;
 	padding-left: 0px;
-	font-family: "Asap-Regular", "Sans-Serif";
+	font-family: "SinkinSans-300Light", "Sans-Serif";
 	border-radius: 0px 0px 5px 5px;
 	border: 6px solid #2f3d3ca9;
 }
@@ -592,7 +606,7 @@ html {
 
 /* Delete Confirmation Container */
 #delete-confirmation-container {
-	font-family: "Asap-Regular", "Sans-Serif";
+	font-family: "SinkinSans-300Light", "Sans-Serif";
 	text-align: center;
 	display: none;
 	border-radius: 5px;
@@ -741,7 +755,7 @@ html {
 /* Style for labels */
 .dashboard-text {
 	text-align: center;
-	font-family: "Asap-Bold", "Sans-Serif";
+	font-family: "SinkinSans-300Light", "Sans-Serif";
 }
 
 /* SEARCH_RESULTS.HTML */
@@ -785,7 +799,7 @@ html {
 
 .search_results-ul {
 	padding: 5px;
-	font-family: "Asap-bold", "Sans-Serif";
+	font-family: "SinkinSans-300Light", "Sans-Serif";
 	list-style: none;
 }
 
@@ -879,7 +893,7 @@ html {
 
 	.postwall-comments-ul,
 	.postwall-form-container textarea {
-		font-size: 14px;
+		font-size: 12px;
 	}
 
 	/* Post.html */
@@ -894,8 +908,11 @@ html {
 
 	.post-form-label {
 		margin-top: 18px;
-		font-size: 18px;
-		color: #000;
+		font-size: 14px;
+	}
+
+	.form-control::placeholder {
+		font-size: 12px;
 	}
 
 	.post-form-button-container {
@@ -923,7 +940,7 @@ html {
 
 	.post_detail-content {
 		font-size: 16px;
-		font-family: "Asap-Bold", "Sans-Serif";
+		font-family: "SinkinSans-300Light", "Sans-Serif";
 	}
 
 	.post_detail-meta {
@@ -958,7 +975,7 @@ html {
 		padding: 5px;
 		gap: 5px;
 		font-size: 14px;
-		font-family: "Asap-Regular", "Sans-Serif";
+		font-family: "SinkinSans-300Light", "Sans-Serif";
 	}
 
 	/* Dashboard_sidebar.html, Dashboard.html, Edit_profile.html, Change_password.html */
@@ -1049,7 +1066,7 @@ html {
 
 	.postwall-comments-ul,
 	.postwall-form-container textarea {
-		font-size: 16px;
+		font-size: 12px;
 	}
 
 	/* Post.html */
@@ -1064,9 +1081,13 @@ html {
 
 	.post-form-label {
 		margin-top: 16px;
-		font-size: 20px;
-		color: #000;
+		font-size: 16px;
 	}
+
+	.form-control::placeholder {
+		font-size: 12px;
+	}
+
 
 	/* Post_detail.html */
 	.post_detail-title {
@@ -1084,7 +1105,7 @@ html {
 	}
 
 	.post_detail-content {
-		font-family: "Asap-Bold", "Sans-Serif";
+		font-family: "SinkinSans-300Light", "Sans-Serif";
 		font-size: 20px;
 	}
 
@@ -1119,7 +1140,7 @@ html {
 		margin-bottom: 5px;
 		padding: 5px;
 		gap: 5px;
-		font-family: "Asap-Regular", "Sans-Serif";
+		font-family: "SinkinSans-300Light", "Sans-Serif";
 		font-size: 16px;
 	}
 
@@ -1148,7 +1169,11 @@ html {
 	}
 
 	.form-label {
-		font-size: 18px;
+		font-size: 16px;
+	}
+
+	.form-control::placeholder {
+		font-size: 14px;
 	}
 
 	.account-container {
@@ -1215,7 +1240,7 @@ html {
 
 	.postwall-comments-ul,
 	.postwall-form-container textarea {
-		font-size: 18px;
+		font-size: 14px;
 	}
 
 	/* Post.html */
@@ -1230,8 +1255,11 @@ html {
 
 	.post-form-label {
 		margin-top: 20px;
-		font-size: 22px;
-		color: #000;
+		font-size: 18px;
+	}
+
+	.form-control::placeholder {
+		font-size: 14px;
 	}
 
 	/* Post_detail.html */
@@ -1254,7 +1282,7 @@ html {
 	}
 
 	.post_detail-content {
-		font-family: "Asap-Bold";
+		font-family: "SinkinSans-300Light";
 		font-size: 24px;
 	}
 
@@ -1274,7 +1302,7 @@ html {
 
 	.post_detail-comments-li {
 		padding-left: 5px;
-		font-size: 18px;
+		font-size: 16px;
 	}
 
 	.post_detail-delete-post-container {
@@ -1290,7 +1318,7 @@ html {
 		margin-bottom: 5px;
 		padding: 5px;
 		gap: 5px;
-		font-family: "Asap-Regular", "Sans-Serif";
+		font-family: "SinkinSans-300Light", "Sans-Serif";
 		font-size: 18px;
 	}
 
@@ -1317,6 +1345,8 @@ html {
 	.form-label {
 		font-size: 20px;
 	}
+
+
 
 	.account-container {
 		margin-top: 25px;

@@ -125,7 +125,7 @@
 
 /* Dropdown Container */
 .dropdown-menu {
-	font-family: "Asap-Bold", "Sans Serif";
+	font-family: "SinkinSans-300Light", "Sans-Serif";
 	background-color: #3a3939;
 	background-clip: padding-box;
     box-shadow: 0px 0px 3px #01f16d;
@@ -144,12 +144,13 @@
 
 /* Search Input */
 #search-input {
-	font-family: "Asap-Bold", "Sans-Serif";
+	font-family: "SinkinSans-300Light", "Sans-Serif";
 	display: flex;
 	position: relative;
 	z-index: 1;
 	border-top-left-radius: 5px;
 	border-bottom-left-radius: 5px;
+	color: #fff;
 	background-color: #3a3939;
 	box-shadow: 2px 2px 0px 0px#E44C9F;
 }
@@ -162,13 +163,12 @@
 
 /* Search Input Placeholder Text */
 #search-input::placeholder {
-	font-family: "Cocogoose-Condensed-letterpress-trial", "Sans-Serif";
+	color: #fff;
 }
 
 /* Container for search results */
 .suggestions {
 	margin: 2px 0 5px;
-	font-family: "Asap-Bold", "Sans-Serif";
 	z-index: 1000;
     overflow-y: auto;
 	border-radius: 5px!important;
@@ -312,19 +312,20 @@
 		max-width: 100%;
 		margin-top: 5px;
 		margin-bottom: 5px;
-		font-size: 16px;
+		font-size: 12px;
 	}
 
 	.search-input::placeholder {
-		font-size: 18px;
+		font-size: 12px;
 	}
 
 	.suggestions {
 		position: relative; /* Push nav links down */
+		line-height: 18px;
 		top: calc(100% + 45px);
     	left: 0;
     	width: 100%; /* Take full width of the input incl. button */
-		font-size: 16px;
+		font-size: 14px;
 	}
 
 	.nav-link {
@@ -357,8 +358,8 @@
 	}
 
 	.dropdown-item {
-		font-size: 16px;
-		line-height: 16px;
+		font-size: 12px;
+		line-height: 14px;
 	}
 
 	.d-none {
@@ -414,11 +415,11 @@
 		line-height: 40px;
 		margin-top: 5px;
 		margin-bottom: 5px;
-		font-size: 18px;
+		font-size: 14px;
 	}
 
 	.search-input::placeholder {
-		font-size: 22px;
+		font-size: 14px;
 	}
 
 	.suggestions {
@@ -426,7 +427,7 @@
 		top: calc(100% + 45px);
     	left: 0;
     	width: 100%;
-		font-size: 18px;
+		font-size: 16px;
 	}
 
 	.nav-link {
@@ -459,7 +460,6 @@
 	}
 
 	.dropdown-item {
-		font-size: 16px;
 		line-height: 16px;
 	}
 
@@ -485,11 +485,11 @@
 		height: 60px;
 		line-height: 60px;
 		max-width: 65%;
-		font-size: 20px;
+		font-size: 16px;
 	}
 
 	.search-input::placeholder {
-		font-size: 26px;
+		font-size: 16px;
 	}
 
 	.suggestions {
@@ -497,7 +497,7 @@
 		top: calc(100% + 7px);
     	left: 14%;
     	width: 65%;
-		font-size: 20px;
+		font-size: 18px;
 	}
 
 	.nav-link,
@@ -526,7 +526,7 @@
 
 	/* Profile link - Dropdown style */
 	.dropdown-item {
-		font-size: 18px;
-		line-height: 18px;
+		font-size: 14px;
+		line-height: 16px;
 	}
 }
