@@ -50,12 +50,13 @@
                         <!-- Displaying form errors -->
                         {{ form.email.errors }}
                         {{ form.non_field_errors }}
+
+                        <!-- Link to Login if the user already has an account -->
+                        <div class="account-container">
+                            <a class="account" href="{% url 'login' %}">Have an Account? Login Here</a>
+                        </div>
                     </form>
                 </div>
-            </div>
-            <!-- Link to Login if the user already has an account -->
-            <div class="account-container">Have an Account?
-                <a class="account" href="{% url 'login' %}">Login Here</a>
             </div>
         </div>
     </div>

@@ -91,11 +91,40 @@ html {
 	border-color: #1b645e;
 	background-color: #000000ea;
 	background-image: url("/static/wallpapers/concrete-wall-2.png");
-	background-size: 300px;
+	background-size: 400px;
 	box-shadow: inset -1vw 0.5vw 0.5vw -0.5vw rgba(0, 0, 0, 0.5), /* Left shadow */
                 inset 1vw -0.5vw 0.5vw -0.5vw rgba(0, 0, 0, 0.5), /* Right shadow */
                 inset 0.5vw 1vw 0.5vw -0.5vw rgba(0, 0, 0, 0.5), /* Bottom shadow */
                 inset -0.5vw -1vw 0.5vw -0.5vw rgba(0, 0, 0, 0.5); /* Top shadow */
+}
+
+.stroke-1 {
+    background-image: url("/static/wallpapers/c5.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.stroke-2 {
+    background-image: url("/static/wallpapers/c2.png");
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+
+}
+
+.stroke-3 {
+    background-image: url("/static/wallpapers/c1.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.stroke-4 {
+	background-image: url("/static/wallpapers/c7.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .item-container {
@@ -107,17 +136,6 @@ html {
 	border-style: inset;
 	border-color: #000;
 	background: #0000004d; /* Transparent Style */
-}
-
-.leather {
-	max-width: 100%;
-	margin: 0 auto;
-	padding: 10px;
-	box-sizing: border-box;
-	border-radius: 5px;
-	background-color: #fff;
-	border: outset #bf9b30;
-	background-image: url("/static/wallpapers/leather_1.png");
 }
 
 /* Buttons */
@@ -199,27 +217,32 @@ html {
 
 /* Form Styles */
 .form-control {
-	border-radius: 0px;
-	border: none;
+	border-radius: 5px;
+	border: 2px solid #000;
 	outline: none;
-	background-color: #fff;
+	line-height: 18px;
+	background-color: #f1e4b1;
 }
 
 .form-control::placeholder {
 	font-family: "SinkinSans-300Light";
+	font-size: 12px;
 }
 
 .form-title {
 	font-family: "Cocogoose-Condensed-letterpress-trial", "Sans-Serif";
 	text-align: center;
-	color: #000;
+	color: #fff;
+	text-shadow: 0px 0px 10px #d431f8;
 }
 
 .form-label {
 	margin: 5px 0px 0px 0px;
 	font-family: "SinkinSans-500Medium", "Sans-Serif";
-	color: #fff;
+	color: #ffde5c;
+	text-shadow: 2px 1px 1px#000;
 }
+
 
 .form-button-container {
 	margin-top: 10px;
@@ -254,20 +277,13 @@ html {
 	box-shadow: 0px 0px 3px #01f16d;
 }
 
-/* Profile Picture */
-.profile-picture-container {
-	max-width: 300px;
-	width: 100%;
-	margin: 0 auto;
-	display: block;
-    text-align: center;
-}
+
 
 .profile-picture {
     width: 100%;
     height: auto;
 	margin: 0 auto;
-    object-fit: cover;
+    object-fit: contain;
     border: outset #3a3939;
     display: block;
 }
@@ -443,15 +459,6 @@ html {
 }
 
 /* LOGIN.HTML */
-.teal {
-	padding: 0px;
-	margin: 0px;
-	background-image: url("/static/wallpapers/teal.png");
-    background-size: contain;
-    background-position: center; /* Move the image down by 50px */
-    background-repeat: no-repeat;
-}
-
 .login-container {
 	color: #000;
 }
@@ -461,36 +468,36 @@ html {
 .smal-text {
 	font-family: "SinkinSans-300Light", "Sans-Serif";
 	text-decoration: none;
-	color: #000;
+	text-shadow: 1px 1px 1px #000;
+	color: #ffe95c;
+	padding: 3px 5px;
+	background-color: #00000075;
+	border-radius: 10px;
+	line-height: 40px;
 }
 
 .smal-text:hover {
-	font-family: "SinkinSans-300Light", "Sans-Serif";
-	text-decoration: underline;
-	color: #000;
+	text-decoration: none;
+	color: #01f16d;
 }
 
 /* "Dont have an Account..." */
 .account-container {
-	margin-top: 10px;
 	font-family: "SinkinSans-300Light", "Sans-Serif";
 	text-align: center;
-	color: #fff;
+	padding: 5px;
+	background-color: #00000075;
+	border-radius: 10px;
 }
 
 .account {
-	border-radius: 5px;
-	font-family: "Cocogoose-Condensed-letterpress-trial", "Sans-Serif";
+	color: #ffe95c;
 	text-decoration: none;
-	color: #fff;
-	text-shadow: 0px 0px 10px #01f16d;
-	transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 
 .account:hover {
+	text-decoration: none;
 	color: #01f16d;
-	text-shadow: 0px 0px 10px #fff;
-	transform: translateY(2px);
 }
 
 /* POST.HTML */
@@ -501,38 +508,12 @@ html {
 	text-shadow: 1px 1px 2px #000;
 }
 
-.post-form-label {
-	font-family: "SinkinSans-500Medium";
-	color: #fff;
-}
-
-
 /* Container for the Post Button */
 .post-form-button-container {
-	margin-top: 15px;
 	text-align: center;
 }
 
-.stroke-1 {
-    background-image: url("/static/wallpapers/c5.png");
-    background-size: contain;
-    background-position: center; /* Move the image down by 50px */
-    background-repeat: no-repeat;
-}
 
-.stroke-2 {
-    background-image: url("/static/wallpapers/c2.png");
-    background-size: contain;
-    background-position: center; /* Move the image down by 50px */
-    background-repeat: no-repeat;
-}
-
-.stroke-3 {
-    background-image: url("/static/wallpapers/c1.png");
-    background-size: contain;
-    background-position: center; /* Move the image down by 50px */
-    background-repeat: no-repeat;
-}
 
 /* POST_DETAIL.HTML */
 /* Container for Post content */
@@ -933,12 +914,11 @@ html {
 		padding: 10px 40px 20px 40px;
 	}
 
-	.post-form-label {
-		margin-top: 18px;
-		font-size: 14px;
+	.form-label {
+		font-size: 12px;
 	}
 
-	.form-control::placeholder {
+	.smal-text {
 		font-size: 12px;
 	}
 
@@ -1025,17 +1005,13 @@ html {
 		font-size: 24px;
 	}
 
-	.form-label {
-		font-size: 16px;
-	}
-
 	.account-container {
-		margin-top: 5px;
-		font-size: 18px;
+		margin-top: 30px;
+		font-size: 12px;
 	}
 
 	.button-1 {
-		font-size: 20px;
+		font-size: 16px;
 	}
 
 	/* Login.html */
@@ -1046,10 +1022,6 @@ html {
 	/* Register.html */
 	.register-container {
 		margin: 10px 50px;
-	}
-
-	.smal-text {
-		font-size: 16px;
 	}
 
 	/* Footer.html */
@@ -1106,15 +1078,13 @@ html {
 		padding: 0 80px 20px 80px;
 	}
 
-	.post-form-label {
-		margin-top: 16px;
-		font-size: 16px;
+	.form-label {
+		font-size: 14px;
 	}
 
-	.form-control::placeholder {
-		font-size: 12px;
+	.smal-text {
+		font-size: 14px;
 	}
-
 
 	/* Post_detail.html */
 	.post_detail-title {
@@ -1195,21 +1165,13 @@ html {
 		font-size: 30px;
 	}
 
-	.form-label {
-		font-size: 16px;
-	}
-
-	.form-control::placeholder {
+	.account-container {
+		margin-top: 35px;
 		font-size: 14px;
 	}
 
-	.account-container {
-		margin-top: 15px;
-		font-size: 20px;
-	}
-
 	.button-1 {
-		font-size: 24px;
+		font-size: 20px;
 	}
 
 	/* Login.html */
@@ -1220,10 +1182,6 @@ html {
 	/* Register.html */
 	.register-container {
 		margin: 10px 180px;
-	}
-
-	.smal-text {
-		font-size: 18px;
 	}
 
 	/* Footer.html */
@@ -1280,12 +1238,13 @@ html {
 		padding: 0 100px 20px 100px;
 	}
 
-	.post-form-label {
-		margin-top: 20px;
-		font-size: 18px;
+
+
+	.form-label {
+		font-size: 14px;
 	}
 
-	.form-control::placeholder {
+	.smal-text {
 		font-size: 14px;
 	}
 
@@ -1369,19 +1328,13 @@ html {
 		font-size: 36px;
 	}
 
-	.form-label {
-		font-size: 20px;
-	}
-
-
-
 	.account-container {
-		margin-top: 25px;
-		font-size: 20px;
+		margin-top: 30px;
+		font-size: 14px;
 	}
 
 	.button-1 {
-		font-size: 26px;
+		font-size: 20px;
 	}
 
 	/* Login.html */
@@ -1392,10 +1345,6 @@ html {
 	/* Register.html */
 	.register-container {
 		margin: 10px 200px;
-	}
-
-	.smal-text {
-		font-size: 18px;
 	}
 
 	/* Footer.html */
