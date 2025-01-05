@@ -443,6 +443,20 @@ html {
 }
 
 /* LOGIN.HTML */
+.teal {
+	padding: 0px;
+	margin: 0px;
+	background-image: url("/static/wallpapers/teal.png");
+    background-size: contain;
+    background-position: center; /* Move the image down by 50px */
+    background-repeat: no-repeat;
+}
+
+.login-container {
+	color: #000;
+}
+
+
 /* "Forgot your Password?" */
 .smal-text {
 	font-family: "SinkinSans-300Light", "Sans-Serif";
@@ -499,13 +513,26 @@ html {
 	text-align: center;
 }
 
-.orange-frame {
-    background-image: url("/static/wallpapers/orange.png");
+.stroke-1 {
+    background-image: url("/static/wallpapers/c5.png");
     background-size: contain;
-    background-position: center 30px; /* Move the image down by 50px */
+    background-position: center; /* Move the image down by 50px */
     background-repeat: no-repeat;
 }
 
+.stroke-2 {
+    background-image: url("/static/wallpapers/c2.png");
+    background-size: contain;
+    background-position: center; /* Move the image down by 50px */
+    background-repeat: no-repeat;
+}
+
+.stroke-3 {
+    background-image: url("/static/wallpapers/c1.png");
+    background-size: contain;
+    background-position: center; /* Move the image down by 50px */
+    background-repeat: no-repeat;
+}
 
 /* POST_DETAIL.HTML */
 /* Container for Post content */
