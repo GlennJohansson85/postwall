@@ -108,24 +108,39 @@ html {
 .stroke-2 {
     background-image: url("/static/wallpapers/c2.png");
     background-size: contain;
-    background-position: 50% 50%;
+    background-position: center;
     background-repeat: no-repeat;
 
 }
 
 .stroke-3 {
     background-image: url("/static/wallpapers/c1.png");
-    background-size: contain;
+    background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .stroke-4 {
-	background-image: url("/static/wallpapers/c7.png");
+    background-image: url("/static/wallpapers/c10.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
+
+.stroke-5 {
+    background-image: url("/static/wallpapers/c11.png");
+   	background-size: 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.stroke-6 {
+    background-image: url("/static/wallpapers/c7.png");
+   	background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 
 .item-container {
 	max-width: 800px;
@@ -218,15 +233,26 @@ html {
 /* Form Styles */
 .form-control {
 	border-radius: 5px;
-	border: 2px solid #000;
+	border: none;
 	outline: none;
 	line-height: 18px;
+	background-color: #f1e4b1;
+}
+
+.form-control:focus,
+.form-control.active {
 	background-color: #f1e4b1;
 }
 
 .form-control::placeholder {
 	font-family: "SinkinSans-300Light";
 	font-size: 12px;
+}
+
+/* Remove default background-color when autofills */
+input:-webkit-autofill {
+  background-color: transparent !important;
+  transition: background-color 5000s ease-in-out 0s;
 }
 
 .form-title {
@@ -245,7 +271,7 @@ html {
 
 
 .form-button-container {
-	margin-top: 10px;
+	margin-top: 55px;
 	text-align: center;
 }
 
@@ -258,8 +284,11 @@ html {
 #id_current_password,
 #id_new_password,
 #id_confirm_password {
+	outline: none;
 	width: 100%;
+	border-radius: 5px;
 	border: none;
+	background-color: #f1e4b1;
 }
 
 #id_first_name:focus,
@@ -273,8 +302,9 @@ html {
 #id_title:focus,
 #id_content:focus,
 #id_img:focus {
-	outline: none;
-	box-shadow: 0px 0px 3px #01f16d;
+	background-color: #f1e4b1;
+	box-shadow: none;
+
 }
 
 
@@ -505,11 +535,13 @@ html {
 	font-family: "Cocogoose-Condensed-letterpress-trial", "Sans-Serif";
 	text-align: center;
 	color: #fff;
-	text-shadow: 1px 1px 2px #000;
+	text-shadow: 0px 0px 10px #31b2f8;
 }
+
 
 /* Container for the Post Button */
 .post-form-button-container {
+	margin-top: 20px;
 	text-align: center;
 }
 
@@ -763,8 +795,18 @@ html {
 /* Style for labels */
 .dashboard-text {
 	text-align: center;
-	font-family: "SinkinSans-300Light", "Sans-Serif";
+	font-family: "SinkinSans-500Medium", "Sans-Serif";
 }
+
+/*									EDIT_PROFILE.HTML*/
+.edit_profile-form {
+	color: #ffde5c;
+	background-color: #00000086;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 5px;
+}
+
 
 /* SEARCH_RESULTS.HTML */
 .search_results-container-all {
@@ -1319,8 +1361,8 @@ html {
 	}
 
 	.dashboard-text {
-		margin: 10px 0 10px 0;
-		font-size: 20px;
+		margin: 10px 0 10px;
+		font-size: 16px;
 	}
 
 	/* Login.html, Register.html */
