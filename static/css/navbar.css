@@ -1,4 +1,3 @@
-/* Navbar */
 .navbar {
 	box-sizing: border-box;
 	max-width: 1200px;
@@ -16,7 +15,6 @@
 	align-items: center;
 }
 
-/* Navbar Brand */
 .navbar-brand {
 	font-family: "Cocogoose-Condensed-Letterpress-trial", "Sans-Serif";
 	padding: 0 5px;
@@ -33,7 +31,6 @@
 	transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 
-/* Navbar Brand: Hover, Focus, Active state */
 .navbar-brand:hover,
 .navbar-brand:focus,
 .navbar-brand.active {
@@ -44,7 +41,6 @@
 	transform: translateY(2px);
 }
 
-/* Navbar Links */
 .nav-link {
 	font-family: "Cocogoose-Condensed-letterpress-trial", "Sans-Serif";
 	border-radius: 0;
@@ -61,33 +57,28 @@
 	align-items: center;
 }
 
-/* Navbar Links: Hover, Focus, Active state */
 .nav-link:hover,
 .nav-link:focus,
 .nav-link.active {
 	color: #fff;
 	background-color: #2b2a2a;
 	text-shadow: 0px 0px 10px #01f16d;
-	box-shadow:
-		inset -10px 0px 5px -5px rgba(0, 0, 0, 0.5),
+	box-shadow:	inset -10px 0px 5px -5px rgba(0, 0, 0, 0.5),
 		inset 10px 0px 5px -5px rgba(0, 0, 0, 0.5);
 	transform: translateY(2px);
 }
 
-/* Navbar Input Group*/
 .input-group {
 	justify-content: center;
 	display: flex;
 	align-items: center;
 }
 
-/* First child:Rounded left corners */
 .nav-item:first-child .nav-link {
 	border-top-left-radius: 5px;
 	border-bottom-left-radius: 5px;
 }
 
-/* First child:Hover & Active state, Right inward shadow */
 .nav-item:first-child .nav-link:hover,
 .nav-item:first-child .nav-link.active {
 	color: #fff;
@@ -97,7 +88,6 @@
 	transform: translateY(2px);
 }
 
-/* Last child:Rounded right corners */
 .nav-item:last-child .nav-link {
 	border-top-right-radius: 5px;
 	border-bottom-right-radius: 5px;
@@ -107,7 +97,6 @@
 	box-sizing: border-box;
 }
 
-/* Last child:Hover & Active state, Left inward shadow */
 .nav-item:last-child .nav-link:hover,
 .nav-item:last-child .nav-link:focus,
 .nav-item:last-child .nav-link.active {
@@ -117,13 +106,11 @@
 	transform: translateY(2px);
 }
 
-/* CSS for profile image in Profile item (last-child) */
 .profile-image {
 	width: 30px;
 	height: auto;
 }
 
-/* Dropdown Container */
 .dropdown-menu {
 	font-family: "SinkinSans-300Light", "Sans-Serif";
 	background-color: #3a3939;
@@ -131,18 +118,15 @@
     box-shadow: 0px 0px 3px #01f16d;
 }
 
-/* Dropdown Item */
 .dropdown-menu .dropdown-item {
     color: #fff;
 }
 
-/* Dropdown Item Effect */
 .dropdown-menu .dropdown-item:hover {
     color: #01f16d;
 	background-color: transparent;
 }
 
-/* Search Input */
 #search-input {
 	font-family: "SinkinSans-300Light", "Sans-Serif";
 	display: flex;
@@ -155,18 +139,15 @@
 	box-shadow: 2px 2px 0px 0px#E44C9F;
 }
 
-/* Search Input Effect */
 #search-input:focus {
 	background-color: #3a3939;
 	color: #fff;
 }
 
-/* Search Input Placeholder Text */
 #search-input::placeholder {
 	color: #fff;
 }
 
-/* Container for search results */
 .suggestions {
 	margin: 2px 0 5px;
 	z-index: 1000;
@@ -177,26 +158,22 @@
     box-shadow: 0px 0px 3px #01f16d;
 }
 
-/* Search Result Container */
 .suggestion {
 	padding: 1px 13px;
 	cursor: pointer;
 }
 
-/* Search Result */
 .suggestion a {
     text-decoration: none;
 	color: #fff;
 	background-color: #3a3939;
 }
 
-/* Search Result Effect */
 .suggestion a:hover {
 	color: #01f16d;
     background-color: #3a3939;
 }
 
-/* Search Button */
 .search-btn {
 	padding: 10px;
 	align-items: center;
@@ -222,7 +199,6 @@
 	transform: translateY(2px);
 }
 
-/* Toggler - Small & Medium Screens */
 .navbar-toggler {
 	width: 80px;
 	position: relative;
@@ -237,7 +213,6 @@
 	transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 
-/* Toggler - Hover & Focus */
 .navbar-toggler:hover,
 .navbar-toggler:focus {
 	color: #fff;
@@ -247,7 +222,6 @@
 	transform: translateY(2px);
 }
 
-/* Profile image within toggler button */
 .profile-image-toggler {
 	width: 50px;
 	height: 50px;
@@ -258,12 +232,11 @@
 	display: inline;
 }
 
-/* Hide profile image in dropdown on small screens */
 .profile-image-dropdown {
 	display: none;
 }
 
-/* Responsive settings - Small Screens */
+/* Small Screens */
 @media (max-width: 768px) {
 	.navbar {
 		height: auto;
@@ -320,11 +293,11 @@
 	}
 
 	.suggestions {
-		position: relative; /* Push nav links down */
+		position: relative;
 		line-height: 18px;
 		top: calc(100% + 45px);
     	left: 0;
-    	width: 100%; /* Take full width of the input incl. button */
+    	width: 100%;
 		font-size: 14px;
 	}
 
@@ -367,7 +340,7 @@
 	}
 }
 
-/* Responsive Settings - Medium Screens */
+/* Medium Screens */
 @media (min-width: 769px) and (max-width: 1200px) {
 	.navbar {
 		height: auto;
@@ -468,7 +441,7 @@
 	}
 }
 
-/* Responsive Settings - Large Screens */
+/* Large Screens */
 @media (min-width: 1201px) {
 	.navbar {
 		height: auto;
@@ -524,7 +497,6 @@
 		min-width: auto !important;
 	}
 
-	/* Profile link - Dropdown style */
 	.dropdown-item {
 		font-size: 14px;
 		line-height: 16px;

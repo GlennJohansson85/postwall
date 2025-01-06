@@ -49,7 +49,7 @@ html {
 	background-size: cover;
 }
 
-/* Wallpapers/Background Images */
+/* Background Images */
 .brickwall {
 	max-width: 100%;
 	min-height: 100vh;
@@ -65,7 +65,7 @@ html {
 	border-right: 1px solid #000;
 	background-image: url("/static/img/brickwall.webp");
 	box-shadow: inset 3vw 0px 1vw -1vw rgba(0, 0, 0, 0.11),
-		        inset -3vw 0px 1vw -1vw rgba(0, 0, 0, 0.11);
+		inset -3vw 0px 1vw -1vw rgba(0, 0, 0, 0.11);
 }
 
 .concrete {
@@ -83,12 +83,11 @@ html {
 	background-image: url("/static/img/concrete-wall-2.png");
 	background-size: 400px;
 	box-shadow: inset -1vw 0.5vw 0.5vw -0.5vw rgba(0, 0, 0, 0.5),
-                inset 1vw -0.5vw 0.5vw -0.5vw rgba(0, 0, 0, 0.5),
-                inset 0.5vw 1vw 0.5vw -0.5vw rgba(0, 0, 0, 0.5),
-                inset -0.5vw -1vw 0.5vw -0.5vw rgba(0, 0, 0, 0.5);
+        inset 1vw -0.5vw 0.5vw -0.5vw rgba(0, 0, 0, 0.5),
+        inset 0.5vw 1vw 0.5vw -0.5vw rgba(0, 0, 0, 0.5),
+        inset -0.5vw -1vw 0.5vw -0.5vw rgba(0, 0, 0, 0.5);
 }
 
-/* Colour Strokes - Backgrounds */
 .stroke-1 {
     background-image: url("/static/img/c5.png");
     background-size: contain;
@@ -101,7 +100,6 @@ html {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-
 }
 
 .stroke-3 {
@@ -133,7 +131,6 @@ html {
 }
 
 /* Buttons */
-/* Green Button */
 .green-button {
 	font-family: "Cocogoose-Narrow-Letterpress-trial", "Sans-Serif";
 	border-radius: 5px;
@@ -151,7 +148,6 @@ html {
 	transform: translateY(2px);
 }
 
-/* Green Small Button */
 .green-small-button {
 	font-family: "Cocogoose-Narrow-Letterpress-trial", "Sans-Serif";
 	border-radius: 5px;
@@ -169,7 +165,6 @@ html {
 	transform: translateY(2px);
 }
 
-/* Button 1 */
 .button-1 {
 	font-family: "Cocogoose-Condensed-letterpress-trial", "Sans-Serif";
 	text-decoration: none;
@@ -188,7 +183,6 @@ html {
 	transform: translateY(2px);
 }
 
-/* Red Button */
 .red-button {
 	display: flex;
 	justify-content: center;
@@ -209,7 +203,7 @@ html {
 	transform: translateY(2px);
 }
 
-/* Form Styles */
+/* Form */
 .form-control {
 	border-radius: 5px;
 	border: none;
@@ -242,8 +236,8 @@ input:-webkit-autofill {
 }
 
 .form-label {
-	margin: 5px 0px 0px 0px;
 	font-family: "SinkinSans-500Medium", "Sans-Serif";
+	margin: 5px 0px 0px 0px;
 	color: #ffde5c;
 	text-shadow: 2px 1px 1px#000;
 }
@@ -259,7 +253,7 @@ input:-webkit-autofill {
 	text-align: center;
 }
 
-/* ID used due to class cant change the default field styles */
+/* Input-fields */
 #id_first_name,
 #id_last_name,
 #id_email,
@@ -291,8 +285,7 @@ input:-webkit-autofill {
 
 }
 
-
-
+/* Profile Picture */
 .profile-picture {
     width: 100%;
     height: auto;
@@ -302,8 +295,7 @@ input:-webkit-autofill {
     display: block;
 }
 
-/* POSTWALL.HTML */
-/* Container for a post incl. title, image, content, meta */
+/* Postwall.html */
 .polaroid {
 	max-width: 100%;
 	box-sizing: border-box;
@@ -315,18 +307,16 @@ input:-webkit-autofill {
 	border-color: #1b645e;
 	background-color: #fff9ef;
 	box-shadow: -0.5vw 0.25vw 0.25vw -0.25vw rgba(0, 0, 0, 0.5),
-                0.5vw -0.25vw 0.25vw -0.25vw rgba(0, 0, 0, 0.5),
-		        0.25vw 0.5vw 0.25vw -0.25vw rgba(0, 0, 0, 0.5),
-		        -0.25vw -0.5vw 0.25vw -0.25vw rgba(0, 0, 0, 0.5);
+        0.5vw -0.25vw 0.25vw -0.25vw rgba(0, 0, 0, 0.5),
+		0.25vw 0.5vw 0.25vw -0.25vw rgba(0, 0, 0, 0.5),
+		-0.25vw -0.5vw 0.25vw -0.25vw rgba(0, 0, 0, 0.5);
 }
 
-/* Post Title Style */
 .postwall-title {
 	font-family: "CrispyCream3D-9YgR0", "Sans-Serif";
 	text-align: center;
 }
 
-/* Link to Post Details for specific Post */
 .postwall-link-container {
 	position: relative;
 }
@@ -360,7 +350,6 @@ input:-webkit-autofill {
 	transform: scaleX(-1);
 }
 
-/* Uploaded Post Image */
 .postwall-image-container {
     margin: 0 auto;
     padding: 0 20px;
@@ -379,42 +368,37 @@ input:-webkit-autofill {
     object-fit: contain;
 }
 
-/* Uploaded Post Content */
 .postwall-content {
-	padding: 5px;
 	font-family: "SweetLove-DOK99", "Sans-Serif";
+	padding: 5px;
 	text-align: center;
 }
 
-/* Meta when uploading a Post */
 .postwall-meta {
-	margin-top: 1vh;
 	font-family: "digital-7", "Sans-Serif";
+	margin-top: 1vh;
 	text-align: center;
 }
 
-/* Container for comments for each Post */
 .postwall-comments-container {
 	margin-top: 1vh;
 	border-radius: 5px;
-	background-color: #2f3d3ca9;
 	box-sizing: border-box;
+	background-color: #2f3d3ca9;
 	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-/* Header for comments container */
 .postwall-comments-header {
-	padding: 10px;
 	font-family: "Cocogoose-Condensed-letterpress-trial", "Sans-Serif";
+	padding: 10px;
 	text-align: center;
 	color: #fff;
 }
 
-/* Comment styles */
 .postwall-comments-ul {
+	font-family: "SinkinSans-500Medium", "Sans-Serif";
 	margin: 0px;
 	padding: 0px;
-	font-family: "SinkinSans-500Medium", "Sans-Serif";
 	list-style: none;
 }
 
@@ -428,12 +412,10 @@ input:-webkit-autofill {
 	border-bottom: 2px solid #192221;
 }
 
-/* 1. Needed to avoid double border */
 .postwall-comments-li:last-child {
 	border-bottom: none;
 }
 
-/* 2. Needed to avoid double border */
 #id_textarea {
 	border: 2px solid #192221;
 }
@@ -442,12 +424,11 @@ input:-webkit-autofill {
 	padding-bottom: 15px;
 }
 
-/* Style/remove default css */
 .postwall-form-container textarea {
+	font-family: "SinkinSans-500Medium", "Sans-Serif";
 	margin: 0px;
 	width: 100%;
 	padding-left: 5px;
-	font-family: "SinkinSans-500Medium", "Sans-Serif";
 	outline: none;
 	border: none;
 	resize: none;
@@ -466,19 +447,17 @@ input:-webkit-autofill {
 	text-align: center;
 }
 
-/* RESET_PASSWORD.HTML */
+/* Reset_Password.html */
 .reset_password_guide {
 	font-family: "SinkinSans-300Light", "Sans-Serif";
 	color: #000;
 }
 
-/* LOGIN.HTML */
+/* Login.html */
 .login-container {
 	color: #000;
 }
 
-
-/* "Forgot your Password?" */
 .smal-text {
 	font-family: "SinkinSans-300Light", "Sans-Serif";
 	text-decoration: none;
@@ -495,7 +474,6 @@ input:-webkit-autofill {
 	color: #01f16d;
 }
 
-/* "Dont have an Account..." */
 .account-container {
 	font-family: "SinkinSans-300Light", "Sans-Serif";
 	text-align: center;
@@ -514,7 +492,7 @@ input:-webkit-autofill {
 	color: #01f16d;
 }
 
-/* POST.HTML */
+/* Post.html */
 .post-header {
 	font-family: "Cocogoose-Condensed-letterpress-trial", "Sans-Serif";
 	text-align: center;
@@ -522,70 +500,58 @@ input:-webkit-autofill {
 	text-shadow: 0px 0px 10px #31b2f8;
 }
 
-
-/* Container for the Post Button */
 .post-button-container {
 	margin-top: 20px;
 	text-align: center;
 }
 
-
-
-/* POST_DETAIL.HTML */
-/* Container for Post content */
+/* Post_Detail.html */
 .post_detail-container {
 	border-radius: 5px;
 }
 
-/* Post Title */
 .post_detail-title {
 	font-family: "CrispyCream3D-9YgR0", "Sans-Serif";
 	text-align: center;
 }
 
-/* Image Container */
 .post_detail-image-container {
 	text-align: center;
 }
 
-/* Post Content */
 .post_detail-content {
-	margin-top: 10px;
 	font-family: "SinkinSans-300Light", "Sans-Serif";
+	margin-top: 10px;
 	text-align: center;
 	white-space: normal;
 	word-wrap: break-word;
 	color: #000;
 }
 
-/* Post Meta */
 .post_detail-meta {
 	font-family: "SinkinSans-300Light", "Sans-Serif";
 	text-align: center;
 	color: #000;
 }
 
-/* Comments Container */
 .post_detail-comments-container {
 	border-color: #2f3d3ca9;
 }
 
-/* Comments Header Container */
 .post_detail-comments-header {
 	font-family: "SinkinSans-300Light", "Sans-Serif";
 	border-radius: 5px 5px 0px 0px;
 	background-color: #2f3d3ca9;
 }
 
-/* Comment Styles */
 .post_detail-comments {
 	list-style-type: none;
 }
 
 .post_detail-comments-ul {
+	font-family: "SinkinSans-300Light", "Sans-Serif";
 	margin: 0px;
 	padding-left: 0px;
-	font-family: "SinkinSans-300Light", "Sans-Serif";
 	border-radius: 0px 0px 5px 5px;
 	border: 6px solid #2f3d3ca9;
 }
@@ -599,19 +565,17 @@ input:-webkit-autofill {
 .post_detail-comments-li:first-child {
 	border-top: none;
 }
-/* "No comments" */
+
 .post_detail-no-comments {
 	padding-left: 5px;
 	background-color: #FFF;
 	list-style-type: none;
 }
 
-/* Delete Post Container */
 .post_detail-delete-post-container {
 	position: relative;
 }
 
-/* Delete Post Button Container */
 .post_detail-delete-post-button {
 	margin: 0 auto;
 	position: absolute;
@@ -628,7 +592,6 @@ input:-webkit-autofill {
 	transform: scaleX(-1);
 }
 
-/* Delete Confirmation Container */
 #delete-confirmation-container {
 	font-family: "SinkinSans-300Light", "Sans-Serif";
 	text-align: center;
@@ -650,14 +613,12 @@ input:-webkit-autofill {
 	justify-content: center;
 }
 
-/* Delete Comment Container */
 .post_detail-delete-comment-container {
 	float: right;
 	position: relative;
 	right: 5px;
 }
 
-/* Delete Comment */
 .post_detail-delete-comment {
 	margin: 0 auto;
 	z-index: 1;
@@ -688,14 +649,13 @@ input:-webkit-autofill {
 	}
 }
 
-/* DASHBOARD_SIDEBAR.HTML */
+/* Dashboard_Sidebar.html */
 .sidebar-ul {
-	padding: 0px;
 	font-family: "Cocogoose-Condensed-letterpress-trial";
+	padding: 0px;
 	list-style: none;
 }
 
-/* Sidebar Items: Dashboard, Edit_profile, Change_password */
 .sidebar-item {
 	margin: 0;
 	padding: 10px;
@@ -708,7 +668,6 @@ input:-webkit-autofill {
 	transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 
-/* Hover and active state styles */
 .sidebar-item:hover,
 .sidebar-item:focus,
 .sidebar-item.active {
@@ -719,7 +678,6 @@ input:-webkit-autofill {
 	transform: translateY(2px);
 }
 
-/* 1. Dashboard (Top Rounded Corners) */
 #item-dashboard {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
@@ -728,18 +686,16 @@ input:-webkit-autofill {
 #item-dashboard:hover,
 #item-dashboard:focus,
 #item-dashboard.active {
-    box-shadow: inset 0px -5px 5px 0px rgba(0, 0, 0, 0.5); /* Bottom Shadow */
+    box-shadow: inset 0px -5px 5px 0px rgba(0, 0, 0, 0.5);
 }
 
-/* 2. Edit Profile (Top and Bottom Shadows) */
 #item-edit_profile:hover,
 #item-edit_profile:focus,
 #item-edit_profile.active {
-    box-shadow: inset 0px 5px 5px 0px rgba(0, 0, 0, 0.5), /* Top Shadow */
-                inset 0px -5px 5px 0px rgba(0, 0, 0, 0.5); /* Bottom Shadow */
+    box-shadow: inset 0px 5px 5px 0px rgba(0, 0, 0, 0.5),
+                inset 0px -5px 5px 0px rgba(0, 0, 0, 0.5);
 }
 
-/* 3. Change Password (Bottom Rounded Corners) */
 #item-change_password {
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -748,15 +704,13 @@ input:-webkit-autofill {
 #item-change_password:hover,
 #item-change_password:focus,
 #item-change_password.active {
-    box-shadow: inset 0px 5px 5px 0px rgba(0, 0, 0, 0.5); /* Top Shadow */
+    box-shadow: inset 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
 }
 
-/* Container for Logout button */
 .sidebar-logout-button-container {
 	text-align: center;
 }
 
-/* Logout button */
 .sidebar-logout-button {
 	display: block;
 	padding: 10px;
@@ -776,23 +730,21 @@ input:-webkit-autofill {
 	transform: translateY(2px);
 }
 
-/* Style for labels */
 .dashboard-text {
-	text-align: center;
 	font-family: "SinkinSans-500Medium", "Sans-Serif";
+	text-align: center;
 }
 
-/*									EDIT_PROFILE.HTML*/
+/* Edit_Profile.html */
 .edit_profile-form {
-	color: #ffde5c;
-	background-color: #00000086;
 	margin: 10px;
 	padding: 10px;
 	border-radius: 5px;
+	color: #ffde5c;
+	background-color: #00000086;
 }
 
-
-/* SEARCH_RESULTS.HTML */
+/* Search_Results.html */
 .search_results-container-all {
 	margin: 40px auto;
 	padding: 10px;
@@ -801,7 +753,6 @@ input:-webkit-autofill {
 	border-radius: 5px;
 }
 
-/* Search Results Header - Styles */
 .search_results-header-container {
 	font-family: "Cocogoose-Condensed-Letterpress-trial", "Sans-Serif";
 	text-align: center;
@@ -811,7 +762,6 @@ input:-webkit-autofill {
 	color: #e44c9f;
 }
 
-/* Search Results Keyword - Styles */
 .search_results-keyword-container {
 	font-family: "Cocogoose-Condensed-Letterpress-trial", "Sans-Serif";
 	text-align: center;
@@ -821,7 +771,6 @@ input:-webkit-autofill {
 	color: #FFF;
 }
 
-/* Search Results List - Styles */
 .search_results-list-container {
 	align-items: center;
 	margin: 0 auto;
@@ -832,8 +781,8 @@ input:-webkit-autofill {
 }
 
 .search_results-ul {
-	padding: 5px;
 	font-family: "SinkinSans-300Light", "Sans-Serif";
+	padding: 5px;
 	list-style: none;
 }
 
@@ -852,12 +801,12 @@ input:-webkit-autofill {
 	background-color: #5f5e5e;
 }
 
-/* Styles for Footer.html */
+/* Footer.html */
 .developer {
+	font-family: "Cocogoose-Narrow-Letterpress-trial", "Sans-Serif";
 	margin: 0 auto;
 	outline-width: 5px;
 	position: relative;
-	font-family: "Cocogoose-Narrow-Letterpress-trial", "Sans-Serif";
 	text-align: center;
 	color:#00000041;
     text-shadow: 2px 1px 1px#fff;
@@ -867,10 +816,10 @@ input:-webkit-autofill {
 	border-right: 1px solid #000;
 	background-image: url("/static/img/brickwall.webp");
 	box-shadow: inset 3vw 0px 1vw -1vw rgba(0, 0, 0, 0.11),
-		        inset -3vw 0px 1vw -1vw rgba(0, 0, 0, 0.11);
+		inset -3vw 0px 1vw -1vw rgba(0, 0, 0, 0.11);
 }
 
-/* Styles for Alerts.html */
+/* Alerts.html */
 .alert-c {
     padding: 10px;
 	font-family: "SweetLove-DOK99", "Sans-Serif";
@@ -889,9 +838,8 @@ input:-webkit-autofill {
     opacity: 0;
 }
 
-/* Responsive Settings - Small Screens */
+/* Small Screens */
 @media (max-width: 768px) {
-	/* Base */
 	.brickwall {
 		padding: 50px 20px;
 	}
@@ -900,7 +848,6 @@ input:-webkit-autofill {
 		padding: 5px;
 	}
 
-	/* Postwall.html */
 	.postwall-title {
 		font-size: 30px;
 	}
@@ -930,7 +877,6 @@ input:-webkit-autofill {
 		font-size: 12px;
 	}
 
-	/* Post.html */
 	.post-header {
 		font-size: 30px;
 	}
@@ -948,7 +894,6 @@ input:-webkit-autofill {
 		font-size: 12px;
 	}
 
-	/* Post_detail.html */
 	.post_detail-container {
 		margin-top: 20px;
 	}
@@ -968,8 +913,8 @@ input:-webkit-autofill {
 	}
 
 	.post_detail-content {
-		font-size: 16px;
 		font-family: "SinkinSans-300Light", "Sans-Serif";
+		font-size: 16px;
 	}
 
 	.post_detail-meta {
@@ -1000,14 +945,13 @@ input:-webkit-autofill {
 	}
 
 	#delete-confirmation-container {
+		font-family: "SinkinSans-300Light", "Sans-Serif";
 		margin-bottom: 5px;
 		padding: 5px;
 		gap: 5px;
 		font-size: 14px;
-		font-family: "SinkinSans-300Light", "Sans-Serif";
 	}
 
-	/* Dashboard_sidebar.html, Dashboard.html, Edit_profile.html, Change_password.html */
 	.sidebar-ul {
 		font-size: 18px;
 	}
@@ -1022,7 +966,6 @@ input:-webkit-autofill {
 		font-size: 20px;
 	}
 
-	/* Login.html, Register.html */
 	.form-title {
 		font-size: 24px;
 	}
@@ -1036,25 +979,21 @@ input:-webkit-autofill {
 		font-size: 16px;
 	}
 
-	/* Login.html */
 	.login-container {
 		margin: 10px 50px;
 	}
 
-	/* Register.html */
 	.register-container {
 		margin: 10px 50px;
 	}
 
-	/* Footer.html */
 	.developer {
 		font-size: 24px;
 	}
 }
 
-/* Responsive Settings - Medium Screens */
+/* Medium Screens */
 @media (min-width: 769px) and (max-width: 1200px) {
-	/* Base */
 	.brickwall {
 		padding: 60px 30px;
 	}
@@ -1067,7 +1006,6 @@ input:-webkit-autofill {
 		font-size: 20px;
 	}
 
-	/* Postwall.html */
 	.postwall-title {
 		font-size: 40px;
 	}
@@ -1093,7 +1031,6 @@ input:-webkit-autofill {
 		font-size: 12px;
 	}
 
-	/* Post.html */
 	.post-header {
 		font-size: 34px;
 	}
@@ -1111,7 +1048,6 @@ input:-webkit-autofill {
 		font-size: 14px;
 	}
 
-	/* Post_detail.html */
 	.post_detail-title {
 		font-size: 40px;
 	}
@@ -1159,14 +1095,13 @@ input:-webkit-autofill {
 	}
 
 	#delete-confirmation-container {
+		font-family: "SinkinSans-300Light", "Sans-Serif";
 		margin-bottom: 5px;
 		padding: 5px;
 		gap: 5px;
-		font-family: "SinkinSans-300Light", "Sans-Serif";
 		font-size: 16px;
 	}
 
-	/* Dashboard_sidebar.html, Dashboard.html, Edit_profile.html, Change_password.html */
 	.sidebar-ul {
 		font-size: 20px;
 	}
@@ -1185,7 +1120,6 @@ input:-webkit-autofill {
 		margin-top: 110px;
 	}
 
-	/* Login.html, Register.html */
 	.form-title {
 		font-size: 30px;
 	}
@@ -1199,25 +1133,21 @@ input:-webkit-autofill {
 		font-size: 20px;
 	}
 
-	/* Login.html */
 	.login-container {
 		margin: 10px 180px;
 	}
 
-	/* Register.html */
 	.register-container {
 		margin: 10px 180px;
 	}
 
-	/* Footer.html */
 	.developer {
 		font-size: 28px;
 	}
 }
 
-/* Responsive Settings - Large Screens */
+/* Large Screens */
 @media (min-width: 1201px) {
-	/* Base */
 	.brickwall {
 		padding-top: 70px;
 	}
@@ -1230,7 +1160,6 @@ input:-webkit-autofill {
 		font-size: 20px;
 	}
 
-	/* Postwall.html */
 	.postwall-title {
 		font-size: 46px;
 	}
@@ -1256,7 +1185,6 @@ input:-webkit-autofill {
 		font-size: 14px;
 	}
 
-	/* Post.html */
 	.post-header {
 		font-size: 36px;
 	}
@@ -1274,7 +1202,6 @@ input:-webkit-autofill {
 		font-size: 14px;
 	}
 
-	/* Post_detail.html */
 	.post_detail-container {
 		margin: 35px;
 	}
@@ -1327,14 +1254,13 @@ input:-webkit-autofill {
 	}
 
 	#delete-confirmation-container {
+		font-family: "SinkinSans-300Light", "Sans-Serif";
 		margin-bottom: 5px;
 		padding: 5px;
 		gap: 5px;
-		font-family: "SinkinSans-300Light", "Sans-Serif";
 		font-size: 18px;
 	}
 
-	/* Dashboard_sidebar.html, Dashboard.html, Edit_profile.html, Change_password.html */
 	.sidebar-ul {
 		font-size: 22px;
 	}
@@ -1349,7 +1275,6 @@ input:-webkit-autofill {
 		font-size: 16px;
 	}
 
-	/* Login.html, Register.html */
 	.form-title {
 		font-size: 36px;
 	}
@@ -1363,17 +1288,14 @@ input:-webkit-autofill {
 		font-size: 20px;
 	}
 
-	/* Login.html */
 	.login-container {
 		margin: 10px 200px;
 	}
 
-	/* Register.html */
 	.register-container {
 		margin: 10px 200px;
 	}
 
-	/* Footer.html */
 	.developer {
 		font-size: 28px;
 	}
