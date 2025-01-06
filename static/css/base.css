@@ -25,16 +25,6 @@
 }
 
 @font-face {
-	font-family: "Asap-Bold";
-	src: url("/static/fonts/Asap-Bold.otf") format("OpenType");
-}
-
-@font-face {
-	font-family: "Asap-Regular";
-	src: url("/static/fonts/Asap-Regular.ttf") format("OpenType");
-}
-
-@font-face {
 	font-family: "SinkinSans-300Light";
 	src: url("/static/fonts/SinkinSans-300Light.otf") format("OpenType");
 }
@@ -55,7 +45,7 @@ body {
 
 html {
 	height: 100%;
-	background: url("/static/wallpapers/g-blackwhite.avif") no-repeat center center fixed;
+	background: url("/static/img/g-blackwhite.avif") no-repeat center center fixed;
 	background-size: cover;
 }
 
@@ -73,7 +63,7 @@ html {
 	background-color: #000;
 	border-left: 1px solid #000;
 	border-right: 1px solid #000;
-	background-image: url("/static/wallpapers/brickwall.webp");
+	background-image: url("/static/img/brickwall.webp");
 	box-shadow: inset 3vw 0px 1vw -1vw rgba(0, 0, 0, 0.11),
 		        inset -3vw 0px 1vw -1vw rgba(0, 0, 0, 0.11);
 }
@@ -90,23 +80,24 @@ html {
 	border-style: inset;
 	border-color: #1b645e;
 	background-color: #000000ea;
-	background-image: url("/static/wallpapers/concrete-wall-2.png");
+	background-image: url("/static/img/concrete-wall-2.png");
 	background-size: 400px;
-	box-shadow: inset -1vw 0.5vw 0.5vw -0.5vw rgba(0, 0, 0, 0.5), /* Left shadow */
-                inset 1vw -0.5vw 0.5vw -0.5vw rgba(0, 0, 0, 0.5), /* Right shadow */
-                inset 0.5vw 1vw 0.5vw -0.5vw rgba(0, 0, 0, 0.5), /* Bottom shadow */
-                inset -0.5vw -1vw 0.5vw -0.5vw rgba(0, 0, 0, 0.5); /* Top shadow */
+	box-shadow: inset -1vw 0.5vw 0.5vw -0.5vw rgba(0, 0, 0, 0.5),
+                inset 1vw -0.5vw 0.5vw -0.5vw rgba(0, 0, 0, 0.5),
+                inset 0.5vw 1vw 0.5vw -0.5vw rgba(0, 0, 0, 0.5),
+                inset -0.5vw -1vw 0.5vw -0.5vw rgba(0, 0, 0, 0.5);
 }
 
+/* Colour Strokes - Backgrounds */
 .stroke-1 {
-    background-image: url("/static/wallpapers/c5.png");
+    background-image: url("/static/img/c5.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .stroke-2 {
-    background-image: url("/static/wallpapers/c2.png");
+    background-image: url("/static/img/c2.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -114,43 +105,31 @@ html {
 }
 
 .stroke-3 {
-    background-image: url("/static/wallpapers/c1.png");
+    background-image: url("/static/img/c1.png");
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .stroke-4 {
-    background-image: url("/static/wallpapers/c10.png");
+    background-image: url("/static/img/c10.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .stroke-5 {
-    background-image: url("/static/wallpapers/c11.png");
+    background-image: url("/static/img/c11.png");
    	background-size: 100%;
     background-position: top center;
     background-repeat: no-repeat;
 }
 
 .stroke-6 {
-    background-image: url("/static/wallpapers/c7.png");
+    background-image: url("/static/img/c7.png");
    	background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-}
-
-
-.item-container {
-	max-width: 800px;
-	width: 100%;
-	margin: 20px auto;
-	padding: 10px;
-	border-radius: 5px;
-	border-style: inset;
-	border-color: #000;
-	background: #0000004d; /* Transparent Style */
 }
 
 /* Buttons */
@@ -166,7 +145,7 @@ html {
 
 .green-button:hover {
 	color: #fff;
-	background-color: #3a3939;
+	background-color: #2b2a2a;
 	text-shadow: 0px 0px 10px #01f16d;
 	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 	transform: translateY(2px);
@@ -184,7 +163,7 @@ html {
 
 .green-small-button:hover {
 	color: #fff;
-	background-color: #3a3939;
+	background-color: #2b2a2a;
 	text-shadow: 0px 0px 10px #01f16d;
 	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 	transform: translateY(2px);
@@ -203,7 +182,7 @@ html {
 
 .button-1:hover {
 	color: #fff;
-	background-color: #3a3939;
+	background-color: #2b2a2a;
 	text-shadow: 0px 0px 10px #01f16d;
 	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 	transform: translateY(2px);
@@ -224,7 +203,7 @@ html {
 
 .red-button:hover {
 	color: #fff;
-	background-color: #3a3939;
+	background-color: #2b2a2a;
 	text-shadow: 0px 0px 10px #ff0000;
 	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 	transform: translateY(2px);
@@ -269,9 +248,14 @@ input:-webkit-autofill {
 	text-shadow: 2px 1px 1px#000;
 }
 
+.login-button-container {
+	margin-top: 30px;
+	text-align: center;
+}
+
 
 .form-button-container {
-	margin-top: 55px;
+	margin: 30px;
 	text-align: center;
 }
 
@@ -477,7 +461,7 @@ input:-webkit-autofill {
     color: #a0176b;
 }
 
-.postwall-form-button-container {
+.postwall-button-container {
 	margin-top: 10px;
 	text-align: center;
 }
@@ -540,7 +524,7 @@ input:-webkit-autofill {
 
 
 /* Container for the Post Button */
-.post-form-button-container {
+.post-button-container {
 	margin-top: 20px;
 	text-align: center;
 }
@@ -729,7 +713,7 @@ input:-webkit-autofill {
 .sidebar-item:focus,
 .sidebar-item.active {
 	color: #fff;
-	background-color: #3a3939;
+	background-color: #2b2a2a;
 	text-shadow: 0px 0px 10px #01f16d;
 	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 	transform: translateY(2px);
@@ -786,7 +770,7 @@ input:-webkit-autofill {
 
 .sidebar-logout-button:hover {
 	color: #fff;
-	background-color: #3a3939;
+	background-color: #2b2a2a;
 	text-shadow: 0px 0px 10px #ff0000;
 	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 	transform: translateY(2px);
@@ -881,7 +865,7 @@ input:-webkit-autofill {
 	background-color: #000;
 	border-left: 1px solid #000;
 	border-right: 1px solid #000;
-	background-image: url("/static/wallpapers/brickwall.webp");
+	background-image: url("/static/img/brickwall.webp");
 	box-shadow: inset 3vw 0px 1vw -1vw rgba(0, 0, 0, 0.11),
 		        inset -3vw 0px 1vw -1vw rgba(0, 0, 0, 0.11);
 }
@@ -938,7 +922,7 @@ input:-webkit-autofill {
 	}
 
 	.green-button {
-		font-size: 22px;
+		font-size: 18px;
 	}
 
 	.postwall-comments-ul,
@@ -962,10 +946,6 @@ input:-webkit-autofill {
 
 	.smal-text {
 		font-size: 12px;
-	}
-
-	.post-form-button-container {
-		margin-top: 20px;
 	}
 
 	/* Post_detail.html */
@@ -1029,7 +1009,7 @@ input:-webkit-autofill {
 
 	/* Dashboard_sidebar.html, Dashboard.html, Edit_profile.html, Change_password.html */
 	.sidebar-ul {
-		font-size: 20px;
+		font-size: 18px;
 	}
 
 	.profile-picture {
@@ -1083,6 +1063,10 @@ input:-webkit-autofill {
 		padding: 20px;
 	}
 
+	.green-button {
+		font-size: 20px;
+	}
+
 	/* Postwall.html */
 	.postwall-title {
 		font-size: 40px;
@@ -1100,8 +1084,7 @@ input:-webkit-autofill {
 		font-size: 20px;
 	}
 
-	.postwall-comments-header,
-	.green-button {
+	.postwall-comments-header {
 		font-size: 22px;
 	}
 
@@ -1185,7 +1168,7 @@ input:-webkit-autofill {
 
 	/* Dashboard_sidebar.html, Dashboard.html, Edit_profile.html, Change_password.html */
 	.sidebar-ul {
-		font-size: 24px;
+		font-size: 20px;
 	}
 
 	.profile-picture {
@@ -1243,6 +1226,10 @@ input:-webkit-autofill {
 		padding: 40px;
 	}
 
+	.green-button {
+		font-size: 20px;
+	}
+
 	/* Postwall.html */
 	.postwall-title {
 		font-size: 46px;
@@ -1260,8 +1247,7 @@ input:-webkit-autofill {
 		font-size: 22px;
 	}
 
-	.postwall-comments-header,
-	.green-button {
+	.postwall-comments-header {
 		font-size: 24px;
 	}
 
@@ -1279,8 +1265,6 @@ input:-webkit-autofill {
 		margin: 20px;
 		padding: 0 100px 20px 100px;
 	}
-
-
 
 	.form-label {
 		font-size: 14px;
@@ -1352,7 +1336,7 @@ input:-webkit-autofill {
 
 	/* Dashboard_sidebar.html, Dashboard.html, Edit_profile.html, Change_password.html */
 	.sidebar-ul {
-		font-size: 24px;
+		font-size: 22px;
 	}
 
 	.profile-picture {
