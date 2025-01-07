@@ -40,7 +40,7 @@
                             {% endfor %}
                         </ul>
                         <!-- Form to add a comment using button or key "Enter"  -->
-                        <form method="post" action="{% url 'add_comment' item.post.id %}" id="comment-form-{{ item.post.id }}">
+                        <form method="post" action="{% url 'add_comment' item.post.id %}" id="comment{{ item.post.id }}">
                             {% csrf_token %}
                             <div class="postwall-form-container">
                                 <textarea
@@ -48,9 +48,9 @@
                                     name="comment_text"
                                     rows="1"
                                     placeholder="Add Comment Here..."
-                                    onkeypress="handleKeyPress(event, {{ item.post.id }})"></textarea>
+                                    onkeypress="handleKeyPress(event)"></textarea>
                                 <div class="postwall-button-container">
-                                    <button type="submit" class="green-button" aria-label="Post comment">
+                                    <button type="submit" class="green-button" aria-label="Post comment" onclick="submitCommentForm(40)">
                                         Post
                                     </button>
                                 </div>

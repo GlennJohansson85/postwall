@@ -1,44 +1,37 @@
 /* Fonts */
 @font-face {
 	font-family: "Cocogoose-Narrow-Letterpress-trial";
-	src: 	url("/static/fonts/Cocogoose-Narrow-Letterpress-trial.ttf")
-			format("TrueType");
+	src: url("/static/fonts/Cocogoose-Narrow-Letterpress-trial.ttf") format("TrueType");
 }
 
 @font-face {
 	font-family: "Cocogoose-Condensed-Letterpress-trial";
-	src: 	url("/static/fonts/Cocogoose-Condensed-Letterpress-trial.ttf")
-			format("TrueType");
+	src: url("/static/fonts/Cocogoose-Condensed-Letterpress-trial.ttf")	format("TrueType");
 }
 
 @font-face {
 	font-family: "CrispyCream3D-9YgR0";
-	src: 	url("/static/fonts/CrispyCream3D-9YgR0.otf")
-			format("OpenType");
+	src: url("/static/fonts/CrispyCream3D-9YgR0.otf") format("OpenType");
 }
 
 @font-face {
 	font-family: "SweetLove-DOK99";
-	src: 	url("/static/fonts/SweetLove-DOK99.otf")
-			format("OpenType");
+	src: url("/static/fonts/SweetLove-DOK99.otf") format("OpenType");
 }
 
 @font-face {
 	font-family: "digital-7";
-	src: 	url("/static/fonts/digital-7.ttf")
-			format("TrueType");
+	src: url("/static/fonts/digital-7.ttf") format("TrueType");
 }
 
 @font-face {
-	font-family: "Asap-Bold";
-	src: 	url("/static/fonts/Asap-Bold.otf")
-			format("OpenType");
+	font-family: "SinkinSans-300Light";
+	src: url("/static/fonts/SinkinSans-300Light.otf") format("OpenType");
 }
 
 @font-face {
-	font-family: "Asap-Regular";
-	src: 	url("/static/fonts/Asap-Regular.ttf")
-			format("OpenType");
+	font-family: "SinkinSans-500Medium";
+	src: url("/static/fonts/SinkinSans-500Medium.otf") format("OpenType");
 }
 
 /* Base Styles */
@@ -52,11 +45,11 @@ body {
 
 html {
 	height: 100%;
-	background: url("/static/wallpapers/g-blackwhite.avif") no-repeat center center fixed;
+	background: url("/static/img/g-blackwhite.avif") no-repeat center center fixed;
 	background-size: cover;
 }
 
-/* Wallpapers/Background Images */
+/* Background Images */
 .brickwall {
 	max-width: 100%;
 	min-height: 100vh;
@@ -70,9 +63,9 @@ html {
 	background-color: #000;
 	border-left: 1px solid #000;
 	border-right: 1px solid #000;
-	background-image: url("/static/wallpapers/brickwall.webp");
+	background-image: url("/static/img/brickwall.webp");
 	box-shadow: inset 3vw 0px 1vw -1vw rgba(0, 0, 0, 0.11),
-		        inset -3vw 0px 1vw -1vw rgba(0, 0, 0, 0.11);
+		inset -3vw 0px 1vw -1vw rgba(0, 0, 0, 0.11);
 }
 
 .concrete {
@@ -87,38 +80,57 @@ html {
 	border-style: inset;
 	border-color: #1b645e;
 	background-color: #000000ea;
-	background-image: url("/static/wallpapers/concrete-wall-2.png");
-	background-size: 300px;
-	box-shadow: inset -1vw 0.5vw 0.5vw -0.5vw rgba(0, 0, 0, 0.5), /* Left shadow */
-                inset 1vw -0.5vw 0.5vw -0.5vw rgba(0, 0, 0, 0.5), /* Right shadow */
-                inset 0.5vw 1vw 0.5vw -0.5vw rgba(0, 0, 0, 0.5), /* Bottom shadow */
-                inset -0.5vw -1vw 0.5vw -0.5vw rgba(0, 0, 0, 0.5); /* Top shadow */
+	background-image: url("/static/img/concrete-wall-2.png");
+	background-size: 400px;
+	box-shadow: inset -1vw 0.5vw 0.5vw -0.5vw rgba(0, 0, 0, 0.5),
+        inset 1vw -0.5vw 0.5vw -0.5vw rgba(0, 0, 0, 0.5),
+        inset 0.5vw 1vw 0.5vw -0.5vw rgba(0, 0, 0, 0.5),
+        inset -0.5vw -1vw 0.5vw -0.5vw rgba(0, 0, 0, 0.5);
 }
 
-.item-container {
-	max-width: 800px;
-	width: 100%;
-	margin: 20px auto;
-	padding: 10px;
-	border-radius: 5px;
-	border-style: inset;
-	border-color: #000;
-	background: #0000004d; /* Transparent Style */
+.stroke-1 {
+    background-image: url("/static/img/c5.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.leather {
-	max-width: 100%;
-	margin: 0 auto;
-	padding: 10px;
-	box-sizing: border-box;
-	border-radius: 5px;
-	background-color: #fff;
-	border: outset #bf9b30;
-	background-image: url("/static/wallpapers/leather_1.png");
+.stroke-2 {
+    background-image: url("/static/img/c2.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.stroke-3 {
+    background-image: url("/static/img/c1.png");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.stroke-4 {
+    background-image: url("/static/img/c10.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.stroke-5 {
+    background-image: url("/static/img/c11.png");
+   	background-size: 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.stroke-6 {
+    background-image: url("/static/img/c7.png");
+   	background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 /* Buttons */
-/* Green Button */
 .green-button {
 	font-family: "Cocogoose-Narrow-Letterpress-trial", "Sans-Serif";
 	border-radius: 5px;
@@ -130,13 +142,12 @@ html {
 
 .green-button:hover {
 	color: #fff;
-	background-color: #3a3939;
+	background-color: #2b2a2a;
 	text-shadow: 0px 0px 10px #01f16d;
 	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 	transform: translateY(2px);
 }
 
-/* Green Small Button */
 .green-small-button {
 	font-family: "Cocogoose-Narrow-Letterpress-trial", "Sans-Serif";
 	border-radius: 5px;
@@ -148,13 +159,12 @@ html {
 
 .green-small-button:hover {
 	color: #fff;
-	background-color: #3a3939;
+	background-color: #2b2a2a;
 	text-shadow: 0px 0px 10px #01f16d;
 	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 	transform: translateY(2px);
 }
 
-/* Button 1 */
 .button-1 {
 	font-family: "Cocogoose-Condensed-letterpress-trial", "Sans-Serif";
 	text-decoration: none;
@@ -167,13 +177,12 @@ html {
 
 .button-1:hover {
 	color: #fff;
-	background-color: #3a3939;
+	background-color: #2b2a2a;
 	text-shadow: 0px 0px 10px #01f16d;
 	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 	transform: translateY(2px);
 }
 
-/* Red Button */
 .red-button {
 	display: flex;
 	justify-content: center;
@@ -188,37 +197,63 @@ html {
 
 .red-button:hover {
 	color: #fff;
-	background-color: #3a3939;
+	background-color: #2b2a2a;
 	text-shadow: 0px 0px 10px #ff0000;
 	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 	transform: translateY(2px);
 }
 
-/* Form Styles */
+/* Form */
 .form-control {
-	border-radius: 0px;
+	border-radius: 5px;
 	border: none;
 	outline: none;
-	background-color: #fff;
+	line-height: 18px;
+	background-color: #f1e4b1;
+}
+
+.form-control:focus,
+.form-control.active {
+	background-color: #f1e4b1;
+}
+
+.form-control::placeholder {
+	font-family: "SinkinSans-300Light";
+	font-size: 12px;
+}
+
+/* Remove default background-color when autofills */
+input:-webkit-autofill {
+  background-color: transparent !important;
+  transition: background-color 5000s ease-in-out 0s;
 }
 
 .form-title {
 	font-family: "Cocogoose-Condensed-letterpress-trial", "Sans-Serif";
 	text-align: center;
-	color: #000;
+	color: #fff;
+	text-shadow: 0px 0px 10px #d431f8;
 }
 
 .form-label {
+	font-family: "SinkinSans-500Medium", "Sans-Serif";
 	margin: 5px 0px 0px 0px;
-	font-family: "Asap-Bold", "Sans-Serif";
+	color: #ffde5c;
+	text-shadow: 2px 1px 1px#000;
 }
 
-.form-button-container {
-	margin-top: 10px;
+.login-button-container {
+	margin-top: 30px;
 	text-align: center;
 }
 
-/* ID used due to class cant change the default field styles */
+
+.form-button-container {
+	margin: 30px;
+	text-align: center;
+}
+
+/* Input-fields */
 #id_first_name,
 #id_last_name,
 #id_email,
@@ -227,8 +262,11 @@ html {
 #id_current_password,
 #id_new_password,
 #id_confirm_password {
+	outline: none;
 	width: 100%;
+	border-radius: 5px;
 	border: none;
+	background-color: #f1e4b1;
 }
 
 #id_first_name:focus,
@@ -242,30 +280,22 @@ html {
 #id_title:focus,
 #id_content:focus,
 #id_img:focus {
-	outline: none;
-	box-shadow: 0px 0px 3px #01f16d;
+	background-color: #f1e4b1;
+	box-shadow: none;
+
 }
 
 /* Profile Picture */
-.profile-picture-container {
-	max-width: 300px;
-	width: 100%;
-	margin: 0 auto;
-	display: block;
-    text-align: center;
-}
-
 .profile-picture {
     width: 100%;
     height: auto;
 	margin: 0 auto;
-    object-fit: cover;
+    object-fit: contain;
     border: outset #3a3939;
     display: block;
 }
 
-/* POSTWALL.HTML */
-/* Container for a post incl. title, image, content, meta */
+/* Postwall.html */
 .polaroid {
 	max-width: 100%;
 	box-sizing: border-box;
@@ -277,18 +307,16 @@ html {
 	border-color: #1b645e;
 	background-color: #fff9ef;
 	box-shadow: -0.5vw 0.25vw 0.25vw -0.25vw rgba(0, 0, 0, 0.5),
-                0.5vw -0.25vw 0.25vw -0.25vw rgba(0, 0, 0, 0.5),
-		        0.25vw 0.5vw 0.25vw -0.25vw rgba(0, 0, 0, 0.5),
-		        -0.25vw -0.5vw 0.25vw -0.25vw rgba(0, 0, 0, 0.5);
+        0.5vw -0.25vw 0.25vw -0.25vw rgba(0, 0, 0, 0.5),
+		0.25vw 0.5vw 0.25vw -0.25vw rgba(0, 0, 0, 0.5),
+		-0.25vw -0.5vw 0.25vw -0.25vw rgba(0, 0, 0, 0.5);
 }
 
-/* Post Title Style */
 .postwall-title {
 	font-family: "CrispyCream3D-9YgR0", "Sans-Serif";
 	text-align: center;
 }
 
-/* Link to Post Details for specific Post */
 .postwall-link-container {
 	position: relative;
 }
@@ -322,7 +350,6 @@ html {
 	transform: scaleX(-1);
 }
 
-/* Uploaded Post Image */
 .postwall-image-container {
     margin: 0 auto;
     padding: 0 20px;
@@ -341,42 +368,37 @@ html {
     object-fit: contain;
 }
 
-/* Uploaded Post Content */
 .postwall-content {
-	padding: 5px;
 	font-family: "SweetLove-DOK99", "Sans-Serif";
+	padding: 5px;
 	text-align: center;
 }
 
-/* Meta when uploading a Post */
 .postwall-meta {
-	margin-top: 1vh;
 	font-family: "digital-7", "Sans-Serif";
+	margin-top: 1vh;
 	text-align: center;
 }
 
-/* Container for comments for each Post */
 .postwall-comments-container {
 	margin-top: 1vh;
 	border-radius: 5px;
-	background-color: #2f3d3ca9;
 	box-sizing: border-box;
+	background-color: #2f3d3ca9;
 	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-/* Header for comments container */
 .postwall-comments-header {
-	padding: 10px;
 	font-family: "Cocogoose-Condensed-letterpress-trial", "Sans-Serif";
+	padding: 10px;
 	text-align: center;
 	color: #fff;
 }
 
-/* Comment styles */
 .postwall-comments-ul {
+	font-family: "SinkinSans-500Medium", "Sans-Serif";
 	margin: 0px;
 	padding: 0px;
-	font-family: "Asap-Regular", "Sans-Serif";
 	list-style: none;
 }
 
@@ -390,12 +412,10 @@ html {
 	border-bottom: 2px solid #192221;
 }
 
-/* 1. Needed to avoid double border */
 .postwall-comments-li:last-child {
 	border-bottom: none;
 }
 
-/* 2. Needed to avoid double border */
 #id_textarea {
 	border: 2px solid #192221;
 }
@@ -404,12 +424,11 @@ html {
 	padding-bottom: 15px;
 }
 
-/* Style/remove default css */
 .postwall-form-container textarea {
+	font-family: "SinkinSans-500Medium", "Sans-Serif";
 	margin: 0px;
 	width: 100%;
 	padding-left: 5px;
-	font-family: "Asap-Regular", "Sans-Serif";
 	outline: none;
 	border: none;
 	resize: none;
@@ -420,141 +439,119 @@ html {
 
 .postwall-form-container textarea::placeholder {
     padding-left: 3px;
-    font-family: "Asap-Bold";
     color: #a0176b;
 }
 
-.postwall-form-button-container {
+.postwall-button-container {
 	margin-top: 10px;
 	text-align: center;
 }
 
-/* RESET_PASSWORD.HTML */
+/* Reset_Password.html */
 .reset_password_guide {
-	font-family: "Asap-Bold", "Sans-Serif";
+	font-family: "SinkinSans-300Light", "Sans-Serif";
 	color: #000;
 }
 
-/* LOGIN.HTML */
-/* "Forgot your Password?" */
-.smal-text {
-	font-family: "Asap-Regular", "Sans-Serif";
-	text-decoration: none;
+/* Login.html */
+.login-container {
 	color: #000;
+}
+
+.smal-text {
+	font-family: "SinkinSans-300Light", "Sans-Serif";
+	text-decoration: none;
+	text-shadow: 1px 1px 1px #000;
+	color: #ffe95c;
+	padding: 3px 5px;
+	background-color: #00000075;
+	border-radius: 10px;
+	line-height: 40px;
 }
 
 .smal-text:hover {
-	font-family: "Asap-Bold", "Sans-Serif";
-	text-decoration: underline;
-	color: #000;
+	text-decoration: none;
+	color: #01f16d;
 }
 
-/* "Dont have an Account..." */
 .account-container {
-	margin-top: 10px;
-	font-family: "Asap-Bold", "Sans-Serif";
+	font-family: "SinkinSans-300Light", "Sans-Serif";
 	text-align: center;
-	color: #fff;
+	padding: 5px;
+	background-color: #00000075;
+	border-radius: 10px;
 }
 
 .account {
-	border-radius: 5px;
-	font-family: "Cocogoose-Condensed-letterpress-trial", "Sans-Serif";
+	color: #ffe95c;
 	text-decoration: none;
-	color: #fff;
-	text-shadow: 0px 0px 10px #01f16d;
-	transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 
 .account:hover {
+	text-decoration: none;
 	color: #01f16d;
-	text-shadow: 0px 0px 10px #fff;
-	transform: translateY(2px);
 }
 
-/* POST.HTML */
+/* Post.html */
 .post-header {
 	font-family: "Cocogoose-Condensed-letterpress-trial", "Sans-Serif";
 	text-align: center;
 	color: #fff;
-	text-shadow: 1px 1px 2px #000;
+	text-shadow: 0px 0px 10px #31b2f8;
 }
 
-/* Container for creating a Post */
-.post-form-container {
-	border-radius: 5px;
-	border-style: outset;
-	border-color: #1b645e;
-	background-image: url("/static/wallpapers/leather_1.png");
-	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-}
-
-.post-form-label {
-	font-family: "Asap-Bold", "Sans-Serif";
-	color: #fff;
-}
-
-/* Container for the Post Button */
-.post-form-button-container {
-	margin-top: 15px;
+.post-button-container {
+	margin-top: 20px;
 	text-align: center;
 }
 
-/* POST_DETAIL.HTML */
-/* Container for Post content */
+/* Post_Detail.html */
 .post_detail-container {
 	border-radius: 5px;
 }
 
-/* Post Title */
 .post_detail-title {
 	font-family: "CrispyCream3D-9YgR0", "Sans-Serif";
 	text-align: center;
 }
 
-/* Image Container */
 .post_detail-image-container {
 	text-align: center;
 }
 
-/* Post Content */
 .post_detail-content {
+	font-family: "SinkinSans-300Light", "Sans-Serif";
 	margin-top: 10px;
-	font-family: "Asap-Regular", "Sans-Serif";
 	text-align: center;
 	white-space: normal;
 	word-wrap: break-word;
 	color: #000;
 }
 
-/* Post Meta */
 .post_detail-meta {
-	font-family: "Asap-Regular", "Sans-Serif";
+	font-family: "SinkinSans-300Light", "Sans-Serif";
 	text-align: center;
 	color: #000;
 }
 
-/* Comments Container */
 .post_detail-comments-container {
 	border-color: #2f3d3ca9;
 }
 
-/* Comments Header Container */
 .post_detail-comments-header {
-	font-family: "Asap-Bold", "Sans-Serif";
+	font-family: "SinkinSans-300Light", "Sans-Serif";
 	border-radius: 5px 5px 0px 0px;
 	background-color: #2f3d3ca9;
 }
 
-/* Comment Styles */
 .post_detail-comments {
 	list-style-type: none;
 }
 
 .post_detail-comments-ul {
+	font-family: "SinkinSans-300Light", "Sans-Serif";
 	margin: 0px;
 	padding-left: 0px;
-	font-family: "Asap-Regular", "Sans-Serif";
 	border-radius: 0px 0px 5px 5px;
 	border: 6px solid #2f3d3ca9;
 }
@@ -568,19 +565,17 @@ html {
 .post_detail-comments-li:first-child {
 	border-top: none;
 }
-/* "No comments" */
+
 .post_detail-no-comments {
 	padding-left: 5px;
 	background-color: #FFF;
 	list-style-type: none;
 }
 
-/* Delete Post Container */
 .post_detail-delete-post-container {
 	position: relative;
 }
 
-/* Delete Post Button Container */
 .post_detail-delete-post-button {
 	margin: 0 auto;
 	position: absolute;
@@ -597,9 +592,8 @@ html {
 	transform: scaleX(-1);
 }
 
-/* Delete Confirmation Container */
 #delete-confirmation-container {
-	font-family: "Asap-Regular", "Sans-Serif";
+	font-family: "SinkinSans-300Light", "Sans-Serif";
 	text-align: center;
 	display: none;
 	border-radius: 5px;
@@ -619,14 +613,12 @@ html {
 	justify-content: center;
 }
 
-/* Delete Comment Container */
 .post_detail-delete-comment-container {
 	float: right;
 	position: relative;
 	right: 5px;
 }
 
-/* Delete Comment */
 .post_detail-delete-comment {
 	margin: 0 auto;
 	z-index: 1;
@@ -657,14 +649,13 @@ html {
 	}
 }
 
-/* DASHBOARD_SIDEBAR.HTML */
+/* Dashboard_Sidebar.html */
 .sidebar-ul {
-	padding: 0px;
 	font-family: "Cocogoose-Condensed-letterpress-trial";
+	padding: 0px;
 	list-style: none;
 }
 
-/* Sidebar Items: Dashboard, Edit_profile, Change_password */
 .sidebar-item {
 	margin: 0;
 	padding: 10px;
@@ -677,18 +668,16 @@ html {
 	transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 
-/* Hover and active state styles */
 .sidebar-item:hover,
 .sidebar-item:focus,
 .sidebar-item.active {
 	color: #fff;
-	background-color: #3a3939;
+	background-color: #2b2a2a;
 	text-shadow: 0px 0px 10px #01f16d;
 	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 	transform: translateY(2px);
 }
 
-/* 1. Dashboard (Top Rounded Corners) */
 #item-dashboard {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
@@ -697,18 +686,16 @@ html {
 #item-dashboard:hover,
 #item-dashboard:focus,
 #item-dashboard.active {
-    box-shadow: inset 0px -5px 5px 0px rgba(0, 0, 0, 0.5); /* Bottom Shadow */
+    box-shadow: inset 0px -5px 5px 0px rgba(0, 0, 0, 0.5);
 }
 
-/* 2. Edit Profile (Top and Bottom Shadows) */
 #item-edit_profile:hover,
 #item-edit_profile:focus,
 #item-edit_profile.active {
-    box-shadow: inset 0px 5px 5px 0px rgba(0, 0, 0, 0.5), /* Top Shadow */
-                inset 0px -5px 5px 0px rgba(0, 0, 0, 0.5); /* Bottom Shadow */
+    box-shadow: inset 0px 5px 5px 0px rgba(0, 0, 0, 0.5),
+                inset 0px -5px 5px 0px rgba(0, 0, 0, 0.5);
 }
 
-/* 3. Change Password (Bottom Rounded Corners) */
 #item-change_password {
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -717,15 +704,13 @@ html {
 #item-change_password:hover,
 #item-change_password:focus,
 #item-change_password.active {
-    box-shadow: inset 0px 5px 5px 0px rgba(0, 0, 0, 0.5); /* Top Shadow */
+    box-shadow: inset 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
 }
 
-/* Container for Logout button */
 .sidebar-logout-button-container {
 	text-align: center;
 }
 
-/* Logout button */
 .sidebar-logout-button {
 	display: block;
 	padding: 10px;
@@ -739,19 +724,27 @@ html {
 
 .sidebar-logout-button:hover {
 	color: #fff;
-	background-color: #3a3939;
+	background-color: #2b2a2a;
 	text-shadow: 0px 0px 10px #ff0000;
 	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 	transform: translateY(2px);
 }
 
-/* Style for labels */
 .dashboard-text {
+	font-family: "SinkinSans-500Medium", "Sans-Serif";
 	text-align: center;
-	font-family: "Asap-Bold", "Sans-Serif";
 }
 
-/* SEARCH_RESULTS.HTML */
+/* Edit_Profile.html */
+.edit_profile-form {
+	margin: 10px;
+	padding: 10px;
+	border-radius: 5px;
+	color: #ffde5c;
+	background-color: #00000086;
+}
+
+/* Search_Results.html */
 .search_results-container-all {
 	margin: 40px auto;
 	padding: 10px;
@@ -760,7 +753,6 @@ html {
 	border-radius: 5px;
 }
 
-/* Search Results Header - Styles */
 .search_results-header-container {
 	font-family: "Cocogoose-Condensed-Letterpress-trial", "Sans-Serif";
 	text-align: center;
@@ -770,7 +762,6 @@ html {
 	color: #e44c9f;
 }
 
-/* Search Results Keyword - Styles */
 .search_results-keyword-container {
 	font-family: "Cocogoose-Condensed-Letterpress-trial", "Sans-Serif";
 	text-align: center;
@@ -780,7 +771,6 @@ html {
 	color: #FFF;
 }
 
-/* Search Results List - Styles */
 .search_results-list-container {
 	align-items: center;
 	margin: 0 auto;
@@ -791,8 +781,8 @@ html {
 }
 
 .search_results-ul {
+	font-family: "SinkinSans-300Light", "Sans-Serif";
 	padding: 5px;
-	font-family: "Asap-bold", "Sans-Serif";
 	list-style: none;
 }
 
@@ -811,12 +801,12 @@ html {
 	background-color: #5f5e5e;
 }
 
-/* Styles for Footer.html */
+/* Footer.html */
 .developer {
+	font-family: "Cocogoose-Narrow-Letterpress-trial", "Sans-Serif";
 	margin: 0 auto;
 	outline-width: 5px;
 	position: relative;
-	font-family: "Cocogoose-Narrow-Letterpress-trial", "Sans-Serif";
 	text-align: center;
 	color:#00000041;
     text-shadow: 2px 1px 1px#fff;
@@ -824,12 +814,12 @@ html {
 	background-color: #000;
 	border-left: 1px solid #000;
 	border-right: 1px solid #000;
-	background-image: url("/static/wallpapers/brickwall.webp");
+	background-image: url("/static/img/brickwall.webp");
 	box-shadow: inset 3vw 0px 1vw -1vw rgba(0, 0, 0, 0.11),
-		        inset -3vw 0px 1vw -1vw rgba(0, 0, 0, 0.11);
+		inset -3vw 0px 1vw -1vw rgba(0, 0, 0, 0.11);
 }
 
-/* Styles for Alerts.html */
+/* Alerts.html */
 .alert-c {
     padding: 10px;
 	font-family: "SweetLove-DOK99", "Sans-Serif";
@@ -848,9 +838,8 @@ html {
     opacity: 0;
 }
 
-/* Responsive Settings - Small Screens */
+/* Small Screens */
 @media (max-width: 768px) {
-	/* Base */
 	.brickwall {
 		padding: 50px 20px;
 	}
@@ -859,7 +848,6 @@ html {
 		padding: 5px;
 	}
 
-	/* Postwall.html */
 	.postwall-title {
 		font-size: 30px;
 	}
@@ -881,15 +869,14 @@ html {
 	}
 
 	.green-button {
-		font-size: 22px;
+		font-size: 18px;
 	}
 
 	.postwall-comments-ul,
 	.postwall-form-container textarea {
-		font-size: 14px;
+		font-size: 12px;
 	}
 
-	/* Post.html */
 	.post-header {
 		font-size: 30px;
 	}
@@ -899,17 +886,14 @@ html {
 		padding: 10px 40px 20px 40px;
 	}
 
-	.post-form-label {
-		margin-top: 18px;
-		font-size: 18px;
-		color: #000;
+	.form-label {
+		font-size: 12px;
 	}
 
-	.post-form-button-container {
-		margin-top: 20px;
+	.smal-text {
+		font-size: 12px;
 	}
 
-	/* Post_detail.html */
 	.post_detail-container {
 		margin-top: 20px;
 	}
@@ -929,8 +913,8 @@ html {
 	}
 
 	.post_detail-content {
+		font-family: "SinkinSans-300Light", "Sans-Serif";
 		font-size: 16px;
-		font-family: "Asap-Bold", "Sans-Serif";
 	}
 
 	.post_detail-meta {
@@ -961,16 +945,15 @@ html {
 	}
 
 	#delete-confirmation-container {
+		font-family: "SinkinSans-300Light", "Sans-Serif";
 		margin-bottom: 5px;
 		padding: 5px;
 		gap: 5px;
 		font-size: 14px;
-		font-family: "Asap-Regular", "Sans-Serif";
 	}
 
-	/* Dashboard_sidebar.html, Dashboard.html, Edit_profile.html, Change_password.html */
 	.sidebar-ul {
-		font-size: 20px;
+		font-size: 18px;
 	}
 
 	.profile-picture {
@@ -983,47 +966,34 @@ html {
 		font-size: 20px;
 	}
 
-	/* Login.html, Register.html */
 	.form-title {
 		font-size: 24px;
 	}
 
-	.form-label {
-		font-size: 16px;
-	}
-
 	.account-container {
-		margin-top: 5px;
-		font-size: 18px;
+		margin-top: 30px;
+		font-size: 12px;
 	}
 
 	.button-1 {
-		font-size: 20px;
+		font-size: 16px;
 	}
 
-	/* Login.html */
 	.login-container {
 		margin: 10px 50px;
 	}
 
-	/* Register.html */
 	.register-container {
 		margin: 10px 50px;
 	}
 
-	.smal-text {
-		font-size: 16px;
-	}
-
-	/* Footer.html */
 	.developer {
 		font-size: 24px;
 	}
 }
 
-/* Responsive Settings - Medium Screens */
+/* Medium Screens */
 @media (min-width: 769px) and (max-width: 1200px) {
-	/* Base */
 	.brickwall {
 		padding: 60px 30px;
 	}
@@ -1032,7 +1002,10 @@ html {
 		padding: 20px;
 	}
 
-	/* Postwall.html */
+	.green-button {
+		font-size: 20px;
+	}
+
 	.postwall-title {
 		font-size: 40px;
 	}
@@ -1049,17 +1022,15 @@ html {
 		font-size: 20px;
 	}
 
-	.postwall-comments-header,
-	.green-button {
+	.postwall-comments-header {
 		font-size: 22px;
 	}
 
 	.postwall-comments-ul,
 	.postwall-form-container textarea {
-		font-size: 16px;
+		font-size: 12px;
 	}
 
-	/* Post.html */
 	.post-header {
 		font-size: 34px;
 	}
@@ -1069,13 +1040,14 @@ html {
 		padding: 0 80px 20px 80px;
 	}
 
-	.post-form-label {
-		margin-top: 16px;
-		font-size: 20px;
-		color: #000;
+	.form-label {
+		font-size: 14px;
 	}
 
-	/* Post_detail.html */
+	.smal-text {
+		font-size: 14px;
+	}
+
 	.post_detail-title {
 		font-size: 40px;
 	}
@@ -1091,7 +1063,7 @@ html {
 	}
 
 	.post_detail-content {
-		font-family: "Asap-Bold", "Sans-Serif";
+		font-family: "SinkinSans-300Light", "Sans-Serif";
 		font-size: 20px;
 	}
 
@@ -1123,16 +1095,15 @@ html {
 	}
 
 	#delete-confirmation-container {
+		font-family: "SinkinSans-300Light", "Sans-Serif";
 		margin-bottom: 5px;
 		padding: 5px;
 		gap: 5px;
-		font-family: "Asap-Regular", "Sans-Serif";
 		font-size: 16px;
 	}
 
-	/* Dashboard_sidebar.html, Dashboard.html, Edit_profile.html, Change_password.html */
 	.sidebar-ul {
-		font-size: 24px;
+		font-size: 20px;
 	}
 
 	.profile-picture {
@@ -1149,47 +1120,34 @@ html {
 		margin-top: 110px;
 	}
 
-	/* Login.html, Register.html */
 	.form-title {
 		font-size: 30px;
 	}
 
-	.form-label {
-		font-size: 18px;
-	}
-
 	.account-container {
-		margin-top: 15px;
-		font-size: 20px;
+		margin-top: 35px;
+		font-size: 14px;
 	}
 
 	.button-1 {
-		font-size: 24px;
+		font-size: 20px;
 	}
 
-	/* Login.html */
 	.login-container {
 		margin: 10px 180px;
 	}
 
-	/* Register.html */
 	.register-container {
 		margin: 10px 180px;
 	}
 
-	.smal-text {
-		font-size: 18px;
-	}
-
-	/* Footer.html */
 	.developer {
 		font-size: 28px;
 	}
 }
 
-/* Responsive Settings - Large Screens */
+/* Large Screens */
 @media (min-width: 1201px) {
-	/* Base */
 	.brickwall {
 		padding-top: 70px;
 	}
@@ -1198,7 +1156,10 @@ html {
 		padding: 40px;
 	}
 
-	/* Postwall.html */
+	.green-button {
+		font-size: 20px;
+	}
+
 	.postwall-title {
 		font-size: 46px;
 	}
@@ -1215,17 +1176,15 @@ html {
 		font-size: 22px;
 	}
 
-	.postwall-comments-header,
-	.green-button {
+	.postwall-comments-header {
 		font-size: 24px;
 	}
 
 	.postwall-comments-ul,
 	.postwall-form-container textarea {
-		font-size: 18px;
+		font-size: 14px;
 	}
 
-	/* Post.html */
 	.post-header {
 		font-size: 36px;
 	}
@@ -1235,13 +1194,14 @@ html {
 		padding: 0 100px 20px 100px;
 	}
 
-	.post-form-label {
-		margin-top: 20px;
-		font-size: 22px;
-		color: #000;
+	.form-label {
+		font-size: 14px;
 	}
 
-	/* Post_detail.html */
+	.smal-text {
+		font-size: 14px;
+	}
+
 	.post_detail-container {
 		margin: 35px;
 	}
@@ -1261,7 +1221,7 @@ html {
 	}
 
 	.post_detail-content {
-		font-family: "Asap-Bold";
+		font-family: "SinkinSans-300Light";
 		font-size: 24px;
 	}
 
@@ -1281,7 +1241,7 @@ html {
 
 	.post_detail-comments-li {
 		padding-left: 5px;
-		font-size: 18px;
+		font-size: 16px;
 	}
 
 	.post_detail-delete-post-container {
@@ -1294,16 +1254,15 @@ html {
 	}
 
 	#delete-confirmation-container {
+		font-family: "SinkinSans-300Light", "Sans-Serif";
 		margin-bottom: 5px;
 		padding: 5px;
 		gap: 5px;
-		font-family: "Asap-Regular", "Sans-Serif";
 		font-size: 18px;
 	}
 
-	/* Dashboard_sidebar.html, Dashboard.html, Edit_profile.html, Change_password.html */
 	.sidebar-ul {
-		font-size: 24px;
+		font-size: 22px;
 	}
 
 	.profile-picture {
@@ -1312,43 +1271,31 @@ html {
 	}
 
 	.dashboard-text {
-		margin: 10px 0 10px 0;
-		font-size: 20px;
+		margin: 10px 0 10px;
+		font-size: 16px;
 	}
 
-	/* Login.html, Register.html */
 	.form-title {
 		font-size: 36px;
 	}
 
-	.form-label {
-		font-size: 20px;
-	}
-
 	.account-container {
-		margin-top: 25px;
-		font-size: 20px;
+		margin-top: 30px;
+		font-size: 14px;
 	}
 
 	.button-1 {
-		font-size: 26px;
+		font-size: 20px;
 	}
 
-	/* Login.html */
 	.login-container {
 		margin: 10px 200px;
 	}
 
-	/* Register.html */
 	.register-container {
 		margin: 10px 200px;
 	}
 
-	.smal-text {
-		font-size: 18px;
-	}
-
-	/* Footer.html */
 	.developer {
 		font-size: 28px;
 	}

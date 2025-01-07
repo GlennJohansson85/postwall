@@ -51,34 +51,21 @@ def post(request):
     After successfully saving the post, the user is redirected to the postwall page.
     If the request method is GET, an empty form is presented to the user for input.
     """
-    # Check if the request method is POST (indicating a form submission)
     if request.method == 'POST':
-        # Instantiate a PostForm with the submitted data and any uploaded files.
         form = PostForm(request.POST, request.FILES)
 
-        # Validate the form to ensure all required fields are filled out correctly.
         if form.is_valid():
-            # Create the post instance without saving it to the database yet.
             post = form.save(commit=False)
-            # Assign the current user as the author of the post.
             post.user = request.user
-            # Save the post instance to the database.
             post.save()
-            # Redirect to the postwall after successful post creation.
             return redirect('postwall')
 
-    # If the request method is not POST, create a new empty PostForm instance for displaying the form.
     else:
-        # Instantiate an empty PostForm for GET requests
         form = PostForm()
 
-    # Prepare the context data for rendering the template.
     context = {
-        # Pass the form instance to the template
         'form': form
     }
-
-    # Render the 'post.html' template with the context data.
     return render(request, 'post.html', context)
 
 
@@ -136,34 +123,21 @@ def add_comment(request, post_id):
     was made (scroll_to_post.js) in postwall.html.
     Only signed in users can add comments.
     """
-    # Retrieve the post by ID or return a 404 error if not found
     post = get_object_or_404(Post, id=post_id)
 
-    # Check if the request method is POST, indicating a comment submission
     if request.method == 'POST':
-        # Get the comment text from the request
         comment_text = request.POST.get('comment_text')
 
-        # If the comment text is not empty, create a new comment
         if comment_text:
             Comment.objects.create(
-                # Link the comment to the post
                 post = post,
-                # Set the user as the comment author
                 user = request.user,
-                # Set the comment text
                 text = comment_text
             )
-            # Add a success message
             messages.success(request, 'Comment added successfully!')
-            # Redirect the user back to the postwall page, preserving the post ID
             return redirect(f"{reverse('postwall')}?post_id={post.id}")
         else:
-
-            # Add an error message if the comment is empty
             messages.error(request, 'Comment cannot be empty.')
-
-    # Redirect to the postwall if the request is not POST
     return redirect('postwall')
 
 

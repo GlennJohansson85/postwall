@@ -1,4 +1,3 @@
-/* Navbar */
 .navbar {
 	box-sizing: border-box;
 	max-width: 1200px;
@@ -16,8 +15,8 @@
 	align-items: center;
 }
 
-/* Navbar Brand */
 .navbar-brand {
+	font-family: "Cocogoose-Condensed-Letterpress-trial", "Sans-Serif";
 	padding: 0 5px;
 	display: flex;
 	border-radius: 5px;
@@ -25,7 +24,6 @@
 	outline: none;
 	position: relative;
 	z-index: 1000;
-	font-family: "Cocogoose-Condensed-Letterpress-trial", "Sans-Serif";
 	color: #fff;
 	background-color: #3a3939;
 	text-shadow: -3px -1px 0px #e44c9f;
@@ -33,18 +31,16 @@
 	transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 
-/* Navbar Brand: Hover, Focus, Active state */
 .navbar-brand:hover,
 .navbar-brand:focus,
 .navbar-brand.active {
 	color: #fff;
-	background-color: #3a3939;
+	background-color: #2b2a2a;
 	text-shadow: 0px 0px 10px #01f16d;
 	box-shadow: 0px 0px 1px #0c0c0c;
 	transform: translateY(2px);
 }
 
-/* Navbar Links */
 .nav-link {
 	font-family: "Cocogoose-Condensed-letterpress-trial", "Sans-Serif";
 	border-radius: 0;
@@ -61,124 +57,121 @@
 	align-items: center;
 }
 
-/* Navbar Links: Hover, Focus, Active state */
 .nav-link:hover,
 .nav-link:focus,
 .nav-link.active {
 	color: #fff;
-	background-color: #3a3939;
+	background-color: #2b2a2a;
 	text-shadow: 0px 0px 10px #01f16d;
 	box-shadow:	inset -10px 0px 5px -5px rgba(0, 0, 0, 0.5),
 		inset 10px 0px 5px -5px rgba(0, 0, 0, 0.5);
 	transform: translateY(2px);
 }
 
-/* Navbar Input Group*/
 .input-group {
 	justify-content: center;
 	display: flex;
 	align-items: center;
 }
 
-/* First child:Rounded left corners */
 .nav-item:first-child .nav-link {
 	border-top-left-radius: 5px;
 	border-bottom-left-radius: 5px;
 }
 
-/* First child:Hover & Active state, Right inward shadow */
 .nav-item:first-child .nav-link:hover,
 .nav-item:first-child .nav-link.active {
 	color: #fff;
-	background-color: #3a3939;
+	background-color: #2b2a2a;
 	text-shadow: 0px 0px 10px #01f16d;
 	box-shadow: inset -10px 0px 5px -5px rgba(0, 0, 0, 0.5);
 	transform: translateY(2px);
 }
 
-/* Last child:Rounded right corners */
 .nav-item:last-child .nav-link {
 	border-top-right-radius: 5px;
 	border-bottom-right-radius: 5px;
-	display: flex; 			/* Style for Profile Img within item */
-	align-items: center; 	/* Style for Profile Img within item */
-	overflow: hidden; 		/* Style for Profile Img within item */
-	box-sizing: border-box; /* Style for Profile Img within item */
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+	box-sizing: border-box;
 }
 
-/* Last child:Hover & Active state, Left inward shadow */
 .nav-item:last-child .nav-link:hover,
 .nav-item:last-child .nav-link:focus,
 .nav-item:last-child .nav-link.active {
 	color: #01f16d;
-	background-color: #3a3939;
-	box-shadow: inset 10px 0px 5px -5px rgba(0, 0, 0, 0.5) !important;
+	background-color: #2b2a2a;
+	box-shadow: inset 10px 0px 5px -5px rgba(0, 0, 0, 0.5)!important;
 	transform: translateY(2px);
 }
 
-/* CSS for profile image in Profile item (last-child) */
 .profile-image {
 	width: 30px;
 	height: auto;
 }
 
 .dropdown-menu {
-	font-family: "Asap-Bold";
+	font-family: "SinkinSans-300Light", "Sans-Serif";
+	background-color: #3a3939;
 	background-clip: padding-box;
     box-shadow: 0px 0px 3px #01f16d;
 }
 
-/* Styles for search content */
-.search-input {
-	font-family: "Asap-Bold", "Sans-Serif";
+.dropdown-menu .dropdown-item {
+    color: #fff;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    color: #01f16d;
+	background-color: transparent;
+}
+
+#search-input {
+	font-family: "SinkinSans-300Light", "Sans-Serif";
 	display: flex;
 	position: relative;
 	z-index: 1;
 	border-top-left-radius: 5px;
 	border-bottom-left-radius: 5px;
+	color: #fff;
 	background-color: #3a3939;
 	box-shadow: 2px 2px 0px 0px#E44C9F;
-	transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 
-.search-input:hover,
-.search-input:focus {
-	background-color: #FFF;
-	box-shadow: 0px 0px 3px #01f16d;
-	transform: translateY(2px);
+#search-input:focus {
+	background-color: #3a3939;
+	color: #fff;
 }
 
-.search-input::placeholder {
-	font-family: "Cocogoose-Condensed-letterpress-trial", "Sans-Serif";
-	color: #FFF;
+#search-input::placeholder {
+	color: #fff;
 }
 
-/* Suggestions container for search results */
 .suggestions {
 	margin: 2px 0 5px;
-	font-family: "Asap-Bold";
 	z-index: 1000;
     overflow-y: auto;
 	border-radius: 5px!important;
-    background-color: #FFF;
+    background-color: #3a3939;
 	background-clip: padding-box;
     box-shadow: 0px 0px 3px #01f16d;
 }
 
-/* One suggested result */
 .suggestion {
-	padding: 0 13px;
+	padding: 1px 13px;
 	cursor: pointer;
 }
 
-.suggestion:hover {
-    background-color: #bebebe;
+.suggestion a {
+    text-decoration: none;
+	color: #fff;
+	background-color: #3a3939;
 }
 
-/* Link styles */
-.suggestion a {
-    text-decoration: none; /* Remove underline */
-    color: #000; /* Text color */
+.suggestion a:hover {
+	color: #01f16d;
+    background-color: #3a3939;
 }
 
 .search-btn {
@@ -200,16 +193,15 @@
 .search-btn:hover,
 .search-btn:focus {
 	color: #01f16d;
-	background-color: #3a3939;
+	background-color: #2b2a2a;
 	text-shadow: 0px 0px 10px #fff;
 	box-shadow: inset 10px 0px 5px -5px rgba(0, 0, 0, 0.5);
 	transform: translateY(2px);
 }
 
-/* Toggler - Small & Medium Screens */
 .navbar-toggler {
 	width: 80px;
-	position: relative; /* Needed to center image */
+	position: relative;
 	display: flex;
 	z-index: 1050;
 	border: none;
@@ -221,17 +213,15 @@
 	transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 
-/* Toggler - Hover & Focus */
 .navbar-toggler:hover,
 .navbar-toggler:focus {
 	color: #fff;
-	background-color: #3a3939;
+	background-color: #2b2a2a;
 	text-shadow: 0px 0px 10px #01f16d;
 	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 	transform: translateY(2px);
 }
 
-/* Profile image within toggler button */
 .profile-image-toggler {
 	width: 50px;
 	height: 50px;
@@ -242,12 +232,11 @@
 	display: inline;
 }
 
-/* Hide profile image in dropdown on small screens */
 .profile-image-dropdown {
 	display: none;
 }
 
-/* Responsive settings - Small Screens */
+/* Small Screens */
 @media (max-width: 768px) {
 	.navbar {
 		height: auto;
@@ -296,19 +285,20 @@
 		max-width: 100%;
 		margin-top: 5px;
 		margin-bottom: 5px;
-		font-size: 16px;
+		font-size: 12px;
 	}
 
 	.search-input::placeholder {
-		font-size: 18px;
+		font-size: 12px;
 	}
 
 	.suggestions {
-		position: relative; /* Push nav links down */
+		position: relative;
+		line-height: 18px;
 		top: calc(100% + 45px);
     	left: 0;
-    	width: 100%; /* Take full width of the input incl. button */
-		font-size: 16px;
+    	width: 100%;
+		font-size: 14px;
 	}
 
 	.nav-link {
@@ -341,8 +331,8 @@
 	}
 
 	.dropdown-item {
-		font-size: 16px;
-		line-height: 16px;
+		font-size: 12px;
+		line-height: 14px;
 	}
 
 	.d-none {
@@ -350,7 +340,7 @@
 	}
 }
 
-/* Responsive Settings - Medium Screens */
+/* Medium Screens */
 @media (min-width: 769px) and (max-width: 1200px) {
 	.navbar {
 		height: auto;
@@ -398,11 +388,11 @@
 		line-height: 40px;
 		margin-top: 5px;
 		margin-bottom: 5px;
-		font-size: 18px;
+		font-size: 14px;
 	}
 
 	.search-input::placeholder {
-		font-size: 22px;
+		font-size: 14px;
 	}
 
 	.suggestions {
@@ -410,7 +400,7 @@
 		top: calc(100% + 45px);
     	left: 0;
     	width: 100%;
-		font-size: 18px;
+		font-size: 16px;
 	}
 
 	.nav-link {
@@ -443,7 +433,6 @@
 	}
 
 	.dropdown-item {
-		font-size: 16px;
 		line-height: 16px;
 	}
 
@@ -452,7 +441,7 @@
 	}
 }
 
-/* Responsive Settings - Large Screens */
+/* Large Screens */
 @media (min-width: 1201px) {
 	.navbar {
 		height: auto;
@@ -469,11 +458,11 @@
 		height: 60px;
 		line-height: 60px;
 		max-width: 65%;
-		font-size: 20px;
+		font-size: 16px;
 	}
 
 	.search-input::placeholder {
-		font-size: 26px;
+		font-size: 16px;
 	}
 
 	.suggestions {
@@ -481,7 +470,7 @@
 		top: calc(100% + 7px);
     	left: 14%;
     	width: 65%;
-		font-size: 20px;
+		font-size: 18px;
 	}
 
 	.nav-link,
@@ -508,9 +497,8 @@
 		min-width: auto !important;
 	}
 
-	/* Profile link - Dropdown style */
 	.dropdown-item {
-		font-size: 18px;
-		line-height: 18px;
+		font-size: 14px;
+		line-height: 16px;
 	}
 }
