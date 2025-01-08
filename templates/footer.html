@@ -1,6 +1,18 @@
 {% load static %}
+{% load tz %}
+
 {% block content %}
-    <footer class="developer">
-        Author: Glenn .J &copy; {{ current_year }}
+    <footer class="footer">
+        <div class="footer-left">
+            &copy;{% now "Y" %} - Glenn Johansson
+        </div>
+        <div class="footer-center">
+            <a class="contact" href="#"></a>
+        </div>
+        <div class="footer-right">
+            <a class="twitter" href="https://twitter.com"> </a>
+            <a class="facebook" href="https://facebook.com"> </a>
+            <a class="linkedin" href="https://linkedin.com"> </a>
+        </div>
     </footer>
 {% endblock %}
