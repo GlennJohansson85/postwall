@@ -26,8 +26,8 @@
 	z-index: 1000;
 	color: #fff;
 	background-color: #3a3939;
-	text-shadow: -3px -1px 0px #e44c9f;
-	box-shadow: 2px 2px 0px 0px #e44c9f;
+	text-shadow: -3px -1px 0px #f106a2;
+	box-shadow: 2px 2px 0px 0px #f106a2;
 	transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 
@@ -49,7 +49,7 @@
 	z-index: 1000;
 	color: #fff;
 	background-color: #3a3939;
-	box-shadow: 2px 2px 0px 0px #e44c9f;
+	box-shadow: 2px 2px 0px 0px #f106a2;
 	transition: box-shadow 0.2s ease, transform 0.2s ease;
 	padding: 0 15px;
 	white-space: nowrap;
@@ -136,7 +136,7 @@
 	border-bottom-left-radius: 5px;
 	color: #fff;
 	background-color: #3a3939;
-	box-shadow: 2px 2px 0px 0px#E44C9F;
+	box-shadow: 2px 2px 0px 0px#f106a2;
 }
 
 #search-input:focus {
@@ -186,7 +186,7 @@
 	border-bottom-right-radius: 5px!important;
 	color: #fff;
 	background-color: #3a3939;
-	box-shadow: 2px 2px 0px 0px #e44c9f;
+	box-shadow: 2px 2px 0px 0px #f106a2;
 	transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 
@@ -208,8 +208,8 @@
 	border-radius: 5px;
 	color: #fff;
 	background-color: #3a3939;
-	text-shadow: -3px -1px 0px #e44c9f;
-	box-shadow: 1px 2px 0px 0px#E44C9F;
+	text-shadow: -3px -1px 0px #f106a2;
+	box-shadow: 1px 2px 0px 0px#f106a2;
 	transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 
